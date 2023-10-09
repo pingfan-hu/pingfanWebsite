@@ -1,0 +1,25 @@
+---
+title: "Pingfan Hu"
+image: profile.jpeg
+toc: false
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/pingfan/
+    - icon: github
+      text: Github
+      href: https://github.com/pingfan0727
+    - icon: envelope-at
+      text: Email
+      href: mailto:pingfan.hu@gwu.edu
+---
+
+## Welcome to my website!
+
+Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of [Engineering Management and Systems Engineering](https://www.emse.seas.gwu.edu).
+
+I have expertise in systems engineering and data analysis. I am working on projects of [electric vehicles](https://pingfan.quarto.pub/pev-project/) and [renewable energies](https://pingfan.quarto.pub/emse-6572-final-project/).
+
+I mainly use [RStudio](https://posit.co/download/rstudio-desktop/) and [VS Code](https://code.visualstudio.com) as working IDE, and I am experienced in [R](https://www.r-project.org) and [Python](https://www.python.org) coding.

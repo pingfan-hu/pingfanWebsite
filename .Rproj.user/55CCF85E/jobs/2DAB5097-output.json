@@ -1,0 +1,6 @@
+[2,"\n"]
+[1,"\u001B[1mpandoc \u001B[22m\n  to: html\n  output-file: index.html\n  standalone: true\n  self-contained: true\n  title-prefix: Pingfan Hu\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  toc: false\n  css:\n    - styles.css\n  \n\u001B[1mmetadata\u001B[22m\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  editor: visual\n  toc-location: right\n  theme: United\n  title: Pingfan Hu\n  image: profile.jpeg\n  about:\n    template: trestles\n    links:\n      - icon: linkedin\n        text: LinkedIn\n        href: 'https://www.linkedin.com/in/pingfan/'\n      - icon: github\n        text: Github\n        href: 'https://github.com/pingfan0727'\n      - icon: envelope-at\n        text: Email\n        href: 'mailto:pingfan.hu@gwu.edu'\n  \n"]
+[1,"Output created: _site/index.html\n\n\u001B[1m\u001B[34mPreparing to preview\u001B[39m\u001B[22m\n"]
+[1,"\n\u001B[32mWatching files for changes\u001B[39m\n\u001B[32mBrowse at \u001B[39m\u001B[4m\u001B[32mhttp://localhost:4153/\u001B[39m\u001B[24m\n"]
+[1,"\u001B[32mGET: /index.html\u001B[39m\n"]
+[1,"\u001B[31m  /resume.pdf (404: Not Found)\u001B[39m\n"]
