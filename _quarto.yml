@@ -15,9 +15,6 @@ website:
       - icon: person-badge
         href: about.qmd
         text: "About"
-      - icon: person-badge
-        href: about.qmd
-        text: "About"
         
     right:
       - icon: person-circle
