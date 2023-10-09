@@ -1,0 +1,6 @@
+---
+title: "Projects"
+page-layout: article
+---
+
+This page contains my projects.

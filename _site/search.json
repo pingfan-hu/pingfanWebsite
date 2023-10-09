@@ -39,7 +39,7 @@
     "href": "contents/blog/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code.\n\n\n[1] 2"
+    "text": "1 + 1\n\n[1] 2"
   },
   {
     "objectID": "contents/blog/welcome/index.html",
@@ -60,6 +60,27 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering.\nI have expertise in systems engineering and data analysis. I am working on projects of electric vehicles and renewable energies.\nI mainly use RStudio and VS Code as working IDE, and I am experienced in R and Python coding.\nYou can also access my resume here or on the top banner."
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering.\nI have expertise in systems engineering and data analysis. I am working on projects of electric vehicles and renewable energies.\nI mainly use RStudio and VS Code as working IDE, and I am experienced in R and Python coding."
+  },
+  {
+    "objectID": "contents/blog/post-with-code/index.html#this-is-a-post-with-executable-code.",
+    "href": "contents/blog/post-with-code/index.html#this-is-a-post-with-executable-code.",
+    "title": "Post With Code",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This page contains my projects."
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "This page contains the lectures I am taking ."
   }
 ]

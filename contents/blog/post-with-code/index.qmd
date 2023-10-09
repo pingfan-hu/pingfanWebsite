@@ -6,7 +6,7 @@ categories: [news, code, analysis]
 image: "image.jpg"
 ---
 
-This is a post with executable code.
+## This is a post with executable code.
 
 ```{r}
 1 + 1

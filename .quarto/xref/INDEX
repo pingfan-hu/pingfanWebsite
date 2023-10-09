@@ -22,5 +22,11 @@
   },
   "about.qmd": {
     "about.html": "5754d37d"
+  },
+  "projects.qmd": {
+    "projects.html": "6c3d0dda"
+  },
+  "lectures.qmd": {
+    "lectures.html": "98177f6d"
   }
 }

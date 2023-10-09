@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Pingfan Hu"
+  favicon: favicon.png
   search:
     location: navbar
     type: textbox
@@ -15,6 +16,12 @@ website:
       - icon: person-badge
         href: about.qmd
         text: "About"
+      - icon: file-bar-graph
+        href: projects.qmd
+        text: "Projects"
+      - icon: file-earmark-text
+        href: lectures.qmd
+        text: "Lectures"
         
     right:
       - icon: person-circle
@@ -29,20 +36,19 @@ website:
 
 format:
   html:
-    code-fold: false
-    code-tools: false
     toc: true
     toc-location: right
-    theme: United
+    theme: 
+      light: [united, theme-light.scss]
+      dark: [united, theme-dark.scss]
     css: styles.css
     self-contained: true
     link-external-newwindow: true
     link-external-icon: false
 
 execute: 
-  echo: false
+  echo: true
   warning: false
-  message: false
 
 editor: visual
 
