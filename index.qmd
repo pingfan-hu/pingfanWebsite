@@ -4,7 +4,7 @@ image: profile.jpeg
 toc: false
 about:
   template: trestles
-  image-width: 20em
+  image-width: 15em
   image-shape: round
   links:
     - icon: linkedin
