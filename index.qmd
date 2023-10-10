@@ -20,8 +20,8 @@ about:
 
 ## Welcome to my website!
 
-Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of [Engineering Management and Systems Engineering](https://www.emse.seas.gwu.edu).
+Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of [Engineering Management and Systems Engineering](https://www.emse.seas.gwu.edu) with expertise in systems engineering and data analysis.
 
-I have expertise in systems engineering and data analysis. I am working on projects of [electric vehicles](https://pingfan.quarto.pub/pev-project/) and [renewable energies](https://pingfan.quarto.pub/emse-6572-final-project/).
+My current project is a [smart charging](https://pingfan.quarto.pub/pev-project/) conjoint survey program for electric vehicles.
 
-I mainly use [RStudio](https://posit.co/download/rstudio-desktop/) and [VS Code](https://code.visualstudio.com) as working IDE, and I am experienced in [R](https://www.r-project.org) and [Python](https://www.python.org) coding.
+I am experienced in [R](https://www.r-project.org) and [Python](https://www.python.org) coding, and mainly use [RStudio](https://posit.co/download/rstudio-desktop/) and [VS Code](https://code.visualstudio.com) as working IDE.
