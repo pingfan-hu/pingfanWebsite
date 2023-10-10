@@ -10,12 +10,12 @@ website:
     copy-button: true
   navbar:
     left:
-      - icon: file-text
-        href: blog.qmd
-        text: "Blog"
       - icon: person-badge
         href: about.qmd
         text: "About"
+      - icon: file-text
+        href: blog.qmd
+        text: "Blog"
       - icon: file-bar-graph
         href: projects.qmd
         text: "Projects"
