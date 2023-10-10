@@ -50,5 +50,7 @@ execute:
   echo: true
   warning: false
 
+freeze: false
+
 editor: visual
 
