@@ -1,6 +1,0 @@
----
-title: "Lectures"
-page-layout: article
----
-
-This page contains the lectures I am taking .

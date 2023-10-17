@@ -1,5 +1,25 @@
+freeze: false
+editor: visual
+
 project:
   type: website
+
+format:
+  html:
+    code-fold: true
+    code-tools: true
+    toc: true
+    toc-location: right
+    theme: 
+      light: [united, theme-light.scss]
+      dark: [united, theme-dark.scss]
+    css: styles.css
+    self-contained: true
+    link-external-newwindow: true
+    link-external-icon: false
+
+execute: 
+  warning: false
 
 website:
   title: "Pingfan Hu"
@@ -19,13 +39,9 @@ website:
       - icon: file-bar-graph
         href: projects.qmd
         text: "Projects"
-      - icon: file-earmark-text
-        href: lectures.qmd
-        text: "Lectures"
-        
     right:
       - icon: person-circle
-        href: resume.pdf
+        href: contents/resume.pdf
         text: "Resume"
       - icon: linkedin
         href: https://www.linkedin.com/in/pingfan/
@@ -34,23 +50,7 @@ website:
       - icon: envelope-at
         href: mailto:pingfan.hu@gwu.edu
 
-format:
-  html:
-    toc: true
-    toc-location: right
-    theme: 
-      light: [united, theme-light.scss]
-      dark: [united, theme-dark.scss]
-    css: styles.css
-    self-contained: true
-    link-external-newwindow: true
-    link-external-icon: false
 
-execute: 
-  echo: true
-  warning: false
 
-freeze: false
 
-editor: visual
 
