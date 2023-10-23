@@ -37,10 +37,10 @@ website:
       - icon: file-bar-graph
         href: projects.qmd
         text: "Projects"
-    right:
       - icon: person-circle
         href: contents/resume.pdf
         text: "Resume"
+    right:
       - icon: linkedin
         href: https://www.linkedin.com/in/pingfan/
       - icon: github

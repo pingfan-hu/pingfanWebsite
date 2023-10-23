@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Coding Languages\n\n\n\n\n\n\n\nCoding\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n  \n\n\n\n\nData Visualization\n\n\n\n\n\n\n\nCoding\n\n\nAnalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -25,14 +25,14 @@
     "href": "index.html",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nMy current project is a smart charging conjoint survey program for electric vehicles.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE."
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nMy current project is a conjoint survey program for electric vehicles.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE."
   },
   {
     "objectID": "index.html#welcome-to-my-website",
     "href": "index.html#welcome-to-my-website",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nMy current project is a smart charging conjoint survey program for electric vehicles.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE."
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nMy current project is a conjoint survey program for electric vehicles.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE."
   },
   {
     "objectID": "contents/blog/post-with-code/index.html",
@@ -60,7 +60,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nMy current project is a smart charging conjoint survey program for electric vehicles.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE."
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI have 4 years’ engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia. For details please check out my resume.\nMy current project is a conjoint survey program for EVs (electric vehicles). It is a sub-project of a smart charging and V2G (vehicle to grid) program in California and New York State. The objective of this project is to study for EV owners’ adoption to smart charging and V2G, and simulate and finally implement this new charging technique. The success of this project will contribute to carbon neutrality and help construct a clean world.\nPast degrees:\n\nI have Bachelor’s degree in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\nI have a Master’s degree in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\n\nProfessional skills:\n\nExperienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nEngineering management capability.\n\nLanguage Skills:\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication\n\nThroughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Washington DC.\nI am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.\n\n\n\n\nPinocchio"
   },
   {
     "objectID": "contents/blog/post-with-code/index.html#this-is-a-post-with-executable-code.",
@@ -82,5 +82,54 @@
     "title": "Lectures",
     "section": "",
     "text": "This page contains the lectures I am taking ."
+  },
+  {
+    "objectID": "contents/blog/01_data_analysis/index.html",
+    "href": "contents/blog/01_data_analysis/index.html",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "Blah…"
+  },
+  {
+    "objectID": "contents/blog/01_data_analysis/index.html#abstract",
+    "href": "contents/blog/01_data_analysis/index.html#abstract",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "Blah…"
+  },
+  {
+    "objectID": "contents/blog/02_coding_languages/index.html",
+    "href": "contents/blog/02_coding_languages/index.html",
+    "title": "Coding Languages",
+    "section": "",
+    "text": "Blah…"
+  },
+  {
+    "objectID": "contents/blog/02_coding_languages/index.html#abstract",
+    "href": "contents/blog/02_coding_languages/index.html#abstract",
+    "title": "Coding Languages",
+    "section": "",
+    "text": "Blah…"
+  },
+  {
+    "objectID": "about.html#introduction",
+    "href": "about.html#introduction",
+    "title": "About Me",
+    "section": "Introduction",
+    "text": "Introduction\nHi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI have 4 years’ engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia. For details please check out my resume.\nMy current project is a conjoint survey program for EVs (electric vehicles). It is a sub-project of a smart charging and V2G (vehicle to grid) program in California and New York State. The objective of this project is to study for EV owners’ adoption to smart charging and V2G, and simulate and finally implement this new charging technique. The success of this project will contribute to carbon neutrality and help construct a clean world."
+  },
+  {
+    "objectID": "about.html#experiences",
+    "href": "about.html#experiences",
+    "title": "About Me",
+    "section": "Experiences",
+    "text": "Experiences\nThis part shows my past degrees, professional skills, and language skills.\n\nPast Degrees\n\nI have Bachelor’s degree in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\nI have a Master’s degree in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\n\n\n\nProfessional Skills\n\nExperienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nEngineering management capability.\n\n\n\nLanguage Skills\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication"
+  },
+  {
+    "objectID": "about.html#personal-life",
+    "href": "about.html#personal-life",
+    "title": "About Me",
+    "section": "Personal Life",
+    "text": "Personal Life\nThroughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Washington DC.\nI am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.\n\n\n\n\nPinocchio"
   }
 ]

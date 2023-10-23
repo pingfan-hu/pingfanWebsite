@@ -28,5 +28,11 @@
   },
   "lectures.qmd": {
     "lectures.html": "98177f6d"
+  },
+  "contents/blog/01_data_analysis/index.qmd": {
+    "index.html": "9c0e64bc"
+  },
+  "contents/blog/02_coding_languages/index.qmd": {
+    "index.html": "526400fc"
   }
 }

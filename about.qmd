@@ -3,8 +3,43 @@ title: "About Me"
 page-layout: article
 ---
 
+![](contents/fig/pingfan.jpeg){fig-align="center"}
+
+## Introduction
+
 Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of [Engineering Management and Systems Engineering](https://www.emse.seas.gwu.edu) with expertise in systems engineering and data analysis.
 
-My current project is a [smart charging](https://pingfan.quarto.pub/pev-project/) conjoint survey program for electric vehicles.
+I have 4 years' engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia. For details please check out my [resume](https://pingfanhu.com/contents/resume.pdf).
 
-I am experienced in [R](https://www.r-project.org) and [Python](https://www.python.org) coding, and mainly use [RStudio](https://posit.co/download/rstudio-desktop/) and [VS Code](https://code.visualstudio.com) as working IDE.
+My current project is a [conjoint survey program](https://pev.pingfanhu.com) for EVs (electric vehicles). It is a sub-project of a smart charging and V2G (vehicle to grid) program in California and New York State. The objective of this project is to study for EV owners' adoption to smart charging and V2G, and simulate and finally implement this new charging technique. The success of this project will contribute to carbon neutrality and help construct a clean world.
+
+## Experiences
+
+This part shows my past degrees, professional skills, and language skills.
+
+#### Past Degrees
+
+-   I have Bachelor's degree in Industrial & Manufacturing Engineering at [Penn State University](https://www.ime.psu.edu), with a minor of Six Sigma.
+-   I have a Master's degree in Mechanical Engineering at [Sydney University](https://www.sydney.edu.au/engineering/study/undergraduate-courses/mechanical-engineering.html), qualified by [Engineers Australia](https://www.engineersaustralia.org.au).
+
+#### Professional Skills
+
+-   Experienced in [R](https://www.r-project.org) and [Python](https://www.python.org) coding, and mainly use [RStudio](https://posit.co/download/rstudio-desktop/) and [VS Code](https://code.visualstudio.com) as working IDE.
+-   Expertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.
+-   Proficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.
+-   Engineering management capability.
+
+#### Language Skills
+
+-   Chinese Mandarin - Native language
+-   English - Proficient technical writing and oral communication
+
+## Personal Life
+
+Throughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Washington DC.
+
+I am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.
+
+::: {style="text-align: center;"}
+![*Pinocchio*](contents/fig/pinocchio.jpeg){fig-alt="Pinocchio" width="600"}
+:::
