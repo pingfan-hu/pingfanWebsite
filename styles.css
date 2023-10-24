@@ -35,9 +35,7 @@ blockquote h3 {
 
 /* Tables */
 table {
-  border-collapse: collapse;
-  margin-bottom:10px;
-  font-size: 16px !important;
+  width: auto !important;
 }
 thead {
   border-top: solid #ECE8DF;
@@ -45,12 +43,6 @@ thead {
 }
 tr.odd {
   background-color: #ECE8DF;
-}
-tr:first-child {
-  border-top: solid #ECE8DF;
-}
-tr:last-child {
-  border-bottom: solid #ECE8DF;
 }
 
 .class-buttons {
