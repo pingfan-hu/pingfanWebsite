@@ -1,0 +1,10 @@
+---
+title: "Using AI to Detect Bots in Surveys"
+date: "Sept, 2024"
+categories: [Coding]
+image: "banner.png"
+---
+
+## Abstract
+
+Blah...

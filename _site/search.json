@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Coding Languages\n\n\n\n\n\n\n\nCoding\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n  \n\n\n\n\nData Visualization\n\n\n\n\n\n\n\nCoding\n\n\nAnalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Data Visualization\n\n\n\n\n\n\n\nCoding\n\n\nAnalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n  \n\n\n\n\nCoding Languages\n\n\n\n\n\n\n\nCoding\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -74,7 +74,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This page contains my projects."
+    "text": "PEV Smart Charging\n\n\n\nPEV\n\n\nSurvey\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUtilization of LLM on Surveys\n\n\n\nPEV\n\n\nSurvey\n\n\nLLM\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing AI to Detect Bots in Surveys\n\n\n\nCoding\n\n\n\n\n\n\n\n\n\n\nSep 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "lectures.html",
@@ -131,5 +131,54 @@
     "title": "About Me",
     "section": "Personal Life",
     "text": "Personal Life\nThroughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Washington DC.\nI am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.\n\n\n\n\nPinocchio"
+  },
+  {
+    "objectID": "contents/projects/01_pev_smart_charging/index.html",
+    "href": "contents/projects/01_pev_smart_charging/index.html",
+    "title": "PEV Smart Charging",
+    "section": "",
+    "text": "The project site can be accessed here."
+  },
+  {
+    "objectID": "contents/projects/01_pev_smart_charging/index.html#project-site",
+    "href": "contents/projects/01_pev_smart_charging/index.html#project-site",
+    "title": "PEV Smart Charging",
+    "section": "",
+    "text": "The project site can be accessed here."
+  },
+  {
+    "objectID": "contents/projects/01_pev_smart_charging/index.html#about-the-project",
+    "href": "contents/projects/01_pev_smart_charging/index.html#about-the-project",
+    "title": "PEV Smart Charging",
+    "section": "About the Project",
+    "text": "About the Project\nThis project aims to build and perform a Conjoint Survey about Smart Charging and V2G (Vehicle to Grid) Charging for PEVs (Plug-in Electric Vehicles). It utilizes the logitr and cbctools R package developed by Professor John Paul Helveston.\nSmart Charging means to take control of the charging process. To be more specific, the grid provider (aka the utility) controls the charging time and charging speed based on the grid usage and the time window that the users agree to. V2G Charging means to utilize the PEVs as electricity storage and charge back to the grid.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both Smart Charging and V2G Charging. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (PEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if PEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSmart charging is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nThe challenge lies in convincing PEV owners to participate in smart charging programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor smart charging to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing PEV owners’ willingness to participate. Different regions, based on their PEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. Smart charging could solve this issue, yet its success hinges on understanding and addressing PEV owners’ concerns and varying regional needs."
+  },
+  {
+    "objectID": "contents/projects/02_survey_in_llm/index.html",
+    "href": "contents/projects/02_survey_in_llm/index.html",
+    "title": "Utilization of LLM on Surveys",
+    "section": "",
+    "text": "Blah…"
+  },
+  {
+    "objectID": "contents/projects/02_survey_in_llm/index.html#abstract",
+    "href": "contents/projects/02_survey_in_llm/index.html#abstract",
+    "title": "Utilization of LLM on Surveys",
+    "section": "",
+    "text": "Blah…"
+  },
+  {
+    "objectID": "contents/projects/03_ai_for_bot_detection/index.html",
+    "href": "contents/projects/03_ai_for_bot_detection/index.html",
+    "title": "Using AI to Detect Bots in Surveys",
+    "section": "",
+    "text": "Blah…"
+  },
+  {
+    "objectID": "contents/projects/03_ai_for_bot_detection/index.html#abstract",
+    "href": "contents/projects/03_ai_for_bot_detection/index.html#abstract",
+    "title": "Using AI to Detect Bots in Surveys",
+    "section": "",
+    "text": "Blah…"
   }
 ]

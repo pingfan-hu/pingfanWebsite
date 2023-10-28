@@ -8,9 +8,7 @@ format:
   html:
     toc: true
     toc-location: right
-    theme: 
-      light: [united, theme-light.scss]
-      dark: [united, theme-dark.scss]
+    theme: [united, theme.scss]
     css: styles.css
     self-contained: true
     link-external-newwindow: true

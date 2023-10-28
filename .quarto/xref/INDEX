@@ -34,5 +34,14 @@
   },
   "contents/blog/02_coding_languages/index.qmd": {
     "index.html": "526400fc"
+  },
+  "contents/projects/01_pev_smart_charging/index.qmd": {
+    "index.html": "07f3f57b"
+  },
+  "contents/projects/03_ai_for_bot_detection/index.qmd": {
+    "index.html": "8dc659d8"
+  },
+  "contents/projects/02_survey_in_llm/index.qmd": {
+    "index.html": "02c491bb"
   }
 }

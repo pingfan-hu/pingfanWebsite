@@ -1,9 +1,9 @@
 /* Link Colors */
 a:link {
-  color: #8175A2;
+  color: #7C739F;
 }
 a:visited {
-  color: #8175A2;
+  color: #7C739F;
 }
 a:hover {
   color: #663486;
@@ -14,19 +14,19 @@ a:active {
 
 /* Highlight Color */
 ::selection {
-  background-color: #D6C2DD;
-  color: #694696;
+  background-color: #D6C2DD !important;
+  color: #694696 !important;
 }
 ::-moz-selection {
-  background-color: #D6C2DD;
-  color: #694696;
+  background-color: #D6C2DD !important;
+  color: #694696 !important;
 }
 
 /* Text */
 blockquote {
-  background-color: #ECE8DF;
+  background-color: #ECF0F1;
   padding: 10px;
-  border-color: #8175A2;
+  border-color: #7C739F;
   border-radius: 5px;
 }
 blockquote h3 {
@@ -38,11 +38,11 @@ table {
   width: auto !important;
 }
 thead {
-  border-top: solid #ECE8DF;
-  border-bottom: solid #ECE8DF;
+  border-top: solid #DCDCDC;
+  border-bottom: solid #DCDCDC;
 }
 tr.odd {
-  background-color: #ECE8DF;
+  background-color: #ECF0F1;
 }
 
 .class-buttons {
@@ -50,7 +50,7 @@ tr.odd {
 }
 
 .btn-slides {
-  background-color: #8175A2;
+  background-color: #7C739F;
   color: #fff;
   font-weight: bold;
   font-size: 16px;
