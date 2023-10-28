@@ -172,7 +172,7 @@
     "href": "contents/projects/03_ai_for_bot_detection/index.html",
     "title": "Using AI to Detect Bots in Surveys",
     "section": "",
-    "text": "Attempt to use LLM to distinguish between humans responses and bot responses."
+    "text": "Can we use GPT to validate if the survey is done by human or AI?"
   },
   {
     "objectID": "contents/projects/03_ai_for_bot_detection/index.html#abstract",
@@ -180,5 +180,19 @@
     "title": "Using AI to Detect Bots in Surveys",
     "section": "",
     "text": "Blah…"
+  },
+  {
+    "objectID": "contents/projects/03_ai_for_bot_detection/index.html#research-question",
+    "href": "contents/projects/03_ai_for_bot_detection/index.html#research-question",
+    "title": "Using AI to Detect Bots in Surveys",
+    "section": "",
+    "text": "Can we use GPT to validate if the survey is done by human or AI?"
+  },
+  {
+    "objectID": "contents/projects/03_ai_for_bot_detection/index.html#initial-ideas",
+    "href": "contents/projects/03_ai_for_bot_detection/index.html#initial-ideas",
+    "title": "Using AI to Detect Bots in Surveys",
+    "section": "Initial Ideas",
+    "text": "Initial Ideas\n\nAttempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
   }
 ]
