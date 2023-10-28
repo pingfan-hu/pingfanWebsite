@@ -158,7 +158,7 @@
     "href": "contents/projects/02_survey_in_llm/index.html",
     "title": "Utilization of LLM on Surveys",
     "section": "",
-    "text": "Blah…"
+    "text": "Attempt to utilize LLM on the Smart Charging willingness survey and compare with human results."
   },
   {
     "objectID": "contents/projects/02_survey_in_llm/index.html#abstract",
@@ -172,7 +172,7 @@
     "href": "contents/projects/03_ai_for_bot_detection/index.html",
     "title": "Using AI to Detect Bots in Surveys",
     "section": "",
-    "text": "Blah…"
+    "text": "Attempt to use LLM to distinguish between humans responses and bot responses."
   },
   {
     "objectID": "contents/projects/03_ai_for_bot_detection/index.html#abstract",

@@ -5,6 +5,4 @@ categories: [Coding]
 image: "banner.png"
 ---
 
-## Abstract
-
-Blah...
+Attempt to use LLM to distinguish between humans responses and bot responses.
