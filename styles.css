@@ -1,17 +1,3 @@
-/* Link Colors */
-a:link {
-  color: #5654A2;
-}
-a:visited {
-  color: #5654A2;
-}
-a:hover {
-  color: #A172D0;
-}
-a:active {
-  color: #A172D0;
-}
-
 /* Highlight Color */
 ::selection {
   background-color: #D6C2DD !important;

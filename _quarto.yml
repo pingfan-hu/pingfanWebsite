@@ -13,6 +13,7 @@ format:
     self-contained: true
     link-external-newwindow: true
     link-external-icon: false
+    backgroundcolor: "#F5F2E9"
 
 execute: 
   warning: false

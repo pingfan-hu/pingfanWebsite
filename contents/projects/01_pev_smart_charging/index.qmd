@@ -6,14 +6,6 @@ image: "banner.png"
 bibliography: ../references.bib
 ---
 
-## Project Site
-
-The project site can be accessed [**here**](https://pev.pingfanhu.com).
-
-```{r}
-library(tidyverse)
-```
-
 ## About the Project
 
 This project aims to build and perform a ***Conjoint Survey*** about Smart Charging and V2G (Vehicle to Grid) Charging for **PEVs** (Plug-in Electric Vehicles). It utilizes the [`logitr`](https://jhelvy.github.io/logitr/) and [`cbctools`](https://jhelvy.github.io/cbcTools/) R package developed by Professor John Paul Helveston.
