@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Data Visualization\n\n\n\n\n\n\n\nCoding\n\n\nAnalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n  \n\n\n\n\nCoding Languages\n\n\n\n\n\n\n\nCoding\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Pingfan Hu",
@@ -35,39 +14,11 @@
     "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nMy current project is a conjoint survey program for electric vehicles.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE."
   },
   {
-    "objectID": "contents/blog/post-with-code/index.html",
-    "href": "contents/blog/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "contents/blog/welcome/index.html",
-    "href": "contents/blog/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "qmd/blog.html",
-    "href": "qmd/blog.html",
+    "objectID": "blog.html",
+    "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI have 4 years’ engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia. For details please check out my resume.\nMy current project is a conjoint survey program for EVs (electric vehicles). It is a sub-project of a smart charging and V2G (vehicle to grid) program in California and New York State. The objective of this project is to study for EV owners’ adoption to smart charging and V2G, and simulate and finally implement this new charging technique. The success of this project will contribute to carbon neutrality and help construct a clean world.\nPast degrees:\n\nI have Bachelor’s degree in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\nI have a Master’s degree in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\n\nProfessional skills:\n\nExperienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nEngineering management capability.\n\nLanguage Skills:\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication\n\nThroughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Washington DC.\nI am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.\n\n\n\n\nPinocchio"
-  },
-  {
-    "objectID": "contents/blog/post-with-code/index.html#this-is-a-post-with-executable-code.",
-    "href": "contents/blog/post-with-code/index.html#this-is-a-post-with-executable-code.",
-    "title": "Post With Code",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "Data Visualization\n\n\n\n\n\n\n\nCoding\n\n\nAnalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n  \n\n\n\n\nCoding Languages\n\n\n\n\n\n\n\nCoding\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
@@ -75,27 +26,6 @@
     "title": "Projects",
     "section": "",
     "text": "PEV Smart Charging\n\n\n\nPEV\n\n\nSurvey\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUtilization of LLM on Surveys\n\n\n\nPEV\n\n\nSurvey\n\n\nLLM\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing AI to Detect Bots in Surveys\n\n\n\nCoding\n\n\n\n\n\n\n\n\n\n\nSep 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lectures.html",
-    "href": "lectures.html",
-    "title": "Lectures",
-    "section": "",
-    "text": "This page contains the lectures I am taking ."
-  },
-  {
-    "objectID": "contents/blog/01_data_analysis/index.html",
-    "href": "contents/blog/01_data_analysis/index.html",
-    "title": "Data Visualization",
-    "section": "",
-    "text": "Blah…"
-  },
-  {
-    "objectID": "contents/blog/01_data_analysis/index.html#abstract",
-    "href": "contents/blog/01_data_analysis/index.html#abstract",
-    "title": "Data Visualization",
-    "section": "",
-    "text": "Blah…"
   },
   {
     "objectID": "contents/blog/02_coding_languages/index.html",
@@ -108,6 +38,69 @@
     "objectID": "contents/blog/02_coding_languages/index.html#abstract",
     "href": "contents/blog/02_coding_languages/index.html#abstract",
     "title": "Coding Languages",
+    "section": "",
+    "text": "Blah…"
+  },
+  {
+    "objectID": "contents/projects/03_ai_for_bot_detection/index.html",
+    "href": "contents/projects/03_ai_for_bot_detection/index.html",
+    "title": "Using AI to Detect Bots in Surveys",
+    "section": "",
+    "text": "Can we use GPT to validate if the survey is done by human or AI?"
+  },
+  {
+    "objectID": "contents/projects/03_ai_for_bot_detection/index.html#research-question",
+    "href": "contents/projects/03_ai_for_bot_detection/index.html#research-question",
+    "title": "Using AI to Detect Bots in Surveys",
+    "section": "",
+    "text": "Can we use GPT to validate if the survey is done by human or AI?"
+  },
+  {
+    "objectID": "contents/projects/03_ai_for_bot_detection/index.html#initial-ideas",
+    "href": "contents/projects/03_ai_for_bot_detection/index.html#initial-ideas",
+    "title": "Using AI to Detect Bots in Surveys",
+    "section": "Initial Ideas",
+    "text": "Initial Ideas\n\nAttempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
+  },
+  {
+    "objectID": "contents/projects/01_pev_smart_charging/index.html",
+    "href": "contents/projects/01_pev_smart_charging/index.html",
+    "title": "PEV Smart Charging",
+    "section": "",
+    "text": "The project site can be accessed here.\n\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "contents/projects/01_pev_smart_charging/index.html#project-site",
+    "href": "contents/projects/01_pev_smart_charging/index.html#project-site",
+    "title": "PEV Smart Charging",
+    "section": "",
+    "text": "The project site can be accessed here.\n\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "contents/projects/01_pev_smart_charging/index.html#about-the-project",
+    "href": "contents/projects/01_pev_smart_charging/index.html#about-the-project",
+    "title": "PEV Smart Charging",
+    "section": "About the Project",
+    "text": "About the Project\nThis project aims to build and perform a Conjoint Survey about Smart Charging and V2G (Vehicle to Grid) Charging for PEVs (Plug-in Electric Vehicles). It utilizes the logitr and cbctools R package developed by Professor John Paul Helveston.\nSmart Charging means to take control of the charging process. To be more specific, the grid provider (aka the utility) controls the charging time and charging speed based on the grid usage and the time window that the users agree to. V2G Charging means to utilize the PEVs as electricity storage and charge back to the grid.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both Smart Charging and V2G Charging. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (PEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if PEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSmart charging is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nThe challenge lies in convincing PEV owners to participate in smart charging programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor smart charging to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing PEV owners’ willingness to participate. Different regions, based on their PEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. Smart charging could solve this issue, yet its success hinges on understanding and addressing PEV owners’ concerns and varying regional needs."
+  },
+  {
+    "objectID": "contents/projects/02_survey_in_llm/index.html",
+    "href": "contents/projects/02_survey_in_llm/index.html",
+    "title": "Utilization of LLM on Surveys",
+    "section": "",
+    "text": "Attempt to utilize LLM on the Smart Charging willingness survey and compare with human results."
+  },
+  {
+    "objectID": "contents/blog/01_data_analysis/index.html",
+    "href": "contents/blog/01_data_analysis/index.html",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "Blah…"
+  },
+  {
+    "objectID": "contents/blog/01_data_analysis/index.html#abstract",
+    "href": "contents/blog/01_data_analysis/index.html#abstract",
+    "title": "Data Visualization",
     "section": "",
     "text": "Blah…"
   },
@@ -131,68 +124,5 @@
     "title": "About Me",
     "section": "Personal Life",
     "text": "Personal Life\nThroughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Washington DC.\nI am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.\n\n\n\n\nPinocchio"
-  },
-  {
-    "objectID": "contents/projects/01_pev_smart_charging/index.html",
-    "href": "contents/projects/01_pev_smart_charging/index.html",
-    "title": "PEV Smart Charging",
-    "section": "",
-    "text": "The project site can be accessed here."
-  },
-  {
-    "objectID": "contents/projects/01_pev_smart_charging/index.html#project-site",
-    "href": "contents/projects/01_pev_smart_charging/index.html#project-site",
-    "title": "PEV Smart Charging",
-    "section": "",
-    "text": "The project site can be accessed here."
-  },
-  {
-    "objectID": "contents/projects/01_pev_smart_charging/index.html#about-the-project",
-    "href": "contents/projects/01_pev_smart_charging/index.html#about-the-project",
-    "title": "PEV Smart Charging",
-    "section": "About the Project",
-    "text": "About the Project\nThis project aims to build and perform a Conjoint Survey about Smart Charging and V2G (Vehicle to Grid) Charging for PEVs (Plug-in Electric Vehicles). It utilizes the logitr and cbctools R package developed by Professor John Paul Helveston.\nSmart Charging means to take control of the charging process. To be more specific, the grid provider (aka the utility) controls the charging time and charging speed based on the grid usage and the time window that the users agree to. V2G Charging means to utilize the PEVs as electricity storage and charge back to the grid.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both Smart Charging and V2G Charging. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (PEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if PEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSmart charging is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nThe challenge lies in convincing PEV owners to participate in smart charging programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor smart charging to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing PEV owners’ willingness to participate. Different regions, based on their PEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. Smart charging could solve this issue, yet its success hinges on understanding and addressing PEV owners’ concerns and varying regional needs."
-  },
-  {
-    "objectID": "contents/projects/02_survey_in_llm/index.html",
-    "href": "contents/projects/02_survey_in_llm/index.html",
-    "title": "Utilization of LLM on Surveys",
-    "section": "",
-    "text": "Attempt to utilize LLM on the Smart Charging willingness survey and compare with human results."
-  },
-  {
-    "objectID": "contents/projects/02_survey_in_llm/index.html#abstract",
-    "href": "contents/projects/02_survey_in_llm/index.html#abstract",
-    "title": "Utilization of LLM on Surveys",
-    "section": "",
-    "text": "Blah…"
-  },
-  {
-    "objectID": "contents/projects/03_ai_for_bot_detection/index.html",
-    "href": "contents/projects/03_ai_for_bot_detection/index.html",
-    "title": "Using AI to Detect Bots in Surveys",
-    "section": "",
-    "text": "Can we use GPT to validate if the survey is done by human or AI?"
-  },
-  {
-    "objectID": "contents/projects/03_ai_for_bot_detection/index.html#abstract",
-    "href": "contents/projects/03_ai_for_bot_detection/index.html#abstract",
-    "title": "Using AI to Detect Bots in Surveys",
-    "section": "",
-    "text": "Blah…"
-  },
-  {
-    "objectID": "contents/projects/03_ai_for_bot_detection/index.html#research-question",
-    "href": "contents/projects/03_ai_for_bot_detection/index.html#research-question",
-    "title": "Using AI to Detect Bots in Surveys",
-    "section": "",
-    "text": "Can we use GPT to validate if the survey is done by human or AI?"
-  },
-  {
-    "objectID": "contents/projects/03_ai_for_bot_detection/index.html#initial-ideas",
-    "href": "contents/projects/03_ai_for_bot_detection/index.html#initial-ideas",
-    "title": "Using AI to Detect Bots in Surveys",
-    "section": "Initial Ideas",
-    "text": "Initial Ideas\n\nAttempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
   }
 ]
