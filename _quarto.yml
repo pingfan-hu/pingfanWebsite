@@ -1,4 +1,3 @@
-freeze: false
 editor: visual
 
 project:
@@ -16,6 +15,7 @@ format:
     backgroundcolor: "#F5F2E9"
 
 execute: 
+  freeze: auto
   warning: false
 
 website:
