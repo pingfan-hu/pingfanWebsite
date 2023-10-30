@@ -15,7 +15,7 @@ format:
     backgroundcolor: "#F5F2E9"
 
 execute: 
-  freeze: auto
+  freeze: false
   warning: false
 
 website:
