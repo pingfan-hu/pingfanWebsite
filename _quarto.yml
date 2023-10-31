@@ -20,7 +20,7 @@ execute:
 
 website:
   title: "Pingfan Hu"
-  favicon: favicon.png
+  favicon: favicon.ico
   search:
     location: navbar
     type: textbox
