@@ -43,5 +43,11 @@
   },
   "contents/projects/02_survey_in_llm/index.qmd": {
     "index.html": "02c491bb"
+  },
+  "slides.qmd": {
+    "slides.html": "80d4d65c"
+  },
+  "contents/slides/heterogeneity/index.qmd": {
+    "index.html": "3fd9862b"
   }
 }

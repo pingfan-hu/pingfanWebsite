@@ -9,6 +9,9 @@
     ],
     "projects.qmd": [
       "contents/projects"
+    ],
+    "slides.qmd": [
+      "contents/slides"
     ]
   }
 }
