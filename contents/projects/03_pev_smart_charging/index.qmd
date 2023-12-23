@@ -1,0 +1,35 @@
+---
+title: "PEV Smart Charging"
+date: "Sept 07, 2023"
+image: "banner.png"
+categories: [Smart Charging, Conjoint Survey]
+bibliography: ../references.bib
+---
+
+## Research Question
+
+Quantifying the benefits and constraints of PEV smart charging and V2G adoption.
+
+## Project Link
+
+<a href="https://pev.pingfanhu.com" class="btn btn-primary" role="button"> Access the Project </a>
+
+## About the Project
+
+This project aims to build and perform a ***Conjoint Survey*** about Smart Charging and V2G (Vehicle to Grid) Charging for **PEVs** (Plug-in Electric Vehicles). It utilizes the [`cbctools`](https://jhelvy.github.io/cbcTools/) and [`logitr`](https://jhelvy.github.io/logitr/) R package developed by [Professor John Paul Helveston](https://www.jhelvy.com). This project is a combination of Master and PhD levels.
+
+The Master-level project is performed as a team with these members: Pingfan Hu, Bharath Ravindra, Sampada Dhakal, and Vedanth Surendra Hegde.
+
+**Smart Charging** means to take control of the charging process. To be more specific, the grid provider (aka the utility) controls the charging time and charging speed based on the grid usage and the time window that the users agree to. **V2G Charging** means to utilize the PEVs as electricity storage and charge back to the grid.
+
+A previous study of @tarroja2021 has proved the economic feasibility of both Smart Charging and V2G Charging. This project is therefore a succeeding study of it.
+
+The motivation of this study is described as below:
+
+1.  The adoption of plug-in electric vehicles (PEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if PEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.
+2.  Smart charging is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.
+3.  On the other hand, V2G charging is to charge the electricity from the PEVs back to the grid. It is a tougher objective compared with smart charging. This objective aims to decrease the amount of stationary power storage of the utility by better using the existing electricity in the PEVs.
+4.  The challenge lies in convincing PEV owners to participate in smart charging and V2G programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.
+5.  For our program to succeed, there's a need for a better understanding of social, behavioral, and economic factors influencing PEV owners' willingness to participate. Different regions, based on their PEV adoption and renewable energy levels, will have varying requirements for such programs.
+
+In summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. Smart charging and V2G could solve this issue, yet its success hinges on understanding and addressing PEV owners' concerns and varying regional needs.

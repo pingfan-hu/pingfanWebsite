@@ -73,5 +73,26 @@
   },
   "contents/projects/03_sim_with_grid/index.qmd": {
     "index.html": "e13f5bd8"
+  },
+  "contents/projects/01_network_science/index.qmd": {
+    "index.html": "c7efca10"
+  },
+  "contents/blogs/02_coding_languages/index.qmd": {
+    "index.html": "11284abd"
+  },
+  "contents/blogs/01_data_analysis/index.qmd": {
+    "index.html": "ae8ce8fc"
+  },
+  "contents/projects/04_sim_with_grid/index.qmd": {
+    "index.html": "3d6df662"
+  },
+  "contents/projects/06_ai_for_bot_detection/index.qmd": {
+    "index.html": "5073b710"
+  },
+  "contents/projects/05_survey_in_llm/index.qmd": {
+    "index.html": "f8b75676"
+  },
+  "contents/projects/03_pev_smart_charging/index.qmd": {
+    "index.html": "16c41c54"
   }
 }

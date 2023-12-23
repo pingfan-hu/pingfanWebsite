@@ -3,7 +3,7 @@ title: "About Me"
 page-layout: article
 ---
 
-![](contents/fig/pingfan.jpeg){fig-align="center"}
+![](contents/figures/pingfan.jpeg){fig-align="center"}
 
 ## Introduction
 
@@ -41,5 +41,5 @@ Throughout the past years, I have traveled and lived in different countries, inc
 I am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.
 
 ::: {style="text-align: center;"}
-![*Pinocchio*](contents/fig/pinocchio.jpeg){fig-alt="Pinocchio" width="600"}
+![*Pinocchio*](contents/figures/pinocchio.jpeg){fig-alt="Pinocchio"}
 :::

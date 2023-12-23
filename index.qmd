@@ -22,6 +22,6 @@ about:
 
 Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of [Engineering Management and Systems Engineering](https://www.emse.seas.gwu.edu) with expertise in systems engineering and data analysis.
 
-My current project is a [conjoint survey program](https://pev.pingfanhu.com) for electric vehicles.
-
 I am experienced in [R](https://www.r-project.org) and [Python](https://www.python.org) coding, and mainly use [RStudio](https://posit.co/download/rstudio-desktop/) and [VS Code](https://code.visualstudio.com) as working IDE.
+
+My current project is a [conjoint survey program](https://pev.pingfanhu.com) for PEV smart charging adoption.

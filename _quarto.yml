@@ -21,6 +21,7 @@ execute:
 website:
   title: "Pingfan Hu"
   favicon: favicon.ico
+  back-to-top-navigation: true
   search:
     location: navbar
     type: textbox

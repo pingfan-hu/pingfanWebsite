@@ -1,0 +1,141 @@
+---
+title: "Network Science of the Mid-Atlantic Region"
+date: "May 24, 2023"
+image: "banner.png"
+categories: [Network Science, Python]
+bibliography: ../references.bib
+---
+
+## Research Question
+
+Multilayer network science study of the Mid-Atlantic region logistics.
+
+## Project Link
+
+<a href="https://pingfanhu.craft.me/few" class="btn btn-primary" role="button"> Access the Project </a>
+
+## Project Overview
+
+### 1. Summary
+
+This project is a multi-layer network science study on the 8 states of the Mid-Atlantic region of the USA. This is a student research project for [the FEW's Lab](https://blogs.gwu.edu/caitlin-grady/) managed by Professor Caitlin Grady.
+
+### 2. The Mid-Atlantic Region
+
+1.  DC - District of Columbia
+2.  DE - Delaware
+3.  MD - Maryland
+4.  NC - North Carolina
+5.  NJ - New Jersey
+6.  NY - New York
+7.  PA - Pennsylvania
+8.  VA - Virginia
+
+### 3. The Multilayers
+
+1.  Airline
+2.  Marine
+3.  Rail
+4.  Road
+
+The latter part of this project focuses on layers of rail and road.
+
+The codes can be modified so that you can expand to other selections of states, or to introduce other sources of `shp` files or `csv` files.
+
+## Project Structures
+
+### 1. Spatial Analysis
+
+This section is the starting part of this project. It takes in geographical files from trusted sources and generates the proper maps and csv files out of them.
+
+This section takes in `shp` files and `csv` files from these sources:
+
+-   TIGER/Line: <https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2022.html#list-tab-790442341>
+-   HIFLD: <https://hifld-geoplatform.opendata.arcgis.com>
+-   OurAirports: <https://ourairports.com/data/>
+
+This section generates:
+
+-   9 `csv` files:
+    -   FAF zone correspondence
+    -   edges of airlines, marine, rails, and roads
+    -   nodes of airports, marine, rails and roads
+-   2 maps - the spatial map and the topography map
+
+The Spatial Map:
+
+![](/contents/figures/fews_lab/01_spacial_map.png){fig-align="center" width="800"}
+
+The Topography Map:
+
+![](/contents/figures/fews_lab/02_topography_map.png){fig-align="center" width="800"}
+
+### 2. Centrality Analysis
+
+This section takes in the 4 edge files and the 4 node files, and generates the 3 types of centralities of each.
+
+The 3 types of centralities are: **betweenness** centrality, **closeness** centrality, and **degree** centrality.
+
+Note that the centralities are all in **relative** values, which means their values are based on the size of the system network.
+
+The centrality values are all listed in a ***descending order***.
+
+*Hint: any centrality `csv` file can also be used as a collection of nodes in its corresponding layer.*
+
+### 3. Path Calculation
+
+Starting from this section, we only focus on the **rail** and **road** layers.
+
+This section takes in edge and node files of rail and roads, and generates path counts.
+
+The path counts are based on ***FAF zones*** of all 8 states, so that each OD pair is inter-FAF-zone.
+
+There are **40** rail OD pairs, and **186** road OD pairs.
+
+The `csv` headers are:
+
+1.  No. - counting number starting from 1
+2.  Source - the source node
+3.  Source State
+4.  Source FAF Zone
+5.  Source FAF Zone Description
+6.  Target - the target node
+7.  Target State
+8.  Target FAF Zone
+9.  Target FAF Zone Description
+10. Path Count - the count of shortest paths
+
+### 4. Degree Centrality Dist
+
+This section takes in the degree centralities of rails and roads, and generates the degree centrality distribution plots of them.
+
+The ***Rail*** Degree Centrality Distribution plot:
+
+![](/contents/figures/fews_lab/03_rail_degree_centrality.png){fig-align="center" width="800"}
+
+The ***Road*** Degree Centrality Distribution plot:
+
+![](/contents/figures/fews_lab/04_road_degree_centrality.png){fig-align="center" width="800"}
+
+### 5. Network Attacks
+
+This section generates the deterministic and stochastic attacks on rails and roads.
+
+It takes in these files:
+
+-   edge and node `csv` files
+-   path count files
+-   3 ranked centrality files (betweenness centrality also used as node collections)
+
+The plots contain:
+
+-   Deterministic removal plots of the 3 centralities
+-   Stochastic removal with random node selections (surrounded by 95% CI)
+
+The Rail Centrality Attack plot:
+
+![](/contents/figures/fews_lab/05_rail_centrality_attack.png){fig-align="center" width="800"}
+
+The Road Centrality Attack plot:
+
+![](/contents/figures/fews_lab/06_road_centrality_attack.png){fig-align="center" width="800"}
