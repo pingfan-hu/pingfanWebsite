@@ -18,6 +18,8 @@ Quantifying the benefits and constraints of PEV smart charging and V2G adoption.
 
 This project aims to build and perform a ***Conjoint Survey*** about Smart Charging and V2G (Vehicle to Grid) Charging for **PEVs** (Plug-in Electric Vehicles). It utilizes the [`cbctools`](https://jhelvy.github.io/cbcTools/) and [`logitr`](https://jhelvy.github.io/logitr/) R package developed by [Professor John Paul Helveston](https://www.jhelvy.com). This project is a combination of Master and PhD levels.
 
+The Master-level project is performed as a team with these members: Pingfan Hu, Bharath Ravindra, Sampada Dhakal, and Vedanth Surendra Hegde.
+
 **Smart Charging** means to take control of the charging process. To be more specific, the grid provider (aka the utility) controls the charging time and charging speed based on the grid usage and the time window that the users agree to. **V2G Charging** means to utilize the PEVs as electricity storage and charge back to the grid.
 
 A previous study of @tarroja2021 has proved the economic feasibility of both Smart Charging and V2G Charging. This project is therefore a succeeding study of it.
