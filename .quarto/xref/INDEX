@@ -49,5 +49,29 @@
   },
   "contents/slides/heterogeneity/index.qmd": {
     "index.html": "3fd9862b"
+  },
+  "contents/projects/02_solar_and_wind/index.qmd": {
+    "index.html": "5fc36f1d"
+  },
+  "contents/projects/04_ai_for_bot_detection/index.qmd": {
+    "index.html": "7b1792b9"
+  },
+  "contents/projects/03_survey_in_llm/index.qmd": {
+    "index.html": "8e28d69f"
+  },
+  "contents/projects/05_ai_for_bot_detection/index.qmd": {
+    "index.html": "301f86e6"
+  },
+  "contents/projects/02_pev_smart_charging/index.qmd": {
+    "index.html": "033c0067"
+  },
+  "contents/projects/04_survey_in_llm/index.qmd": {
+    "index.html": "79eb8327"
+  },
+  "contents/projects/01_solar_and_wind/index.qmd": {
+    "index.html": "ab07d5a4"
+  },
+  "contents/projects/03_sim_with_grid/index.qmd": {
+    "index.html": "e13f5bd8"
   }
 }

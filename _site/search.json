@@ -25,7 +25,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "PEV Smart Charging\n\n\n\nPEV\n\n\nSurvey\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUtilization of LLM on Surveys\n\n\n\nPEV\n\n\nSurvey\n\n\nLLM\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing AI to Detect Bots in Surveys\n\n\n\nCoding\n\n\n\n\n\n\n\n\n\n\nSep 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Solar and Wind Energy Advancements\n\n\n\nRenewable\n\n\nData Viz\n\n\n\n\n\n\n\n\n\n\nAug 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPEV Smart Charging\n\n\n\nSmart Charging\n\n\nConjoint Survey\n\n\n\n\n\n\n\n\n\n\nSep 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Smart Charging Simulation with the Grid\n\n\n\nSmart Charging\n\n\nSimulation\n\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Utilization of LLM on Surveys\n\n\n\nLLM\n\n\nConjoint Survey\n\n\n\n\n\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Using AI to Detect Bots in Surveys\n\n\n\nLLM\n\n\nConjoint Survey\n\n\n\n\n\n\n\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contents/blog/02_coding_languages/index.html",
@@ -42,46 +42,109 @@
     "text": "Blah…"
   },
   {
-    "objectID": "contents/projects/03_ai_for_bot_detection/index.html",
-    "href": "contents/projects/03_ai_for_bot_detection/index.html",
-    "title": "Using AI to Detect Bots in Surveys",
+    "objectID": "contents/projects/01_solar_and_wind/index.html",
+    "href": "contents/projects/01_solar_and_wind/index.html",
+    "title": "Solar and Wind Energy Advancements",
+    "section": "",
+    "text": "Key drivers of the growth of solar and wind electricity generation in the USA."
+  },
+  {
+    "objectID": "contents/projects/01_solar_and_wind/index.html#research-question",
+    "href": "contents/projects/01_solar_and_wind/index.html#research-question",
+    "title": "Solar and Wind Energy Advancements",
+    "section": "",
+    "text": "Key drivers of the growth of solar and wind electricity generation in the USA."
+  },
+  {
+    "objectID": "contents/projects/01_solar_and_wind/index.html#project-link",
+    "href": "contents/projects/01_solar_and_wind/index.html#project-link",
+    "title": "Solar and Wind Energy Advancements",
+    "section": "Project Link",
+    "text": "Project Link\n Access the Project"
+  },
+  {
+    "objectID": "contents/projects/01_solar_and_wind/index.html#about-the-project",
+    "href": "contents/projects/01_solar_and_wind/index.html#about-the-project",
+    "title": "Solar and Wind Energy Advancements",
+    "section": "About the Project",
+    "text": "About the Project\nThis project aims to study for the driving effects of solar and wind energy advancements in the USA. This is a Master-level project for EMSE 6572 instructed by Professor John Paul Helveston.\nThis project is performed as a team by these members: Pingfan Hu, Abbey Kollar.\nRenewable energy in the USA has seen significant growth from 2000 to 2023. This research studies solar and wind energies and dives into three primary reasons behind this expansion:\n\nCost of Solar and Wind Energy\nPolicies and Incentives, and\nEnergy Research Budgets\n\nThis project contains the following:\n\nProject Proposal\nProgress Report\nFinal Report\nPresentation\n\nThe study aims to highlight which of these factors played the most crucial roles in this energy transformation. By understanding these relationships, we can better anticipate the future of renewable energy and make informed decisions.\nData wrangling and analysis are both performed using R coding language, presented with Quarto files."
+  },
+  {
+    "objectID": "contents/projects/05_ai_for_bot_detection/index.html",
+    "href": "contents/projects/05_ai_for_bot_detection/index.html",
+    "title": "(Expected) Using AI to Detect Bots in Surveys",
     "section": "",
     "text": "Can we use GPT to validate if the survey is done by human or AI?"
   },
   {
-    "objectID": "contents/projects/03_ai_for_bot_detection/index.html#research-question",
-    "href": "contents/projects/03_ai_for_bot_detection/index.html#research-question",
-    "title": "Using AI to Detect Bots in Surveys",
+    "objectID": "contents/projects/05_ai_for_bot_detection/index.html#research-question",
+    "href": "contents/projects/05_ai_for_bot_detection/index.html#research-question",
+    "title": "(Expected) Using AI to Detect Bots in Surveys",
     "section": "",
     "text": "Can we use GPT to validate if the survey is done by human or AI?"
   },
   {
-    "objectID": "contents/projects/03_ai_for_bot_detection/index.html#initial-ideas",
-    "href": "contents/projects/03_ai_for_bot_detection/index.html#initial-ideas",
-    "title": "Using AI to Detect Bots in Surveys",
+    "objectID": "contents/projects/05_ai_for_bot_detection/index.html#initial-ideas",
+    "href": "contents/projects/05_ai_for_bot_detection/index.html#initial-ideas",
+    "title": "(Expected) Using AI to Detect Bots in Surveys",
     "section": "Initial Ideas",
     "text": "Initial Ideas\n\nAttempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
   },
   {
-    "objectID": "contents/projects/01_pev_smart_charging/index.html",
-    "href": "contents/projects/01_pev_smart_charging/index.html",
+    "objectID": "contents/projects/02_pev_smart_charging/index.html",
+    "href": "contents/projects/02_pev_smart_charging/index.html",
     "title": "PEV Smart Charging",
     "section": "",
-    "text": "This project aims to build and perform a Conjoint Survey about Smart Charging and V2G (Vehicle to Grid) Charging for PEVs (Plug-in Electric Vehicles). It utilizes the logitr and cbctools R package developed by Professor John Paul Helveston.\nSmart Charging means to take control of the charging process. To be more specific, the grid provider (aka the utility) controls the charging time and charging speed based on the grid usage and the time window that the users agree to. V2G Charging means to utilize the PEVs as electricity storage and charge back to the grid.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both Smart Charging and V2G Charging. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (PEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if PEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSmart charging is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nThe challenge lies in convincing PEV owners to participate in smart charging programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor smart charging to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing PEV owners’ willingness to participate. Different regions, based on their PEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. Smart charging could solve this issue, yet its success hinges on understanding and addressing PEV owners’ concerns and varying regional needs."
+    "text": "Quantifying the benefits and constraints of PEV smart charging and V2G adoption."
   },
   {
-    "objectID": "contents/projects/01_pev_smart_charging/index.html#about-the-project",
-    "href": "contents/projects/01_pev_smart_charging/index.html#about-the-project",
+    "objectID": "contents/projects/02_pev_smart_charging/index.html#research-question",
+    "href": "contents/projects/02_pev_smart_charging/index.html#research-question",
     "title": "PEV Smart Charging",
     "section": "",
-    "text": "This project aims to build and perform a Conjoint Survey about Smart Charging and V2G (Vehicle to Grid) Charging for PEVs (Plug-in Electric Vehicles). It utilizes the logitr and cbctools R package developed by Professor John Paul Helveston.\nSmart Charging means to take control of the charging process. To be more specific, the grid provider (aka the utility) controls the charging time and charging speed based on the grid usage and the time window that the users agree to. V2G Charging means to utilize the PEVs as electricity storage and charge back to the grid.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both Smart Charging and V2G Charging. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (PEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if PEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSmart charging is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nThe challenge lies in convincing PEV owners to participate in smart charging programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor smart charging to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing PEV owners’ willingness to participate. Different regions, based on their PEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. Smart charging could solve this issue, yet its success hinges on understanding and addressing PEV owners’ concerns and varying regional needs."
+    "text": "Quantifying the benefits and constraints of PEV smart charging and V2G adoption."
   },
   {
-    "objectID": "contents/projects/02_survey_in_llm/index.html",
-    "href": "contents/projects/02_survey_in_llm/index.html",
-    "title": "Utilization of LLM on Surveys",
+    "objectID": "contents/projects/02_pev_smart_charging/index.html#project-link",
+    "href": "contents/projects/02_pev_smart_charging/index.html#project-link",
+    "title": "PEV Smart Charging",
+    "section": "Project Link",
+    "text": "Project Link\n Access the project"
+  },
+  {
+    "objectID": "contents/projects/02_pev_smart_charging/index.html#about-the-project",
+    "href": "contents/projects/02_pev_smart_charging/index.html#about-the-project",
+    "title": "PEV Smart Charging",
+    "section": "About the Project",
+    "text": "About the Project\nThis project aims to build and perform a Conjoint Survey about Smart Charging and V2G (Vehicle to Grid) Charging for PEVs (Plug-in Electric Vehicles). It utilizes the cbctools and logitr R package developed by Professor John Paul Helveston. This project is a combination of Master and PhD levels.\nSmart Charging means to take control of the charging process. To be more specific, the grid provider (aka the utility) controls the charging time and charging speed based on the grid usage and the time window that the users agree to. V2G Charging means to utilize the PEVs as electricity storage and charge back to the grid.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both Smart Charging and V2G Charging. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (PEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if PEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSmart charging is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nOn the other hand, V2G charging is to charge the electricity from the PEVs back to the grid. It is a tougher objective compared with smart charging. This objective aims to decrease the amount of stationary power storage of the utility by better using the existing electricity in the PEVs.\nThe challenge lies in convincing PEV owners to participate in smart charging and V2G programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor our program to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing PEV owners’ willingness to participate. Different regions, based on their PEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. Smart charging and V2G could solve this issue, yet its success hinges on understanding and addressing PEV owners’ concerns and varying regional needs."
+  },
+  {
+    "objectID": "contents/projects/04_survey_in_llm/index.html",
+    "href": "contents/projects/04_survey_in_llm/index.html",
+    "title": "(Expected) Utilization of LLM on Surveys",
     "section": "",
     "text": "Attempt to utilize LLM on the Smart Charging willingness survey and compare with human results."
+  },
+  {
+    "objectID": "contents/projects/04_survey_in_llm/index.html#research-question",
+    "href": "contents/projects/04_survey_in_llm/index.html#research-question",
+    "title": "(Expected) Utilization of LLM on Surveys",
+    "section": "",
+    "text": "Attempt to utilize LLM on the Smart Charging willingness survey and compare with human results."
+  },
+  {
+    "objectID": "contents/projects/03_sim_with_grid/index.html",
+    "href": "contents/projects/03_sim_with_grid/index.html",
+    "title": "(Expected) Smart Charging Simulation with the Grid",
+    "section": "",
+    "text": "Simulate the PEV smart charging adoption with the grid to reveal the theoretical results."
+  },
+  {
+    "objectID": "contents/projects/03_sim_with_grid/index.html#research-question",
+    "href": "contents/projects/03_sim_with_grid/index.html#research-question",
+    "title": "(Expected) Smart Charging Simulation with the Grid",
+    "section": "",
+    "text": "Simulate the PEV smart charging adoption with the grid to reveal the theoretical results."
   },
   {
     "objectID": "contents/blog/01_data_analysis/index.html",

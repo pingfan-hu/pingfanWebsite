@@ -1,8 +1,0 @@
----
-title: "Utilization of LLM on Surveys"
-date: "Jan, 2024"
-categories: [PEV, Survey, LLM]
-image: "banner.png"
----
-
-Attempt to utilize LLM on the Smart Charging willingness survey and compare with human results.
