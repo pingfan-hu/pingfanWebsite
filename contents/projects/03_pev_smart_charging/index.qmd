@@ -10,9 +10,9 @@ bibliography: ../references.bib
 
 Quantifying the benefits and constraints of PEV smart charging and V2G adoption.
 
-## Project Link
+## Project Links
 
-<a href="https://pev.pingfanhu.com" class="btn btn-primary" role="button"> Access the Project </a>
+<a href="https://pev.pingfanhu.com" class="btn btn-primary" role="button"> Access the Project </a> <a href="https://jhelvy.github.io/smartcharging/" class="btn btn-info" role="button"> Access the Showcase </a>
 
 ## About the Project
 
