@@ -94,5 +94,11 @@
   },
   "contents/projects/03_pev_smart_charging/index.qmd": {
     "index.html": "16c41c54"
+  },
+  "contents/blogs/01_how_to_make_a_personal_website/index.qmd": {
+    "index.html": "518f8721"
+  },
+  "contents/blogs/02_formr_service_deployment/index.qmd": {
+    "index.html": "7d0da206"
   }
 }

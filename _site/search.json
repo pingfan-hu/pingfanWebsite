@@ -18,7 +18,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Data Visualization\n\n\n\n\n\n\n\nCoding\n\n\nAnalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n  \n\n\n\n\nCoding Languages\n\n\n\n\n\n\n\nCoding\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "How to Make a Personal Website\n\n\n\n\n\n\n\nWebsite\n\n\nQuarto\n\n\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\n\n\n\n\n  \n\n\n\n\nCoding Languages\n\n\n\n\n\n\n\nCoding\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "projects.html",
@@ -222,5 +222,89 @@
     "title": "PEV Smart Charging",
     "section": "Project Links",
     "text": "Project Links\n Access the Project   Access the Showcase"
+  },
+  {
+    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html",
+    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html",
+    "title": "How to Make a Personal Website",
+    "section": "",
+    "text": "This is a tutorial of making a personal website using Quarto on RStudio.\nThis tutorial contains the following:\n\nConstructing the personal blog R project using Quarto\nPushing the project as a GitHub repo\nPurchasing your domain on Namecheap or Netlify\nDeploying the repo on Netlify\n\nIn summary, this website is made using Quarto on RStudio, and is deployed by accessing the GitHub repo on Netlify. I bought my domain on Namecheap, but Netlify sells domain as well."
+  },
+  {
+    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#useful-links",
+    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#useful-links",
+    "title": "How to Make a Personal Website",
+    "section": "Useful Links",
+    "text": "Useful Links\n GitHub Repo of My Website \n GitHub   Namecheap   Netlify \n GitHub Desktop   R   RStudio   Quarto"
+  },
+  {
+    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#abstract",
+    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#abstract",
+    "title": "How to Make a Personal Website",
+    "section": "",
+    "text": "This is a tutorial of making a personal website using Quarto on RStudio.\nThis tutorial contains the following:\n\nConstructing the personal blog R project using Quarto\nPushing the project as a GitHub repo\nPurchasing your domain on Namecheap or Netlify\nDeploying the repo on Netlify\n\nIn summary, this website is made using Quarto on RStudio, and is deployed by accessing the GitHub repo on Netlify. I bought my domain on Namecheap, but Netlify sells domain as well."
+  },
+  {
+    "objectID": "contents/blogs/02_formr_service_deployment/index.html",
+    "href": "contents/blogs/02_formr_service_deployment/index.html",
+    "title": "Coding Languages",
+    "section": "",
+    "text": "Blah…"
+  },
+  {
+    "objectID": "contents/blogs/02_formr_service_deployment/index.html#abstract",
+    "href": "contents/blogs/02_formr_service_deployment/index.html#abstract",
+    "title": "Coding Languages",
+    "section": "",
+    "text": "Blah…"
+  },
+  {
+    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#introduction",
+    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#introduction",
+    "title": "How to Make a Personal Website",
+    "section": "Introduction",
+    "text": "Introduction\nBuilding a personal website is a very good attempt of showcasing your own abilities and your projects, either for academic reasons or job-seeking purposes. There are a lot of ways to construct your personal website, including some low code or even no code options. As an R programmer, I prefer to make one using the R coding environment. Quarto is an open-source publishing system compatible with Python, R and Julia. It is the next generation of R Markdown, and is a good option for personal website construction as well."
+  },
+  {
+    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#installation",
+    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#installation",
+    "title": "How to Make a Personal Website",
+    "section": "Installation",
+    "text": "Installation\nThe first step is to install the development environment. If you haven’t done already, please download and install R language, RStudio, and Quarto"
+  },
+  {
+    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#preparation",
+    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#preparation",
+    "title": "How to Make a Personal Website",
+    "section": "Preparation",
+    "text": "Preparation\nThe first step is to install the development environment. If you haven’t done already, please download and install R language, RStudio, and Quarto.\nYou’ll also need to have your GitHub account ready. It’s also a good idea to install GitHub Desktop to manage your local GitHub repos.\nYou’ll use Netlify to deploy your GitHub repo as a website, which by default allows you to generate your customized third-level domain name, with a fixed second and top domain being netlify.app. For example, you can name your domain as: myfancywebsite.netlify.app.\n\nHint: Domain names are usually in the format of third.second.top. For example, in Google’s homepage www.google.com, com is the top-level domain; google is second; and www is third.\n\nYou can use Netlify or Namecheap to buy your personalized domain. For example, my domain is pingfanhu.com. It is bought from Namecheap and deployed on Netlify. If you do this, both the default Netlify domain and your customized domain will work. They are not replacing each other. Below is the example of my case:\n\n\n\n\nFigure 1: I have both my personal domain and netlify-assigned domain functioning. Plus, there is a default re-direction of the www version, which is usually preferred.\n\n\n\n\nHint: If you want to save time, I recommend that you buy domain on Netlify so that you won’t need to bother dealing with DNS assignment. However, Namecheap gives you full service of domain management and DNS customization, and, as it’s name indicates, it sells domains a little cheaper."
+  },
+  {
+    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-1---preparation",
+    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-1---preparation",
+    "title": "How to Make a Personal Website",
+    "section": "Step 1 - Preparation",
+    "text": "Step 1 - Preparation\nThe first step is to install the environment. If you haven’t done already, please download and install R language, RStudio, and Quarto.\nYou’ll also need to have your GitHub account ready. It’s also a good idea to install GitHub Desktop to manage your local GitHub repos.\nYou’ll use Netlify to deploy your GitHub repo as a website, which by default allows you to generate your customized third-level domain name, with a fixed second and top domain being netlify.app. For example, you can name your domain as: myfancywebsite.netlify.app.\n\nHint: Domain names are usually in the format of third.second.top. For example, in Google’s homepage www.google.com, com is the top-level domain; google is second; and www is third.\n\nYou can use Netlify or Namecheap to buy your personalized domain. For example, my domain is pingfanhu.com. It is bought from Namecheap and deployed on Netlify. If you do this, both the default Netlify domain and your customized domain will work. They are not replacing each other. Below is the example of my case:\n\n\n\n\nFigure 1: Both my personal domain and netlify-assigned domain are functioning. Plus, there is a re-direction from www by default.\n\n\n\n\nHint: If you want to save time, I recommend that you buy domain on Netlify so that you won’t need to bother dealing with DNS assignment. However, Namecheap gives you full service of domain management and DNS customization, and, as it’s name indicates, it sells domains a little cheaper."
+  },
+  {
+    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-2---website-project",
+    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-2---website-project",
+    "title": "How to Make a Personal Website",
+    "section": "Step 2 - Website Project",
+    "text": "Step 2 - Website Project\nThe next step is to create the R project of your website. You can either clone my website repo or make from scratch.\n\n2.1 Clone my repo\nIf you want to clone my repo, proceed to the site, and click on the Code button or Use this template button. Both buttons are in green.\n\n\n\n\nFigure 2: On the top right of the page, either click on the “Code” or the “Use this template” button to clone my repo as your own.\n\n\n\nIf you are using my template, there are several things I want to explain to ease your understanding:\n\nMy repo is slightly different from the Quarto official blog tutorial, since I prefer to show my personal page as default, and make the other pages, including “About”, “Blogs”, “Projects”, etc. as tabs on the nav bar.\nI used the United theme. This is a free theme made by Bootswatch. There are 25 Bootswatch themes in total, all compatible with Quarto doc. You can access them in the Themes drop-down menu.\nI also used a customized scss file called theme.scss and another css file called styles.css. Both scss and css files are used to define personal page layout settings. The YAML grammar looks like this (You can see the full YAML codes in the _quarto.yml file):\nformat:\n  html:\n    theme: [united, theme.scss]\n    css: styles.css\n    backgroundcolor: \"#F8F7F0\"\nNote that there is a backgroundcolor: \"#F8F7F0\" used to set the page background color. The short reason is it gives the best compatibility.\nThe original United theme primary color is orange, but I changed that in my theme.scss file.\nI manually pasted my resume.pdf file to the _site -&gt; contents directory, since I failed to find an automatic solution of creating this file upon knitting.\n\n\n\n2.2 Make from scratch\nIf you want to make one from scratch, please proceed to the official Quarto blog tutorial. For the project set-up, you can follow these steps:\n\n\n\n\nFigure 3: Launch RStudio and click on “New Project…” from the “File” drop-down menu\n\n\n\n\n\n\n\nFigure 4: Select “New Directory”\n\n\n\n\n\n\n\nFigure 5: Click on “Quarto Blog”\n\n\n\n\n\n\n\nFigure 6: Define the directory name and path, and finally click on “Create Project”\n\n\n\nThe creation of the Quarto Blog R project constructs the skeleton of your personal website. You can now add the contents on to it and make it your own.\n\n\n2.3 Project file structure\nI’ll use my project as an example. If you decided to construct on your own, make sure to have your files and folders sorted in a way that is easy to understand and to reproduce.\nIn my project:\n\nThe _site folder is auto-generated during the knitting process. It stores the HTML pages as well as the PDF files that I want my website to access. Note that the knitting process does not create the PDF files even if they are placed in my project folder. My solution is to manually paste them to the desired locations.\nThe contents folder contains my code, figure, and pdf resources. The folders of blogs and projects are kind of special. They are where the blog and project qmd files are stored, including this one.\nIn the root folder, there are theme files, main tab qmd files, the favicon file, and the _quarto.yml file.\n\n\nHint: You may have noticed that there are several index.qmd files in the project. Index is an important file name. The file with this name will be opened by default. For example, in the root folder, there are several qmd files, but if you open my website homepage, the page you see by default is the one in the index.qmd file.\n\nI recommend you use similar file structure as mine, but if you have a personal preference, feel free to play around and figure out your own style.\n\n\n2.4 Push to GitHub repo\nRemember to push your project to your GitHub repo so that it can be managed and updated in the future. I recommend you using GitHub Desktop. This GitHub repo will also be used in Netlify to deploy your website."
+  },
+  {
+    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-3---buy-your-personal-domain",
+    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-3---buy-your-personal-domain",
+    "title": "How to Make a Personal Website",
+    "section": "Step 3 - Buy your personal domain",
+    "text": "Step 3 - Buy your personal domain\nThis step can be skipped if you don’t want to have your own domain. Like I explained, Netlify will assign you with your preferred third-level domain.\n\n3.1 Buy from Namecheap\nIf you decided to buy from Namecheap, you need to create your account and pick your preferred domain name. My domain name costs me about $10 per year, which can be referred as your anchor.\nRemember, although you have full control with your domain on Namecheap, you’ll need to manually set your DNS to link it with your Netlify server, which we’ll cover in Step 4.\n\n\n3.2 Buy from Netlify\nBuying from Netlify is also an option, so that you won’t need to deal with the DNS thing. However, Netlify does not provide a direct page of buying it. As you go through your site creation process, you will have the option to buy your domain."
+  },
+  {
+    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-4---deploy-your-website",
+    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-4---deploy-your-website",
+    "title": "How to Make a Personal Website",
+    "section": "Step 4 - Deploy your website",
+    "text": "Step 4 - Deploy your website\nCreate your Netlify account using GitHub, and choose to deploy your website from GitHub. Select on your repo and follow the instructions.\nYou can access the Quarto official tutorial on Netlify deployment. Below are several hints from me:\n\nWhen setting your publishing directory, you need to input _site. As I explained in 2.3 Project file structure, this is the default directory for your HTML files. If you defined your own directory, make sure to input the directory name here. The other build settings can be left as they are.\n\n\n\n\n\nFigure 7: In “Publish Directory”, you’ll need to fill in _site or your own defined directory name\n\n\n\n\nIf you bought your domain from Namecheap, you’ll need to manually fill in the DNS hostnames. You can access them in Dashboard -&gt; Domains -&gt; Name servers of your Netlify page.\n\n\n\n\n\nFigure 8: This is where you can find the DNS hostnames in Netlify\n\n\n\n\n\n\n\nFigure 9: This is where you can paste the DNS hostnames in Namecheap\n\n\n\n\nNetlify takes care of SSL/TLS certificate, (aka the HTTPS protocol you can see in the site URLs). It’s a free service by Let’s Encrypt, which is enough for personal use. You can access it in Sites -&gt; Domain management -&gt; SSL/TLS certificate. It’s usually automatically enabled, but it can be manually renewed by clicking on the button on this page.\n\n\n\n\n\nFigure 10: HTTPS is taken good care of by Netlify\n\n\n\n\nSince Netlify has direct access to your GitHub repo, each time you push new version to GitHub, your website will be updated automatically. You can also trace the process on your Netlify dashboard. There is no need to type the command of quarto publish netlify in RStudio."
   }
 ]
