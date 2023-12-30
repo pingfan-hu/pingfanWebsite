@@ -53,7 +53,7 @@ Proceed to [Akamai](https://www.akamai.com) and create a Linode server following
 3.  **Linode Plan** - Choose "Dedicated CPU" and pick a plan. The formr team recommends 8 CPUs, but I only picked the basic plan.
 4.  **Linode Label** - Name your server as you wish. I named it as `ubuntu-formr`.
 5.  **Add Tags** - You may add a tag to indicate what this Linode server is for. I created a tag called `formr`.
-6.  **Root Password** - A `root` user will be generated for you upon server creation. This password it for accessing this `root` server. However, better create a real user and avoid using `root`. I'll cover this later.
+6.  **Root Password** - A `root` user will be generated for you upon server creation. This password is for accessing this `root` server. However, better create a real user and avoid using `root`. I'll cover this later.
 7.  **SSH Keys** - If you haven't done so, create an SSH key using your Terminal. Save the key pairs to a safe place. On this page, click on ***Add An SSH Key*** and paste the public key here.
 8.  Leave the rest settings as they are.
 
