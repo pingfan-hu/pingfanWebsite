@@ -18,7 +18,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "How to Make a Personal Website\n\n\n\n\n\n\n\nWebsite\n\n\nQuarto\n\n\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\n\n\n\n\n  \n\n\n\n\nCoding Languages\n\n\n\n\n\n\n\nCoding\n\n\n\n\n\n\n\n\n\n\n\nOct 23, 2023\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "formr Instance Deployment\n\n\n\n\n\n\n\nformr\n\n\nLinode\n\n\n\n\n\n\n\n\n\n\n\nDec 30, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHow to Make a Personal Website\n\n\n\n\n\n\n\nWebsite\n\n\nQuarto\n\n\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "projects.html",
@@ -306,5 +306,68 @@
     "title": "How to Make a Personal Website",
     "section": "Step 4 - Deploy your website",
     "text": "Step 4 - Deploy your website\nCreate your Netlify account using GitHub, and choose to deploy your website from GitHub. Select on your repo and follow the instructions.\nYou can access the Quarto official tutorial on Netlify deployment. Below are several hints from me:\n\nWhen setting your publishing directory, you need to input _site. As I explained in 2.3 Project file structure, this is the default directory for your HTML files. If you defined your own directory, make sure to input the directory name here. The other build settings can be left as they are.\n\n\n\n\n\nFigure 7: In “Publish Directory”, you’ll need to fill in _site or your own defined directory name\n\n\n\n\nIf you bought your domain from Namecheap, you’ll need to manually fill in the DNS hostnames. You can access them in Dashboard -&gt; Domains -&gt; Name servers of your Netlify page.\n\n\n\n\n\nFigure 8: This is where you can find the DNS hostnames in Netlify\n\n\n\n\n\n\n\nFigure 9: This is where you can paste the DNS hostnames in Namecheap\n\n\n\n\nNetlify takes care of SSL/TLS certificate, (aka the HTTPS protocol you can see in the site URLs). It’s a free service by Let’s Encrypt, which is enough for personal use. You can access it in Sites -&gt; Domain management -&gt; SSL/TLS certificate. It’s usually automatically enabled, but it can be manually renewed by clicking on the button on this page.\n\n\n\n\n\nFigure 10: HTTPS is taken good care of by Netlify\n\n\n\n\nSince Netlify has direct access to your GitHub repo, each time you push new version to GitHub, your website will be updated automatically. You can also trace the process on your Netlify dashboard. There is no need to type the command of quarto publish netlify in RStudio."
+  },
+  {
+    "objectID": "contents/blogs/02_formr_instance_deployment/index.html",
+    "href": "contents/blogs/02_formr_instance_deployment/index.html",
+    "title": "formr Instance Deployment",
+    "section": "",
+    "text": "This is a tutorial of deploying the formr instance using Ubuntu 22.04 on Akamai (prior name Linode).\nThis tutorial contains my personal settings. If you are following this tutorial to make your own deployment, make sure to modify based on your preference.\nThis tutorial consists of the following:\n\nCreate an Ubuntu 22.04 server using Akamai’s Linode.\nCreate user and assign sudo privilege.\nInstall Docker.\nClone and configure the formr repo.\nTrouble-shooting."
+  },
+  {
+    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#abstract",
+    "href": "contents/blogs/02_formr_instance_deployment/index.html#abstract",
+    "title": "formr Instance Deployment",
+    "section": "",
+    "text": "This is a tutorial of deploying the formr instance using Ubuntu 22.04 on Akamai (prior name Linode).\nThis tutorial contains my personal settings. If you are following this tutorial to make your own deployment, make sure to modify based on your preference.\nThis tutorial consists of the following:\n\nCreate an Ubuntu 22.04 server using Akamai’s Linode.\nCreate user and assign sudo privilege.\nInstall Docker.\nClone and configure the formr repo.\nTrouble-shooting."
+  },
+  {
+    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#useful-links",
+    "href": "contents/blogs/02_formr_instance_deployment/index.html#useful-links",
+    "title": "formr Instance Deployment",
+    "section": "Useful Links",
+    "text": "Useful Links\n\nShowcase: My formr Instance Official formr\n\n\nPreparation:  Initial Setup with Ubuntu   Install Docker on Ubuntu \n\n\nDeployment:  Deploy formr (Docker Version)"
+  },
+  {
+    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#foreword",
+    "href": "contents/blogs/02_formr_instance_deployment/index.html#foreword",
+    "title": "formr Instance Deployment",
+    "section": "Foreword",
+    "text": "Foreword\nMy personalizations:\n\nServer IP: 172.233.238.100\nMy user name: pingfan\nMy password for the database: 0727 (not for the shell command)\nEmail for the host: formrcloudgwu@gmail.com"
+  },
+  {
+    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#step-1---create-the-server",
+    "href": "contents/blogs/02_formr_instance_deployment/index.html#step-1---create-the-server",
+    "title": "formr Instance Deployment",
+    "section": "Step 1 - Create the Server",
+    "text": "Step 1 - Create the Server\n\n1.1 Create the server\nProceed to Akamai and create a Linode server following these configurations:\n\nImages - Choose Ubuntu 22.04 LTS. This is the desired version for formr instance.\nRegion - Choose your desired region.\nLinode Plan - Choose “Dedicated CPU” and pick a plan. The formr team recommends 8 CPUs, but I only picked the basic plan.\nLinode Label - Name your server as you wish. I named it as ubuntu-formr.\nAdd Tags - You may add a tag to indicate what this Linode server is for. I created a tag called formr.\nRoot Password - A root user will be generated for you upon server creation. This password it for accessing this root server. However, better create a real user and avoid using root. I’ll cover this later.\nSSH Keys - If you haven’t done so, create an SSH key using your Terminal. Save the key pairs to a safe place. On this page, click on Add An SSH Key and paste the public key here.\nLeave the rest settings as they are.\n\n\n\n1.2 Access online using LISH\nOnce you have created your Linode server, you’ll see it in the “Linodes” section. Click on it to make sure it’s properly running. On top right corner, you’ll see a “Launch LISH Console” button, where LISH is short for Linode Shell. By clicking on it, you’ll open the online shell command terminal.\n\n\n\n\nFigure 1: Click on this button to launch the online shell terminal\n\n\n\n\n\n1.3 Access locally using Terminal\nHowever, I prefer to use my local Terminal. Follow these steps to access this Linode using your local Terminal:\n\nLaunch your Terminal.\nType in ssh root@your_ip_address, and then input the root password that you created.\nYou’ll see a welcoming message if everything goes properly.\n\nIn fact, you can easily copy the SSH Access command from your Linode dashboard:\n\n\n\n\nFigure 2: Click on the SSH Access contents to directly copy the command\n\n\n\nNow you have created your Linode server for Ubuntu 22.04 and accessed it with your Terminal!"
+  },
+  {
+    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#step-2---create-the-user",
+    "href": "contents/blogs/02_formr_instance_deployment/index.html#step-2---create-the-user",
+    "title": "formr Instance Deployment",
+    "section": "Step 2 - Create the User",
+    "text": "Step 2 - Create the User\nSee the full instruction of Digital Ocean here, or you can follow my guides. Keep in mind that both Digital Ocean’s guides and my instructions contain personalizations. You need to modify to your own case.\nRun the commands below line by line and follow the instructions when necessary. You’ll need to create the password and personal information for the new user.\n# Log in as root\nssh root@your_ip_address\n\n# Add a user called \"pingfan\"\nadduser pingfan\n\n# Assign sudo privilege \nusermod -aG sudo pingfan\n\n# Open a new Terminal window to login as pingfan\nssh pingfan@your_ip_address\nOnce your new user is ready, you’ll need to use it for the following steps.\n\nHint: There is always a root user by default, but you need to avoid using it for daily purposes. This makes user creation always being our first step."
+  },
+  {
+    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#step-3---install-docker",
+    "href": "contents/blogs/02_formr_instance_deployment/index.html#step-3---install-docker",
+    "title": "formr Instance Deployment",
+    "section": "Step 3 - Install Docker",
+    "text": "Step 3 - Install Docker\nThe formr instance requires Docker. It is a virtual container for securely running your software. See the Docker official instructions here, or follow my steps below.\n\nHint: The official instructions assume you are using a local machine with GUI, but since we are accessing a remote machine using Terminal, I slightly modified the shell commands.\n\n3.1 Install gnome-terminal\nsudo apt install gnome-terminal\n3.2 Set up Docker’s apt repository\n# Add Docker's official GPG key:\nsudo apt-get update\nsudo apt-get install ca-certificates curl gnupg\nsudo install -m 0755 -d /etc/apt/keyrings\ncurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg\nsudo chmod a+r /etc/apt/keyrings/docker.gpg\n\n# Add the repository to Apt sources:\necho \\\n  \"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \\\n  $(. /etc/os-release && echo \"$VERSION_CODENAME\") stable\" | \\\n  sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null\nsudo apt-get update\n3.3 Install the latest Docker packages\nsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin\n3.4 Verify that the Docker Engine installation is successful by running the hello-world image\nsudo docker run hello-world\n3.5 Download latest DEB package\nwget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.26.1-amd64.deb\n\nHint: Until the composition of this blog, the latest version is docker-desktop-4.26.1-amd64.deb.\n\n3.6 Install the package with apt\nsudo apt-get update\nsudo apt-get install ./docker-desktop-4.26.1-amd64.deb\n3.7 Launch Docker Desktop\nsystemctl --user start docker-desktop\n3.8 Check the versions\ndocker compose version\ndocker --version\ndocker version\n3.9 Enable Docker Desktop to start on login\nsystemctl --user enable docker-desktop\nNow the Dock Desktop should be installed and set as auto-launch upon system start."
+  },
+  {
+    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#step-4---clone-and-configure-the-formr-repo",
+    "href": "contents/blogs/02_formr_instance_deployment/index.html#step-4---clone-and-configure-the-formr-repo",
+    "title": "formr Instance Deployment",
+    "section": "Step 4 - Clone and Configure the formr Repo",
+    "text": "Step 4 - Clone and Configure the formr Repo\nSee the formr official instructions here, or you can follow my steps below.\n4.1 Clone the formr repo\ngit clone https://github.com/rubenarslan/formr_dev_docker.git\n4.2 Change dir and run ./setup.sh\ncd formr_dev_docker\nsudo ./setup.sh\n4.3 Configure database and domain names\nsudo nano .env\n\nHint: nano is the default editor of files in Terminal. After you are satisfied with your editing, you can use Ctrl + O to write out, and then Ctrl + X to exit.\n\nYou’ll need to modify the contents to meet your own personalization. Below is the official hint:\n# Mysql password of root, by default a random password will be generated\nMARIADB_ROOT_PASSWORD\n\n# Mysql database name, default = formr_db\nMARIADB_DATABASE\n\n# Mysql database user, default = formr_user\nMARIADB_USER\n\n# Mysql database password of user MARIADB_USER\n# By default a random password will be generated\nMARIADB_PASSWORD\n\n# The main domain of your formr instance\nMAIN_DOMAIN\n\n# Domain of formr_app. Can fill with multiple domain with separated by comma (,)\n# Default value = formr.org,www.formr.org\nFORMR_DOMAIN\n\n# (Sub)domain for opencpu. Access to this domain needs basic-auth\n# Default value = ocpu.formr.org\nOPENCPU_DOMAIN\n\n# Email for the ACME Let's Encrypt configuration and for the first superadmin\nFORMR_EMAIL\n\n# Default superadmin password\nFORMR_PASSWORD\n\n# formr version or branch. Default value = v0.20.6\n# Please check on this link https://github.com/rubenarslan/formr.org/tags\nFORMR_TAG\n\n# defaults to Europe/Berlin\nTIMEZONE\n4.4 Build containers and install initial schema\nsudo ./build.sh\ncd formr_app/formr/config\nsudo nano settings.php\ncd ~/formr_dev_docker\nsudo docker compose restart\nThe formr instance should be installed now. You may access your formr instance by pasting your IP address to your browser.\nYou can access mine using this link. It looks the same as the official version.\n\nHint: If you want to access your formr instance via a personalized domain, you’ll need to go back to 4.3 and set the main domain, and also modify your domain by adding a new A Record and assign the value as your IP address."
+  },
+  {
+    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#step-5---trouble-shooting",
+    "href": "contents/blogs/02_formr_instance_deployment/index.html#step-5---trouble-shooting",
+    "title": "formr Instance Deployment",
+    "section": "Step 5 - Trouble-shooting",
+    "text": "Step 5 - Trouble-shooting\n5.1 Hints for the cd command\n# To change to root dir\ncd\n\n# To change to a dir by inputting relative path\n# A relative path is where you start from your current dir.\ncd dir_name\n\n# To change to a dir by inputting absolute path\n# An absolute path disregard your current path. It is a good way to present instructions.\ncd ~/dir_name\n5.2 Configurational files\nThere are 3 configurational files in formr. They can be accessed using the following commands:\n# .env\ncd ~/formr_dev_docker\nsudo nano .env\n\n# settings.php\ncd ~/formr_dev_docker/formr_app/formr/config\nsudo nano settings.php\n\n# Session.php\ncd ~/formr_dev_docker/formr_app/formr/application\nsudo nano Session.php\n5.3 Restart Docker\nAfter each configuration, you’ll need to restart Docker by using the following commands:\ncd ~/formr_dev_docker\nsudo docker compose restart"
   }
 ]
