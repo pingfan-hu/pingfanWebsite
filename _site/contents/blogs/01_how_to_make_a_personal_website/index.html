@@ -4637,9 +4637,15 @@ color: #694696 !important;
 </section>
 <section id="useful-links" class="level2">
 <h2 class="anchored" data-anchor-id="useful-links">Useful Links</h2>
-<p><a href="https://github.com/pingfan0727/My-Website" class="btn btn-primary" role="button"> GitHub Repo of My Website </a></p>
-<p><a href="https://github.com" class="btn btn-info" role="button"> GitHub </a> <a href="https://www.namecheap.com" class="btn btn-info" role="button"> Namecheap </a> <a href="https://www.netlify.com" class="btn btn-info" role="button"> Netlify </a></p>
-<p><a href="https://desktop.github.com" class="btn btn-success" role="button"> GitHub Desktop </a> <a href="https://www.r-project.org" class="btn btn-success" role="button"> R </a> <a href="https://www.rstudio.com/categories/rstudio-ide/" class="btn btn-success" role="button"> RStudio </a> <a href="https://quarto.org" class="btn btn-success" role="button"> Quarto </a></p>
+<div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+<p>Software: <a href="https://desktop.github.com" class="btn btn-success btn-sm" role="button"> GitHub Desktop </a> <a href="https://www.r-project.org" class="btn btn-success btn-sm" role="button"> R Language </a> <a href="https://www.rstudio.com/categories/rstudio-ide/" class="btn btn-success btn-sm" role="button"> RStudio </a> <a href="https://quarto.org" class="btn btn-success btn-sm" role="button"> Quarto </a></p>
+</div>
+<div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+<p>Platforms: <a href="https://github.com" class="btn btn-info btn-sm" role="button"> GitHub (Online Repo) </a> <a href="https://www.namecheap.com" class="btn btn-info btn-sm" role="button"> Namecheap (Buy Domain) </a> <a href="https://www.netlify.com" class="btn btn-info btn-sm" role="button"> Netlify (Server) </a></p>
+</div>
+<div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+<p>GitHub Repo: <a href="https://github.com/pingfan0727/My-Website" class="btn btn-primary btn-sm" role="button"> GitHub Repo of My Website </a></p>
+</div>
 </section>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
@@ -4690,7 +4696,7 @@ color: #694696 !important;
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">united</span><span class="kw">,</span><span class="at"> theme.scss</span><span class="kw">]</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">css</span><span class="kw">:</span><span class="at"> styles.css</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">backgroundcolor</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;#F8F7F0&quot;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Note that there is a <code>backgroundcolor: &quot;#F8F7F0&quot;</code> used to set the page background color. The short reason is it gives the best compatibility.</p>
+<p>Note that there is a <code>backgroundcolor: &quot;#F8F7F0&quot;</code> used to set the page background color. The short reason for it being here and not in <code>.scss</code> or <code>.css</code> is that, it gives the best compatibility.</p>
 <p>The original <strong>United</strong> theme primary color is orange, but I changed that in my <code>theme.scss</code> file.</p></li>
 <li><p>I manually pasted my <code>resume.pdf</code> file to the <code>_site</code> -&gt; <code>contents</code> directory, since I failed to find an automatic solution of creating this file upon knitting.</p></li>
 </ol>

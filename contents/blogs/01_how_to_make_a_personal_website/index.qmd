@@ -20,11 +20,17 @@ In summary, this website is made using [Quarto](https://quarto.org) on [RStudio]
 
 ## Useful Links
 
-<a href="https://github.com/pingfan0727/My-Website" class="btn btn-primary" role="button"> GitHub Repo of My Website </a>
+::: {.btn-group role="group" aria-label="Basic checkbox toggle button group"}
+Software: <a href="https://desktop.github.com" class="btn btn-success btn-sm" role="button"> GitHub Desktop </a> <a href="https://www.r-project.org" class="btn btn-success btn-sm" role="button"> R Language </a> <a href="https://www.rstudio.com/categories/rstudio-ide/" class="btn btn-success btn-sm" role="button"> RStudio </a> <a href="https://quarto.org" class="btn btn-success btn-sm" role="button"> Quarto </a>
+:::
 
-<a href="https://github.com" class="btn btn-info" role="button"> GitHub </a> <a href="https://www.namecheap.com" class="btn btn-info" role="button"> Namecheap </a> <a href="https://www.netlify.com" class="btn btn-info" role="button"> Netlify </a>
+::: {.btn-group role="group" aria-label="Basic checkbox toggle button group"}
+Platforms: <a href="https://github.com" class="btn btn-info btn-sm" role="button"> GitHub (Online Repo) </a> <a href="https://www.namecheap.com" class="btn btn-info btn-sm" role="button"> Namecheap (Buy Domain) </a> <a href="https://www.netlify.com" class="btn btn-info btn-sm" role="button"> Netlify (Server) </a>
+:::
 
-<a href="https://desktop.github.com" class="btn btn-success" role="button"> GitHub Desktop </a> <a href="https://www.r-project.org" class="btn btn-success" role="button"> R </a> <a href="https://www.rstudio.com/categories/rstudio-ide/" class="btn btn-success" role="button"> RStudio </a> <a href="https://quarto.org" class="btn btn-success" role="button"> Quarto </a>
+::: {.btn-group role="group" aria-label="Basic checkbox toggle button group"}
+GitHub Repo: <a href="https://github.com/pingfan0727/My-Website" class="btn btn-primary btn-sm" role="button"> GitHub Repo of My Website </a>
+:::
 
 ## Introduction
 
@@ -76,7 +82,7 @@ If you are using my template, there are several things I want to explain to ease
         backgroundcolor: "#F8F7F0"
     ```
 
-    Note that there is a `backgroundcolor: "#F8F7F0"` used to set the page background color. The short reason is it gives the best compatibility.
+    Note that there is a `backgroundcolor: "#F8F7F0"` used to set the page background color. The short reason for it being here and not in `.scss` or `.css` is that, it gives the best compatibility.
 
     The original **United** theme primary color is orange, but I changed that in my `theme.scss` file.
 
