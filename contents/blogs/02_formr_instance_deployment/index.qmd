@@ -275,11 +275,11 @@ You can access mine using [this link](http://172.233.238.100). It looks the same
 cd
 
 # To change to a dir by inputting relative path
-# A relative path is where you start from your current dir.
+# A relative path is where you start from your current dir
 cd dir_name
 
 # To change to a dir by inputting absolute path
-# An absolute path disregard your current path. It is a good way to present instructions.
+# An absolute path disregards your current path
 cd ~/dir_name
 ```
 
