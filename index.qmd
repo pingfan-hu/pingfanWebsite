@@ -12,7 +12,7 @@ about:
       href: https://www.linkedin.com/in/pingfan/
     - icon: github
       text: Github
-      href: https://github.com/pingfan0727
+      href: https://github.com/pingfan-hu
     - icon: envelope-at
       text: Email
       href: mailto:pingfan.hu@gwu.edu
