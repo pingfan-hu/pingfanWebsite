@@ -1,11 +1,8 @@
 ---
 title: "(Expected) Smart Charging Simulation with the Grid"
+subtitle: "Simulate the PEV smart charging adoption with the grid to reveal the theoretical results."
 date: "Jul, 2024"
 image: "banner.png"
 categories: [Smart Charging, Simulation]
 bibliography: ../references.bib
 ---
-
-## Research Question
-
-Simulate the PEV smart charging adoption with the grid to reveal the theoretical results.

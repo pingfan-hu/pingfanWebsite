@@ -5,6 +5,14 @@ categories: [formr, Linode]
 image: "banner.png"
 ---
 
+## Useful Links
+
+|             |                                                                                                                                                                                                                                                                                                                |
+|-----------------|-------------------------------------------------------|
+| Showcase    | <a href="http://172.233.238.100" class="btn btn-primary btn-sm" role="button">My formr Instance</a> <a href="https://formr.org" class="btn btn-primary btn-sm" role="button">Official formr</a>                                                                                                                |
+| Preparation | <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04" class="btn btn-info btn-sm" role="button"> Initial Setup with Ubuntu </a> <a href="https://docs.docker.com/desktop/install/ubuntu/" class="btn btn-info btn-sm" role="button"> Install Docker on Ubuntu </a> |
+| Deployment  | <a href="https://github.com/rubenarslan/formr.org/blob/master/INSTALLATION.md" class="btn btn-success btn-sm" role="button"> Deploy formr (Docker Version) </a>                                                                                                                                                |
+
 ## Abstract
 
 This is a tutorial of deploying the [formr](https://formr.org) instance using [Ubuntu 22.04](https://www.releases.ubuntu.com/22.04/) on [Akamai](https://www.akamai.com) (prior name Linode).
@@ -19,28 +27,14 @@ This tutorial consists of the following:
 4.  Clone and configure the formr repo.
 5.  Trouble-shooting.
 
-## Useful Links
+## My Customization
 
-::: {.btn-group role="group" aria-label="Basic checkbox toggle button group"}
-Showcase: <a href="http://172.233.238.100" class="btn btn-primary btn-sm" role="button">My formr Instance</a> <a href="https://formr.org" class="btn btn-primary btn-sm" role="button">Official formr</a>
-:::
-
-::: {.btn-group role="group" aria-label="Basic checkbox toggle button group"}
-Preparation: <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04" class="btn btn-info btn-sm" role="button"> Initial Setup with Ubuntu </a> <a href="https://docs.docker.com/desktop/install/ubuntu/" class="btn btn-info btn-sm" role="button"> Install Docker on Ubuntu </a>
-:::
-
-::: {.btn-group role="group" aria-label="Basic checkbox toggle button group"}
-Deployment: <a href="https://github.com/rubenarslan/formr.org/blob/master/INSTALLATION.md" class="btn btn-success btn-sm" role="button"> Deploy formr (Docker Version) </a>
-:::
-
-## Foreword
-
-My personalizations:
-
--   Server IP: `172.233.238.100`
--   My user name: `pingfan`
--   My password for the database: `0727` (not for the shell command)
--   Email for the host: [formrcloudgwu\@gmail.com](mailto:formrcloudgwu@gmail.com)
+|                       |                                                            |
+|-----------------------|-------------------------------------------------|
+| Server IP             | `172.233.238.100`                                          |
+| User Name             | `pingfan`                                                  |
+| SQL Database Password | `0727`                                                     |
+| Host Email            | [formrcloudgwu\@gmail.com](mailto:formrcloudgwu@gmail.com) |
 
 ## Step 1 - Create the Server
 

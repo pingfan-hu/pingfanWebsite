@@ -3,15 +3,15 @@ title: "About Me"
 page-layout: article
 ---
 
-![](contents/figures/pingfan.jpeg){fig-align="center"}
-
-## Introduction
+![](contents/figures/about.jpeg){fig-align="center"}
 
 Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of [Engineering Management and Systems Engineering](https://www.emse.seas.gwu.edu) with expertise in systems engineering and data analysis.
 
-I have 4 years' engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia. For details please check out my [resume](https://pingfanhu.com/contents/resume.pdf).
+I have 4 years' engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia.
 
 My current project is a [conjoint survey program](https://pev.pingfanhu.com) for EVs (electric vehicles). It is a sub-project of a smart charging and V2G (vehicle to grid) program in California and New York State. The objective of this project is to study for EV owners' adoption to smart charging and V2G, and simulate and finally implement this new charging technique. The success of this project will contribute to carbon neutrality and help construct a clean world.
+
+Access my Resume for more details: <a href="contents/resume.pdf" class="btn btn-primary btn-sm" role="button"> Pingfan's Resume </a>
 
 ## Experiences
 

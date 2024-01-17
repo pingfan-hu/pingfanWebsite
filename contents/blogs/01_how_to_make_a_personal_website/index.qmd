@@ -5,6 +5,14 @@ categories: [Website, Quarto]
 image: "banner.png"
 ---
 
+## Useful Links
+
+|             |                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Software    | <a href="https://desktop.github.com" class="btn btn-success btn-sm" role="button"> GitHub Desktop </a> <a href="https://www.r-project.org" class="btn btn-success btn-sm" role="button"> R Language </a> <a href="https://www.rstudio.com/categories/rstudio-ide/" class="btn btn-success btn-sm" role="button"> RStudio </a> <a href="https://quarto.org" class="btn btn-success btn-sm" role="button"> Quarto </a> |
+| Platforms   | <a href="https://github.com" class="btn btn-info btn-sm" role="button"> GitHub (Online Repo) </a> <a href="https://www.namecheap.com" class="btn btn-info btn-sm" role="button"> Namecheap (Buy Domain) </a> <a href="https://www.netlify.com" class="btn btn-info btn-sm" role="button"> Netlify (Server) </a>                                                                                                      |
+| GitHub Repo | <a href="https://github.com/pingfan0727/My-Website" class="btn btn-primary btn-sm" role="button"> GitHub Repo of My Website </a>                                                                                                                                                                                                                                                                                     |
+
 ## Abstract
 
 This is a tutorial of making a personal website using Quarto on RStudio.
@@ -17,20 +25,6 @@ This tutorial contains the following:
 4.  Deploying the repo on [Netlify](https://www.netlify.com)
 
 In summary, this website is made using [Quarto](https://quarto.org) on [RStudio](https://www.rstudio.com/categories/rstudio-ide/), and is deployed by accessing the [GitHub](https://github.com) repo on [Netlify](https://www.netlify.com). I bought my domain on [Namecheap](https://www.namecheap.com), but [Netlify](https://www.netlify.com) sells domain as well.
-
-## Useful Links
-
-::: {.btn-group role="group" aria-label="Basic checkbox toggle button group"}
-Software: <a href="https://desktop.github.com" class="btn btn-success btn-sm" role="button"> GitHub Desktop </a> <a href="https://www.r-project.org" class="btn btn-success btn-sm" role="button"> R Language </a> <a href="https://www.rstudio.com/categories/rstudio-ide/" class="btn btn-success btn-sm" role="button"> RStudio </a> <a href="https://quarto.org" class="btn btn-success btn-sm" role="button"> Quarto </a>
-:::
-
-::: {.btn-group role="group" aria-label="Basic checkbox toggle button group"}
-Platforms: <a href="https://github.com" class="btn btn-info btn-sm" role="button"> GitHub (Online Repo) </a> <a href="https://www.namecheap.com" class="btn btn-info btn-sm" role="button"> Namecheap (Buy Domain) </a> <a href="https://www.netlify.com" class="btn btn-info btn-sm" role="button"> Netlify (Server) </a>
-:::
-
-::: {.btn-group role="group" aria-label="Basic checkbox toggle button group"}
-GitHub Repo: <a href="https://github.com/pingfan0727/My-Website" class="btn btn-primary btn-sm" role="button"> GitHub Repo of My Website </a>
-:::
 
 ## Introduction
 

@@ -1,16 +1,11 @@
 ---
 title: "Network Science of the Mid-Atlantic Region"
+subtitle: "Multilayer network science study of the Mid-Atlantic region logistics."
 date: "May 24, 2023"
 image: "banner.png"
 categories: [Network Science, Python]
 bibliography: ../references.bib
 ---
-
-## Research Question
-
-Multilayer network science study of the Mid-Atlantic region logistics.
-
-## Project Link
 
 <a href="https://pingfanhu.craft.me/few" class="btn btn-primary" role="button"> Access the Project </a>
 

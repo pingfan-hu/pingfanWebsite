@@ -32,7 +32,7 @@
     "href": "contents/projects/02_solar_and_wind/index.html",
     "title": "Solar and Wind Energy Advancements",
     "section": "",
-    "text": "Key drivers of the growth of solar and wind electricity generation in the USA."
+    "text": "Access the Project"
   },
   {
     "objectID": "contents/projects/02_solar_and_wind/index.html#research-question",
@@ -60,7 +60,7 @@
     "href": "contents/projects/06_ai_for_bot_detection/index.html",
     "title": "(Expected) Using AI to Detect Bots in Surveys",
     "section": "",
-    "text": "Can we use GPT to validate if the survey is done by human or AI?"
+    "text": "Attempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
   },
   {
     "objectID": "contents/projects/06_ai_for_bot_detection/index.html#research-question",
@@ -73,15 +73,15 @@
     "objectID": "contents/projects/06_ai_for_bot_detection/index.html#initial-ideas",
     "href": "contents/projects/06_ai_for_bot_detection/index.html#initial-ideas",
     "title": "(Expected) Using AI to Detect Bots in Surveys",
-    "section": "Initial Ideas",
-    "text": "Initial Ideas\n\nAttempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
+    "section": "",
+    "text": "Attempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
   },
   {
     "objectID": "contents/projects/01_network_science/index.html",
     "href": "contents/projects/01_network_science/index.html",
     "title": "Network Science of the Mid-Atlantic Region",
     "section": "",
-    "text": "Multilayer network science study of the Mid-Atlantic region logistics."
+    "text": "Access the Project"
   },
   {
     "objectID": "contents/projects/01_network_science/index.html#research-question",
@@ -94,8 +94,8 @@
     "objectID": "contents/projects/01_network_science/index.html#project-link",
     "href": "contents/projects/01_network_science/index.html#project-link",
     "title": "Network Science of the Mid-Atlantic Region",
-    "section": "Project Link",
-    "text": "Project Link\n Access the Project"
+    "section": "",
+    "text": "Access the Project"
   },
   {
     "objectID": "contents/projects/01_network_science/index.html#project-overview",
@@ -144,7 +144,7 @@
     "href": "contents/projects/04_sim_with_grid/index.html",
     "title": "(Expected) Smart Charging Simulation with the Grid",
     "section": "",
-    "text": "Simulate the PEV smart charging adoption with the grid to reveal the theoretical results."
+    "text": "Back to top"
   },
   {
     "objectID": "contents/projects/04_sim_with_grid/index.html#research-question",
@@ -158,7 +158,7 @@
     "href": "contents/projects/05_survey_in_llm/index.html",
     "title": "(Expected) Utilization of LLM on Surveys",
     "section": "",
-    "text": "Attempt to utilize LLM on the Smart Charging willingness survey and compare with human results."
+    "text": "Back to top"
   },
   {
     "objectID": "contents/projects/05_survey_in_llm/index.html#research-question",
@@ -172,7 +172,7 @@
     "href": "contents/projects/03_pev_smart_charging/index.html",
     "title": "PEV Smart Charging",
     "section": "",
-    "text": "Quantifying the benefits and constraints of PEV smart charging and V2G adoption."
+    "text": "Access the Project   Access the Showcase"
   },
   {
     "objectID": "contents/projects/03_pev_smart_charging/index.html#research-question",
@@ -228,21 +228,21 @@
     "href": "contents/blogs/01_how_to_make_a_personal_website/index.html",
     "title": "How to Make a Personal Website",
     "section": "",
-    "text": "This is a tutorial of making a personal website using Quarto on RStudio.\nThis tutorial contains the following:\n\nConstructing the personal blog R project using Quarto\nPushing the project as a GitHub repo\nPurchasing your domain on Namecheap or Netlify\nDeploying the repo on Netlify\n\nIn summary, this website is made using Quarto on RStudio, and is deployed by accessing the GitHub repo on Netlify. I bought my domain on Namecheap, but Netlify sells domain as well."
+    "text": "Software\n GitHub Desktop   R Language   RStudio   Quarto \n\n\nPlatforms\n GitHub (Online Repo)   Namecheap (Buy Domain)   Netlify (Server) \n\n\nGitHub Repo\n GitHub Repo of My Website"
   },
   {
     "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#useful-links",
     "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#useful-links",
     "title": "How to Make a Personal Website",
-    "section": "Useful Links",
-    "text": "Useful Links\n\nSoftware:  GitHub Desktop   R Language   RStudio   Quarto \n\n\nPlatforms:  GitHub (Online Repo)   Namecheap (Buy Domain)   Netlify (Server) \n\n\nGitHub Repo:  GitHub Repo of My Website"
+    "section": "",
+    "text": "Software\n GitHub Desktop   R Language   RStudio   Quarto \n\n\nPlatforms\n GitHub (Online Repo)   Namecheap (Buy Domain)   Netlify (Server) \n\n\nGitHub Repo\n GitHub Repo of My Website"
   },
   {
     "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#abstract",
     "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#abstract",
     "title": "How to Make a Personal Website",
-    "section": "",
-    "text": "This is a tutorial of making a personal website using Quarto on RStudio.\nThis tutorial contains the following:\n\nConstructing the personal blog R project using Quarto\nPushing the project as a GitHub repo\nPurchasing your domain on Namecheap or Netlify\nDeploying the repo on Netlify\n\nIn summary, this website is made using Quarto on RStudio, and is deployed by accessing the GitHub repo on Netlify. I bought my domain on Namecheap, but Netlify sells domain as well."
+    "section": "Abstract",
+    "text": "Abstract\nThis is a tutorial of making a personal website using Quarto on RStudio.\nThis tutorial contains the following:\n\nConstructing the personal blog R project using Quarto\nPushing the project as a GitHub repo\nPurchasing your domain on Namecheap or Netlify\nDeploying the repo on Netlify\n\nIn summary, this website is made using Quarto on RStudio, and is deployed by accessing the GitHub repo on Netlify. I bought my domain on Namecheap, but Netlify sells domain as well."
   },
   {
     "objectID": "contents/blogs/02_formr_service_deployment/index.html",
@@ -312,21 +312,21 @@
     "href": "contents/blogs/02_formr_instance_deployment/index.html",
     "title": "formr Instance Deployment",
     "section": "",
-    "text": "This is a tutorial of deploying the formr instance using Ubuntu 22.04 on Akamai (prior name Linode).\nThis tutorial contains my personal settings. If you are following this tutorial to make your own deployment, make sure to modify based on your preference.\nThis tutorial consists of the following:\n\nCreate an Ubuntu 22.04 server using Akamai’s Linode.\nCreate user and assign sudo privilege.\nInstall Docker.\nClone and configure the formr repo.\nTrouble-shooting."
+    "text": "Showcase\nMy formr Instance Official formr\n\n\nPreparation\n Initial Setup with Ubuntu   Install Docker on Ubuntu \n\n\nDeployment\n Deploy formr (Docker Version)"
   },
   {
     "objectID": "contents/blogs/02_formr_instance_deployment/index.html#abstract",
     "href": "contents/blogs/02_formr_instance_deployment/index.html#abstract",
     "title": "formr Instance Deployment",
-    "section": "",
-    "text": "This is a tutorial of deploying the formr instance using Ubuntu 22.04 on Akamai (prior name Linode).\nThis tutorial contains my personal settings. If you are following this tutorial to make your own deployment, make sure to modify based on your preference.\nThis tutorial consists of the following:\n\nCreate an Ubuntu 22.04 server using Akamai’s Linode.\nCreate user and assign sudo privilege.\nInstall Docker.\nClone and configure the formr repo.\nTrouble-shooting."
+    "section": "Abstract",
+    "text": "Abstract\nThis is a tutorial of deploying the formr instance using Ubuntu 22.04 on Akamai (prior name Linode).\nThis tutorial contains my personal settings. If you are following this tutorial to make your own deployment, make sure to modify based on your preference.\nThis tutorial consists of the following:\n\nCreate an Ubuntu 22.04 server using Akamai’s Linode.\nCreate user and assign sudo privilege.\nInstall Docker.\nClone and configure the formr repo.\nTrouble-shooting."
   },
   {
     "objectID": "contents/blogs/02_formr_instance_deployment/index.html#useful-links",
     "href": "contents/blogs/02_formr_instance_deployment/index.html#useful-links",
     "title": "formr Instance Deployment",
-    "section": "Useful Links",
-    "text": "Useful Links\n\nShowcase: My formr Instance Official formr\n\n\nPreparation:  Initial Setup with Ubuntu   Install Docker on Ubuntu \n\n\nDeployment:  Deploy formr (Docker Version)"
+    "section": "",
+    "text": "Showcase\nMy formr Instance Official formr\n\n\nPreparation\n Initial Setup with Ubuntu   Install Docker on Ubuntu \n\n\nDeployment\n Deploy formr (Docker Version)"
   },
   {
     "objectID": "contents/blogs/02_formr_instance_deployment/index.html#foreword",
@@ -369,5 +369,33 @@
     "title": "formr Instance Deployment",
     "section": "Step 5 - Trouble-shooting",
     "text": "Step 5 - Trouble-shooting\n5.1 Hints for the cd command\n# To change to root dir\ncd\n\n# To change to a dir by inputting relative path\n# A relative path is where you start from your current dir\ncd dir_name\n\n# To change to a dir by inputting absolute path\n# An absolute path disregards your current path\ncd ~/dir_name\n5.2 Configurational files\nThere are 3 configurational files in formr. They can be accessed using the following commands:\n# .env\ncd ~/formr_dev_docker\nsudo nano .env\n\n# settings.php\ncd ~/formr_dev_docker/formr_app/formr/config\nsudo nano settings.php\n\n# Session.php\ncd ~/formr_dev_docker/formr_app/formr/application\nsudo nano Session.php\n5.3 Restart Docker\nAfter each configuration, you’ll need to restart Docker by using the following commands:\ncd ~/formr_dev_docker\nsudo docker compose restart"
+  },
+  {
+    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#useful-links-1",
+    "href": "contents/blogs/02_formr_instance_deployment/index.html#useful-links-1",
+    "title": "formr Instance Deployment",
+    "section": "Useful Links",
+    "text": "Useful Links\nShowcase: My formr Instance Official formr\nPreparation:  Initial Setup with Ubuntu   Install Docker on Ubuntu \nDeployment:  Deploy formr (Docker Version)"
+  },
+  {
+    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#my-customization",
+    "href": "contents/blogs/02_formr_instance_deployment/index.html#my-customization",
+    "title": "formr Instance Deployment",
+    "section": "My Customization",
+    "text": "My Customization\n\n\n\nServer IP\n172.233.238.100\n\n\nUser Name\npingfan\n\n\nSQL Database Password\n0727\n\n\nHost Email\nformrcloudgwu@gmail.com"
+  },
+  {
+    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#useful-links-1",
+    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#useful-links-1",
+    "title": "How to Make a Personal Website",
+    "section": "Useful Links",
+    "text": "Useful Links\nSoftware:  GitHub Desktop   R Language   RStudio   Quarto \nPlatforms:  GitHub (Online Repo)   Namecheap (Buy Domain)   Netlify (Server) \nGitHub Repo:  GitHub Repo of My Website"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI have 4 years’ engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia.\nMy current project is a conjoint survey program for EVs (electric vehicles). It is a sub-project of a smart charging and V2G (vehicle to grid) program in California and New York State. The objective of this project is to study for EV owners’ adoption to smart charging and V2G, and simulate and finally implement this new charging technique. The success of this project will contribute to carbon neutrality and help construct a clean world.\nAccess my Resume for more details:  Pingfan’s Resume"
   }
 ]

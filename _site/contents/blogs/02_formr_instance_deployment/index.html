@@ -4478,7 +4478,7 @@ vertical-align: -.125em;
 
 <style type="text/css">
 blockquote {
-background-color: #E5DFD5;
+background-color: #DDDCEC;
 padding: 10px;
 border-color: #5654A2;
 border-radius: 5px;
@@ -4573,9 +4573,9 @@ color: #694696 !important;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
-  <li><a href="#useful-links" id="toc-useful-links" class="nav-link" data-scroll-target="#useful-links">Useful Links</a></li>
-  <li><a href="#foreword" id="toc-foreword" class="nav-link" data-scroll-target="#foreword">Foreword</a></li>
+  <li><a href="#useful-links" id="toc-useful-links" class="nav-link active" data-scroll-target="#useful-links">Useful Links</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#my-customization" id="toc-my-customization" class="nav-link" data-scroll-target="#my-customization">My Customization</a></li>
   <li><a href="#step-1---create-the-server" id="toc-step-1---create-the-server" class="nav-link" data-scroll-target="#step-1---create-the-server">Step 1 - Create the Server</a>
   <ul class="collapse">
   <li><a href="#create-the-server" id="toc-create-the-server" class="nav-link" data-scroll-target="#create-the-server">1.1 Create the server</a></li>
@@ -4619,6 +4619,29 @@ color: #694696 !important;
 
 </header>
 
+<section id="useful-links" class="level2">
+<h2 class="anchored" data-anchor-id="useful-links">Useful Links</h2>
+<table class="table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 76%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Showcase</td>
+<td><a href="http://172.233.238.100" class="btn btn-primary btn-sm" role="button">My formr Instance</a> <a href="https://formr.org" class="btn btn-primary btn-sm" role="button">Official formr</a></td>
+</tr>
+<tr class="even">
+<td>Preparation</td>
+<td><a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04" class="btn btn-info btn-sm" role="button"> Initial Setup with Ubuntu </a> <a href="https://docs.docker.com/desktop/install/ubuntu/" class="btn btn-info btn-sm" role="button"> Install Docker on Ubuntu </a></td>
+</tr>
+<tr class="odd">
+<td>Deployment</td>
+<td><a href="https://github.com/rubenarslan/formr.org/blob/master/INSTALLATION.md" class="btn btn-success btn-sm" role="button"> Deploy formr (Docker Version) </a></td>
+</tr>
+</tbody>
+</table>
+</section>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
 <p>This is a tutorial of deploying the <a href="https://formr.org">formr</a> instance using <a href="https://www.releases.ubuntu.com/22.04/">Ubuntu 22.04</a> on <a href="https://www.akamai.com">Akamai</a> (prior name Linode).</p>
@@ -4632,27 +4655,28 @@ color: #694696 !important;
 <li>Trouble-shooting.</li>
 </ol>
 </section>
-<section id="useful-links" class="level2">
-<h2 class="anchored" data-anchor-id="useful-links">Useful Links</h2>
-<div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-<p>Showcase: <a href="http://172.233.238.100" class="btn btn-primary btn-sm" role="button">My formr Instance</a> <a href="https://formr.org" class="btn btn-primary btn-sm" role="button">Official formr</a></p>
-</div>
-<div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-<p>Preparation: <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04" class="btn btn-info btn-sm" role="button"> Initial Setup with Ubuntu </a> <a href="https://docs.docker.com/desktop/install/ubuntu/" class="btn btn-info btn-sm" role="button"> Install Docker on Ubuntu </a></p>
-</div>
-<div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-<p>Deployment: <a href="https://github.com/rubenarslan/formr.org/blob/master/INSTALLATION.md" class="btn btn-success btn-sm" role="button"> Deploy formr (Docker Version) </a></p>
-</div>
-</section>
-<section id="foreword" class="level2">
-<h2 class="anchored" data-anchor-id="foreword">Foreword</h2>
-<p>My personalizations:</p>
-<ul>
-<li>Server IP: <code>172.233.238.100</code></li>
-<li>My user name: <code>pingfan</code></li>
-<li>My password for the database: <code>0727</code> (not for the shell command)</li>
-<li>Email for the host: <a href="mailto:formrcloudgwu@gmail.com">formrcloudgwu@gmail.com</a></li>
-</ul>
+<section id="my-customization" class="level2">
+<h2 class="anchored" data-anchor-id="my-customization">My Customization</h2>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Server IP</td>
+<td><code>172.233.238.100</code></td>
+</tr>
+<tr class="even">
+<td>User Name</td>
+<td><code>pingfan</code></td>
+</tr>
+<tr class="odd">
+<td>SQL Database Password</td>
+<td><code>0727</code></td>
+</tr>
+<tr class="even">
+<td>Host Email</td>
+<td><a href="mailto:formrcloudgwu@gmail.com">formrcloudgwu@gmail.com</a></td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="step-1---create-the-server" class="level2">
 <h2 class="anchored" data-anchor-id="step-1---create-the-server">Step 1 - Create the Server</h2>
