@@ -11,7 +11,7 @@ I have 4 years' engineering working experience in top companies, and am now back
 
 My current project is a [conjoint survey program](https://pev.pingfanhu.com) for EVs (electric vehicles). It is a sub-project of a smart charging and V2G (vehicle to grid) program in California and New York State. The objective of this project is to study for EV owners' adoption to smart charging and V2G, and simulate and finally implement this new charging technique. The success of this project will contribute to carbon neutrality and help construct a clean world.
 
-Access my Resume for more details: <a href="contents/resume.pdf" class="btn btn-primary btn-sm" role="button"> Pingfan's Resume </a>
+Access my Resume for more details: <a href="contents/resume.pdf" class="btn btn-primary btn-sm" role="button" target="_blank"> Pingfan's Resume </a>
 
 ## Experiences
 
