@@ -20,6 +20,10 @@ execute:
 
 website:
   title: "Pingfan Hu"
+  description: >
+    If you are interested in EVs and renewable energy, please
+    check out my website. It contains projects and blogs that
+    well demonstrate these topics.
   favicon: favicon.ico
   back-to-top-navigation: true
   search:
