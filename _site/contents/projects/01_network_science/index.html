@@ -4441,6 +4441,231 @@ vertical-align: -.125em;
   }
 }</script>
 
+<script>$(document).ready(function(){
+    if (typeof $('[data-toggle="tooltip"]').tooltip === 'function') {
+        $('[data-toggle="tooltip"]').tooltip();
+    }
+    if ($('[data-toggle="popover"]').popover === 'function') {
+        $('[data-toggle="popover"]').popover();
+    }
+});
+</script>
+<style type="text/css">
+.lightable-minimal {
+border-collapse: separate;
+border-spacing: 16px 1px;
+width: 100%;
+margin-bottom: 10px;
+}
+.lightable-minimal td {
+margin-left: 5px;
+margin-right: 5px;
+}
+.lightable-minimal th {
+margin-left: 5px;
+margin-right: 5px;
+}
+.lightable-minimal thead tr:last-child th {
+border-bottom: 2px solid #00000050;
+empty-cells: hide;
+}
+.lightable-minimal tbody tr:first-child td {
+padding-top: 0.5em;
+}
+.lightable-minimal.lightable-hover tbody tr:hover {
+background-color: #f5f5f5;
+}
+.lightable-minimal.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-classic {
+border-top: 0.16em solid #111111;
+border-bottom: 0.16em solid #111111;
+width: 100%;
+margin-bottom: 10px;
+margin: 10px 5px;
+}
+.lightable-classic tfoot tr td {
+border: 0;
+}
+.lightable-classic tfoot tr:first-child td {
+border-top: 0.14em solid #111111;
+}
+.lightable-classic caption {
+color: #222222;
+}
+.lightable-classic td {
+padding-left: 5px;
+padding-right: 5px;
+color: #222222;
+}
+.lightable-classic th {
+padding-left: 5px;
+padding-right: 5px;
+font-weight: normal;
+color: #222222;
+}
+.lightable-classic thead tr:last-child th {
+border-bottom: 0.10em solid #111111;
+}
+.lightable-classic.lightable-hover tbody tr:hover {
+background-color: #F9EEC1;
+}
+.lightable-classic.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-classic-2 {
+border-top: 3px double #111111;
+border-bottom: 3px double #111111;
+width: 100%;
+margin-bottom: 10px;
+}
+.lightable-classic-2 tfoot tr td {
+border: 0;
+}
+.lightable-classic-2 tfoot tr:first-child td {
+border-top: 3px double #111111;
+}
+.lightable-classic-2 caption {
+color: #222222;
+}
+.lightable-classic-2 td {
+padding-left: 5px;
+padding-right: 5px;
+color: #222222;
+}
+.lightable-classic-2 th {
+padding-left: 5px;
+padding-right: 5px;
+font-weight: normal;
+color: #222222;
+}
+.lightable-classic-2 tbody tr:last-child td {
+border-bottom: 3px double #111111;
+}
+.lightable-classic-2 thead tr:last-child th {
+border-bottom: 1px solid #111111;
+}
+.lightable-classic-2.lightable-hover tbody tr:hover {
+background-color: #F9EEC1;
+}
+.lightable-classic-2.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-material {
+min-width: 100%;
+white-space: nowrap;
+table-layout: fixed;
+font-family: Roboto, sans-serif;
+border: 1px solid #EEE;
+border-collapse: collapse;
+margin-bottom: 10px;
+}
+.lightable-material tfoot tr td {
+border: 0;
+}
+.lightable-material tfoot tr:first-child td {
+border-top: 1px solid #EEE;
+}
+.lightable-material th {
+height: 56px;
+padding-left: 16px;
+padding-right: 16px;
+}
+.lightable-material td {
+height: 52px;
+padding-left: 16px;
+padding-right: 16px;
+border-top: 1px solid #eeeeee;
+}
+.lightable-material.lightable-hover tbody tr:hover {
+background-color: #f5f5f5;
+}
+.lightable-material.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-material.lightable-striped tbody td {
+border: 0;
+}
+.lightable-material.lightable-striped thead tr:last-child th {
+border-bottom: 1px solid #ddd;
+}
+.lightable-material-dark {
+min-width: 100%;
+white-space: nowrap;
+table-layout: fixed;
+font-family: Roboto, sans-serif;
+border: 1px solid #FFFFFF12;
+border-collapse: collapse;
+margin-bottom: 10px;
+background-color: #363640;
+}
+.lightable-material-dark tfoot tr td {
+border: 0;
+}
+.lightable-material-dark tfoot tr:first-child td {
+border-top: 1px solid #FFFFFF12;
+}
+.lightable-material-dark th {
+height: 56px;
+padding-left: 16px;
+padding-right: 16px;
+color: #FFFFFF60;
+}
+.lightable-material-dark td {
+height: 52px;
+padding-left: 16px;
+padding-right: 16px;
+color: #FFFFFF;
+border-top: 1px solid #FFFFFF12;
+}
+.lightable-material-dark.lightable-hover tbody tr:hover {
+background-color: #FFFFFF12;
+}
+.lightable-material-dark.lightable-striped tbody tr:nth-child(even) {
+background-color: #FFFFFF12;
+}
+.lightable-material-dark.lightable-striped tbody td {
+border: 0;
+}
+.lightable-material-dark.lightable-striped thead tr:last-child th {
+border-bottom: 1px solid #FFFFFF12;
+}
+.lightable-paper {
+width: 100%;
+margin-bottom: 10px;
+color: #444;
+}
+.lightable-paper tfoot tr td {
+border: 0;
+}
+.lightable-paper tfoot tr:first-child td {
+border-top: 1px solid #00000020;
+}
+.lightable-paper thead tr:last-child th {
+color: #666;
+vertical-align: bottom;
+border-bottom: 1px solid #00000020;
+line-height: 1.15em;
+padding: 10px 5px;
+}
+.lightable-paper td {
+vertical-align: middle;
+border-bottom: 1px solid #00000010;
+line-height: 1.15em;
+padding: 7px 5px;
+}
+.lightable-paper.lightable-hover tbody tr:hover {
+background-color: #F9EEC1;
+}
+.lightable-paper.lightable-striped tbody tr:nth-child(even) {
+background-color: #00000008;
+}
+.lightable-paper.lightable-striped tbody td {
+border: 0;
+}
+</style>
+
 
 <style type="text/css">
 blockquote {
@@ -4539,13 +4764,9 @@ color: #694696 !important;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a>
-  <ul class="collapse">
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">1. Summary</a></li>
-  <li><a href="#the-mid-atlantic-region" id="toc-the-mid-atlantic-region" class="nav-link" data-scroll-target="#the-mid-atlantic-region">2. The Mid-Atlantic Region</a></li>
-  <li><a href="#the-multilayers" id="toc-the-multilayers" class="nav-link" data-scroll-target="#the-multilayers">3. The Multilayers</a></li>
-  </ul></li>
-  <li><a href="#project-structures" id="toc-project-structures" class="nav-link" data-scroll-target="#project-structures">Project Structures</a>
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
+  <li><a href="#project-scope" id="toc-project-scope" class="nav-link" data-scroll-target="#project-scope">Project Scope</a></li>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a>
   <ul class="collapse">
   <li><a href="#spatial-analysis" id="toc-spatial-analysis" class="nav-link" data-scroll-target="#spatial-analysis">1. Spatial Analysis</a></li>
   <li><a href="#centrality-analysis" id="toc-centrality-analysis" class="nav-link" data-scroll-target="#centrality-analysis">2. Centrality Analysis</a></li>
@@ -4564,8 +4785,8 @@ color: #694696 !important;
 <h1 class="title">Network Science of the Mid-Atlantic Region</h1>
 <p class="subtitle lead">Multilayer network science study of the Mid-Atlantic region logistics.</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Network Science</div>
-    <div class="quarto-category">Python</div>
+    <div class="quarto-category">Network</div>
+    <div class="quarto-category">Data Viz</div>
   </div>
   </div>
 
@@ -4587,40 +4808,114 @@ color: #694696 !important;
 
 </header>
 
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>This project is a multi-layer network science study on the Mid-Atlantic region. It is a student research project for <a href="https://blogs.gwu.edu/caitlin-grady/">the FEW’s Lab</a> managed by Prof Caitlin Grady.</p>
 <p><a href="https://pingfanhu.craft.me/few" class="btn btn-primary" role="button"> Access the Project </a></p>
-<section id="project-overview" class="level2">
-<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
-<section id="summary" class="level3">
-<h3 class="anchored" data-anchor-id="summary">1. Summary</h3>
-<p>This project is a multi-layer network science study on the 8 states of the Mid-Atlantic region of the USA. This is a student research project for <a href="https://blogs.gwu.edu/caitlin-grady/">the FEW’s Lab</a> managed by Professor Caitlin Grady.</p>
 </section>
-<section id="the-mid-atlantic-region" class="level3">
-<h3 class="anchored" data-anchor-id="the-mid-atlantic-region">2. The Mid-Atlantic Region</h3>
-<ol type="1">
-<li>DC - District of Columbia</li>
-<li>DE - Delaware</li>
-<li>MD - Maryland</li>
-<li>NC - North Carolina</li>
-<li>NJ - New Jersey</li>
-<li>NY - New York</li>
-<li>PA - Pennsylvania</li>
-<li>VA - Virginia</li>
-</ol>
-</section>
-<section id="the-multilayers" class="level3">
-<h3 class="anchored" data-anchor-id="the-multilayers">3. The Multilayers</h3>
-<ol type="1">
-<li>Airline</li>
-<li>Marine</li>
-<li>Rail</li>
-<li>Road</li>
-</ol>
+<section id="project-scope" class="level2">
+<h2 class="anchored" data-anchor-id="project-scope">Project Scope</h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-striped table-hover table-sm small" data-quarto-postprocess="true">
+<caption>The Mid-Atlantic Region</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;" data-quarto-table-cell-role="th">No.</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Abbr.</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Full Name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center; width: 4em;">1</td>
+<td style="text-align: center; width: 4em;">DC</td>
+<td style="text-align: left; width: 12em;">District of Columbia</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; width: 4em;">2</td>
+<td style="text-align: center; width: 4em;">DE</td>
+<td style="text-align: left; width: 12em;">Delaware</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; width: 4em;">3</td>
+<td style="text-align: center; width: 4em;">MD</td>
+<td style="text-align: left; width: 12em;">Maryland</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; width: 4em;">4</td>
+<td style="text-align: center; width: 4em;">NC</td>
+<td style="text-align: left; width: 12em;">North Carolina</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; width: 4em;">5</td>
+<td style="text-align: center; width: 4em;">NJ</td>
+<td style="text-align: left; width: 12em;">New Jersey</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; width: 4em;">6</td>
+<td style="text-align: center; width: 4em;">NY</td>
+<td style="text-align: left; width: 12em;">New York</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; width: 4em;">7</td>
+<td style="text-align: center; width: 4em;">PA</td>
+<td style="text-align: left; width: 12em;">Pennsylvania</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; width: 4em;">8</td>
+<td style="text-align: center; width: 4em;">VA</td>
+<td style="text-align: left; width: 12em;">Virginia</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+</div><div class="column" style="width:30%;">
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-striped table-hover table-sm small" data-quarto-postprocess="true">
+<caption>The Multilayers</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;" data-quarto-table-cell-role="th">No.</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Layer</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center; width: 4em;">1</td>
+<td style="text-align: left; width: 8em;">Airline</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; width: 4em;">2</td>
+<td style="text-align: left; width: 8em;">Marine</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; width: 4em;">3</td>
+<td style="text-align: left; width: 8em;">Rail</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; width: 4em;">4</td>
+<td style="text-align: left; width: 8em;">Road</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+</div>
+</div>
 <p>The latter part of this project focuses on layers of rail and road.</p>
 <p>The codes can be modified so that you can expand to other selections of states, or to introduce other sources of <code>shp</code> files or <code>csv</code> files.</p>
 </section>
-</section>
-<section id="project-structures" class="level2">
-<h2 class="anchored" data-anchor-id="project-structures">Project Structures</h2>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
 <section id="spatial-analysis" class="level3">
 <h3 class="anchored" data-anchor-id="spatial-analysis">1. Spatial Analysis</h3>
 <p>This section is the starting part of this project. It takes in geographical files from trusted sources and generates the proper maps and csv files out of them.</p>

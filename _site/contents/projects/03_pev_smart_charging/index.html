@@ -4558,7 +4558,8 @@ color: #694696 !important;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-the-project" id="toc-about-the-project" class="nav-link active" data-scroll-target="#about-the-project">About the Project</a></li>
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
   </ul>
 </nav>
     </div>
@@ -4568,10 +4569,10 @@ color: #694696 !important;
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">PEV Smart Charging</h1>
-<p class="subtitle lead">Quantifying the benefits and constraints of PEV smart charging and V2G adoption.</p>
+<p class="subtitle lead">Quantifying the benefits and constraints of PEV Smart Charging adoption.</p>
   <div class="quarto-categories">
     <div class="quarto-category">Smart Charging</div>
-    <div class="quarto-category">Conjoint Survey</div>
+    <div class="quarto-category">Conjoint</div>
   </div>
   </div>
 
@@ -4593,22 +4594,25 @@ color: #694696 !important;
 
 </header>
 
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>This project builds a Conjoint Survey on PEV Smart Charging. It utilizes the <a href="https://jhelvy.github.io/cbcTools/"><code>cbctools</code></a> and <a href="https://jhelvy.github.io/logitr/"><code>logitr</code></a> packages developed by <a href="https://www.jhelvy.com">Prof John Helveston</a>.</p>
 <p><a href="https://pev.pingfanhu.com" class="btn btn-primary" role="button"> Access the Project </a> <a href="https://jhelvy.github.io/smartcharging/" class="btn btn-info" role="button"> Access the Showcase </a></p>
-<section id="about-the-project" class="level2">
-<h2 class="anchored" data-anchor-id="about-the-project">About the Project</h2>
-<p>This project aims to build and perform a <strong><em>Conjoint Survey</em></strong> about Smart Charging and V2G (Vehicle to Grid) Charging for <strong>PEVs</strong> (Plug-in Electric Vehicles). It utilizes the <a href="https://jhelvy.github.io/cbcTools/"><code>cbctools</code></a> and <a href="https://jhelvy.github.io/logitr/"><code>logitr</code></a> R package developed by <a href="https://www.jhelvy.com">Professor John Paul Helveston</a>. This project is a combination of Master and PhD levels.</p>
-<p>The Master-level project is performed as a team with these members: Pingfan Hu, Bharath Ravindra, Sampada Dhakal, and Vedanth Surendra Hegde.</p>
-<p><strong>Smart Charging</strong> means to take control of the charging process. To be more specific, the grid provider (aka the utility) controls the charging time and charging speed based on the grid usage and the time window that the users agree to. <strong>V2G Charging</strong> means to utilize the PEVs as electricity storage and charge back to the grid.</p>
-<p>A previous study of <span class="citation" data-cites="tarroja2021">Tarroja and Hittinger (<a href="#ref-tarroja2021" role="doc-biblioref">2021</a>)</span> has proved the economic feasibility of both Smart Charging and V2G Charging. This project is therefore a succeeding study of it.</p>
+</section>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This project is a combination of Master and PhD levels. The Master-level project is performed as a team with these members: Pingfan Hu, Bharath Ravindra, Sampada Dhakal, and Vedanth Surendra Hegde.</p>
+<p><strong>Smart Charging</strong> means to control and monitor the PEV charging process. In our project, it contains SMC and V2G. <strong>SMC</strong> is short for &quot;Supplier-Managed Charging&quot;. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. <strong>V2G</strong> is short for &quot;Vehicle-to-Grid&quot;. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.</p>
+<p>A previous study of <span class="citation" data-cites="tarroja2021">Tarroja and Hittinger (<a href="#ref-tarroja2021" role="doc-biblioref">2021</a>)</span> has proved the economic feasibility of both SMC and V2G. This project is therefore a succeeding study of it.</p>
 <p>The motivation of this study is described as below:</p>
 <ol type="1">
 <li>The adoption of plug-in electric vehicles (PEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if PEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.</li>
-<li>Smart charging is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.</li>
-<li>On the other hand, V2G charging is to charge the electricity from the PEVs back to the grid. It is a tougher objective compared with smart charging. This objective aims to decrease the amount of stationary power storage of the utility by better using the existing electricity in the PEVs.</li>
-<li>The challenge lies in convincing PEV owners to participate in smart charging and V2G programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.</li>
+<li>SMC is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.</li>
+<li>On the other hand, V2G is to charge the electricity from the PEVs back to the grid. It is a tougher objective compared with smart charging. This objective aims to decrease the amount of stationary power storage of the utility by better using the existing electricity in the PEVs.</li>
+<li>The challenge lies in convincing PEV owners to participate in the SMC and V2G programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.</li>
 <li>For our program to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing PEV owners’ willingness to participate. Different regions, based on their PEV adoption and renewable energy levels, will have varying requirements for such programs.</li>
 </ol>
-<p>In summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. Smart charging and V2G could solve this issue, yet its success hinges on understanding and addressing PEV owners’ concerns and varying regional needs.</p>
+<p>In summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. The Smart Charging programs could solve this issue, yet its success hinges on understanding and addressing PEV owners’ concerns and varying regional needs.</p>
 
 
 

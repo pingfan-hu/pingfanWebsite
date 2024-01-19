@@ -3,41 +3,65 @@ title: "Network Science of the Mid-Atlantic Region"
 subtitle: "Multilayer network science study of the Mid-Atlantic region logistics."
 date: "May 24, 2023"
 image: "banner.png"
-categories: [Network Science, Python]
+categories: [Network, Data Viz]
 bibliography: ../references.bib
 ---
 
+## About
+
+This project is a multi-layer network science study on the Mid-Atlantic region. It is a student research project for [the FEW's Lab](https://blogs.gwu.edu/caitlin-grady/) managed by Prof Caitlin Grady.
+
 <a href="https://pingfanhu.craft.me/few" class="btn btn-primary" role="button"> Access the Project </a>
 
-## Project Overview
+## Project Scope
 
-### 1. Summary
+::: columns
+::: {.column width="45%"}
+```{r}
+#| echo: false
+library(tidyverse)
+library(kableExtra)
+regions <- tibble(`No.` = seq(1,8),
+                 `Abbr.` = c('DC', 'DE', 'MD', 'NC', 'NJ', 'NY', 'PA', 'VA'),
+                 `Full Name` = c('District of Columbia', 'Delaware',
+                                 'Maryland', 'North Carolina', 'New Jersey',
+                                 'New York', 'Pennsylvania', 'Virginia'))
+regions_kable <- regions %>% 
+  kable(format = 'html', escape = FALSE,
+        align = c('c', 'c', 'l'),
+        caption = 'The Mid-Atlantic Region') %>% 
+  kable_styling(bootstrap_options = c('striped', 'hover')) %>% 
+  column_spec(column = 1, width = '4em') %>%
+  column_spec(column = 2, width = '4em') %>%
+  column_spec(column = 3, width = '12em')
 
-This project is a multi-layer network science study on the 8 states of the Mid-Atlantic region of the USA. This is a student research project for [the FEW's Lab](https://blogs.gwu.edu/caitlin-grady/) managed by Professor Caitlin Grady.
+regions_kable
+```
+:::
 
-### 2. The Mid-Atlantic Region
+::: {.column width="30%"}
+```{r}
+#| echo: false
+layers <- tibble(`No.` = seq(1,4),
+                 `Layer` = c('Airline', 'Marine', 'Rail', 'Road'))
+layers_kable <- layers %>% 
+  kable(format = 'html', escape = FALSE,
+        align = c('c', 'l'),
+        caption = 'The Multilayers') %>% 
+  kable_styling(bootstrap_options = c('striped', 'hover')) %>% 
+  column_spec(column = 1, width = '4em') %>%
+  column_spec(column = 2, width = '8em')
 
-1.  DC - District of Columbia
-2.  DE - Delaware
-3.  MD - Maryland
-4.  NC - North Carolina
-5.  NJ - New Jersey
-6.  NY - New York
-7.  PA - Pennsylvania
-8.  VA - Virginia
-
-### 3. The Multilayers
-
-1.  Airline
-2.  Marine
-3.  Rail
-4.  Road
+layers_kable
+```
+:::
+:::
 
 The latter part of this project focuses on layers of rail and road.
 
 The codes can be modified so that you can expand to other selections of states, or to introduce other sources of `shp` files or `csv` files.
 
-## Project Structures
+## Project Overview
 
 ### 1. Spatial Analysis
 

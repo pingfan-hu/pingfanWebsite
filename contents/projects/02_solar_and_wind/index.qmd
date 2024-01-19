@@ -7,11 +7,13 @@ categories: [Renewable, Data Viz]
 bibliography: ../references.bib
 ---
 
+## About
+
+This project studies the driving effects of ***solar*** and ***wind*** energy advancements. It is a Master-level project for [EMSE 6572](https://eda.seas.gwu.edu) instructed by [Prof John Helveston](https://www.jhelvy.com).
+
 <a href="https://rr.pingfanhu.com" class="btn btn-primary" role="button"> Access the Project </a>
 
-## About the Project
-
-This project aims to study for the driving effects of ***solar*** and ***wind*** energy advancements in the USA. This is a Master-level project for [EMSE 6572](https://eda.seas.gwu.edu) instructed by [Professor John Paul Helveston](https://www.jhelvy.com).
+## Project Overview
 
 This project is performed as a team consisting of Pingfan Hu and Abbey Kollar.
 
