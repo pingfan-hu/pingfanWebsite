@@ -69,9 +69,9 @@ This section is the starting part of this project. It takes in geographical file
 
 This section takes in `shp` files and `csv` files from these sources:
 
--   TIGER/Line: <https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2022.html#list-tab-790442341>
--   HIFLD: <https://hifld-geoplatform.opendata.arcgis.com>
--   OurAirports: <https://ourairports.com/data/>
+::: {style="text-align: center;"}
+<a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2022.html#list-tab-790442341" class="btn btn-primary" role="button"> TIGER/Line </a> <a href="https://hifld-geoplatform.opendata.arcgis.com" class="btn btn-info" role="button"> HIFLD </a> <a href="https://ourairports.com/data/" class="btn btn-success" role="button"> OurAirports </a>
+:::
 
 This section generates:
 
