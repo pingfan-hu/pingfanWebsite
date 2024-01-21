@@ -1,6 +1,6 @@
 ---
 title: "Pingfan Hu"
-image: profile.jpeg
+image: figs/profile.jpeg
 toc: false
 about:
   template: trestles
@@ -24,4 +24,4 @@ Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washingto
 
 I am experienced in [R](https://www.r-project.org) and [Python](https://www.python.org) coding, and mainly use [RStudio](https://posit.co/download/rstudio-desktop/) and [VS Code](https://code.visualstudio.com) as working IDE.
 
-My current project is a [conjoint survey program](https://pev.pingfanhu.com) for PEV smart charging adoption.
+My current project is a [conjoint survey](https://pev.pingfanhu.com) for PEV (Plug-in Electric Vehicle) Smart Charging adoption.

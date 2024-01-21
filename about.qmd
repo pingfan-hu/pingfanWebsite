@@ -3,15 +3,15 @@ title: "About Me"
 page-layout: article
 ---
 
-![](contents/figures/about.jpeg){fig-align="center"}
+![](/figs/about.jpeg){fig-align="center" width="800"}
 
 Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of [Engineering Management and Systems Engineering](https://www.emse.seas.gwu.edu) with expertise in systems engineering and data analysis.
 
 I have 4 years' engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia.
 
-My current project is a [conjoint survey program](https://pev.pingfanhu.com) for EVs (electric vehicles). It is a sub-project of a smart charging and V2G (vehicle to grid) program in California and New York State. The objective of this project is to study for EV owners' adoption to smart charging and V2G, and simulate and finally implement this new charging technique. The success of this project will contribute to carbon neutrality and help construct a clean world.
+My current project is a [conjoint survey](https://pev.pingfanhu.com) for PEV (Plug-in Electric Vehicle) Smart Charging adoption. This project aims to understand PEV owners' preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid.
 
-Access my Resume for more details: <a href="contents/resume.pdf" class="btn btn-primary btn-sm" role="button" target="_blank"> Pingfan's Resume </a>
+Access my Resume for more details: <a href="resume.pdf" class="btn btn-primary btn-sm" role="button" target="_blank"> Pingfan's Resume </a>
 
 ## Experiences
 
@@ -41,5 +41,5 @@ Throughout the past years, I have traveled and lived in different countries, inc
 I am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.
 
 ::: {style="text-align: center;"}
-![*Pinocchio*](contents/figures/pinocchio.jpeg){fig-alt="Pinocchio"}
+![*Pinocchio*](/figs/pinocchio.jpeg){fig-alt="Pinocchio" width="600"}
 :::

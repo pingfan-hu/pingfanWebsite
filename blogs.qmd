@@ -1,0 +1,13 @@
+---
+title: "Blogs"
+listing:
+  contents: blogs
+  sort:
+    - "date desc"
+    - "title desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+---

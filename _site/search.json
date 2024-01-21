@@ -4,19 +4,19 @@
     "href": "index.html",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey program for PEV smart charging adoption."
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey for PEV (Plug-in Electric Vehicle) Smart Charging adoption."
   },
   {
     "objectID": "index.html#welcome-to-my-website",
     "href": "index.html#welcome-to-my-website",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey program for PEV smart charging adoption."
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey for PEV (Plug-in Electric Vehicle) Smart Charging adoption."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Blogs",
     "section": "",
     "text": "formr Instance Deployment\n\n\n\n\n\n\n\nformr\n\n\nLinode\n\n\n\n\n\n\n\n\n\n\n\nDec 30, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHow to Make a Personal Website\n\n\n\n\n\n\n\nWebsite\n\n\nQuarto\n\n\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
@@ -28,179 +28,228 @@
     "text": "Network Science of the Mid-Atlantic Region\n\n\n\nNetwork\n\n\nData Viz\n\n\n\n\n\n\n\n\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSolar and Wind Energy Advancements\n\n\n\nRenewable\n\n\nData Viz\n\n\n\n\n\n\n\n\n\n\nAug 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPEV Smart Charging\n\n\n\nSmart Charging\n\n\nConjoint\n\n\n\n\n\n\n\n\n\n\nSep 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Smart Charging Simulation with the Grid\n\n\n\nSmart Charging\n\n\nSimulation\n\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Utilization of LLM on Surveys\n\n\n\nSmart Charging\n\n\nLLM\n\n\nConjoint\n\n\n\n\n\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Using AI to Detect Bots in Surveys\n\n\n\nLLM\n\n\nConjoint\n\n\n\n\n\n\n\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "contents/projects/02_solar_and_wind/index.html",
-    "href": "contents/projects/02_solar_and_wind/index.html",
+    "objectID": "projects/02_solar_and_wind/index.html",
+    "href": "projects/02_solar_and_wind/index.html",
     "title": "Solar and Wind Energy Advancements",
     "section": "",
     "text": "This project studies the driving effects of solar and wind energy advancements. It is a Master-level project for EMSE 6572 instructed by Prof John Helveston.\n Access the Project"
   },
   {
-    "objectID": "contents/projects/02_solar_and_wind/index.html#research-question",
-    "href": "contents/projects/02_solar_and_wind/index.html#research-question",
+    "objectID": "projects/02_solar_and_wind/index.html#about",
+    "href": "projects/02_solar_and_wind/index.html#about",
     "title": "Solar and Wind Energy Advancements",
     "section": "",
-    "text": "Key drivers of the growth of solar and wind electricity generation in the USA."
+    "text": "This project studies the driving effects of solar and wind energy advancements. It is a Master-level project for EMSE 6572 instructed by Prof John Helveston.\n Access the Project"
   },
   {
-    "objectID": "contents/projects/02_solar_and_wind/index.html#project-link",
-    "href": "contents/projects/02_solar_and_wind/index.html#project-link",
+    "objectID": "projects/02_solar_and_wind/index.html#project-overview",
+    "href": "projects/02_solar_and_wind/index.html#project-overview",
     "title": "Solar and Wind Energy Advancements",
-    "section": "Project Link",
-    "text": "Project Link\n Access the Project"
+    "section": "Project Overview",
+    "text": "Project Overview\nThis project is performed as a team consisting of Pingfan Hu and Abbey Kollar.\nRenewable energy in the USA has seen significant growth from 2000 to 2023. This research studies solar and wind energies and dives into three primary reasons behind this expansion:\n\nCost of Solar and Wind Energy\nPolicies and Incentives, and\nEnergy Research Budgets\n\nThis project contains the following:\n\nProject Proposal\nProgress Report\nFinal Report\nPresentation\n\nThe study aims to highlight which of these factors played the most crucial roles in this energy transformation. By understanding these relationships, we can better anticipate the future of renewable energy and make informed decisions.\nData wrangling and analysis are both performed using R coding language, presented with Quarto files."
   },
   {
-    "objectID": "contents/projects/02_solar_and_wind/index.html#about-the-project",
-    "href": "contents/projects/02_solar_and_wind/index.html#about-the-project",
-    "title": "Solar and Wind Energy Advancements",
-    "section": "About the Project",
-    "text": "About the Project\nThis project aims to study for the driving effects of solar and wind energy advancements in the USA. This is a Master-level project for EMSE 6572 instructed by Professor John Paul Helveston.\nThis project is performed as a team consisting of Pingfan Hu and Abbey Kollar.\nRenewable energy in the USA has seen significant growth from 2000 to 2023. This research studies solar and wind energies and dives into three primary reasons behind this expansion:\n\nCost of Solar and Wind Energy\nPolicies and Incentives, and\nEnergy Research Budgets\n\nThis project contains the following:\n\nProject Proposal\nProgress Report\nFinal Report\nPresentation\n\nThe study aims to highlight which of these factors played the most crucial roles in this energy transformation. By understanding these relationships, we can better anticipate the future of renewable energy and make informed decisions.\nData wrangling and analysis are both performed using R coding language, presented with Quarto files."
-  },
-  {
-    "objectID": "contents/projects/06_ai_for_bot_detection/index.html",
-    "href": "contents/projects/06_ai_for_bot_detection/index.html",
+    "objectID": "projects/06_ai_for_bot_detection/index.html",
+    "href": "projects/06_ai_for_bot_detection/index.html",
     "title": "(Expected) Using AI to Detect Bots in Surveys",
     "section": "",
     "text": "Attempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
   },
   {
-    "objectID": "contents/projects/06_ai_for_bot_detection/index.html#research-question",
-    "href": "contents/projects/06_ai_for_bot_detection/index.html#research-question",
-    "title": "(Expected) Using AI to Detect Bots in Surveys",
-    "section": "",
-    "text": "Can we use GPT to validate if the survey is done by human or AI?"
-  },
-  {
-    "objectID": "contents/projects/06_ai_for_bot_detection/index.html#initial-ideas",
-    "href": "contents/projects/06_ai_for_bot_detection/index.html#initial-ideas",
+    "objectID": "projects/06_ai_for_bot_detection/index.html#initial-ideas",
+    "href": "projects/06_ai_for_bot_detection/index.html#initial-ideas",
     "title": "(Expected) Using AI to Detect Bots in Surveys",
     "section": "",
     "text": "Attempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
   },
   {
-    "objectID": "contents/projects/01_network_science/index.html",
-    "href": "contents/projects/01_network_science/index.html",
+    "objectID": "projects/01_network_science/index.html",
+    "href": "projects/01_network_science/index.html",
     "title": "Network Science of the Mid-Atlantic Region",
     "section": "",
     "text": "This project is a multi-layer network science study on the Mid-Atlantic region. It is a student research project for the FEW’s Lab managed by Prof Caitlin Grady.\n Access the Project"
   },
   {
-    "objectID": "contents/projects/01_network_science/index.html#research-question",
-    "href": "contents/projects/01_network_science/index.html#research-question",
+    "objectID": "projects/01_network_science/index.html#about",
+    "href": "projects/01_network_science/index.html#about",
     "title": "Network Science of the Mid-Atlantic Region",
     "section": "",
-    "text": "Multilayer network science study of the Mid-Atlantic region logistics."
+    "text": "This project is a multi-layer network science study on the Mid-Atlantic region. It is a student research project for the FEW’s Lab managed by Prof Caitlin Grady.\n Access the Project"
   },
   {
-    "objectID": "contents/projects/01_network_science/index.html#project-link",
-    "href": "contents/projects/01_network_science/index.html#project-link",
+    "objectID": "projects/01_network_science/index.html#project-scope",
+    "href": "projects/01_network_science/index.html#project-scope",
     "title": "Network Science of the Mid-Atlantic Region",
-    "section": "",
-    "text": "Access the Project"
+    "section": "Project Scope",
+    "text": "Project Scope\n\n\n\n\n\nThe Mid-Atlantic Region\n\n\nNo.\nAbbr.\nFull Name\n\n\n\n\n1\nDC\nDistrict of Columbia\n\n\n2\nDE\nDelaware\n\n\n3\nMD\nMaryland\n\n\n4\nNC\nNorth Carolina\n\n\n5\nNJ\nNew Jersey\n\n\n6\nNY\nNew York\n\n\n7\nPA\nPennsylvania\n\n\n8\nVA\nVirginia\n\n\n\n\n\n\n\n\n\n\n\nThe Multilayers\n\n\nNo.\nLayer\n\n\n\n\n1\nAirline\n\n\n2\nMarine\n\n\n3\nRail\n\n\n4\nRoad\n\n\n\n\n\n\n\n\n\nThe latter part of this project focuses on layers of rail and road.\nThe codes can be modified so that you can expand to other selections of states, or to introduce other sources of shp files or csv files."
   },
   {
-    "objectID": "contents/projects/01_network_science/index.html#project-overview",
-    "href": "contents/projects/01_network_science/index.html#project-overview",
+    "objectID": "projects/01_network_science/index.html#project-overview",
+    "href": "projects/01_network_science/index.html#project-overview",
     "title": "Network Science of the Mid-Atlantic Region",
     "section": "Project Overview",
     "text": "Project Overview\n\n1. Spatial Analysis\nThis section is the starting part of this project. It takes in geographical files from trusted sources and generates the proper maps and csv files out of them.\nThis section takes in shp files and csv files from these sources:\n\n TIGER/Line   HIFLD   OurAirports \n\nThis section generates:\n\n9 csv files:\n\nFAF zone correspondence\nedges of airlines, marine, rails, and roads\nnodes of airports, marine, rails and roads\n\n2 maps - the spatial map and the topography map\n\nThe Spatial Map:\n\n\n\n\n\nThe Topography Map:\n\n\n\n\n\n\n\n2. Centrality Analysis\nThis section takes in the 4 edge files and the 4 node files, and generates the 3 types of centralities of each.\nThe 3 types of centralities are: betweenness centrality, closeness centrality, and degree centrality.\nNote that the centralities are all in relative values, which means their values are based on the size of the system network.\nThe centrality values are all listed in a descending order.\nHint: any centrality csv file can also be used as a collection of nodes in its corresponding layer.\n\n\n3. Path Calculation\nStarting from this section, we only focus on the rail and road layers.\nThis section takes in edge and node files of rail and roads, and generates path counts.\nThe path counts are based on FAF zones of all 8 states, so that each OD pair is inter-FAF-zone.\nThere are 40 rail OD pairs, and 186 road OD pairs.\nThe csv headers are:\n\nNo. - counting number starting from 1\nSource - the source node\nSource State\nSource FAF Zone\nSource FAF Zone Description\nTarget - the target node\nTarget State\nTarget FAF Zone\nTarget FAF Zone Description\nPath Count - the count of shortest paths\n\n\n\n4. Degree Centrality Dist\nThis section takes in the degree centralities of rails and roads, and generates the degree centrality distribution plots of them.\nThe Rail Degree Centrality Distribution plot:\n\n\n\n\n\nThe Road Degree Centrality Distribution plot:\n\n\n\n\n\n\n\n5. Network Attacks\nThis section generates the deterministic and stochastic attacks on rails and roads.\nIt takes in these files:\n\nedge and node csv files\npath count files\n3 ranked centrality files (betweenness centrality also used as node collections)\n\nThe plots contain:\n\nDeterministic removal plots of the 3 centralities\nStochastic removal with random node selections (surrounded by 95% CI)\n\nThe Rail Centrality Attack plot:\n\n\n\n\n\nThe Road Centrality Attack plot:"
   },
   {
-    "objectID": "contents/projects/01_network_science/index.html#project-structures",
-    "href": "contents/projects/01_network_science/index.html#project-structures",
-    "title": "Network Science of the Mid-Atlantic Region",
-    "section": "Project Structures",
-    "text": "Project Structures\n\n1. Spatial Analysis\nThis section is the starting part of this project. It takes in geographical files from trusted sources and generates the proper maps and csv files out of them.\nThis section takes in shp files and csv files from these sources:\n\nTIGER/Line: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2022.html#list-tab-790442341\nHIFLD: https://hifld-geoplatform.opendata.arcgis.com\nOurAirports: https://ourairports.com/data/\n\nThis section generates:\n\n9 csv files:\n\nFAF zone correspondence\nedges of airlines, marine, rails, and roads\nnodes of airports, marine, rails and roads\n\n2 maps - the spatial map and the topography map\n\nThe Spatial Map:\n\n\n\n\n\nThe Topography Map:\n\n\n\n\n\n\n\n2. Centrality Analysis\nThis section takes in the 4 edge files and the 4 node files, and generates the 3 types of centralities of each.\nThe 3 types of centralities are: betweenness centrality, closeness centrality, and degree centrality.\nNote that the centralities are all in relative values, which means their values are based on the size of the system network.\nThe centrality values are all listed in a descending order.\nHint: any centrality csv file can also be used as a collection of nodes in its corresponding layer.\n\n\n3. Path Calculation\nStarting from this section, we only focus on the rail and road layers.\nThis section takes in edge and node files of rail and roads, and generates path counts.\nThe path counts are based on FAF zones of all 8 states, so that each OD pair is inter-FAF-zone.\nThere are 40 rail OD pairs, and 186 road OD pairs.\nThe csv headers are:\n\nNo. - counting number starting from 1\nSource - the source node\nSource State\nSource FAF Zone\nSource FAF Zone Description\nTarget - the target node\nTarget State\nTarget FAF Zone\nTarget FAF Zone Description\nPath Count - the count of shortest paths\n\n\n\n4. Degree Centrality Dist\nThis section takes in the degree centralities of rails and roads, and generates the degree centrality distribution plots of them.\nThe Rail Degree Centrality Distribution plot:\n\n\n\n\n\nThe Road Degree Centrality Distribution plot:\n\n\n\n\n\n\n\n5. Network Attacks\nThis section generates the deterministic and stochastic attacks on rails and roads.\nIt takes in these files:\n\nedge and node csv files\npath count files\n3 ranked centrality files (betweenness centrality also used as node collections)\n\nThe plots contain:\n\nDeterministic removal plots of the 3 centralities\nStochastic removal with random node selections (surrounded by 95% CI)\n\nThe Rail Centrality Attack plot:\n\n\n\n\n\nThe Road Centrality Attack plot:"
-  },
-  {
-    "objectID": "contents/blogs/02_coding_languages/index.html",
-    "href": "contents/blogs/02_coding_languages/index.html",
-    "title": "Coding Languages",
+    "objectID": "blogs/02_formr_instance_deployment/index.html",
+    "href": "blogs/02_formr_instance_deployment/index.html",
+    "title": "formr Instance Deployment",
     "section": "",
-    "text": "Blah…"
+    "text": "Showcase\nMy formr Instance Official formr\n\n\nPreparation\n Initial Setup with Ubuntu   Install Docker on Ubuntu \n\n\nDeployment\n Deploy formr (Docker Version)"
   },
   {
-    "objectID": "contents/blogs/02_coding_languages/index.html#abstract",
-    "href": "contents/blogs/02_coding_languages/index.html#abstract",
-    "title": "Coding Languages",
+    "objectID": "blogs/02_formr_instance_deployment/index.html#useful-links",
+    "href": "blogs/02_formr_instance_deployment/index.html#useful-links",
+    "title": "formr Instance Deployment",
     "section": "",
-    "text": "Blah…"
+    "text": "Showcase\nMy formr Instance Official formr\n\n\nPreparation\n Initial Setup with Ubuntu   Install Docker on Ubuntu \n\n\nDeployment\n Deploy formr (Docker Version)"
   },
   {
-    "objectID": "contents/blogs/01_data_analysis/index.html",
-    "href": "contents/blogs/01_data_analysis/index.html",
-    "title": "Data Visualization",
+    "objectID": "blogs/02_formr_instance_deployment/index.html#abstract",
+    "href": "blogs/02_formr_instance_deployment/index.html#abstract",
+    "title": "formr Instance Deployment",
+    "section": "Abstract",
+    "text": "Abstract\nThis is a tutorial of deploying the formr instance using Ubuntu 22.04 on Akamai (prior name Linode).\nThis tutorial contains my personal settings. If you are following this tutorial to make your own deployment, make sure to modify based on your preference.\nThis tutorial consists of the following:\n\nCreate an Ubuntu 22.04 server using Akamai’s Linode.\nCreate user and assign sudo privilege.\nInstall Docker.\nClone and configure the formr repo.\nTrouble-shooting."
+  },
+  {
+    "objectID": "blogs/02_formr_instance_deployment/index.html#my-customization",
+    "href": "blogs/02_formr_instance_deployment/index.html#my-customization",
+    "title": "formr Instance Deployment",
+    "section": "My Customization",
+    "text": "My Customization\n\n\n\nServer IP\n172.233.238.100\n\n\nUser Name\npingfan\n\n\nSQL Database Password\n0727\n\n\nHost Email\nformrcloudgwu@gmail.com"
+  },
+  {
+    "objectID": "blogs/02_formr_instance_deployment/index.html#step-1---create-the-server",
+    "href": "blogs/02_formr_instance_deployment/index.html#step-1---create-the-server",
+    "title": "formr Instance Deployment",
+    "section": "Step 1 - Create the Server",
+    "text": "Step 1 - Create the Server\n\n1.1 Create the server\nProceed to Akamai and create a Linode server following these configurations:\n\nImages - Choose Ubuntu 22.04 LTS. This is the desired version for formr instance.\nRegion - Choose your desired region.\nLinode Plan - Choose “Dedicated CPU” and pick a plan. The formr team recommends 8 CPUs, but I only picked the basic plan.\nLinode Label - Name your server as you wish. I named it as ubuntu-formr.\nAdd Tags - You may add a tag to indicate what this Linode server is for. I created a tag called formr.\nRoot Password - A root user will be generated for you upon server creation. This password is for accessing this root server. However, better create a real user and avoid using root. I’ll cover this later.\nSSH Keys - If you haven’t done so, create an SSH key using your Terminal. Save the key pairs to a safe place. On this page, click on Add An SSH Key and paste the public key here.\nLeave the rest settings as they are.\n\n\n\n1.2 Access online using LISH\nOnce you have created your Linode server, you’ll see it in the “Linodes” section. Click on it to make sure it’s properly running. On top right corner, you’ll see a “Launch LISH Console” button, where LISH is short for Linode Shell. By clicking on it, you’ll open the online shell command terminal.\n\n\n\n\nFigure 1: Click on this button to launch the online shell terminal\n\n\n\n\n\n1.3 Access locally using Terminal\nHowever, I prefer to use my local Terminal. Follow these steps to access this Linode using your local Terminal:\n\nLaunch your Terminal.\nType in ssh root@your_ip_address, and then input the root password that you created.\nYou’ll see a welcoming message if everything goes properly.\n\nIn fact, you can easily copy the SSH Access command from your Linode dashboard:\n\n\n\n\nFigure 2: Click on the SSH Access contents to directly copy the command\n\n\n\nNow you have created your Linode server for Ubuntu 22.04 and accessed it with your Terminal!"
+  },
+  {
+    "objectID": "blogs/02_formr_instance_deployment/index.html#step-2---create-the-user",
+    "href": "blogs/02_formr_instance_deployment/index.html#step-2---create-the-user",
+    "title": "formr Instance Deployment",
+    "section": "Step 2 - Create the User",
+    "text": "Step 2 - Create the User\nSee the full instruction of Digital Ocean here, or you can follow my guides. Keep in mind that both Digital Ocean’s guides and my instructions contain personalizations. You need to modify to your own case.\nRun the commands below line by line and follow the instructions when necessary. You’ll need to create the password and personal information for the new user.\n# Log in as root\nssh root@your_ip_address\n\n# Add a user called \"pingfan\"\nadduser pingfan\n\n# Assign sudo privilege \nusermod -aG sudo pingfan\n\n# Open a new Terminal window to login as pingfan\nssh pingfan@your_ip_address\nOnce your new user is ready, you’ll need to use it for the following steps.\n\nHint: There is always a root user by default, but you need to avoid using it for daily purposes. This makes user creation always being our first step."
+  },
+  {
+    "objectID": "blogs/02_formr_instance_deployment/index.html#step-3---install-docker",
+    "href": "blogs/02_formr_instance_deployment/index.html#step-3---install-docker",
+    "title": "formr Instance Deployment",
+    "section": "Step 3 - Install Docker",
+    "text": "Step 3 - Install Docker\nThe formr instance requires Docker. It is a virtual container for securely running your software. See the Docker official instructions here, or follow my steps below.\n\nHint: The official instructions assume you are using a local machine with GUI, but since we are accessing a remote machine using Terminal, I slightly modified the shell commands.\n\n3.1 Install gnome-terminal\nsudo apt install gnome-terminal\n3.2 Set up Docker’s apt repository\n# Add Docker's official GPG key:\nsudo apt-get update\nsudo apt-get install ca-certificates curl gnupg\nsudo install -m 0755 -d /etc/apt/keyrings\ncurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg\nsudo chmod a+r /etc/apt/keyrings/docker.gpg\n\n# Add the repository to Apt sources:\necho \\\n  \"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \\\n  $(. /etc/os-release && echo \"$VERSION_CODENAME\") stable\" | \\\n  sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null\nsudo apt-get update\n3.3 Install the latest Docker packages\nsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin\n3.4 Verify that the Docker Engine installation is successful by running the hello-world image\nsudo docker run hello-world\n3.5 Download latest DEB package\nwget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.26.1-amd64.deb\n\nHint: Until the composition of this blog, the latest version is docker-desktop-4.26.1-amd64.deb.\n\n3.6 Install the package with apt\nsudo apt-get update\nsudo apt-get install ./docker-desktop-4.26.1-amd64.deb\n3.7 Launch Docker Desktop\nsystemctl --user start docker-desktop\n3.8 Check the versions\ndocker compose version\ndocker --version\ndocker version\n3.9 Enable Docker Desktop to start on login\nsystemctl --user enable docker-desktop\nNow the Dock Desktop should be installed and set as auto-launch upon system start."
+  },
+  {
+    "objectID": "blogs/02_formr_instance_deployment/index.html#step-4---clone-and-configure-the-formr-repo",
+    "href": "blogs/02_formr_instance_deployment/index.html#step-4---clone-and-configure-the-formr-repo",
+    "title": "formr Instance Deployment",
+    "section": "Step 4 - Clone and Configure the formr Repo",
+    "text": "Step 4 - Clone and Configure the formr Repo\nSee the formr official instructions here, or you can follow my steps below.\n4.1 Clone the formr repo\ngit clone https://github.com/rubenarslan/formr_dev_docker.git\n4.2 Change dir and run ./setup.sh\ncd formr_dev_docker\nsudo ./setup.sh\n4.3 Configure database and domain names\nsudo nano .env\n\nHint: nano is the default editor of files in Terminal. After you are satisfied with your editing, you can use Ctrl + O to write out, and then Ctrl + X to exit.\n\nYou’ll need to modify the contents to meet your own personalization. Below is the official hint:\n# Mysql password of root, by default a random password will be generated\nMARIADB_ROOT_PASSWORD\n\n# Mysql database name, default = formr_db\nMARIADB_DATABASE\n\n# Mysql database user, default = formr_user\nMARIADB_USER\n\n# Mysql database password of user MARIADB_USER\n# By default a random password will be generated\nMARIADB_PASSWORD\n\n# The main domain of your formr instance\nMAIN_DOMAIN\n\n# Domain of formr_app. Can fill with multiple domain with separated by comma (,)\n# Default value = formr.org,www.formr.org\nFORMR_DOMAIN\n\n# (Sub)domain for opencpu. Access to this domain needs basic-auth\n# Default value = ocpu.formr.org\nOPENCPU_DOMAIN\n\n# Email for the ACME Let's Encrypt configuration and for the first superadmin\nFORMR_EMAIL\n\n# Default superadmin password\nFORMR_PASSWORD\n\n# formr version or branch. Default value = v0.20.6\n# Please check on this link https://github.com/rubenarslan/formr.org/tags\nFORMR_TAG\n\n# defaults to Europe/Berlin\nTIMEZONE\n4.4 Build containers and install initial schema\nsudo ./build.sh\ncd formr_app/formr/config\nsudo nano settings.php\ncd ~/formr_dev_docker\nsudo docker compose restart\nThe formr instance should be installed now. You may access your formr instance by pasting your IP address to your browser.\nYou can access mine using this link. It looks the same as the official version.\n\nHint: If you want to access your formr instance via a personalized domain, you’ll need to go back to 4.3 and set the main domain, and also modify your domain by adding a new A Record and assign the value as your IP address."
+  },
+  {
+    "objectID": "blogs/02_formr_instance_deployment/index.html#step-5---trouble-shooting",
+    "href": "blogs/02_formr_instance_deployment/index.html#step-5---trouble-shooting",
+    "title": "formr Instance Deployment",
+    "section": "Step 5 - Trouble-shooting",
+    "text": "Step 5 - Trouble-shooting\n5.1 Hints for the cd command\n# To change to root dir\ncd\n\n# To change to a dir by inputting relative path\n# A relative path is where you start from your current dir\ncd dir_name\n\n# To change to a dir by inputting absolute path\n# An absolute path disregards your current path\ncd ~/dir_name\n5.2 Configurational files\nThere are 3 configurational files in formr. They can be accessed using the following commands:\n# .env\ncd ~/formr_dev_docker\nsudo nano .env\n\n# settings.php\ncd ~/formr_dev_docker/formr_app/formr/config\nsudo nano settings.php\n\n# Session.php\ncd ~/formr_dev_docker/formr_app/formr/application\nsudo nano Session.php\n5.3 Restart Docker\nAfter each configuration, you’ll need to restart Docker by using the following commands:\ncd ~/formr_dev_docker\nsudo docker compose restart"
+  },
+  {
+    "objectID": "blogs/01_how_to_make_a_personal_website/index.html",
+    "href": "blogs/01_how_to_make_a_personal_website/index.html",
+    "title": "How to Make a Personal Website",
     "section": "",
-    "text": "Blah…"
+    "text": "My Repo\n GitHub Repo of My Website \n\n\nSoftware\n GitHub Desktop   R   RStudio   Quarto \n\n\nPlatforms\n GitHub (Repo)   Namecheap (Domain)   Netlify (Server)"
   },
   {
-    "objectID": "contents/blogs/01_data_analysis/index.html#abstract",
-    "href": "contents/blogs/01_data_analysis/index.html#abstract",
-    "title": "Data Visualization",
+    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#useful-links",
+    "href": "blogs/01_how_to_make_a_personal_website/index.html#useful-links",
+    "title": "How to Make a Personal Website",
     "section": "",
-    "text": "Blah…"
+    "text": "My Repo\n GitHub Repo of My Website \n\n\nSoftware\n GitHub Desktop   R   RStudio   Quarto \n\n\nPlatforms\n GitHub (Repo)   Namecheap (Domain)   Netlify (Server)"
   },
   {
-    "objectID": "contents/projects/04_sim_with_grid/index.html",
-    "href": "contents/projects/04_sim_with_grid/index.html",
+    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#abstract",
+    "href": "blogs/01_how_to_make_a_personal_website/index.html#abstract",
+    "title": "How to Make a Personal Website",
+    "section": "Abstract",
+    "text": "Abstract\nThis is a tutorial of making a personal website using Quarto on RStudio.\nThis tutorial contains the following:\n\nConstructing the personal blog R project using Quarto\nPushing the project as a GitHub repo\nPurchasing your domain on Namecheap or Netlify\nDeploying the repo on Netlify\n\nIn summary, this website is made using Quarto on RStudio, and is deployed by accessing the GitHub repo on Netlify. I bought my domain on Namecheap, but Netlify sells domain as well."
+  },
+  {
+    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#introduction",
+    "href": "blogs/01_how_to_make_a_personal_website/index.html#introduction",
+    "title": "How to Make a Personal Website",
+    "section": "Introduction",
+    "text": "Introduction\nBuilding a personal website is a very good attempt of showcasing your own abilities and your projects, either for academic reasons or job-seeking purposes. There are a lot of ways to construct your personal website, including some low code or even no code options. As an R programmer, I prefer to make one using the R coding environment. Quarto is an open-source publishing system compatible with Python, R and Julia. It is the next generation of R Markdown, and is a good option for personal website construction as well."
+  },
+  {
+    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#step-1---preparation",
+    "href": "blogs/01_how_to_make_a_personal_website/index.html#step-1---preparation",
+    "title": "How to Make a Personal Website",
+    "section": "Step 1 - Preparation",
+    "text": "Step 1 - Preparation\nThe first step is to install the environment. If you haven’t done already, please download and install R language, RStudio, and Quarto.\nYou’ll also need to have your GitHub account ready. It’s also a good idea to install GitHub Desktop to manage your local GitHub repos.\nYou’ll use Netlify to deploy your GitHub repo as a website, which by default allows you to generate your customized third-level domain name, with a fixed second and top domain being netlify.app. For example, you can name your domain as: myfancywebsite.netlify.app.\n\nHint: Domain names are usually in the format of third.second.top. For example, in Google’s homepage www.google.com, com is the top-level domain; google is second; and www is third.\n\nYou can use Netlify or Namecheap to buy your personalized domain. For example, my domain is pingfanhu.com. It is bought from Namecheap and deployed on Netlify. If you do this, both the default Netlify domain and your customized domain will work. They are not replacing each other. Below is the example of my case:\n\n\n\n\nFigure 1: Both my personal domain and netlify-assigned domain are functioning. Plus, there is a re-direction from www by default.\n\n\n\n\nHint: If you want to save time, I recommend that you buy domain on Netlify so that you won’t need to bother dealing with DNS assignment. However, Namecheap gives you full service of domain management and DNS customization, and, as its name indicates, it sells domains a little cheaper."
+  },
+  {
+    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#step-2---website-project",
+    "href": "blogs/01_how_to_make_a_personal_website/index.html#step-2---website-project",
+    "title": "How to Make a Personal Website",
+    "section": "Step 2 - Website Project",
+    "text": "Step 2 - Website Project\nThe next step is to create the R project of your website. You can either clone my website repo or make from scratch.\n\n2.1 Clone my repo\nIf you want to clone my repo, proceed to the site, and click on the Code button or Use this template button. Both buttons are in green.\n\n\n\n\nFigure 2: On the top right of the page, either click on the “Code” or the “Use this template” button to clone my repo as your own.\n\n\n\nIf you are using my template, there are several things I want to explain to ease your understanding:\n\nMy repo is slightly different from the Quarto official blog tutorial, since I prefer to show my personal page as default, and make the other pages, including “About”, “Blogs”, “Projects”, etc. as tabs on the nav bar.\nI used the United theme. This is a free theme made by Bootswatch. There are 25 Bootswatch themes in total, all compatible with Quarto doc. You can access them in the Themes drop-down menu.\nI also used a customized scss file called theme.scss and another css file called styles.css. Both scss and css files are used to define personal page layout settings. The YAML grammar looks like this (You can see the full YAML codes in the _quarto.yml file):\nformat:\n  html:\n    theme: [united, theme.scss]\n    css: styles.css\n    backgroundcolor: \"#F8F7F0\"\nNote that there is a backgroundcolor: \"#F8F7F0\" used to set the page background color. The short reason for it being here and not in .scss or .css is that, it gives the best compatibility.\nThe original United theme primary color is orange, but I changed that in my theme.scss file.\nI manually pasted my resume.pdf file to the _site -&gt; contents directory, since I failed to find an automatic solution of creating this file upon knitting.\n\n\n\n2.2 Make from scratch\nIf you want to make one from scratch, please proceed to the official Quarto blog tutorial. For the project set-up, you can follow these steps:\n\n\n\n\nFigure 3: Launch RStudio and click on “New Project…” from the “File” drop-down menu\n\n\n\n\n\n\n\nFigure 4: Select “New Directory”\n\n\n\n\n\n\n\nFigure 5: Click on “Quarto Blog”\n\n\n\n\n\n\n\nFigure 6: Define the directory name and path, and finally click on “Create Project”\n\n\n\nThe creation of the Quarto Blog R project constructs the skeleton of your personal website. You can now add the contents on to it and make it your own.\n\n\n2.3 Project file structure\nI’ll use my project as an example. If you decided to construct on your own, make sure to have your files and folders sorted in a way that is easy to understand and to reproduce.\nIn my project:\n\nThe _site folder is auto-generated during the knitting process. It stores the HTML pages as well as the PDF files that I want my website to access. Note that the knitting process does not create the PDF files even if they are placed in my project folder. My solution is to manually paste them to the desired locations.\nThe contents folder contains my code, figure, and pdf resources. The folders of blogs and projects are kind of special. They are where the blog and project qmd files are stored, including this one.\nIn the root folder, there are theme files, main tab qmd files, the favicon file, and the _quarto.yml file.\n\n\nHint: You may have noticed that there are several index.qmd files in the project. Index is an important file name. The file with this name will be opened by default. For example, in the root folder, there are several qmd files, but if you open my website homepage, the page you see by default is the one in the index.qmd file.\n\nI recommend you use similar file structure as mine, but if you have a personal preference, feel free to play around and figure out your own style.\n\n\n2.4 Push to GitHub repo\nRemember to push your project to your GitHub repo so that it can be managed and updated in the future. I recommend you using GitHub Desktop. This GitHub repo will also be used in Netlify to deploy your website."
+  },
+  {
+    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#step-3---buy-your-personal-domain",
+    "href": "blogs/01_how_to_make_a_personal_website/index.html#step-3---buy-your-personal-domain",
+    "title": "How to Make a Personal Website",
+    "section": "Step 3 - Buy your personal domain",
+    "text": "Step 3 - Buy your personal domain\nThis step can be skipped if you don’t want to have your own domain. Like I explained, Netlify will assign you with your preferred third-level domain.\n\n3.1 Buy from Namecheap\nIf you decided to buy from Namecheap, you need to create your account and pick your preferred domain name. My domain name costs me about $10 per year, which can be referred as your anchor.\nRemember, although you have full control with your domain on Namecheap, you’ll need to manually set your DNS to link it with your Netlify server, which we’ll cover in Step 4.\n\n\n3.2 Buy from Netlify\nBuying from Netlify is also an option, so that you won’t need to deal with the DNS thing. However, Netlify does not provide a direct page of buying it. As you go through your site creation process, you will have the option to buy your domain."
+  },
+  {
+    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#step-4---deploy-your-website",
+    "href": "blogs/01_how_to_make_a_personal_website/index.html#step-4---deploy-your-website",
+    "title": "How to Make a Personal Website",
+    "section": "Step 4 - Deploy your website",
+    "text": "Step 4 - Deploy your website\nCreate your Netlify account using GitHub, and choose to deploy your website from GitHub. Select on your repo and follow the instructions.\nYou can access the Quarto official tutorial on Netlify deployment. Below are several hints from me:\n\nWhen setting your publishing directory, you need to input _site. As I explained in 2.3 Project file structure, this is the default directory for your HTML files. If you defined your own directory, make sure to input the directory name here. The other build settings can be left as they are.\n\n\n\n\n\nFigure 7: In “Publish Directory”, you’ll need to fill in _site or your own defined directory name\n\n\n\n\nIf you bought your domain from Namecheap, you’ll need to manually fill in the DNS hostnames. You can access them in Dashboard -&gt; Domains -&gt; Name servers of your Netlify page.\n\n\n\n\n\nFigure 8: This is where you can find the DNS hostnames in Netlify\n\n\n\n\n\n\n\nFigure 9: This is where you can paste the DNS hostnames in Namecheap\n\n\n\n\nNetlify takes care of SSL/TLS certificate, (aka the HTTPS protocol you can see in the site URLs). It’s a free service by Let’s Encrypt, which is enough for personal use. You can access it in Sites -&gt; Domain management -&gt; SSL/TLS certificate. It’s usually automatically enabled, but it can be manually renewed by clicking on the button on this page.\n\n\n\n\n\nFigure 10: HTTPS is taken good care of by Netlify\n\n\n\n\nSince Netlify has direct access to your GitHub repo, each time you push new version to GitHub, your website will be updated automatically. You can also trace the process on your Netlify dashboard. There is no need to type the command of quarto publish netlify in RStudio."
+  },
+  {
+    "objectID": "projects/04_sim_with_grid/index.html",
+    "href": "projects/04_sim_with_grid/index.html",
     "title": "(Expected) Smart Charging Simulation with the Grid",
     "section": "",
     "text": "Back to top"
   },
   {
-    "objectID": "contents/projects/04_sim_with_grid/index.html#research-question",
-    "href": "contents/projects/04_sim_with_grid/index.html#research-question",
-    "title": "(Expected) Smart Charging Simulation with the Grid",
-    "section": "",
-    "text": "Simulate the PEV smart charging adoption with the grid to reveal the theoretical results."
-  },
-  {
-    "objectID": "contents/projects/05_survey_in_llm/index.html",
-    "href": "contents/projects/05_survey_in_llm/index.html",
+    "objectID": "projects/05_survey_in_llm/index.html",
+    "href": "projects/05_survey_in_llm/index.html",
     "title": "(Expected) Utilization of LLM on Surveys",
     "section": "",
     "text": "Back to top"
   },
   {
-    "objectID": "contents/projects/05_survey_in_llm/index.html#research-question",
-    "href": "contents/projects/05_survey_in_llm/index.html#research-question",
-    "title": "(Expected) Utilization of LLM on Surveys",
-    "section": "",
-    "text": "Attempt to utilize LLM on the Smart Charging willingness survey and compare with human results."
-  },
-  {
-    "objectID": "contents/projects/03_pev_smart_charging/index.html",
-    "href": "contents/projects/03_pev_smart_charging/index.html",
+    "objectID": "projects/03_pev_smart_charging/index.html",
+    "href": "projects/03_pev_smart_charging/index.html",
     "title": "PEV Smart Charging",
     "section": "",
     "text": "This project builds a Conjoint Survey on PEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Access the Project   Access the Showcase"
   },
   {
-    "objectID": "contents/projects/03_pev_smart_charging/index.html#research-question",
-    "href": "contents/projects/03_pev_smart_charging/index.html#research-question",
+    "objectID": "projects/03_pev_smart_charging/index.html#about",
+    "href": "projects/03_pev_smart_charging/index.html#about",
     "title": "PEV Smart Charging",
     "section": "",
-    "text": "Quantifying the benefits and constraints of PEV smart charging and V2G adoption."
+    "text": "This project builds a Conjoint Survey on PEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Access the Project   Access the Showcase"
   },
   {
-    "objectID": "contents/projects/03_pev_smart_charging/index.html#project-link",
-    "href": "contents/projects/03_pev_smart_charging/index.html#project-link",
+    "objectID": "projects/03_pev_smart_charging/index.html#project-overview",
+    "href": "projects/03_pev_smart_charging/index.html#project-overview",
     "title": "PEV Smart Charging",
-    "section": "Project Link",
-    "text": "Project Link\n Access the Project   Access the Showcase"
+    "section": "Project Overview",
+    "text": "Project Overview\nThis project is a combination of Master and PhD levels. The Master-level project is performed as a team with these members: Pingfan Hu, Bharath Ravindra, Sampada Dhakal, and Vedanth Surendra Hegde.\nSmart Charging means to control and monitor the PEV charging process. In our project, it contains SMC and V2G. SMC is short for \"Supplier-Managed Charging\". It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. V2G is short for \"Vehicle-to-Grid\". It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both SMC and V2G. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (PEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if PEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSMC is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nOn the other hand, V2G is to charge the electricity from the PEVs back to the grid. It is a tougher objective compared with smart charging. This objective aims to decrease the amount of stationary power storage of the utility by better using the existing electricity in the PEVs.\nThe challenge lies in convincing PEV owners to participate in the SMC and V2G programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor our program to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing PEV owners’ willingness to participate. Different regions, based on their PEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. The Smart Charging programs could solve this issue, yet its success hinges on understanding and addressing PEV owners’ concerns and varying regional needs."
   },
   {
-    "objectID": "contents/projects/03_pev_smart_charging/index.html#about-the-project",
-    "href": "contents/projects/03_pev_smart_charging/index.html#about-the-project",
-    "title": "PEV Smart Charging",
-    "section": "About the Project",
-    "text": "About the Project\nThis project aims to build and perform a Conjoint Survey about Smart Charging and V2G (Vehicle to Grid) Charging for PEVs (Plug-in Electric Vehicles). It utilizes the cbctools and logitr R package developed by Professor John Paul Helveston. This project is a combination of Master and PhD levels.\nThe Master-level project is performed as a team with these members: Pingfan Hu, Bharath Ravindra, Sampada Dhakal, and Vedanth Surendra Hegde.\nSmart Charging means to take control of the charging process. To be more specific, the grid provider (aka the utility) controls the charging time and charging speed based on the grid usage and the time window that the users agree to. V2G Charging means to utilize the PEVs as electricity storage and charge back to the grid.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both Smart Charging and V2G Charging. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (PEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if PEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSmart charging is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nOn the other hand, V2G charging is to charge the electricity from the PEVs back to the grid. It is a tougher objective compared with smart charging. This objective aims to decrease the amount of stationary power storage of the utility by better using the existing electricity in the PEVs.\nThe challenge lies in convincing PEV owners to participate in smart charging and V2G programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor our program to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing PEV owners’ willingness to participate. Different regions, based on their PEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. Smart charging and V2G could solve this issue, yet its success hinges on understanding and addressing PEV owners’ concerns and varying regional needs."
-  },
-  {
-    "objectID": "about.html#introduction",
-    "href": "about.html#introduction",
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "About Me",
-    "section": "Introduction",
-    "text": "Introduction\nHi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI have 4 years’ engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia. For details please check out my resume.\nMy current project is a conjoint survey program for EVs (electric vehicles). It is a sub-project of a smart charging and V2G (vehicle to grid) program in California and New York State. The objective of this project is to study for EV owners’ adoption to smart charging and V2G, and simulate and finally implement this new charging technique. The success of this project will contribute to carbon neutrality and help construct a clean world."
+    "section": "",
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI have 4 years’ engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia.\nMy current project is a conjoint survey for PEV (Plug-in Electric Vehicle) Smart Charging adoption. This project aims to understand PEV owners’ preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid.\nAccess my Resume for more details:  Pingfan’s Resume"
   },
   {
     "objectID": "about.html#experiences",
@@ -215,229 +264,5 @@
     "title": "About Me",
     "section": "Personal Life",
     "text": "Personal Life\nThroughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Washington DC.\nI am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.\n\n\n\n\nPinocchio"
-  },
-  {
-    "objectID": "contents/projects/03_pev_smart_charging/index.html#project-links",
-    "href": "contents/projects/03_pev_smart_charging/index.html#project-links",
-    "title": "PEV Smart Charging",
-    "section": "Project Links",
-    "text": "Project Links\n Access the Project   Access the Showcase"
-  },
-  {
-    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html",
-    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html",
-    "title": "How to Make a Personal Website",
-    "section": "",
-    "text": "My Repo\n GitHub Repo of My Website \n\n\nSoftware\n GitHub Desktop   R   RStudio   Quarto \n\n\nPlatforms\n GitHub (Repo)   Namecheap (Domain)   Netlify (Server)"
-  },
-  {
-    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#useful-links",
-    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#useful-links",
-    "title": "How to Make a Personal Website",
-    "section": "",
-    "text": "My Repo\n GitHub Repo of My Website \n\n\nSoftware\n GitHub Desktop   R   RStudio   Quarto \n\n\nPlatforms\n GitHub (Repo)   Namecheap (Domain)   Netlify (Server)"
-  },
-  {
-    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#abstract",
-    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#abstract",
-    "title": "How to Make a Personal Website",
-    "section": "Abstract",
-    "text": "Abstract\nThis is a tutorial of making a personal website using Quarto on RStudio.\nThis tutorial contains the following:\n\nConstructing the personal blog R project using Quarto\nPushing the project as a GitHub repo\nPurchasing your domain on Namecheap or Netlify\nDeploying the repo on Netlify\n\nIn summary, this website is made using Quarto on RStudio, and is deployed by accessing the GitHub repo on Netlify. I bought my domain on Namecheap, but Netlify sells domain as well."
-  },
-  {
-    "objectID": "contents/blogs/02_formr_service_deployment/index.html",
-    "href": "contents/blogs/02_formr_service_deployment/index.html",
-    "title": "Coding Languages",
-    "section": "",
-    "text": "Blah…"
-  },
-  {
-    "objectID": "contents/blogs/02_formr_service_deployment/index.html#abstract",
-    "href": "contents/blogs/02_formr_service_deployment/index.html#abstract",
-    "title": "Coding Languages",
-    "section": "",
-    "text": "Blah…"
-  },
-  {
-    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#introduction",
-    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#introduction",
-    "title": "How to Make a Personal Website",
-    "section": "Introduction",
-    "text": "Introduction\nBuilding a personal website is a very good attempt of showcasing your own abilities and your projects, either for academic reasons or job-seeking purposes. There are a lot of ways to construct your personal website, including some low code or even no code options. As an R programmer, I prefer to make one using the R coding environment. Quarto is an open-source publishing system compatible with Python, R and Julia. It is the next generation of R Markdown, and is a good option for personal website construction as well."
-  },
-  {
-    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#installation",
-    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#installation",
-    "title": "How to Make a Personal Website",
-    "section": "Installation",
-    "text": "Installation\nThe first step is to install the development environment. If you haven’t done already, please download and install R language, RStudio, and Quarto"
-  },
-  {
-    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#preparation",
-    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#preparation",
-    "title": "How to Make a Personal Website",
-    "section": "Preparation",
-    "text": "Preparation\nThe first step is to install the development environment. If you haven’t done already, please download and install R language, RStudio, and Quarto.\nYou’ll also need to have your GitHub account ready. It’s also a good idea to install GitHub Desktop to manage your local GitHub repos.\nYou’ll use Netlify to deploy your GitHub repo as a website, which by default allows you to generate your customized third-level domain name, with a fixed second and top domain being netlify.app. For example, you can name your domain as: myfancywebsite.netlify.app.\n\nHint: Domain names are usually in the format of third.second.top. For example, in Google’s homepage www.google.com, com is the top-level domain; google is second; and www is third.\n\nYou can use Netlify or Namecheap to buy your personalized domain. For example, my domain is pingfanhu.com. It is bought from Namecheap and deployed on Netlify. If you do this, both the default Netlify domain and your customized domain will work. They are not replacing each other. Below is the example of my case:\n\n\n\n\nFigure 1: I have both my personal domain and netlify-assigned domain functioning. Plus, there is a default re-direction of the www version, which is usually preferred.\n\n\n\n\nHint: If you want to save time, I recommend that you buy domain on Netlify so that you won’t need to bother dealing with DNS assignment. However, Namecheap gives you full service of domain management and DNS customization, and, as it’s name indicates, it sells domains a little cheaper."
-  },
-  {
-    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-1---preparation",
-    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-1---preparation",
-    "title": "How to Make a Personal Website",
-    "section": "Step 1 - Preparation",
-    "text": "Step 1 - Preparation\nThe first step is to install the environment. If you haven’t done already, please download and install R language, RStudio, and Quarto.\nYou’ll also need to have your GitHub account ready. It’s also a good idea to install GitHub Desktop to manage your local GitHub repos.\nYou’ll use Netlify to deploy your GitHub repo as a website, which by default allows you to generate your customized third-level domain name, with a fixed second and top domain being netlify.app. For example, you can name your domain as: myfancywebsite.netlify.app.\n\nHint: Domain names are usually in the format of third.second.top. For example, in Google’s homepage www.google.com, com is the top-level domain; google is second; and www is third.\n\nYou can use Netlify or Namecheap to buy your personalized domain. For example, my domain is pingfanhu.com. It is bought from Namecheap and deployed on Netlify. If you do this, both the default Netlify domain and your customized domain will work. They are not replacing each other. Below is the example of my case:\n\n\n\n\nFigure 1: Both my personal domain and netlify-assigned domain are functioning. Plus, there is a re-direction from www by default.\n\n\n\n\nHint: If you want to save time, I recommend that you buy domain on Netlify so that you won’t need to bother dealing with DNS assignment. However, Namecheap gives you full service of domain management and DNS customization, and, as its name indicates, it sells domains a little cheaper."
-  },
-  {
-    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-2---website-project",
-    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-2---website-project",
-    "title": "How to Make a Personal Website",
-    "section": "Step 2 - Website Project",
-    "text": "Step 2 - Website Project\nThe next step is to create the R project of your website. You can either clone my website repo or make from scratch.\n\n2.1 Clone my repo\nIf you want to clone my repo, proceed to the site, and click on the Code button or Use this template button. Both buttons are in green.\n\n\n\n\nFigure 2: On the top right of the page, either click on the “Code” or the “Use this template” button to clone my repo as your own.\n\n\n\nIf you are using my template, there are several things I want to explain to ease your understanding:\n\nMy repo is slightly different from the Quarto official blog tutorial, since I prefer to show my personal page as default, and make the other pages, including “About”, “Blogs”, “Projects”, etc. as tabs on the nav bar.\nI used the United theme. This is a free theme made by Bootswatch. There are 25 Bootswatch themes in total, all compatible with Quarto doc. You can access them in the Themes drop-down menu.\nI also used a customized scss file called theme.scss and another css file called styles.css. Both scss and css files are used to define personal page layout settings. The YAML grammar looks like this (You can see the full YAML codes in the _quarto.yml file):\nformat:\n  html:\n    theme: [united, theme.scss]\n    css: styles.css\n    backgroundcolor: \"#F8F7F0\"\nNote that there is a backgroundcolor: \"#F8F7F0\" used to set the page background color. The short reason for it being here and not in .scss or .css is that, it gives the best compatibility.\nThe original United theme primary color is orange, but I changed that in my theme.scss file.\nI manually pasted my resume.pdf file to the _site -&gt; contents directory, since I failed to find an automatic solution of creating this file upon knitting.\n\n\n\n2.2 Make from scratch\nIf you want to make one from scratch, please proceed to the official Quarto blog tutorial. For the project set-up, you can follow these steps:\n\n\n\n\nFigure 3: Launch RStudio and click on “New Project…” from the “File” drop-down menu\n\n\n\n\n\n\n\nFigure 4: Select “New Directory”\n\n\n\n\n\n\n\nFigure 5: Click on “Quarto Blog”\n\n\n\n\n\n\n\nFigure 6: Define the directory name and path, and finally click on “Create Project”\n\n\n\nThe creation of the Quarto Blog R project constructs the skeleton of your personal website. You can now add the contents on to it and make it your own.\n\n\n2.3 Project file structure\nI’ll use my project as an example. If you decided to construct on your own, make sure to have your files and folders sorted in a way that is easy to understand and to reproduce.\nIn my project:\n\nThe _site folder is auto-generated during the knitting process. It stores the HTML pages as well as the PDF files that I want my website to access. Note that the knitting process does not create the PDF files even if they are placed in my project folder. My solution is to manually paste them to the desired locations.\nThe contents folder contains my code, figure, and pdf resources. The folders of blogs and projects are kind of special. They are where the blog and project qmd files are stored, including this one.\nIn the root folder, there are theme files, main tab qmd files, the favicon file, and the _quarto.yml file.\n\n\nHint: You may have noticed that there are several index.qmd files in the project. Index is an important file name. The file with this name will be opened by default. For example, in the root folder, there are several qmd files, but if you open my website homepage, the page you see by default is the one in the index.qmd file.\n\nI recommend you use similar file structure as mine, but if you have a personal preference, feel free to play around and figure out your own style.\n\n\n2.4 Push to GitHub repo\nRemember to push your project to your GitHub repo so that it can be managed and updated in the future. I recommend you using GitHub Desktop. This GitHub repo will also be used in Netlify to deploy your website."
-  },
-  {
-    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-3---buy-your-personal-domain",
-    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-3---buy-your-personal-domain",
-    "title": "How to Make a Personal Website",
-    "section": "Step 3 - Buy your personal domain",
-    "text": "Step 3 - Buy your personal domain\nThis step can be skipped if you don’t want to have your own domain. Like I explained, Netlify will assign you with your preferred third-level domain.\n\n3.1 Buy from Namecheap\nIf you decided to buy from Namecheap, you need to create your account and pick your preferred domain name. My domain name costs me about $10 per year, which can be referred as your anchor.\nRemember, although you have full control with your domain on Namecheap, you’ll need to manually set your DNS to link it with your Netlify server, which we’ll cover in Step 4.\n\n\n3.2 Buy from Netlify\nBuying from Netlify is also an option, so that you won’t need to deal with the DNS thing. However, Netlify does not provide a direct page of buying it. As you go through your site creation process, you will have the option to buy your domain."
-  },
-  {
-    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-4---deploy-your-website",
-    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#step-4---deploy-your-website",
-    "title": "How to Make a Personal Website",
-    "section": "Step 4 - Deploy your website",
-    "text": "Step 4 - Deploy your website\nCreate your Netlify account using GitHub, and choose to deploy your website from GitHub. Select on your repo and follow the instructions.\nYou can access the Quarto official tutorial on Netlify deployment. Below are several hints from me:\n\nWhen setting your publishing directory, you need to input _site. As I explained in 2.3 Project file structure, this is the default directory for your HTML files. If you defined your own directory, make sure to input the directory name here. The other build settings can be left as they are.\n\n\n\n\n\nFigure 7: In “Publish Directory”, you’ll need to fill in _site or your own defined directory name\n\n\n\n\nIf you bought your domain from Namecheap, you’ll need to manually fill in the DNS hostnames. You can access them in Dashboard -&gt; Domains -&gt; Name servers of your Netlify page.\n\n\n\n\n\nFigure 8: This is where you can find the DNS hostnames in Netlify\n\n\n\n\n\n\n\nFigure 9: This is where you can paste the DNS hostnames in Namecheap\n\n\n\n\nNetlify takes care of SSL/TLS certificate, (aka the HTTPS protocol you can see in the site URLs). It’s a free service by Let’s Encrypt, which is enough for personal use. You can access it in Sites -&gt; Domain management -&gt; SSL/TLS certificate. It’s usually automatically enabled, but it can be manually renewed by clicking on the button on this page.\n\n\n\n\n\nFigure 10: HTTPS is taken good care of by Netlify\n\n\n\n\nSince Netlify has direct access to your GitHub repo, each time you push new version to GitHub, your website will be updated automatically. You can also trace the process on your Netlify dashboard. There is no need to type the command of quarto publish netlify in RStudio."
-  },
-  {
-    "objectID": "contents/blogs/02_formr_instance_deployment/index.html",
-    "href": "contents/blogs/02_formr_instance_deployment/index.html",
-    "title": "formr Instance Deployment",
-    "section": "",
-    "text": "Showcase\nMy formr Instance Official formr\n\n\nPreparation\n Initial Setup with Ubuntu   Install Docker on Ubuntu \n\n\nDeployment\n Deploy formr (Docker Version)"
-  },
-  {
-    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#abstract",
-    "href": "contents/blogs/02_formr_instance_deployment/index.html#abstract",
-    "title": "formr Instance Deployment",
-    "section": "Abstract",
-    "text": "Abstract\nThis is a tutorial of deploying the formr instance using Ubuntu 22.04 on Akamai (prior name Linode).\nThis tutorial contains my personal settings. If you are following this tutorial to make your own deployment, make sure to modify based on your preference.\nThis tutorial consists of the following:\n\nCreate an Ubuntu 22.04 server using Akamai’s Linode.\nCreate user and assign sudo privilege.\nInstall Docker.\nClone and configure the formr repo.\nTrouble-shooting."
-  },
-  {
-    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#useful-links",
-    "href": "contents/blogs/02_formr_instance_deployment/index.html#useful-links",
-    "title": "formr Instance Deployment",
-    "section": "",
-    "text": "Showcase\nMy formr Instance Official formr\n\n\nPreparation\n Initial Setup with Ubuntu   Install Docker on Ubuntu \n\n\nDeployment\n Deploy formr (Docker Version)"
-  },
-  {
-    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#foreword",
-    "href": "contents/blogs/02_formr_instance_deployment/index.html#foreword",
-    "title": "formr Instance Deployment",
-    "section": "Foreword",
-    "text": "Foreword\nMy personalizations:\n\nServer IP: 172.233.238.100\nMy user name: pingfan\nMy password for the database: 0727 (not for the shell command)\nEmail for the host: formrcloudgwu@gmail.com"
-  },
-  {
-    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#step-1---create-the-server",
-    "href": "contents/blogs/02_formr_instance_deployment/index.html#step-1---create-the-server",
-    "title": "formr Instance Deployment",
-    "section": "Step 1 - Create the Server",
-    "text": "Step 1 - Create the Server\n\n1.1 Create the server\nProceed to Akamai and create a Linode server following these configurations:\n\nImages - Choose Ubuntu 22.04 LTS. This is the desired version for formr instance.\nRegion - Choose your desired region.\nLinode Plan - Choose “Dedicated CPU” and pick a plan. The formr team recommends 8 CPUs, but I only picked the basic plan.\nLinode Label - Name your server as you wish. I named it as ubuntu-formr.\nAdd Tags - You may add a tag to indicate what this Linode server is for. I created a tag called formr.\nRoot Password - A root user will be generated for you upon server creation. This password is for accessing this root server. However, better create a real user and avoid using root. I’ll cover this later.\nSSH Keys - If you haven’t done so, create an SSH key using your Terminal. Save the key pairs to a safe place. On this page, click on Add An SSH Key and paste the public key here.\nLeave the rest settings as they are.\n\n\n\n1.2 Access online using LISH\nOnce you have created your Linode server, you’ll see it in the “Linodes” section. Click on it to make sure it’s properly running. On top right corner, you’ll see a “Launch LISH Console” button, where LISH is short for Linode Shell. By clicking on it, you’ll open the online shell command terminal.\n\n\n\n\nFigure 1: Click on this button to launch the online shell terminal\n\n\n\n\n\n1.3 Access locally using Terminal\nHowever, I prefer to use my local Terminal. Follow these steps to access this Linode using your local Terminal:\n\nLaunch your Terminal.\nType in ssh root@your_ip_address, and then input the root password that you created.\nYou’ll see a welcoming message if everything goes properly.\n\nIn fact, you can easily copy the SSH Access command from your Linode dashboard:\n\n\n\n\nFigure 2: Click on the SSH Access contents to directly copy the command\n\n\n\nNow you have created your Linode server for Ubuntu 22.04 and accessed it with your Terminal!"
-  },
-  {
-    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#step-2---create-the-user",
-    "href": "contents/blogs/02_formr_instance_deployment/index.html#step-2---create-the-user",
-    "title": "formr Instance Deployment",
-    "section": "Step 2 - Create the User",
-    "text": "Step 2 - Create the User\nSee the full instruction of Digital Ocean here, or you can follow my guides. Keep in mind that both Digital Ocean’s guides and my instructions contain personalizations. You need to modify to your own case.\nRun the commands below line by line and follow the instructions when necessary. You’ll need to create the password and personal information for the new user.\n# Log in as root\nssh root@your_ip_address\n\n# Add a user called \"pingfan\"\nadduser pingfan\n\n# Assign sudo privilege \nusermod -aG sudo pingfan\n\n# Open a new Terminal window to login as pingfan\nssh pingfan@your_ip_address\nOnce your new user is ready, you’ll need to use it for the following steps.\n\nHint: There is always a root user by default, but you need to avoid using it for daily purposes. This makes user creation always being our first step."
-  },
-  {
-    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#step-3---install-docker",
-    "href": "contents/blogs/02_formr_instance_deployment/index.html#step-3---install-docker",
-    "title": "formr Instance Deployment",
-    "section": "Step 3 - Install Docker",
-    "text": "Step 3 - Install Docker\nThe formr instance requires Docker. It is a virtual container for securely running your software. See the Docker official instructions here, or follow my steps below.\n\nHint: The official instructions assume you are using a local machine with GUI, but since we are accessing a remote machine using Terminal, I slightly modified the shell commands.\n\n3.1 Install gnome-terminal\nsudo apt install gnome-terminal\n3.2 Set up Docker’s apt repository\n# Add Docker's official GPG key:\nsudo apt-get update\nsudo apt-get install ca-certificates curl gnupg\nsudo install -m 0755 -d /etc/apt/keyrings\ncurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg\nsudo chmod a+r /etc/apt/keyrings/docker.gpg\n\n# Add the repository to Apt sources:\necho \\\n  \"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \\\n  $(. /etc/os-release && echo \"$VERSION_CODENAME\") stable\" | \\\n  sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null\nsudo apt-get update\n3.3 Install the latest Docker packages\nsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin\n3.4 Verify that the Docker Engine installation is successful by running the hello-world image\nsudo docker run hello-world\n3.5 Download latest DEB package\nwget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.26.1-amd64.deb\n\nHint: Until the composition of this blog, the latest version is docker-desktop-4.26.1-amd64.deb.\n\n3.6 Install the package with apt\nsudo apt-get update\nsudo apt-get install ./docker-desktop-4.26.1-amd64.deb\n3.7 Launch Docker Desktop\nsystemctl --user start docker-desktop\n3.8 Check the versions\ndocker compose version\ndocker --version\ndocker version\n3.9 Enable Docker Desktop to start on login\nsystemctl --user enable docker-desktop\nNow the Dock Desktop should be installed and set as auto-launch upon system start."
-  },
-  {
-    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#step-4---clone-and-configure-the-formr-repo",
-    "href": "contents/blogs/02_formr_instance_deployment/index.html#step-4---clone-and-configure-the-formr-repo",
-    "title": "formr Instance Deployment",
-    "section": "Step 4 - Clone and Configure the formr Repo",
-    "text": "Step 4 - Clone and Configure the formr Repo\nSee the formr official instructions here, or you can follow my steps below.\n4.1 Clone the formr repo\ngit clone https://github.com/rubenarslan/formr_dev_docker.git\n4.2 Change dir and run ./setup.sh\ncd formr_dev_docker\nsudo ./setup.sh\n4.3 Configure database and domain names\nsudo nano .env\n\nHint: nano is the default editor of files in Terminal. After you are satisfied with your editing, you can use Ctrl + O to write out, and then Ctrl + X to exit.\n\nYou’ll need to modify the contents to meet your own personalization. Below is the official hint:\n# Mysql password of root, by default a random password will be generated\nMARIADB_ROOT_PASSWORD\n\n# Mysql database name, default = formr_db\nMARIADB_DATABASE\n\n# Mysql database user, default = formr_user\nMARIADB_USER\n\n# Mysql database password of user MARIADB_USER\n# By default a random password will be generated\nMARIADB_PASSWORD\n\n# The main domain of your formr instance\nMAIN_DOMAIN\n\n# Domain of formr_app. Can fill with multiple domain with separated by comma (,)\n# Default value = formr.org,www.formr.org\nFORMR_DOMAIN\n\n# (Sub)domain for opencpu. Access to this domain needs basic-auth\n# Default value = ocpu.formr.org\nOPENCPU_DOMAIN\n\n# Email for the ACME Let's Encrypt configuration and for the first superadmin\nFORMR_EMAIL\n\n# Default superadmin password\nFORMR_PASSWORD\n\n# formr version or branch. Default value = v0.20.6\n# Please check on this link https://github.com/rubenarslan/formr.org/tags\nFORMR_TAG\n\n# defaults to Europe/Berlin\nTIMEZONE\n4.4 Build containers and install initial schema\nsudo ./build.sh\ncd formr_app/formr/config\nsudo nano settings.php\ncd ~/formr_dev_docker\nsudo docker compose restart\nThe formr instance should be installed now. You may access your formr instance by pasting your IP address to your browser.\nYou can access mine using this link. It looks the same as the official version.\n\nHint: If you want to access your formr instance via a personalized domain, you’ll need to go back to 4.3 and set the main domain, and also modify your domain by adding a new A Record and assign the value as your IP address."
-  },
-  {
-    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#step-5---trouble-shooting",
-    "href": "contents/blogs/02_formr_instance_deployment/index.html#step-5---trouble-shooting",
-    "title": "formr Instance Deployment",
-    "section": "Step 5 - Trouble-shooting",
-    "text": "Step 5 - Trouble-shooting\n5.1 Hints for the cd command\n# To change to root dir\ncd\n\n# To change to a dir by inputting relative path\n# A relative path is where you start from your current dir\ncd dir_name\n\n# To change to a dir by inputting absolute path\n# An absolute path disregards your current path\ncd ~/dir_name\n5.2 Configurational files\nThere are 3 configurational files in formr. They can be accessed using the following commands:\n# .env\ncd ~/formr_dev_docker\nsudo nano .env\n\n# settings.php\ncd ~/formr_dev_docker/formr_app/formr/config\nsudo nano settings.php\n\n# Session.php\ncd ~/formr_dev_docker/formr_app/formr/application\nsudo nano Session.php\n5.3 Restart Docker\nAfter each configuration, you’ll need to restart Docker by using the following commands:\ncd ~/formr_dev_docker\nsudo docker compose restart"
-  },
-  {
-    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#useful-links-1",
-    "href": "contents/blogs/02_formr_instance_deployment/index.html#useful-links-1",
-    "title": "formr Instance Deployment",
-    "section": "Useful Links",
-    "text": "Useful Links\nShowcase: My formr Instance Official formr\nPreparation:  Initial Setup with Ubuntu   Install Docker on Ubuntu \nDeployment:  Deploy formr (Docker Version)"
-  },
-  {
-    "objectID": "contents/blogs/02_formr_instance_deployment/index.html#my-customization",
-    "href": "contents/blogs/02_formr_instance_deployment/index.html#my-customization",
-    "title": "formr Instance Deployment",
-    "section": "My Customization",
-    "text": "My Customization\n\n\n\nServer IP\n172.233.238.100\n\n\nUser Name\npingfan\n\n\nSQL Database Password\n0727\n\n\nHost Email\nformrcloudgwu@gmail.com"
-  },
-  {
-    "objectID": "contents/blogs/01_how_to_make_a_personal_website/index.html#useful-links-1",
-    "href": "contents/blogs/01_how_to_make_a_personal_website/index.html#useful-links-1",
-    "title": "How to Make a Personal Website",
-    "section": "Useful Links",
-    "text": "Useful Links\nSoftware:  GitHub Desktop   R Language   RStudio   Quarto \nPlatforms:  GitHub (Online Repo)   Namecheap (Buy Domain)   Netlify (Server) \nGitHub Repo:  GitHub Repo of My Website"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI have 4 years’ engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia.\nMy current project is a conjoint survey program for EVs (electric vehicles). It is a sub-project of a smart charging and V2G (vehicle to grid) program in California and New York State. The objective of this project is to study for EV owners’ adoption to smart charging and V2G, and simulate and finally implement this new charging technique. The success of this project will contribute to carbon neutrality and help construct a clean world.\nAccess my Resume for more details:  Pingfan’s Resume"
-  },
-  {
-    "objectID": "contents/projects/01_network_science/index.html#about",
-    "href": "contents/projects/01_network_science/index.html#about",
-    "title": "Network Science of the Mid-Atlantic Region",
-    "section": "",
-    "text": "This project is a multi-layer network science study on the Mid-Atlantic region. It is a student research project for the FEW’s Lab managed by Prof Caitlin Grady.\n Access the Project"
-  },
-  {
-    "objectID": "contents/projects/01_network_science/index.html#project-scope",
-    "href": "contents/projects/01_network_science/index.html#project-scope",
-    "title": "Network Science of the Mid-Atlantic Region",
-    "section": "Project Scope",
-    "text": "Project Scope\n\n\n\n\n\nThe Mid-Atlantic Region\n\n\nNo.\nAbbr.\nFull Name\n\n\n\n\n1\nDC\nDistrict of Columbia\n\n\n2\nDE\nDelaware\n\n\n3\nMD\nMaryland\n\n\n4\nNC\nNorth Carolina\n\n\n5\nNJ\nNew Jersey\n\n\n6\nNY\nNew York\n\n\n7\nPA\nPennsylvania\n\n\n8\nVA\nVirginia\n\n\n\n\n\n\n\n\n\n\n\nThe Multilayers\n\n\nNo.\nLayer\n\n\n\n\n1\nAirline\n\n\n2\nMarine\n\n\n3\nRail\n\n\n4\nRoad\n\n\n\n\n\n\n\n\n\nThe latter part of this project focuses on layers of rail and road.\nThe codes can be modified so that you can expand to other selections of states, or to introduce other sources of shp files or csv files."
-  },
-  {
-    "objectID": "contents/projects/02_solar_and_wind/index.html#about",
-    "href": "contents/projects/02_solar_and_wind/index.html#about",
-    "title": "Solar and Wind Energy Advancements",
-    "section": "",
-    "text": "This project studies the driving effects of solar and wind energy advancements. It is a Master-level project for EMSE 6572 instructed by Prof John Helveston.\n Access the Project"
-  },
-  {
-    "objectID": "contents/projects/02_solar_and_wind/index.html#project-overview",
-    "href": "contents/projects/02_solar_and_wind/index.html#project-overview",
-    "title": "Solar and Wind Energy Advancements",
-    "section": "Project Overview",
-    "text": "Project Overview\nThis project is performed as a team consisting of Pingfan Hu and Abbey Kollar.\nRenewable energy in the USA has seen significant growth from 2000 to 2023. This research studies solar and wind energies and dives into three primary reasons behind this expansion:\n\nCost of Solar and Wind Energy\nPolicies and Incentives, and\nEnergy Research Budgets\n\nThis project contains the following:\n\nProject Proposal\nProgress Report\nFinal Report\nPresentation\n\nThe study aims to highlight which of these factors played the most crucial roles in this energy transformation. By understanding these relationships, we can better anticipate the future of renewable energy and make informed decisions.\nData wrangling and analysis are both performed using R coding language, presented with Quarto files."
-  },
-  {
-    "objectID": "contents/projects/03_pev_smart_charging/index.html#about",
-    "href": "contents/projects/03_pev_smart_charging/index.html#about",
-    "title": "PEV Smart Charging",
-    "section": "",
-    "text": "This project builds a Conjoint Survey on PEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Access the Project   Access the Showcase"
-  },
-  {
-    "objectID": "contents/projects/03_pev_smart_charging/index.html#project-overview",
-    "href": "contents/projects/03_pev_smart_charging/index.html#project-overview",
-    "title": "PEV Smart Charging",
-    "section": "Project Overview",
-    "text": "Project Overview\nThis project is a combination of Master and PhD levels. The Master-level project is performed as a team with these members: Pingfan Hu, Bharath Ravindra, Sampada Dhakal, and Vedanth Surendra Hegde.\nSmart Charging means to control and monitor the PEV charging process. In our project, it contains SMC and V2G. SMC is short for \"Supplier-Managed Charging\". It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. V2G is short for \"Vehicle-to-Grid\". It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both SMC and V2G. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (PEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if PEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSMC is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nOn the other hand, V2G is to charge the electricity from the PEVs back to the grid. It is a tougher objective compared with smart charging. This objective aims to decrease the amount of stationary power storage of the utility by better using the existing electricity in the PEVs.\nThe challenge lies in convincing PEV owners to participate in the SMC and V2G programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor our program to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing PEV owners’ willingness to participate. Different regions, based on their PEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. The Smart Charging programs could solve this issue, yet its success hinges on understanding and addressing PEV owners’ concerns and varying regional needs."
   }
 ]

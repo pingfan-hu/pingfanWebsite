@@ -9,10 +9,22 @@
       "contents/blog"
     ],
     "projects.qmd": [
-      "contents/projects"
+      "contents/projects",
+      "projects"
     ],
     "slides.qmd": [
       "contents/slides"
+    ],
+    "pages/projects.qmd": [
+      "projects"
+    ],
+    "pages/blogs.qmd": [
+      "blogs",
+      "../blogs",
+      "../blogs/"
+    ],
+    "blogs.qmd": [
+      "blogs"
     ]
   }
 }

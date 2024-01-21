@@ -14,7 +14,7 @@ format:
     link-external-icon: false
     backgroundcolor: "#F8F7F0"
 
-execute: 
+execute:
   freeze: false
   warning: false
 
@@ -24,7 +24,7 @@ website:
     If you are interested in EVs and renewable energy, please
     check out my website. It contains projects and blogs that
     well demonstrate these topics.
-  favicon: favicon.ico
+  favicon: figs/favicon.ico
   back-to-top-navigation: true
   search:
     location: navbar
@@ -36,13 +36,13 @@ website:
         href: about.qmd
         text: "About"
       - icon: file-text
-        href: blog.qmd
-        text: "Blog"
+        href: blogs.qmd
+        text: "Blogs"
       - icon: file-bar-graph
         href: projects.qmd
         text: "Projects"
       - icon: person-circle
-        href: contents/resume.pdf
+        href: resume.pdf
         text: "Resume"
     right:
       - icon: linkedin
