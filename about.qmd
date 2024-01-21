@@ -1,6 +1,5 @@
 ---
 title: "About Me"
-page-layout: article
 ---
 
 ![](/figs/about.jpeg){fig-align="center" width="800"}

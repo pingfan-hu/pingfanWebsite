@@ -2,9 +2,7 @@
 title: "PEV Smart Charging"
 subtitle: "Quantifying the benefits and constraints of PEV Smart Charging adoption."
 date: "Sept 07, 2023"
-image: "banner.png"
 categories: [Smart Charging, Conjoint]
-bibliography: ../references.bib
 ---
 
 ## About
@@ -17,7 +15,7 @@ This project builds a Conjoint Survey on PEV Smart Charging. It utilizes the [`c
 
 This project is a combination of Master and PhD levels. The Master-level project is performed as a team with these members: Pingfan Hu, Bharath Ravindra, Sampada Dhakal, and Vedanth Surendra Hegde.
 
-**Smart Charging** means to control and monitor the PEV charging process. In our project, it contains SMC and V2G. **SMC** is short for \"Supplier-Managed Charging\". It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. **V2G** is short for \"Vehicle-to-Grid\". It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.
+**Smart Charging** means to control and monitor the PEV charging process. In our project, it contains SMC and V2G. **SMC** is short for "Supplier-Managed Charging". It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. **V2G** is short for "Vehicle-to-Grid". It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.
 
 A previous study of @tarroja2021 has proved the economic feasibility of both SMC and V2G. This project is therefore a succeeding study of it.
 

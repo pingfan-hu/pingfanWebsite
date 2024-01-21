@@ -2,9 +2,7 @@
 title: "Network Science of the Mid-Atlantic Region"
 subtitle: "Multilayer network science study of the Mid-Atlantic region logistics."
 date: "May 24, 2023"
-image: "banner.png"
 categories: [Network, Data Viz]
-bibliography: ../references.bib
 ---
 
 ## About
