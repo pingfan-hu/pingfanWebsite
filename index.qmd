@@ -24,4 +24,4 @@ Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washingto
 
 I am experienced in [R](https://www.r-project.org) and [Python](https://www.python.org) coding, and mainly use [RStudio](https://posit.co/download/rstudio-desktop/) and [VS Code](https://code.visualstudio.com) as working IDE.
 
-My current project is a [conjoint survey](https://pev.pingfanhu.com) for BEV (Battery Electric Vehicle) Smart Charging adoption.
+My current project is a [conjoint survey](https://bev.pingfanhu.com) for BEV (Battery Electric Vehicle) Smart Charging adoption.
