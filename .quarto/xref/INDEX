@@ -139,5 +139,8 @@
   },
   "blogs.qmd": {
     "blogs.html": "a186b488"
+  },
+  "projects/03_bev_smart_charging/index.qmd": {
+    "index.html": "0141f7a1"
   }
 }

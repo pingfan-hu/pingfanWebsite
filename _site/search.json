@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey for PEV (Plug-in Electric Vehicle) Smart Charging adoption."
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey for BEV (Battery Electric Vehicle) Smart Charging adoption."
   },
   {
     "objectID": "index.html#welcome-to-my-website",
     "href": "index.html#welcome-to-my-website",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey for PEV (Plug-in Electric Vehicle) Smart Charging adoption."
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey for BEV (Battery Electric Vehicle) Smart Charging adoption."
   },
   {
     "objectID": "blogs.html",
@@ -25,70 +25,42 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Network Science of the Mid-Atlantic Region\n\n\n\nNetwork\n\n\nData Viz\n\n\n\n\n\n\n\n\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSolar and Wind Energy Advancements\n\n\n\nRenewable\n\n\nData Viz\n\n\n\n\n\n\n\n\n\n\nAug 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPEV Smart Charging\n\n\n\nSmart Charging\n\n\nConjoint\n\n\n\n\n\n\n\n\n\n\nSep 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Smart Charging Simulation with the Grid\n\n\n\nSmart Charging\n\n\nSimulation\n\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Utilization of LLM on Surveys\n\n\n\nSmart Charging\n\n\nLLM\n\n\nConjoint\n\n\n\n\n\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Using AI to Detect Bots in Surveys\n\n\n\nLLM\n\n\nConjoint\n\n\n\n\n\n\n\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Network Science of the Mid-Atlantic Region\n\n\n\nNetwork\n\n\nData Viz\n\n\n\n\n\n\n\n\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSolar and Wind Energy Advancements\n\n\n\nRenewable\n\n\nData Viz\n\n\n\n\n\n\n\n\n\n\nAug 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBEV Smart Charging\n\n\n\nSmart Charging\n\n\nConjoint\n\n\n\n\n\n\n\n\n\n\nSep 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Smart Charging Simulation with the Grid\n\n\n\nSmart Charging\n\n\nSimulation\n\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Utilization of LLM on Surveys\n\n\n\nSmart Charging\n\n\nLLM\n\n\nConjoint\n\n\n\n\n\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Using AI to Detect Bots in Surveys\n\n\n\nLLM\n\n\nConjoint\n\n\n\n\n\n\n\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "projects/02_solar_and_wind/index.html",
-    "href": "projects/02_solar_and_wind/index.html",
-    "title": "Solar and Wind Energy Advancements",
+    "objectID": "projects/05_survey_in_llm/index.html",
+    "href": "projects/05_survey_in_llm/index.html",
+    "title": "(Expected) Utilization of LLM on Surveys",
     "section": "",
-    "text": "This project studies the driving effects of solar and wind energy advancements. It is a Master-level project for EMSE 6572 instructed by Prof John Helveston.\n Access the Project"
+    "text": "Back to top"
   },
   {
-    "objectID": "projects/02_solar_and_wind/index.html#about",
-    "href": "projects/02_solar_and_wind/index.html#about",
-    "title": "Solar and Wind Energy Advancements",
+    "objectID": "projects/04_sim_with_grid/index.html",
+    "href": "projects/04_sim_with_grid/index.html",
+    "title": "(Expected) Smart Charging Simulation with the Grid",
     "section": "",
-    "text": "This project studies the driving effects of solar and wind energy advancements. It is a Master-level project for EMSE 6572 instructed by Prof John Helveston.\n Access the Project"
+    "text": "Back to top"
   },
   {
-    "objectID": "projects/02_solar_and_wind/index.html#project-overview",
-    "href": "projects/02_solar_and_wind/index.html#project-overview",
-    "title": "Solar and Wind Energy Advancements",
+    "objectID": "projects/03_bev_smart_charging/index.html",
+    "href": "projects/03_bev_smart_charging/index.html",
+    "title": "BEV Smart Charging",
+    "section": "",
+    "text": "This project builds a Conjoint Survey on BEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Access the Project   Access the Showcase"
+  },
+  {
+    "objectID": "projects/03_bev_smart_charging/index.html#about",
+    "href": "projects/03_bev_smart_charging/index.html#about",
+    "title": "BEV Smart Charging",
+    "section": "",
+    "text": "This project builds a Conjoint Survey on BEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Access the Project   Access the Showcase"
+  },
+  {
+    "objectID": "projects/03_bev_smart_charging/index.html#project-overview",
+    "href": "projects/03_bev_smart_charging/index.html#project-overview",
+    "title": "BEV Smart Charging",
     "section": "Project Overview",
-    "text": "Project Overview\nThis project is performed as a team consisting of Pingfan Hu and Abbey Kollar.\nRenewable energy in the USA has seen significant growth from 2000 to 2023. This research studies solar and wind energies and dives into three primary reasons behind this expansion:\n\nCost of Solar and Wind Energy\nPolicies and Incentives, and\nEnergy Research Budgets\n\nThis project contains the following:\n\nProject Proposal\nProgress Report\nFinal Report\nPresentation\n\nThe study aims to highlight which of these factors played the most crucial roles in this energy transformation. By understanding these relationships, we can better anticipate the future of renewable energy and make informed decisions.\nData wrangling and analysis are both performed using R coding language, presented with Quarto files."
-  },
-  {
-    "objectID": "projects/06_ai_for_bot_detection/index.html",
-    "href": "projects/06_ai_for_bot_detection/index.html",
-    "title": "(Expected) Using AI to Detect Bots in Surveys",
-    "section": "",
-    "text": "Attempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
-  },
-  {
-    "objectID": "projects/06_ai_for_bot_detection/index.html#initial-ideas",
-    "href": "projects/06_ai_for_bot_detection/index.html#initial-ideas",
-    "title": "(Expected) Using AI to Detect Bots in Surveys",
-    "section": "",
-    "text": "Attempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
-  },
-  {
-    "objectID": "projects/01_network_science/index.html",
-    "href": "projects/01_network_science/index.html",
-    "title": "Network Science of the Mid-Atlantic Region",
-    "section": "",
-    "text": "This project is a multi-layer network science study on the Mid-Atlantic region. It is a student research project for the FEW’s Lab managed by Prof Caitlin Grady.\n Access the Project"
-  },
-  {
-    "objectID": "projects/01_network_science/index.html#about",
-    "href": "projects/01_network_science/index.html#about",
-    "title": "Network Science of the Mid-Atlantic Region",
-    "section": "",
-    "text": "This project is a multi-layer network science study on the Mid-Atlantic region. It is a student research project for the FEW’s Lab managed by Prof Caitlin Grady.\n Access the Project"
-  },
-  {
-    "objectID": "projects/01_network_science/index.html#project-scope",
-    "href": "projects/01_network_science/index.html#project-scope",
-    "title": "Network Science of the Mid-Atlantic Region",
-    "section": "Project Scope",
-    "text": "Project Scope\n\n\n\n\n\nThe Mid-Atlantic Region\n\n\nNo.\nAbbr.\nFull Name\n\n\n\n\n1\nDC\nDistrict of Columbia\n\n\n2\nDE\nDelaware\n\n\n3\nMD\nMaryland\n\n\n4\nNC\nNorth Carolina\n\n\n5\nNJ\nNew Jersey\n\n\n6\nNY\nNew York\n\n\n7\nPA\nPennsylvania\n\n\n8\nVA\nVirginia\n\n\n\n\n\n\n\n\n\n\n\nThe Multilayers\n\n\nNo.\nLayer\n\n\n\n\n1\nAirline\n\n\n2\nMarine\n\n\n3\nRail\n\n\n4\nRoad\n\n\n\n\n\n\n\n\n\nThe latter part of this project focuses on layers of rail and road.\nThe codes can be modified so that you can expand to other selections of states, or to introduce other sources of shp files or csv files."
-  },
-  {
-    "objectID": "projects/01_network_science/index.html#project-overview",
-    "href": "projects/01_network_science/index.html#project-overview",
-    "title": "Network Science of the Mid-Atlantic Region",
-    "section": "Project Overview",
-    "text": "Project Overview\n\n1. Spatial Analysis\nThis section is the starting part of this project. It takes in geographical files from trusted sources and generates the proper maps and csv files out of them.\nThis section takes in shp files and csv files from these sources:\n\n TIGER/Line   HIFLD   OurAirports \n\nThis section generates:\n\n9 csv files:\n\nFAF zone correspondence\nedges of airlines, marine, rails, and roads\nnodes of airports, marine, rails and roads\n\n2 maps - the spatial map and the topography map\n\nThe Spatial Map:\n\n\n\n\n\nThe Topography Map:\n\n\n\n\n\n\n\n2. Centrality Analysis\nThis section takes in the 4 edge files and the 4 node files, and generates the 3 types of centralities of each.\nThe 3 types of centralities are: betweenness centrality, closeness centrality, and degree centrality.\nNote that the centralities are all in relative values, which means their values are based on the size of the system network.\nThe centrality values are all listed in a descending order.\nHint: any centrality csv file can also be used as a collection of nodes in its corresponding layer.\n\n\n3. Path Calculation\nStarting from this section, we only focus on the rail and road layers.\nThis section takes in edge and node files of rail and roads, and generates path counts.\nThe path counts are based on FAF zones of all 8 states, so that each OD pair is inter-FAF-zone.\nThere are 40 rail OD pairs, and 186 road OD pairs.\nThe csv headers are:\n\nNo. - counting number starting from 1\nSource - the source node\nSource State\nSource FAF Zone\nSource FAF Zone Description\nTarget - the target node\nTarget State\nTarget FAF Zone\nTarget FAF Zone Description\nPath Count - the count of shortest paths\n\n\n\n4. Degree Centrality Dist\nThis section takes in the degree centralities of rails and roads, and generates the degree centrality distribution plots of them.\nThe Rail Degree Centrality Distribution plot:\n\n\n\n\n\nThe Road Degree Centrality Distribution plot:\n\n\n\n\n\n\n\n5. Network Attacks\nThis section generates the deterministic and stochastic attacks on rails and roads.\nIt takes in these files:\n\nedge and node csv files\npath count files\n3 ranked centrality files (betweenness centrality also used as node collections)\n\nThe plots contain:\n\nDeterministic removal plots of the 3 centralities\nStochastic removal with random node selections (surrounded by 95% CI)\n\nThe Rail Centrality Attack plot:\n\n\n\n\n\nThe Road Centrality Attack plot:"
+    "text": "Project Overview\nThis project is a combination of Master and PhD levels. The Master-level project is performed as a team with these members: Pingfan Hu, Bharath Ravindra, Sampada Dhakal, and Vedanth Surendra Hegde.\nSmart Charging means to control and monitor the BEV charging process. In our project, it contains SMC and V2G. SMC is short for “Supplier-Managed Charging”. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. V2G is short for “Vehicle-to-Grid”. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both SMC and V2G. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (BEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if BEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSMC is a solution that aims to control the timing of BEV charging according to grid conditions. This strategy is particularly useful for BEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nOn the other hand, V2G is to charge the electricity from the BEVs back to the grid. It is a tougher objective compared with smart charging. This objective aims to decrease the amount of stationary power storage of the utility by better using the existing electricity in the BEVs.\nThe challenge lies in convincing BEV owners to participate in the SMC and V2G programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor our program to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing BEV owners’ willingness to participate. Different regions, based on their BEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of BEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. The Smart Charging programs could solve this issue, yet its success hinges on understanding and addressing BEV owners’ concerns and varying regional needs."
   },
   {
     "objectID": "blogs/02_formr_instance_deployment/index.html",
@@ -210,46 +182,74 @@
     "text": "Step 4 - Deploy your website\nCreate your Netlify account using GitHub, and choose to deploy your website from GitHub. Select on your repo and follow the instructions.\nYou can access the Quarto official tutorial on Netlify deployment. Below are several hints from me:\n\nWhen setting your publishing directory, you need to input _site. As I explained in 2.3 Project file structure, this is the default directory for your HTML files. If you defined your own directory, make sure to input the directory name here. The other build settings can be left as they are.\n\n\n\n\n\nFigure 7: In “Publish Directory”, you’ll need to fill in _site or your own defined directory name\n\n\n\n\nIf you bought your domain from Namecheap, you’ll need to manually fill in the DNS hostnames. You can access them in Dashboard -&gt; Domains -&gt; Name servers of your Netlify page.\n\n\n\n\n\nFigure 8: This is where you can find the DNS hostnames in Netlify\n\n\n\n\n\n\n\nFigure 9: This is where you can paste the DNS hostnames in Namecheap\n\n\n\n\nNetlify takes care of SSL/TLS certificate, (aka the HTTPS protocol you can see in the site URLs). It’s a free service by Let’s Encrypt, which is enough for personal use. You can access it in Sites -&gt; Domain management -&gt; SSL/TLS certificate. It’s usually automatically enabled, but it can be manually renewed by clicking on the button on this page.\n\n\n\n\n\nFigure 10: HTTPS is taken good care of by Netlify\n\n\n\n\nSince Netlify has direct access to your GitHub repo, each time you push new version to GitHub, your website will be updated automatically. You can also trace the process on your Netlify dashboard. There is no need to type the command of quarto publish netlify in RStudio."
   },
   {
-    "objectID": "projects/04_sim_with_grid/index.html",
-    "href": "projects/04_sim_with_grid/index.html",
-    "title": "(Expected) Smart Charging Simulation with the Grid",
+    "objectID": "projects/01_network_science/index.html",
+    "href": "projects/01_network_science/index.html",
+    "title": "Network Science of the Mid-Atlantic Region",
     "section": "",
-    "text": "Back to top"
+    "text": "This project is a multi-layer network science study on the Mid-Atlantic region. It is a student research project for the FEW’s Lab managed by Prof Caitlin Grady.\n Access the Project"
   },
   {
-    "objectID": "projects/05_survey_in_llm/index.html",
-    "href": "projects/05_survey_in_llm/index.html",
-    "title": "(Expected) Utilization of LLM on Surveys",
+    "objectID": "projects/01_network_science/index.html#about",
+    "href": "projects/01_network_science/index.html#about",
+    "title": "Network Science of the Mid-Atlantic Region",
     "section": "",
-    "text": "Back to top"
+    "text": "This project is a multi-layer network science study on the Mid-Atlantic region. It is a student research project for the FEW’s Lab managed by Prof Caitlin Grady.\n Access the Project"
   },
   {
-    "objectID": "projects/03_pev_smart_charging/index.html",
-    "href": "projects/03_pev_smart_charging/index.html",
-    "title": "PEV Smart Charging",
-    "section": "",
-    "text": "This project builds a Conjoint Survey on PEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Access the Project   Access the Showcase"
+    "objectID": "projects/01_network_science/index.html#project-scope",
+    "href": "projects/01_network_science/index.html#project-scope",
+    "title": "Network Science of the Mid-Atlantic Region",
+    "section": "Project Scope",
+    "text": "Project Scope\n\n\n\n\n\nThe Mid-Atlantic Region\n\n\nNo.\nAbbr.\nFull Name\n\n\n\n\n1\nDC\nDistrict of Columbia\n\n\n2\nDE\nDelaware\n\n\n3\nMD\nMaryland\n\n\n4\nNC\nNorth Carolina\n\n\n5\nNJ\nNew Jersey\n\n\n6\nNY\nNew York\n\n\n7\nPA\nPennsylvania\n\n\n8\nVA\nVirginia\n\n\n\n\n\n\n\n\n\n\n\nThe Multilayers\n\n\nNo.\nLayer\n\n\n\n\n1\nAirline\n\n\n2\nMarine\n\n\n3\nRail\n\n\n4\nRoad\n\n\n\n\n\n\n\n\n\nThe latter part of this project focuses on layers of rail and road.\nThe codes can be modified so that you can expand to other selections of states, or to introduce other sources of shp files or csv files."
   },
   {
-    "objectID": "projects/03_pev_smart_charging/index.html#about",
-    "href": "projects/03_pev_smart_charging/index.html#about",
-    "title": "PEV Smart Charging",
-    "section": "",
-    "text": "This project builds a Conjoint Survey on PEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Access the Project   Access the Showcase"
-  },
-  {
-    "objectID": "projects/03_pev_smart_charging/index.html#project-overview",
-    "href": "projects/03_pev_smart_charging/index.html#project-overview",
-    "title": "PEV Smart Charging",
+    "objectID": "projects/01_network_science/index.html#project-overview",
+    "href": "projects/01_network_science/index.html#project-overview",
+    "title": "Network Science of the Mid-Atlantic Region",
     "section": "Project Overview",
-    "text": "Project Overview\nThis project is a combination of Master and PhD levels. The Master-level project is performed as a team with these members: Pingfan Hu, Bharath Ravindra, Sampada Dhakal, and Vedanth Surendra Hegde.\nSmart Charging means to control and monitor the PEV charging process. In our project, it contains SMC and V2G. SMC is short for “Supplier-Managed Charging”. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. V2G is short for “Vehicle-to-Grid”. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both SMC and V2G. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (PEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if PEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSMC is a solution that aims to control the timing of PEV charging according to grid conditions. This strategy is particularly useful for PEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nOn the other hand, V2G is to charge the electricity from the PEVs back to the grid. It is a tougher objective compared with smart charging. This objective aims to decrease the amount of stationary power storage of the utility by better using the existing electricity in the PEVs.\nThe challenge lies in convincing PEV owners to participate in the SMC and V2G programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor our program to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing PEV owners’ willingness to participate. Different regions, based on their PEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of PEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. The Smart Charging programs could solve this issue, yet its success hinges on understanding and addressing PEV owners’ concerns and varying regional needs."
+    "text": "Project Overview\n\n1. Spatial Analysis\nThis section is the starting part of this project. It takes in geographical files from trusted sources and generates the proper maps and csv files out of them.\nThis section takes in shp files and csv files from these sources:\n\n TIGER/Line   HIFLD   OurAirports \n\nThis section generates:\n\n9 csv files:\n\nFAF zone correspondence\nedges of airlines, marine, rails, and roads\nnodes of airports, marine, rails and roads\n\n2 maps - the spatial map and the topography map\n\nThe Spatial Map:\n\n\n\n\n\nThe Topography Map:\n\n\n\n\n\n\n\n2. Centrality Analysis\nThis section takes in the 4 edge files and the 4 node files, and generates the 3 types of centralities of each.\nThe 3 types of centralities are: betweenness centrality, closeness centrality, and degree centrality.\nNote that the centralities are all in relative values, which means their values are based on the size of the system network.\nThe centrality values are all listed in a descending order.\nHint: any centrality csv file can also be used as a collection of nodes in its corresponding layer.\n\n\n3. Path Calculation\nStarting from this section, we only focus on the rail and road layers.\nThis section takes in edge and node files of rail and roads, and generates path counts.\nThe path counts are based on FAF zones of all 8 states, so that each OD pair is inter-FAF-zone.\nThere are 40 rail OD pairs, and 186 road OD pairs.\nThe csv headers are:\n\nNo. - counting number starting from 1\nSource - the source node\nSource State\nSource FAF Zone\nSource FAF Zone Description\nTarget - the target node\nTarget State\nTarget FAF Zone\nTarget FAF Zone Description\nPath Count - the count of shortest paths\n\n\n\n4. Degree Centrality Dist\nThis section takes in the degree centralities of rails and roads, and generates the degree centrality distribution plots of them.\nThe Rail Degree Centrality Distribution plot:\n\n\n\n\n\nThe Road Degree Centrality Distribution plot:\n\n\n\n\n\n\n\n5. Network Attacks\nThis section generates the deterministic and stochastic attacks on rails and roads.\nIt takes in these files:\n\nedge and node csv files\npath count files\n3 ranked centrality files (betweenness centrality also used as node collections)\n\nThe plots contain:\n\nDeterministic removal plots of the 3 centralities\nStochastic removal with random node selections (surrounded by 95% CI)\n\nThe Rail Centrality Attack plot:\n\n\n\n\n\nThe Road Centrality Attack plot:"
+  },
+  {
+    "objectID": "projects/06_ai_for_bot_detection/index.html",
+    "href": "projects/06_ai_for_bot_detection/index.html",
+    "title": "(Expected) Using AI to Detect Bots in Surveys",
+    "section": "",
+    "text": "Attempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
+  },
+  {
+    "objectID": "projects/06_ai_for_bot_detection/index.html#initial-ideas",
+    "href": "projects/06_ai_for_bot_detection/index.html#initial-ideas",
+    "title": "(Expected) Using AI to Detect Bots in Surveys",
+    "section": "",
+    "text": "Attempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
+  },
+  {
+    "objectID": "projects/02_solar_and_wind/index.html",
+    "href": "projects/02_solar_and_wind/index.html",
+    "title": "Solar and Wind Energy Advancements",
+    "section": "",
+    "text": "This project studies the driving effects of solar and wind energy advancements. It is a Master-level project for EMSE 6572 instructed by Prof John Helveston.\n Access the Project"
+  },
+  {
+    "objectID": "projects/02_solar_and_wind/index.html#about",
+    "href": "projects/02_solar_and_wind/index.html#about",
+    "title": "Solar and Wind Energy Advancements",
+    "section": "",
+    "text": "This project studies the driving effects of solar and wind energy advancements. It is a Master-level project for EMSE 6572 instructed by Prof John Helveston.\n Access the Project"
+  },
+  {
+    "objectID": "projects/02_solar_and_wind/index.html#project-overview",
+    "href": "projects/02_solar_and_wind/index.html#project-overview",
+    "title": "Solar and Wind Energy Advancements",
+    "section": "Project Overview",
+    "text": "Project Overview\nThis project is performed as a team consisting of Pingfan Hu and Abbey Kollar.\nRenewable energy in the USA has seen significant growth from 2000 to 2023. This research studies solar and wind energies and dives into three primary reasons behind this expansion:\n\nCost of Solar and Wind Energy\nPolicies and Incentives, and\nEnergy Research Budgets\n\nThis project contains the following:\n\nProject Proposal\nProgress Report\nFinal Report\nPresentation\n\nThe study aims to highlight which of these factors played the most crucial roles in this energy transformation. By understanding these relationships, we can better anticipate the future of renewable energy and make informed decisions.\nData wrangling and analysis are both performed using R coding language, presented with Quarto files."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI have 4 years’ engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia.\nMy current project is a conjoint survey for PEV (Plug-in Electric Vehicle) Smart Charging adoption. This project aims to understand PEV owners’ preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid.\nAccess my Resume for more details:  Pingfan’s Resume"
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI have 4 years’ engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia.\nMy current project is a conjoint survey for BEV (Battery Electric Vehicle) Smart Charging adoption. This project aims to understand BEV owners’ preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid.\nAccess my Resume for more details:  Pingfan’s Resume"
   },
   {
     "objectID": "about.html#experiences",
