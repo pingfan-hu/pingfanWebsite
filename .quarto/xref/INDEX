@@ -1,146 +1,38 @@
 {
-  "blog.qmd": {
-    "blog.html": "a56e748c"
-  },
-  "posts/post-with-code/index.qmd": {
-    "index.html": "df605e21"
-  },
-  "posts/welcome/index.qmd": {
-    "index.html": "3b399803"
-  },
   "index.qmd": {
-    "index.html": "d397f9e7"
-  },
-  "contents/blog/post-with-code/index.qmd": {
-    "index.html": "18ef500c"
-  },
-  "contents/blog/welcome/index.qmd": {
-    "index.html": "7813d1c0"
-  },
-  "qmd/blog.qmd": {
-    "blog.html": "80cb7eba"
-  },
-  "about.qmd": {
-    "about.html": "5754d37d"
-  },
-  "projects.qmd": {
-    "projects.html": "6c3d0dda"
-  },
-  "lectures.qmd": {
-    "lectures.html": "98177f6d"
-  },
-  "contents/blog/01_data_analysis/index.qmd": {
-    "index.html": "9c0e64bc"
-  },
-  "contents/blog/02_coding_languages/index.qmd": {
-    "index.html": "526400fc"
-  },
-  "contents/projects/01_pev_smart_charging/index.qmd": {
-    "index.html": "07f3f57b"
-  },
-  "contents/projects/03_ai_for_bot_detection/index.qmd": {
-    "index.html": "8dc659d8"
-  },
-  "contents/projects/02_survey_in_llm/index.qmd": {
-    "index.html": "02c491bb"
-  },
-  "slides.qmd": {
-    "slides.html": "80d4d65c"
-  },
-  "contents/slides/heterogeneity/index.qmd": {
-    "index.html": "3fd9862b"
-  },
-  "contents/projects/02_solar_and_wind/index.qmd": {
-    "index.html": "5fc36f1d"
-  },
-  "contents/projects/04_ai_for_bot_detection/index.qmd": {
-    "index.html": "7b1792b9"
-  },
-  "contents/projects/03_survey_in_llm/index.qmd": {
-    "index.html": "8e28d69f"
-  },
-  "contents/projects/05_ai_for_bot_detection/index.qmd": {
-    "index.html": "301f86e6"
-  },
-  "contents/projects/02_pev_smart_charging/index.qmd": {
-    "index.html": "033c0067"
-  },
-  "contents/projects/04_survey_in_llm/index.qmd": {
-    "index.html": "79eb8327"
-  },
-  "contents/projects/01_solar_and_wind/index.qmd": {
-    "index.html": "ab07d5a4"
-  },
-  "contents/projects/03_sim_with_grid/index.qmd": {
-    "index.html": "e13f5bd8"
-  },
-  "contents/projects/01_network_science/index.qmd": {
-    "index.html": "c7efca10"
-  },
-  "contents/blogs/02_coding_languages/index.qmd": {
-    "index.html": "11284abd"
-  },
-  "contents/blogs/01_data_analysis/index.qmd": {
-    "index.html": "ae8ce8fc"
-  },
-  "contents/projects/04_sim_with_grid/index.qmd": {
-    "index.html": "3d6df662"
-  },
-  "contents/projects/06_ai_for_bot_detection/index.qmd": {
-    "index.html": "5073b710"
-  },
-  "contents/projects/05_survey_in_llm/index.qmd": {
-    "index.html": "f8b75676"
-  },
-  "contents/projects/03_pev_smart_charging/index.qmd": {
-    "index.html": "16c41c54"
-  },
-  "contents/blogs/01_how_to_make_a_personal_website/index.qmd": {
-    "index.html": "518f8721"
-  },
-  "contents/blogs/02_formr_service_deployment/index.qmd": {
-    "index.html": "7d0da206"
-  },
-  "contents/blogs/02_formr_instance_deployment/index.qmd": {
-    "index.html": "8929b74d"
+    "index.html": "9cb984ae"
   },
   "blogs/02_formr_instance_deployment/index.qmd": {
-    "index.html": "e68a0cac"
+    "index.html": "d7a7fd12"
   },
   "blogs/01_how_to_make_a_personal_website/index.qmd": {
-    "index.html": "15122794"
-  },
-  "projects/01_network_science/index.qmd": {
-    "index.html": "b051183f"
-  },
-  "projects/04_sim_with_grid/index.qmd": {
-    "index.html": "397ebb82"
-  },
-  "projects/06_ai_for_bot_detection/index.qmd": {
-    "index.html": "e2dd28d6"
-  },
-  "projects/05_survey_in_llm/index.qmd": {
-    "index.html": "a0fac5b4"
-  },
-  "projects/02_solar_and_wind/index.qmd": {
-    "index.html": "9d0533ba"
-  },
-  "projects/03_pev_smart_charging/index.qmd": {
-    "index.html": "1cfbc568"
-  },
-  "pages/projects.qmd": {
-    "projects.html": "9c5b75b9"
-  },
-  "pages/about.qmd": {
-    "about.html": "5c96d853"
-  },
-  "pages/blogs.qmd": {
-    "blogs.html": "374b789a"
-  },
-  "blogs.qmd": {
-    "blogs.html": "a186b488"
+    "index.html": "24c38f2d"
   },
   "projects/03_bev_smart_charging/index.qmd": {
-    "index.html": "0141f7a1"
+    "index.html": "1686c7dc"
+  },
+  "projects/01_network_science/index.qmd": {
+    "index.html": "d4523c2b"
+  },
+  "projects/04_sim_with_grid/index.qmd": {
+    "index.html": "eac13058"
+  },
+  "projects/06_ai_for_bot_detection/index.qmd": {
+    "index.html": "fe3a9a68"
+  },
+  "projects/05_survey_in_llm/index.qmd": {
+    "index.html": "b7aa76f1"
+  },
+  "projects/02_solar_and_wind/index.qmd": {
+    "index.html": "b08d030e"
+  },
+  "projects.qmd": {
+    "projects.html": "629bdfca"
+  },
+  "about.qmd": {
+    "about.html": "dd3ed8ac"
+  },
+  "blogs.qmd": {
+    "blogs.html": "3b9cda22"
   }
 }
