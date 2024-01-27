@@ -3,6 +3,7 @@ title: "(Expected) Using AI to Detect Bots in Surveys"
 subtitle: "Can we use GPT to validate if the survey is done by human or AI?"
 date: "Jul, 2025"
 categories: [LLM, Conjoint]
+bibliography: ../references.bib
 ---
 
 ## Initial Ideas

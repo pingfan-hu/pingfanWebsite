@@ -1,38 +1,38 @@
 {
   "index.qmd": {
-    "index.html": "9cb984ae"
+    "index.html": "42cfe932"
   },
   "blogs/02_formr_instance_deployment/index.qmd": {
-    "index.html": "d7a7fd12"
+    "index.html": "a47d2851"
   },
   "blogs/01_how_to_make_a_personal_website/index.qmd": {
-    "index.html": "24c38f2d"
+    "index.html": "bd96e79f"
   },
   "projects/03_bev_smart_charging/index.qmd": {
-    "index.html": "1686c7dc"
+    "index.html": "63ef3909"
   },
   "projects/01_network_science/index.qmd": {
-    "index.html": "d4523c2b"
+    "index.html": "03fb0d4b"
   },
   "projects/04_sim_with_grid/index.qmd": {
-    "index.html": "eac13058"
+    "index.html": "a30768b7"
   },
   "projects/06_ai_for_bot_detection/index.qmd": {
-    "index.html": "fe3a9a68"
+    "index.html": "27decf46"
   },
   "projects/05_survey_in_llm/index.qmd": {
-    "index.html": "b7aa76f1"
+    "index.html": "abe468bf"
   },
   "projects/02_solar_and_wind/index.qmd": {
-    "index.html": "b08d030e"
+    "index.html": "61c8cf9c"
   },
   "projects.qmd": {
-    "projects.html": "629bdfca"
+    "projects.html": "c3886cfa"
   },
   "about.qmd": {
-    "about.html": "dd3ed8ac"
+    "about.html": "777780b6"
   },
   "blogs.qmd": {
-    "blogs.html": "3b9cda22"
+    "blogs.html": "48b01df0"
   }
 }

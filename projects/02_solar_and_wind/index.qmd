@@ -3,6 +3,7 @@ title: "Solar and Wind Energy Advancements"
 subtitle: "Key drivers of the growth of solar and wind electricity generation in the USA."
 date: "Aug 30, 2023"
 categories: [Renewable, Data Viz]
+bibliography: ../references.bib
 ---
 
 ## About

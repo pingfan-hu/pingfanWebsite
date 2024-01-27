@@ -3,6 +3,7 @@ title: "BEV Smart Charging"
 subtitle: "Quantifying the benefits and constraints of BEV Smart Charging adoption."
 date: "Sept 07, 2023"
 categories: [Smart Charging, Conjoint]
+bibliography: ../references.bib
 ---
 
 ## About
