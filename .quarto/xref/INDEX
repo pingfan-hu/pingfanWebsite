@@ -34,5 +34,8 @@
   },
   "blogs.qmd": {
     "blogs.html": "48b01df0"
+  },
+  "blogs/03_how_to_do_research/index.qmd": {
+    "index.html": "e5d35e70"
   }
 }
