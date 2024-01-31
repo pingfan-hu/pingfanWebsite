@@ -8,7 +8,7 @@ bibliography: references.bib
 ## Useful Links
 
 |              |                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Research     | <a href="https://scholar.google.com" class="btn btn-primary btn-sm" role="button"> Google Scholar </a> <a href="https://library.gwu.edu" class="btn btn-primary btn-sm" role="button"> GWU Library </a> <a href="https://www.connectedpapers.com" class="btn btn-primary btn-sm" role="button"> Connected Papers </a> <a href="https://www.zotero.org" class="btn btn-primary btn-sm" role="button"> Zotero </a> |
 | Coding       | <a href="https://github.com" class="btn btn-info btn-sm" role="button">GitHub</a> <a href="https://desktop.github.com" class="btn btn-info btn-sm" role="button">GitHub Desktop</a> <a href="https://posit.co" class="btn btn-info btn-sm" role="button">RStudio</a>                                                                                                                                             |
 | Note Taking  | <a href="https://quarto.org" class="btn btn-success btn-sm" role="button">Quarto</a> <a href="https://www.craft.do" class="btn btn-success btn-sm" role="button"> Craft Doc </a> <a href="https://www.notion.so" class="btn btn-success btn-sm" role="button"> Notion </a>                                                                                                                                       |
@@ -16,7 +16,13 @@ bibliography: references.bib
 
 ## Abstract
 
-This blog briefly describes of my approaches of doing research. It contains [Research Methods], [Research Tools], and [Publication & Communication](#publication-communication).
+This blog provides a concise overview of my research methodologies.
+
+It encompasses three core aspects:
+
+1.  [Research Methods]
+2.  [Research Tools]
+3.  [Publication & Communication].
 
 ## Introduction
 
@@ -28,7 +34,7 @@ I break down my research approaches into 3 categories:
 
 1.  **Research Methods**: Literature Review, Bibliography, and Research Notes.
 2.  **Research Tools**: Google Scholar, University Library, Connected Papers, and Zotero.
-3.  **Publication & Communication**: GitHub, Craft Doc, Personal Website, and more.
+3.  **Publication & Communication**: GitHub, Craft Doc, and Personal Website.
 
 ## Research Methods
 
@@ -53,7 +59,7 @@ Taking research notes is a highly case-by-case matter. It's purely depending on 
 3.  **Craft Doc**: For some semi-formal notes, I usually record them into my Craft Doc. [Craft](https://www.craft.do) is a note-taking platform compatible with Mac, Windows, and mobile devices. It is similar to [Notion](https://www.notion.so/) but is a bit simpler to deal with. How Craft Doc works is by creating markdown documents and render them in real time.
 4.  **Apple Notes**: For purely informal notes, which might come out during conversations or casual time, I quickly note down with Apple Notes. There is one little trick for Mac: simply moving your cursor to the bottom right corner, you can see a little pop-up of a note page. Click on it and start to write. I record and clear these notes on weekly basis to make sure I have them taken good care of before I totally forget what these graffiti are.
 
-You might want to share some notes with your supervisor or your other teammates. I'll discuss about them in the **Publication & Communication** section.
+You might want to share some notes with your supervisor or your other teammates. I'll discuss about them in the [**Publication & Communication**] section.
 
 ## Research Tools
 
@@ -103,11 +109,11 @@ This network can be accessed [**here**](https://www.connectedpapers.com/main/099
 -   The **yellow** highlighted part on the left is the list of the papers, with Dr Helveston's paper on the top.
 -   The **red** part in the middle shows the paper network according to their similarity. Feel free to hover over any of the nodes to see their details both on the pop-up info, and on the right side of the page (highlighted in blue).
 -   The **green** part at the bottom shows the color scale of how far away these papers are from today. The lightest color represents 2010, and darkest 2023.
--   The **blue** part on the right is whatever the paper that I am hovering over to (otherwise the main paper which is Dr Helveston's in this case). It shows the paper's title, abstract, and places where you can access it.
+-   The **blue** part on the right is whatever the paper that I am hovering over (otherwise the main paper which is Dr Helveston's in this case). It shows the paper's title, abstract, and places where you can access it.
 
 Connected Papers is a great platform for your in-depth research so that you can easily skim through the related publications, and it provides quick justifications of the papers' publishing date and numbers of citations.
 
-However, free accounts of Connected Papers only gives you 5 networks per day. If you use it frequently, you might need monthly or annual subscriptions.
+However, free accounts of Connected Papers only give you 5 networks per day. If you use it frequently, you might need monthly or annual subscriptions.
 
 ### 4. Zotero
 
