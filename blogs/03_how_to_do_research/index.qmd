@@ -8,7 +8,7 @@ bibliography: references.bib
 ## Useful Links
 
 |              |                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|-----------------|----------------------------------------------|
+|--------------------|----------------------------------------------------|
 | Research     | <a href="https://scholar.google.com" class="btn btn-primary btn-sm" role="button"> Google Scholar </a> <a href="https://library.gwu.edu" class="btn btn-primary btn-sm" role="button"> GWU Library </a> <a href="https://www.connectedpapers.com" class="btn btn-primary btn-sm" role="button"> Connected Papers </a> <a href="https://www.zotero.org" class="btn btn-primary btn-sm" role="button"> Zotero </a> |
 | Coding       | <a href="https://github.com" class="btn btn-info btn-sm" role="button">GitHub</a> <a href="https://desktop.github.com" class="btn btn-info btn-sm" role="button">GitHub Desktop</a> <a href="https://posit.co" class="btn btn-info btn-sm" role="button">RStudio</a>                                                                                                                                             |
 | Note Taking  | <a href="https://quarto.org" class="btn btn-success btn-sm" role="button">Quarto</a> <a href="https://www.craft.do" class="btn btn-success btn-sm" role="button"> Craft Doc </a> <a href="https://www.notion.so" class="btn btn-success btn-sm" role="button"> Notion </a>                                                                                                                                       |
@@ -16,7 +16,7 @@ bibliography: references.bib
 
 ## Abstract
 
-This blog briefly describes of my approaches of doing research. It contains [Research Methods], [Research Tools], and [Publication & Communication].
+This blog briefly describes of my approaches of doing research. It contains [Research Methods], [Research Tools], and [Publication & Communication](#publication-communication).
 
 ## Introduction
 
@@ -150,7 +150,7 @@ In this **interface**:
 ![***Figure 8**: Zotero compatibility for RStudio*](figs/08_zotero_4.jpg){width="400"}
 :::
 
-## Publication & Communication
+## Publication & Communication {#publication-communication}
 
 Rome was not built in a day. It takes a considerable amount of time to do the research project. It's vital to have regular communication with your supervisor. It could be face to face, online, email, or whatever method you both may prefer. Having your research resources available to your supervisor and other team members is important. Then it comes to the publication and communication methods.
 
@@ -216,5 +216,3 @@ There are many ways to do personal websites. In fact, any software or platform t
 So, why bother doing all these? Well, it's my way to perform, collect, store, share, and present my research. Again, Rome was not built in one day, and these setup works were also not done in a short time. For me, it took me nearly half a year to sort all these things out.
 
 If you are at the very beginning of your research, don't panic, since it takes time and efforts to do great things; and if you are already an experienced researcher, I will be glad if any of them could be helpful for your research.
-
-I appreciate your reading!
