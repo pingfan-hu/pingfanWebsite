@@ -8,7 +8,7 @@ Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washingto
 
 I have 4 years' engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia.
 
-My current project is a [conjoint survey](https://bev.pingfanhu.com) for BEV (Battery Electric Vehicle) Smart Charging adoption. This project aims to understand BEV owners' preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid.
+My current project is a [conjoint survey](https://jhelvy.github.io/smartcharging/) for BEV (Battery Electric Vehicle) Smart Charging adoption. This project aims to understand BEV owners' preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid.
 
 Access my Resume for more details: <a href="resume.pdf" class="btn btn-primary btn-sm" role="button" target="_blank"> Pingfan's Resume </a>
 
