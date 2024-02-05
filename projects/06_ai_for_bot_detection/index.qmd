@@ -6,6 +6,10 @@ categories: [LLM, Conjoint]
 bibliography: ../references.bib
 ---
 
+## About
+
+Initial thoughts of detecting bots on surveys using LLM.
+
 ## Initial Ideas
 
 -   Attempt to use LLM to distinguish between humans responses and bot responses.
