@@ -18,7 +18,7 @@
     "href": "blogs.html",
     "title": "Blogs",
     "section": "",
-    "text": "How to Do Research\n\n\n\n\n\n\nResearch\n\n\n\n\n\n\n\n\n\nJan 30, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nformr Instance Deployment\n\n\n\n\n\n\nformr\n\n\nLinode\n\n\n\n\n\n\n\n\n\nDec 30, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Make a Personal Website\n\n\n\n\n\n\nWebsite\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "What Is a Conjoint Survey\n\n\n\n\n\n\nConjoint\n\n\n\n\n\n\n\n\n\nFeb 28, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nTips on Using ChatGPT\n\n\n\n\n\n\nChatGPT\n\n\n\n\n\n\n\n\n\nFeb 28, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Do Research\n\n\n\n\n\n\nResearch\n\n\n\n\n\n\n\n\n\nJan 30, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nformr Instance Deployment\n\n\n\n\n\n\nformr\n\n\nLinode\n\n\n\n\n\n\n\n\n\nDec 30, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Make a Personal Website\n\n\n\n\n\n\nWebsite\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "projects.html",
@@ -327,5 +327,19 @@
     "title": "(Expected) Using AI to Detect Bots in Surveys",
     "section": "",
     "text": "Initial thoughts of detecting bots on surveys using LLM."
+  },
+  {
+    "objectID": "blogs/04_what_is_conjoint/index.html",
+    "href": "blogs/04_what_is_conjoint/index.html",
+    "title": "What Is a Conjoint Survey",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "blogs/05_how_to_use_chatgpt/index.html",
+    "href": "blogs/05_how_to_use_chatgpt/index.html",
+    "title": "Tips on Using ChatGPT",
+    "section": "",
+    "text": "Back to top"
   }
 ]

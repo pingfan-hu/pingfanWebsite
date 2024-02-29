@@ -1,10 +1,10 @@
 {
   "listingMap": {
-    "projects.qmd": [
-      "projects"
-    ],
     "blogs.qmd": [
       "blogs"
+    ],
+    "projects.qmd": [
+      "projects"
     ]
   }
 }

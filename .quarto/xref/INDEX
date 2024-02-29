@@ -1,41 +1,47 @@
 {
-  "index.qmd": {
-    "index.html": "da6f8ab0"
-  },
-  "blogs/03_how_to_do_research/index.qmd": {
-    "index.html": "f67d238d"
-  },
-  "blogs/02_formr_instance_deployment/index.qmd": {
-    "index.html": "55719d32"
-  },
-  "blogs/01_how_to_make_a_personal_website/index.qmd": {
-    "index.html": "7738f9de"
-  },
-  "projects/03_bev_smart_charging/index.qmd": {
-    "index.html": "784e73f8"
-  },
-  "projects/01_network_science/index.qmd": {
-    "index.html": "77bcb894"
-  },
-  "projects/04_sim_with_grid/index.qmd": {
-    "index.html": "638baa21"
-  },
-  "projects/06_ai_for_bot_detection/index.qmd": {
-    "index.html": "e4e0bac4"
-  },
-  "projects/05_survey_in_llm/index.qmd": {
-    "index.html": "ab0067ac"
-  },
-  "projects/02_solar_and_wind/index.qmd": {
-    "index.html": "6118b572"
-  },
-  "projects.qmd": {
-    "projects.html": "eae4dde6"
-  },
   "about.qmd": {
-    "about.html": "cf34856d"
+    "about.html": "a7fb21d6"
   },
   "blogs.qmd": {
-    "blogs.html": "7e15a8f1"
+    "blogs.html": "a21cb38b"
+  },
+  "blogs/01_how_to_make_a_personal_website/index.qmd": {
+    "index.html": "f37caf40"
+  },
+  "blogs/02_formr_instance_deployment/index.qmd": {
+    "index.html": "174daf49"
+  },
+  "blogs/03_how_to_do_research/index.qmd": {
+    "index.html": "ea25c5fc"
+  },
+  "blogs/04_what_is_conjoint/index.qmd": {
+    "index.html": "a6c90355"
+  },
+  "blogs/05_how_to_use_chatgpt/index.qmd": {
+    "index.html": "7bf743c7"
+  },
+  "index.qmd": {
+    "index.html": "9cf44326"
+  },
+  "projects.qmd": {
+    "projects.html": "335fea58"
+  },
+  "projects/01_network_science/index.qmd": {
+    "index.html": "e8e66fda"
+  },
+  "projects/02_solar_and_wind/index.qmd": {
+    "index.html": "f2c44e91"
+  },
+  "projects/03_bev_smart_charging/index.qmd": {
+    "index.html": "d6093e9d"
+  },
+  "projects/04_sim_with_grid/index.qmd": {
+    "index.html": "810adb92"
+  },
+  "projects/05_survey_in_llm/index.qmd": {
+    "index.html": "753a5b8d"
+  },
+  "projects/06_ai_for_bot_detection/index.qmd": {
+    "index.html": "139e61e7"
   }
 }
