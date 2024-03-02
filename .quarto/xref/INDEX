@@ -1,47 +1,41 @@
 {
   "about.qmd": {
-    "about.html": "a7fb21d6"
+    "about.html": "9c752f62"
   },
   "blogs.qmd": {
-    "blogs.html": "a21cb38b"
+    "blogs.html": "f6d9adf1"
   },
   "blogs/01_how_to_make_a_personal_website/index.qmd": {
-    "index.html": "f37caf40"
+    "index.html": "7fdc39b2"
   },
   "blogs/02_formr_instance_deployment/index.qmd": {
-    "index.html": "174daf49"
+    "index.html": "50e66cf5"
   },
   "blogs/03_how_to_do_research/index.qmd": {
-    "index.html": "ea25c5fc"
-  },
-  "blogs/04_what_is_conjoint/index.qmd": {
-    "index.html": "a6c90355"
-  },
-  "blogs/05_how_to_use_chatgpt/index.qmd": {
-    "index.html": "7bf743c7"
+    "index.html": "28ba1da7"
   },
   "index.qmd": {
-    "index.html": "9cf44326"
+    "index.html": "f60d946b"
   },
   "projects.qmd": {
-    "projects.html": "335fea58"
+    "projects.html": "2373ce2f"
   },
   "projects/01_network_science/index.qmd": {
-    "index.html": "e8e66fda"
+    "index.html": "5eec0e36"
   },
   "projects/02_solar_and_wind/index.qmd": {
-    "index.html": "f2c44e91"
+    "index.html": "d11d45a8"
   },
   "projects/03_bev_smart_charging/index.qmd": {
-    "index.html": "d6093e9d"
+    "index.html": "f097c782"
   },
   "projects/04_sim_with_grid/index.qmd": {
-    "index.html": "810adb92"
+    "index.html": "057c46ba"
   },
   "projects/05_survey_in_llm/index.qmd": {
-    "index.html": "753a5b8d"
+    "index.html": "6f1562c1"
   },
   "projects/06_ai_for_bot_detection/index.qmd": {
-    "index.html": "139e61e7"
+    "index.html": "6d1d152c"
   }
 }
