@@ -6,9 +6,12 @@ project:
 
 format:
   html:
+    code-fold: true
+    code-tools: true
     toc: true
     toc-depth: 5
     toc-location: right
+    lightbox: true
     theme: [united, theme.scss]
     css: styles.css
     self-contained: true
@@ -24,7 +27,7 @@ knitr:
     fig.asp: 0.618
     fig.retna: 3
     fig.path: figs/
-    out.width: 70%
+    out.width: 80%
 
 execute:
   freeze: false
