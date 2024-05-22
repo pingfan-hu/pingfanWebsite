@@ -15,7 +15,7 @@ library(here)
 ## Useful Links
 
 |                |                                                                                                                                                                       |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | Research Paper | <a href="https://papers.tinbergen.nl/02119.pdf" class="btn btn-primary btn-sm" role="button"> The Origins of Logit Regression </a>                                    |
 | Lecture Slides | <a href="https://hw.pingfanhu.com/emse_6035_hw/choice_modeling_slides/1_choice_modeling.pdf" class="btn btn-info btn-sm" role="button"> Intro to Choice Modeling </a> |
 | Online Article | <a href="https://zhuanlan.zhihu.com/p/27188729" class="btn btn-success btn-sm" role="button"> What is Logit (Chinese) </a>                                            |
@@ -111,7 +111,7 @@ ggplot(data_logit, aes(x = Time, y = Population)) +
 
 This is the "S Curve" we've been seen in a lot of scenarios where there is a designed cap of population due to resource scarcity. There are also other S shaped curves. To avoid ambiguity, we use the term "Logit" instead.
 
-> The CDF of logit model is an S curve. With a visible diminishing return, it is a perfect model for human behavior studies for the purpose of generating a feasible marketing strategy.
+> The CDF of logit model is an S curve. With a visible diminishing of returns, it is a perfect model for human behavior studies for the purpose of generating a feasible marketing strategy.
 
 ## The Logit Model
 
@@ -152,7 +152,7 @@ $$
 In statistics, both probability and odds are used to describe the likelihood of an event occurring, but they have an important difference:
 
 1.  **Probability** refers to the ratio of the number of times an event A occurs to the total number of possible outcomes, while
-2.  **Odds** refer to the ratio of the probability of an event occurring to the probability of the event not occurring.
+2.  **Odds** refers to the ratio of the probability of an event occurring to the probability of the event not occurring.
 
 The probability equation writes:
 
