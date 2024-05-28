@@ -10,7 +10,7 @@ bibliography: ../references.bib
 
 This project builds a Conjoint Survey on BEV Smart Charging. It utilizes the [`cbctools`](https://jhelvy.github.io/cbcTools/) and [`logitr`](https://jhelvy.github.io/logitr/) packages developed by [Prof John Helveston](https://www.jhelvy.com).
 
-<a href="https://jhelvy.github.io/smartcharging/" class="btn btn-primary" role="button"> Access the Project Showcase </a>
+<a href="https://sc.pingfanhu.com" class="btn btn-primary" role="button"> Showcase Website </a> <a href="https://sc.pingfanhu.com/pages/project_showcase.pdf" class="btn btn-primary" role="button"> Showcase PDF </a>
 
 ## Project Overview
 
