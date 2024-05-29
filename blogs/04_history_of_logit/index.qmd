@@ -2,6 +2,11 @@
 title: "The History of Logit"
 date: "May 20, 2024"
 categories: [Logit]
+
+format:
+  html:
+    code-fold: true
+    code-tools: true
 ---
 
 ```{r}

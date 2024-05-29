@@ -1,44 +1,44 @@
 {
   "about.qmd": {
-    "about.html": "453f6b68"
+    "about.html": "3c6827c2"
   },
   "blogs.qmd": {
-    "blogs.html": "27274c6d"
+    "blogs.html": "5402e3b2"
   },
   "blogs/01_how_to_make_a_personal_website/index.qmd": {
-    "index.html": "0ff0c016"
+    "index.html": "d5fcdf1f"
   },
   "blogs/02_formr_instance_deployment/index.qmd": {
-    "index.html": "0bff2517"
+    "index.html": "e8dd30ec"
   },
   "blogs/03_how_to_do_research/index.qmd": {
-    "index.html": "3b724d08"
+    "index.html": "953054a9"
   },
   "blogs/04_history_of_logit/index.qmd": {
-    "index.html": "d7dd531e"
+    "index.html": "30171f82"
   },
   "index.qmd": {
-    "index.html": "f902fde6"
+    "index.html": "3d302197"
   },
   "projects.qmd": {
-    "projects.html": "df83533c"
+    "projects.html": "05ef71bc"
   },
   "projects/01_network_science/index.qmd": {
-    "index.html": "2b6f2e5d"
+    "index.html": "1c1671f0"
   },
   "projects/02_solar_and_wind/index.qmd": {
-    "index.html": "83199c0f"
+    "index.html": "caa5972e"
   },
   "projects/03_bev_smart_charging/index.qmd": {
-    "index.html": "d693a57a"
+    "index.html": "eae3a63a"
   },
   "projects/04_sim_with_grid/index.qmd": {
-    "index.html": "4479e055"
+    "index.html": "d3a24b3c"
   },
   "projects/05_survey_in_llm/index.qmd": {
-    "index.html": "e131e92c"
+    "index.html": "1cbae393"
   },
   "projects/06_ai_for_bot_detection/index.qmd": {
-    "index.html": "90ca9b8f"
+    "index.html": "75f66313"
   }
 }
