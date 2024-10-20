@@ -347,7 +347,7 @@
     "href": "projects/02_surveydown/index.html#citation-information",
     "title": "The surveydown R package",
     "section": "Citation Information",
-    "text": "Citation Information\nIf you use this package for in a publication, please cite it! You can get the citation by typing citation(\"surveydown\") into R:"
+    "text": "Citation Information\nIf you use this package for in a publication, please cite it! You can get the citation by typing citation(\"surveydown\") into R:\n\ncitation(\"surveydown\")"
   },
   {
     "objectID": "projects/03_ai_for_bot_detection/index.html",

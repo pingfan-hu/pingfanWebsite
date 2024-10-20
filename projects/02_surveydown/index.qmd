@@ -110,3 +110,8 @@ See the license information [here](https://github.com/surveydown-dev/surveydown/
 
 If you use this package for in a publication, please cite it! You can
 get the citation by typing `citation("surveydown")` into R:
+
+```{r}
+citation("surveydown")
+```
+
