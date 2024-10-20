@@ -1,0 +1,304 @@
+---
+title: "formr Instance Deployment"
+date: "Dec 30, 2023"
+categories: [formr, Linode]
+---
+
+## Useful Links
+
+|             |                                                                                                                                                                                                                                                                                                                |
+|------------|------------------------------------------------------------|
+| Showcase    | <a href="http://172.233.238.100" class="btn btn-primary btn-sm" role="button">My formr Instance</a> <a href="https://formr.org" class="btn btn-primary btn-sm" role="button">Official formr</a>                                                                                                                |
+| Preparation | <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04" class="btn btn-info btn-sm" role="button"> Initial Setup with Ubuntu </a> <a href="https://docs.docker.com/desktop/install/ubuntu/" class="btn btn-info btn-sm" role="button"> Install Docker on Ubuntu </a> |
+| Deployment  | <a href="https://github.com/rubenarslan/formr.org/blob/master/INSTALLATION.md" class="btn btn-success btn-sm" role="button"> Deploy formr (Docker Version) </a>                                                                                                                                                |
+
+## Abstract
+
+This is a tutorial of deploying the [formr](https://formr.org) instance using [Ubuntu 22.04](https://www.releases.ubuntu.com/22.04/) on [Akamai](https://www.akamai.com) (prior name Linode).
+
+This tutorial contains my personal settings. If you are following this tutorial to make your own deployment, make sure to modify based on your preference.
+
+This tutorial consists of the following:
+
+1.  Create an Ubuntu 22.04 server using Akamai's Linode.
+2.  Create user and assign `sudo` privilege.
+3.  Install Docker.
+4.  Clone and configure the formr repo.
+5.  Trouble-shooting.
+
+## My Customization
+
+|                       |                                                            |
+|---------------------|---------------------------------------------------|
+| Server IP             | `172.233.238.100`                                          |
+| User Name             | `pingfan`                                                  |
+| SQL Database Password | `0727`                                                     |
+| Host Email            | [formrcloudgwu\@gmail.com](mailto:formrcloudgwu@gmail.com) |
+
+## Step 1 - Create the Server
+
+### 1.1 Create the server
+
+Proceed to [Akamai](https://www.akamai.com) and create a Linode server following these configurations:
+
+1.  **Images** - Choose Ubuntu 22.04 LTS. This is the desired version for formr instance.
+2.  **Region** - Choose your desired region.
+3.  **Linode Plan** - Choose "Dedicated CPU" and pick a plan. The formr team recommends 8 CPUs, but I only picked the basic plan.
+4.  **Linode Label** - Name your server as you wish. I named it as `ubuntu-formr`.
+5.  **Add Tags** - You may add a tag to indicate what this Linode server is for. I created a tag called `formr`.
+6.  **Root Password** - A `root` user will be generated for you upon server creation. This password is for accessing this `root` server. However, better create a real user and avoid using `root`. I'll cover this later.
+7.  **SSH Keys** - If you haven't done so, create an SSH key using your Terminal. Save the key pairs to a safe place. On this page, click on ***Add An SSH Key*** and paste the public key here.
+8.  Leave the rest settings as they are.
+
+### 1.2 Access online using LISH
+
+Once you have created your Linode server, you'll see it in the "Linodes" section. Click on it to make sure it's properly running. On top right corner, you'll see a "***Launch LISH Console***" button, where *LISH* is short for *Linode Shell*. By clicking on it, you'll open the online shell command terminal.
+
+::: {style="text-align: center;"}
+![**Figure 1**: *Click on this button to launch the online shell terminal*](figs/01_lish.jpg){width="700"}
+:::
+
+### 1.3 Access locally using Terminal
+
+However, I prefer to use my local **Terminal**. Follow these steps to access this Linode using your local Terminal:
+
+1.  Launch your Terminal.
+2.  Type in `ssh root@your_ip_address`, and then input the root password that you created.
+3.  You'll see a welcoming message if everything goes properly.
+
+In fact, you can easily copy the SSH Access command from your Linode dashboard:
+
+::: {style="text-align: center;"}
+![**Figure 2**: *Click on the **SSH Access** contents to directly copy the command*](figs/02_access_linode.jpg){width="700"}
+:::
+
+Now you have created your Linode server for Ubuntu 22.04 and accessed it with your Terminal!
+
+## Step 2 - Create the User
+
+See the full instruction of *Digital Ocean* [here](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-22-04), or you can follow my guides. Keep in mind that both *Digital Ocean*'s guides and my instructions contain personalizations. You need to modify to your own case.
+
+Run the commands below ***line by line*** and follow the instructions when necessary. You'll need to create the password and personal information for the new user.
+
+``` bash
+# Log in as root
+ssh root@your_ip_address
+
+# Add a user called "pingfan"
+adduser pingfan
+
+# Assign sudo privilege 
+usermod -aG sudo pingfan
+
+# Open a new Terminal window to login as pingfan
+ssh pingfan@your_ip_address
+```
+
+Once your new user is ready, you'll need to use it for the following steps.
+
+> Hint: There is always a `root` user by default, but you need to avoid using it for daily purposes. This makes user creation always being our first step.
+
+## Step 3 - Install Docker
+
+The formr instance requires [Docker](https://www.docker.com). It is a virtual container for securely running your software. See the Docker official instructions [here](https://docs.docker.com/desktop/install/ubuntu/), or follow my steps below.
+
+> Hint: The official instructions assume you are using a local machine with GUI, but since we are accessing a remote machine using Terminal, I slightly modified the shell commands.
+
+**3.1** Install `gnome-terminal`
+
+``` bash
+sudo apt install gnome-terminal
+```
+
+**3.2** Set up Docker's apt repository
+
+``` bash
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+```
+
+**3.3** Install the latest Docker packages
+
+``` bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+**3.4** Verify that the Docker Engine installation is successful by running the `hello-world` image
+
+``` bash
+sudo docker run hello-world
+```
+
+**3.5** Download latest [DEB package](https://desktop.docker.com/linux/main/amd64/docker-desktop-4.26.1-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64)
+
+``` bash
+wget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.26.1-amd64.deb
+```
+
+> Hint: Until the composition of this blog, the latest version is `docker-desktop-4.26.1-amd64.deb`.
+
+**3.6** Install the package with `apt`
+
+``` bash
+sudo apt-get update
+sudo apt-get install ./docker-desktop-4.26.1-amd64.deb
+```
+
+**3.7** Launch Docker Desktop
+
+``` bash
+systemctl --user start docker-desktop
+```
+
+**3.8** Check the versions
+
+``` bash
+docker compose version
+docker --version
+docker version
+```
+
+**3.9** Enable Docker Desktop to start on login
+
+``` bash
+systemctl --user enable docker-desktop
+```
+
+Now the Dock Desktop should be installed and set as auto-launch upon system start.
+
+## Step 4 - Clone and Configure the formr Repo
+
+See the formr official instructions [here](https://github.com/rubenarslan/formr.org/blob/master/INSTALLATION.md), or you can follow my steps below.
+
+**4.1** Clone the formr repo
+
+``` bash
+git clone https://github.com/rubenarslan/formr_dev_docker.git
+```
+
+**4.2** Change dir and run `./setup.sh`
+
+``` bash
+cd formr_dev_docker
+sudo ./setup.sh
+```
+
+**4.3** Configure database and domain names
+
+``` bash
+sudo nano .env
+```
+
+> Hint: `nano` is the default editor of files in Terminal. After you are satisfied with your editing, you can use `Ctrl` + `O` to write out, and then `Ctrl` + `X` to exit.
+
+You'll need to modify the contents to meet your own personalization. Below is the official hint:
+
+``` bash
+# Mysql password of root, by default a random password will be generated
+MARIADB_ROOT_PASSWORD
+
+# Mysql database name, default = formr_db
+MARIADB_DATABASE
+
+# Mysql database user, default = formr_user
+MARIADB_USER
+
+# Mysql database password of user MARIADB_USER
+# By default a random password will be generated
+MARIADB_PASSWORD
+
+# The main domain of your formr instance
+MAIN_DOMAIN
+
+# Domain of formr_app. Can fill with multiple domain with separated by comma (,)
+# Default value = formr.org,www.formr.org
+FORMR_DOMAIN
+
+# (Sub)domain for opencpu. Access to this domain needs basic-auth
+# Default value = ocpu.formr.org
+OPENCPU_DOMAIN
+
+# Email for the ACME Let's Encrypt configuration and for the first superadmin
+FORMR_EMAIL
+
+# Default superadmin password
+FORMR_PASSWORD
+
+# formr version or branch. Default value = v0.20.6
+# Please check on this link https://github.com/rubenarslan/formr.org/tags
+FORMR_TAG
+
+# defaults to Europe/Berlin
+TIMEZONE
+```
+
+**4.4** Build containers and install initial schema
+
+``` bash
+sudo ./build.sh
+cd formr_app/formr/config
+sudo nano settings.php
+cd ~/formr_dev_docker
+sudo docker compose restart
+```
+
+The formr instance should be installed now. You may access your formr instance by pasting your IP address to your browser.
+
+You can access mine using [this link](http://172.233.238.100). It looks the same as the [official version](https://formr.org).
+
+> Hint: If you want to access your formr instance via a personalized domain, you'll need to go back to **4.3** and set the main domain, and also modify your domain by adding a new ***A Record*** and assign the value as your IP address.
+
+## Step 5 - Trouble-shooting
+
+**5.1** Hints for the `cd` command
+
+``` bash
+# To change to root dir
+cd
+
+# To change to a dir by inputting relative path
+# A relative path is where you start from your current dir
+cd dir_name
+
+# To change to a dir by inputting absolute path
+# An absolute path disregards your current path
+cd ~/dir_name
+```
+
+**5.2** Configurational files
+
+There are 3 configurational files in formr. They can be accessed using the following commands:
+
+``` bash
+# .env
+cd ~/formr_dev_docker
+sudo nano .env
+
+# settings.php
+cd ~/formr_dev_docker/formr_app/formr/config
+sudo nano settings.php
+
+# Session.php
+cd ~/formr_dev_docker/formr_app/formr/application
+sudo nano Session.php
+```
+
+**5.3** Restart Docker
+
+After each configuration, you'll need to restart Docker by using the following commands:
+
+``` bash
+cd ~/formr_dev_docker
+sudo docker compose restart
+```

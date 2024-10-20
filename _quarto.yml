@@ -23,7 +23,6 @@ knitr:
     fig.show: "hold"
     fig.asp: 0.618
     fig.retna: 3
-    fig.path: figs/
     out.width: 80%
 
 execute:

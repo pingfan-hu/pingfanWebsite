@@ -1,7 +1,0 @@
----
-title: "(Expected) Utilization of LLM on Surveys"
-subtitle: "Attempt to utilize LLM on the Smart Charging survey and compare with human results."
-date: "Jan, 2025"
-categories: [Smart Charging, LLM, Conjoint]
-bibliography: ../references.bib
----

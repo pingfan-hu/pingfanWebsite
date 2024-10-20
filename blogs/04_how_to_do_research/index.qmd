@@ -1,0 +1,225 @@
+---
+title: "How to Do Research"
+date: "Jan 30, 2024"
+date-modified: "Apr 29, 2024"
+categories: [Research]
+bibliography: references.bib
+---
+
+## Useful Links
+
+|               |                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|----------------:|-------------------------------------------------------|
+|     Research: | <a href="https://scholar.google.com" class="btn btn-primary btn-sm" role="button"> Google Scholar </a> <a href="https://library.gwu.edu" class="btn btn-primary btn-sm" role="button"> GWU Library </a> <a href="https://www.connectedpapers.com" class="btn btn-primary btn-sm" role="button"> Connected Papers </a> <a href="https://www.zotero.org" class="btn btn-primary btn-sm" role="button"> Zotero </a> |
+|       Coding: | <a href="https://github.com" class="btn btn-info btn-sm" role="button">GitHub</a> <a href="https://desktop.github.com" class="btn btn-info btn-sm" role="button">GitHub Desktop</a> <a href="https://posit.co" class="btn btn-info btn-sm" role="button">RStudio</a>                                                                                                                                             |
+|  Note Taking: | <a href="https://quarto.org" class="btn btn-success btn-sm" role="button">Quarto</a> <a href="https://www.craft.do" class="btn btn-success btn-sm" role="button"> Craft Doc </a> <a href="https://www.notion.so" class="btn btn-success btn-sm" role="button"> Notion </a>                                                                                                                                       |
+| Related Blog: | <a href="https://pingfanhu.com/blogs/01_how_to_make_a_personal_website/" class="btn btn-warning btn-sm" role="button"> How to Make a Personal Website </a>                                                                                                                                                                                                                                                       |
+
+## Abstract
+
+This blog provides a concise overview of my research methodologies.
+
+It encompasses three core aspects:
+
+1.  [Research Methods]
+2.  [Research Tools]
+3.  [Publication & Communication](#publication-communication).
+
+## Introduction
+
+Doing research is a must-learn technique not only for PhD students but for all researchers and learners in the academic field. Despite the existence of common methodologies, there is no unique way of doing research. The best way to do research is what makes you feel comfortable.
+
+As a 2nd year PhD student, I am still refining my ways of doing research. I write this blog to share my experiences to you and keep on track of possible optimization for myself.
+
+I break down my research approaches into 3 categories:
+
+1.  **Research Methods**: Literature Review, Bibliography, and Research Notes.
+2.  **Research Tools**: Google Scholar, University Library, Connected Papers, and Zotero.
+3.  **Publication & Communication**: GitHub, Craft Doc, and Personal Website.
+
+## Research Methods
+
+You may have heard a lot about literature review and bibliography since this is usually the very first step of starting your project. There are tons of online advice that you can reach to. I watched a lot of YouTube videos teaching me how to do them step-by-step, and they were very helpful. Since these experiences are not new to us, I want to talk something different.
+
+### 1. Literature Review and Bibliography
+
+I want to discuss some simple questions: Why do we do literature review and bibliography? What are the requirements for them? The usual answers are "I do so since my supervisor wants me to, and he/she has some solid requirements." This interpretation is correct, but not enough. My interpretations are:
+
+1.  You do literature review because you want to study and record the current progress of your research field or topic, and a bibliography works as a collection of your successful literature review.
+2.  There is no solid requirement for doing literature review and bibliography, since you are doing them for yourself. It's more important that your review notes make sense to you than to anyone else.
+3.  Although there is no solid requirement, your literature review should at least contain 2 parts: what you can learn from this literature, and what you can criticize. The other optional parts are the datasets and plots that interest you, or the methods you can learn from.
+
+Working as a PhD student or a researcher is different from being an ordinary student. You are already in your career and should treat your job in a professional way instead of "finishing tasks and handing in assignments", so, doing research is not to acquire objectives from your supervisor, get them done and report back. It is rather a conversation to yourself: What can I learn from this literature? What are its problems? How can it contribute to my project?
+
+### 2. Research Notes
+
+Taking research notes is a highly case-by-case matter. It's purely depending on your topic and your objectives. For me, I keep track of my project progress in different forms:
+
+1.  **Meeting Minutes and GitHub Issues**: [GitHub](https://github.com) is a repository management database by Microsoft. If you have coding projects, it's highly recommended to set up a GitHub account and start managing your project on it. I have weekly meeting with my supervisor, and bi-weekly meetings with my research team. I take notes and summarize into meeting minutes, have them sent to the team via email, and record into the **Issue** page of my project GitHub repo. For problems that cannot be immediately solved, I create a stand-alone **issue** and label as "To-do".
+2.  **Markdown Pages**: I use [Quarto](https://quarto.org) on [RStudio](https://posit.co) and record my research progress as `qmd` documents and sort them in chronological order. It's easy for me to trace back and look for the project history.
+3.  **Craft Doc**: For some semi-formal notes, I usually record them into my Craft Doc. [Craft](https://www.craft.do) is a note-taking platform compatible with Mac, Windows, and mobile devices. It is similar to [Notion](https://www.notion.so/) but is a bit simpler to deal with. How Craft Doc works is by creating markdown documents and render them in real time.
+4.  **Apple Notes**: For purely informal notes, which might come out during conversations or casual time, I quickly note down with Apple Notes. There is one little trick for Mac: simply moving your cursor to the bottom right corner, you can see a little pop-up of a note page. Click on it and start to write. I record and clear these notes on weekly basis to make sure I have them taken good care of before I totally forget what these graffiti are.
+
+You might want to share some notes with your supervisor or your other teammates. I'll discuss about them in the [Publication & Communication](#publication-communication) section.
+
+## Research Tools
+
+There are tons of tools that we can freely access. For me, I'm making use of [Google Scholar](https://scholar.google.com), [GWU Library](https://library.gwu.edu), [Connected Papers](https://www.connectedpapers.com), and [Zotero](https://www.zotero.org).
+
+### 1. Google Scholar
+
+[Google Scholar](https://scholar.google.com) is the starting point of doing research, and it's perhaps the largest database that we can access. You may search for any keywords with proper filtering to look for the possible outcomes that may interest you. You may also search for your supervisor's name. His/her personal page will show the list of publications, along with the counts of citations in a bar chart in chronological order.
+
+::: {style="text-align: center;"}
+![***Figure 1**: Google Scholar: Stand on the shoulders of giants*](figs/01_google_scholar.jpg){width="600"}
+:::
+
+However, since Google Scholar is an all-inclusive database, it's only suitable for the beginning of your research. As you go deeper, you will need some more precised targeting to specific papers. This requires you to use better tools as reinforcement.
+
+### 2. University Library
+
+Each university has its online library that grants you access to the literature publications. For example, GWU Library can be accessed [**here**](https://library.gwu.edu). It allows you to conduct searching with more advanced filtering techniques and grants you access to some paid contents.
+
+::: {style="text-align: center;"}
+![***Figure 2**: GWU Library provides more advanced searching and filtering techniques, and grants you access to some paid contents*](figs/02_gw_library.jpg){width="600"}
+:::
+
+### 3. Connected Papers
+
+[Connected Papers](https://www.connectedpapers.com) is a new platform that gives you access of related papers. It requires you to input keywords and locate to a paper as a starting point.
+
+::: {style="text-align: center;"}
+![***Figure 3**: Connected Papers: Enter keywords of a paper to start*](figs/03_connected_papers_1.jpg){width="600"}
+:::
+
+Once you locate to a paper, you are provided with a network view of all related papers, with your searched paper at the center. In this network view (as referred from Connected Papers' official instructions):
+
+-   Papers are arranged according to their similarity (this is not a citation tree).
+-   Node **size** is the number of citations.
+-   Node **color** is the publishing year.
+-   **Similar** papers have strong connecting lines and cluster together.
+
+Take the example of the work of @helveston2023. You can see the generated network below:
+
+::: {style="text-align: center;"}
+![***Figure 4**: Connected Papers: Example of Dr Helveston 2023*](figs/04_connected_papers_2.jpg){width="800"}
+:::
+
+This network can be accessed [**here**](https://www.connectedpapers.com/main/0997dca68d8e8a735ac51130e3e0820c24810b95/graph?utm_source=share_popup&utm_medium=copy_link&utm_campaign=share_graph). Below are the interpretations of this network page:
+
+-   The **yellow** highlighted part on the left is the list of the papers, with Dr Helveston's paper on the top.
+-   The **red** part in the middle shows the paper network according to their similarity. Feel free to hover over any of the nodes to see their details both on the pop-up info, and on the right side of the page (highlighted in blue).
+-   The **green** part at the bottom shows the color scale of how far away these papers are from today. The lightest color represents 2010, and darkest 2023.
+-   The **blue** part on the right is whatever the paper that I am hovering over (otherwise the main paper which is Dr Helveston's in this case). It shows the paper's title, abstract, and places where you can access it.
+
+Connected Papers is a great platform for your in-depth research so that you can easily skim through the related publications, and it provides quick justifications of the papers' publishing date and numbers of citations.
+
+However, free accounts of Connected Papers only give you 5 networks per day. If you use it frequently, you might need monthly or annual subscriptions.
+
+### 4. Zotero
+
+[Zotero](https://www.zotero.org) is a web-based literature management platform developed by George Mason University. It is widely used as a must-have research tool. Zotero is accessible on Mac, Windows, mobile devices, and webpage. I prefer to use it on my desktop machines (aka Mac and Windows), but you may try all and see if any of them fit you.
+
+After the installation of Zotero, you will be guided to install Zotero **add-on** for your web browser. You save the desired literature by clicking on the web browser Zotero button:
+
+::: {style="text-align: center;"}
+![***Figure 5**: Click on this Zotero web browser button to save the literature you find on the web*](figs/05_zotero_1.jpg){width="400"}
+:::
+
+Then, this literature resource should appear in your Zotero main interface. Below is the main interface:
+
+::: {style="text-align: center;"}
+![***Figure 6**: Zotero Main Interface*](figs/06_zotero_2.jpg){width="800"}
+:::
+
+In this **interface**:
+
+-   The **yellow** highlighted sidebar on the left is your database, where you can create and manage groups. I categorized my database groups by professor names, then further by different projects. You may find your own way of categorizing them.
+
+-   The **green** highlighted side bar on the left is the shared database group from others. Zotero supports database sharing so that you can easily acquire or share databases.
+
+-   The **red** highlighted part in the middle is the literature collection of your selected database group, which you may choose from the sidebar on the left (yellow highlighted). These literature resources are usually shown as a toggle on/off entry. In this screenshot, it is toggled on, so that you can see the actual PDF file and sometimes other useful contents like literature links or web links.
+
+-   The **blue** highlighted part on the right is the details of the selected literature. Note that I selected on the entry, not the PDF file. Here you can see the details of this literature, including title, author(s), type, date, page, etc. This is a perfect definition for reference lists and in-text citations. If any of the information is wrong or missing, you are free to modify.
+
+**Tips** of using Zotero:
+
+1.  Create an account to synchronize your literature collections, settings, and add-ons across the devices.
+2.  Zotero has a mature add-on market and is definitely more than what I can introduce here. Learn to use the add-ons and try some to enhance your user experience.
+3.  Zotero itself has markdown note capabilities. Some people might prefer using it instead of other note-taking approaches.
+4.  Zotero is compatible with Microsoft Word and RStudio (might have other compatibility but these 2 platforms are what I am using). You can manage literature sources, insert in-text citations and reference list by one click.
+
+::: {style="text-align: center;"}
+![***Figure 7**: Zotero add-on for Microsoft Word*](figs/07_zotero_3.jpg){width="400"}
+:::
+
+::: {style="text-align: center;"}
+![***Figure 8**: Zotero compatibility for RStudio*](figs/08_zotero_4.jpg){width="400"}
+:::
+
+## Publication & Communication {#publication-communication}
+
+Rome was not built in a day. It takes a considerable amount of time to do the research project. It's vital to have regular communication with your supervisor. It could be face to face, online, email, or whatever method you both may prefer. Having your research resources available to your supervisor and other team members is important. Then it comes to the publication and communication methods.
+
+Likewise, there is no unique rule to do this, and only what you and your team feels comfortable is the right rule. For me, I use [GitHub](https://github.com), [Craft Doc,](https://www.craft.do) and my personal website (yeah, this website).
+
+### 1. GitHub
+
+I mentioned [GitHub](https://github.com) in the [2. Research Notes] section, since I use GitHub Issues to take meeting notes, which is already a good way of communication, since these notes are not only for myself. However, GitHub is much more than just a note-taking system. It is an online repository database that can synchronize with your local machine, and your collaborators.
+
+This blog is not a GitHub tutorial, and I am still familiarizing with GitHub (for example, I don't usually use the fork and merge functions). I'll only briefly show what you can do with GitHub. In fact, I am managing this personal website on GitHub.
+
+To start with, we better know about [Git](https://git-scm.com), [GitHub](https://github.com), and [GitHub Desktop](https://desktop.github.com):
+
+-   **Git** is a distributed version control system, allowing developers to save different versions of their projects.
+-   **GitHub** is a web-based platform that incorporates Git's version control features. It uses cloud storage and can be treated as a manual version of iCloud or OneDrive for your coding projects.
+-   **GitHub Desktop** is a software developed by GitHub, by which you can use a GUI to manage your GitHub repositories. Otherwise, you'll have to use Shell commands on your Terminal.
+
+I recommend that you understand what Git is, create a [GitHub](https://github.com) account, and download the [GitHub Desktop](https://desktop.github.com) software.
+
+Tips of using **GitHub** and **GitHub Desktop**:
+
+1.  **Nouns in GitHub**:
+    a.  We call your database "**repositories**", shortened as **repo**.
+    b.  You can create **issues** to mark problems, progresses, and assign to whoever is responsible to solve.
+    c.  You can start a **project** with your teammates and use the project management system in GitHub. Note that **project** is not the same as **repo**.
+    d.  You can fork **main** repo or any **branch** to make your own **branch**. Then, you may choose to merge your **branch** to **main** when necessary. This is for teamwork purpose.
+2.  **Private vs Public**:
+    a.  GitHub repos are by default set as **private** as you create them, which is necessary for all your on-going projects since they are usually confidential. Then, you assign your supervisor or anyone you want to cooperate with as **collaborator(s)**.
+    b.  If you want to share your ideas and thoughts, you may set some of your other repos as **public**, so that they can benefit the others.
+3.  **Verbs in GitHub**:
+    a.  To **commit** means to commit your local version on stage and ready for pushing.
+    b.  To **push** means to actually upload this updated local version to online.
+    c.  To **fetch** means to check if there are updated versions.
+    d.  To **pull** means to actually download the updated online version to local.
+    e.  To **clone** means to download an online repo to your local machine.
+    f.  To **fork** means to create a branch of the repo.
+    g.  To **merge** means to merge your branch into main.
+
+GitHub is much more than what I can describe here. If you are interested and find it useful for your research, start from these basic knowledge and do your investigation. It's efficient, cutting-edge, and fun!
+
+### 2. Craft Doc
+
+[Craft Doc](https://www.craft.do) is an easy-to-use local document system. You can understand it as Microsoft Word + online file management. If you are familiar with [Notion](https://www.notion.so/), then Craft Doc is considered a simpler version of it. They both render **markdown** in real time and illustrate you with beautifully rendered outputs. Craft is accessible on Mac, Windows, online, and in mobile devices.
+
+Craft Doc can be private for your personal use, and you can share your pages via your designated URLs as well. Check out [my Craft Doc notebook](https://pingfanhu.craft.me/few) as an example.
+
+Craft Doc can be literally used seamlessly, and there are tons of tutorial videos and documents online, so I won't talk too much in my blog. The point is, that having a combination of note-taking, storage, and online sharing platform really speeds up your research and sharing.
+
+### 3. Personal Website
+
+There are many ways to do personal websites. In fact, any software or platform that can generate HTML files can be the candidate of generating personal websites. I use a combination of [Quarto](https://quarto.org), [RStudio](https://posit.co), [GitHub](https://github.com), [Namecheap](https://www.namecheap.com), and [Netlify](https://www.netlify.com) to build my website. Below is the breakdown:
+
+1.  **Quarto** is a code-enabled publishing system, compatible with [R](https://www.r-project.org), [Python](https://www.python.org), [Julia](https://julialang.org), and [Observable](https://observablehq.com). It can be run on [Jupyter Notebook](https://jupyter.org), [RStudio](https://posit.co), and [VS Code](https://code.visualstudio.com). The extension of a Quarto doc is called `qmd`, short for Quarto Markdown. This document, for example, is rendered from a `qmd` file.
+2.  **RStudio** is the major IDE that we use for R coding. I use Quarto on RStudio to create and edit my website project and other coding projects.
+3.  **GitHub** is used as an online repository management platform. It's necessary here since Netlify fetches the GitHub repo and deploys the site.
+4.  **Namecheap** is used to buy and manage domains. It also lets you to manage DNS, which is important for linking your domain to Netlify. In fact, I bought [my domain](https://pingfanhu.com) at Namecheap.
+5.  **Netlify** deploys your site. You may log in using your GitHub credential. Netlify also sells domains, by doing which can speed up your website deployment, since you'll have DNS settings automatically taken care of.
+
+> Above is just a brief introduction of which is which. If you are interested in building a website in this way, please go to another blog of mine: [How to Make a Personal Website](https://pingfanhu.com/blogs/01_how_to_make_a_personal_website/).
+
+## Summary
+
+So, why bother doing all these? Well, it's my way to perform, collect, store, share, and present my research. Again, Rome was not built in one day, and these setup works were also not done in a short time. For me, it took me nearly half a year to sort all these things out.
+
+If you are at the very beginning of your research, don't panic, since it takes time and efforts to do great things; and if you are already an experienced researcher, I will be glad if any of them could be helpful for your research.

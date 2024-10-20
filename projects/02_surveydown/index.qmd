@@ -1,0 +1,112 @@
+---
+title: "The surveydown R package"
+subtitle: "A flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase."
+author:
+  - "John Helveston"
+  - "Pingfan Hu"
+date: "Jun 01, 2024"
+categories: [Survey, Software]
+execute:
+  echo: true
+  eval: false
+  warning: false
+---
+
+## About
+
+The {surveydown} R package is a flexible, open-source platform for making surveys with [R](https://www.r-project.org), [Quarto](https://quarto.org), [Shiny](https://shiny.posit.co), and [Supabase](https://supabase.com).
+
+<a href="https://surveydown.org" class="btn btn-primary" role="button"> Visit surveydown Official Website </a>
+
+This project is led by [Prof John Helveston](https://www.jhelvy.com). For more details, see our [About](https://surveydown.org/about) page.
+
+![](/figs/surveydown.png){fig-align="center" width="550"}
+
+The basic concept is:
+
+1.  Design your survey as a [Quarto](https://quarto.org/) document using
+    markdown and R code.
+2.  Convert your survey into a [Shiny](https://shiny.posit.co/) app that
+    can be hosted online and sent to respondents.
+3.  Store your survey responses in a [Supabase](https://supabase.com/)
+    database (or any Postgres database).
+
+The {surveydown} R package provides functions to bring this all
+together.
+
+**See the [documentation](https://surveydown.org/documentation) to get started making
+your own surveydown survey!**
+
+**See the [demo surveys](https://surveydown.org/demos) and use them as your survey templates!**
+
+## Background & Motivation
+
+Most survey platforms (e.g., Google forms, Qualtrics, etc.) use
+drag-and-drop interfaces to design surveys, making version control and
+collaboration with others difficult. They’re also not reproducible
+(others cannot easily reproduce a survey made on these platforms), and
+many require a paid subscription or license to use.
+
+The surveydown package was designed to address these problems. As an
+open-source, markdown-based platform, all survey content is defined with
+plain text (markdown and R code) in a `survey.qmd` file and an `app.R`
+file that renders your survey into a Shiny app that can be hosted
+online. This makes your survey easy to reproduce, share, and version
+control with common tools like Git. The survey data collected is also
+owned by the survey designer in a separate Postgres database (we
+recommend Supabase as a free and open-source database provider).
+
+If you’re curious where this whole idea came from, check out this [blog
+post](https://www.jhelvy.com/blog/2023-04-06-markdown-surveys/), which
+outlines more on the general idea and the motivation for it. The post is
+now outdated in terms of the overall package design, but it provides
+something of an origin story and some of the motivation for developing
+this project.
+
+## Installation
+
+### 1. Install [R](https://CRAN.R-project.org/) & [Quarto](https://quarto.org/)
+
+We also recommend working with an IDE that has good support for R,
+Quarto, and Shiny.
+[RStudio](https://www.rstudio.com/categories/rstudio-ide/) is great, and
+we also like [VSCode](https://code.visualstudio.com) and
+[Positron](https://github.com/posit-dev/positron).
+
+### 2. Install the {surveydown} R package
+
+The {surveydown} R package is not yet on CRAN, but you can install the
+development version from GitHub with the following command in your R
+console:
+
+```{r}
+# install.packages("remotes")
+remotes::install_github("surveydown-dev/surveydown")
+```
+
+### Version Control
+
+We made some functions to make it easier to keep your R package up to
+date.
+
+To *check* which version of the {surveydown} package you have installed,
+run:
+
+```{r}
+surveydown::sd_version()
+```
+
+To *update* to the latest version of the {surveydown} package, run:
+
+```{r}
+surveydown::sd_update()
+```
+
+## License Information
+
+See the license information [here](https://github.com/surveydown-dev/surveydown/blob/master/LICENSE.md).
+
+## Citation Information
+
+If you use this package for in a publication, please cite it! You can
+get the citation by typing `citation("surveydown")` into R:

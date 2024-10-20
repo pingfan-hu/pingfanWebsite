@@ -1,306 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pingfan Hu",
-    "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey for BEV (Battery Electric Vehicle) Smart Charging adoption."
-  },
-  {
-    "objectID": "index.html#welcome-to-my-website",
-    "href": "index.html#welcome-to-my-website",
-    "title": "Pingfan Hu",
-    "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey for BEV (Battery Electric Vehicle) Smart Charging adoption."
-  },
-  {
-    "objectID": "blogs.html",
-    "href": "blogs.html",
-    "title": "Blogs",
-    "section": "",
-    "text": "The History of Logit\n\n\n\n\n\n\nLogit\n\n\n\n\n\n\n\n\n\nMay 20, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Do Research\n\n\n\n\n\n\nResearch\n\n\n\n\n\n\n\n\n\nJan 30, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nformr Instance Deployment\n\n\n\n\n\n\nformr\n\n\nLinode\n\n\n\n\n\n\n\n\n\nDec 30, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Make a Personal Website\n\n\n\n\n\n\nWebsite\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Network Science of the Mid-Atlantic Region\n\n\n\nNetwork\n\n\nData Viz\n\n\n\n\n\n\n\n\n\n\nMay 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSolar and Wind Energy Advancements\n\n\n\nRenewable\n\n\nData Viz\n\n\n\n\n\n\n\n\n\n\nAug 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBEV Smart Charging\n\n\n\nSmart Charging\n\n\nConjoint\n\n\n\n\n\n\n\n\n\n\nSep 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Smart Charging Simulation with the Grid\n\n\n\nSmart Charging\n\n\nSimulation\n\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Utilization of LLM on Surveys\n\n\n\nSmart Charging\n\n\nLLM\n\n\nConjoint\n\n\n\n\n\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Using AI to Detect Bots in Surveys\n\n\n\nLLM\n\n\nConjoint\n\n\n\n\n\n\n\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
-    "objectID": "projects/05_survey_in_llm/index.html",
-    "href": "projects/05_survey_in_llm/index.html",
-    "title": "(Expected) Utilization of LLM on Surveys",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "projects/04_sim_with_grid/index.html",
-    "href": "projects/04_sim_with_grid/index.html",
-    "title": "(Expected) Smart Charging Simulation with the Grid",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "projects/03_bev_smart_charging/index.html",
-    "href": "projects/03_bev_smart_charging/index.html",
-    "title": "BEV Smart Charging",
-    "section": "",
-    "text": "This project builds a Conjoint Survey on BEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Showcase Website   Showcase PDF"
-  },
-  {
-    "objectID": "projects/03_bev_smart_charging/index.html#about",
-    "href": "projects/03_bev_smart_charging/index.html#about",
-    "title": "BEV Smart Charging",
-    "section": "",
-    "text": "This project builds a Conjoint Survey on BEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Showcase Website   Showcase PDF"
-  },
-  {
-    "objectID": "projects/03_bev_smart_charging/index.html#project-overview",
-    "href": "projects/03_bev_smart_charging/index.html#project-overview",
-    "title": "BEV Smart Charging",
-    "section": "Project Overview",
-    "text": "Project Overview\nThis project is a combination of Master and PhD levels. The Master-level project is performed as a team with these members: Pingfan Hu, Bharath Ravindra, Sampada Dhakal, and Vedanth Surendra Hegde.\nSmart Charging means to control and monitor the BEV charging process. In our project, it contains SMC and V2G. SMC is short for “Supplier-Managed Charging”. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. V2G is short for “Vehicle-to-Grid”. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both SMC and V2G. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (BEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if BEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSMC is a solution that aims to control the timing of BEV charging according to grid conditions. This strategy is particularly useful for BEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nOn the other hand, V2G is to charge the electricity from the BEVs back to the grid. It is a tougher objective compared with smart charging. This objective aims to decrease the amount of stationary power storage of the utility by better using the existing electricity in the BEVs.\nThe challenge lies in convincing BEV owners to participate in the SMC and V2G programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor our program to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing BEV owners’ willingness to participate. Different regions, based on their BEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of BEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. The Smart Charging programs could solve this issue, yet its success hinges on understanding and addressing BEV owners’ concerns and varying regional needs."
-  },
-  {
-    "objectID": "blogs/02_formr_instance_deployment/index.html",
-    "href": "blogs/02_formr_instance_deployment/index.html",
-    "title": "formr Instance Deployment",
-    "section": "",
-    "text": "Showcase\nMy formr Instance Official formr\n\n\nPreparation\n Initial Setup with Ubuntu   Install Docker on Ubuntu \n\n\nDeployment\n Deploy formr (Docker Version)"
-  },
-  {
-    "objectID": "blogs/02_formr_instance_deployment/index.html#useful-links",
-    "href": "blogs/02_formr_instance_deployment/index.html#useful-links",
-    "title": "formr Instance Deployment",
-    "section": "",
-    "text": "Showcase\nMy formr Instance Official formr\n\n\nPreparation\n Initial Setup with Ubuntu   Install Docker on Ubuntu \n\n\nDeployment\n Deploy formr (Docker Version)"
-  },
-  {
-    "objectID": "blogs/02_formr_instance_deployment/index.html#abstract",
-    "href": "blogs/02_formr_instance_deployment/index.html#abstract",
-    "title": "formr Instance Deployment",
-    "section": "Abstract",
-    "text": "Abstract\nThis is a tutorial of deploying the formr instance using Ubuntu 22.04 on Akamai (prior name Linode).\nThis tutorial contains my personal settings. If you are following this tutorial to make your own deployment, make sure to modify based on your preference.\nThis tutorial consists of the following:\n\nCreate an Ubuntu 22.04 server using Akamai’s Linode.\nCreate user and assign sudo privilege.\nInstall Docker.\nClone and configure the formr repo.\nTrouble-shooting."
-  },
-  {
-    "objectID": "blogs/02_formr_instance_deployment/index.html#my-customization",
-    "href": "blogs/02_formr_instance_deployment/index.html#my-customization",
-    "title": "formr Instance Deployment",
-    "section": "My Customization",
-    "text": "My Customization\n\n\n\nServer IP\n172.233.238.100\n\n\nUser Name\npingfan\n\n\nSQL Database Password\n0727\n\n\nHost Email\nformrcloudgwu@gmail.com"
-  },
-  {
-    "objectID": "blogs/02_formr_instance_deployment/index.html#step-1---create-the-server",
-    "href": "blogs/02_formr_instance_deployment/index.html#step-1---create-the-server",
-    "title": "formr Instance Deployment",
-    "section": "Step 1 - Create the Server",
-    "text": "Step 1 - Create the Server\n\n1.1 Create the server\nProceed to Akamai and create a Linode server following these configurations:\n\nImages - Choose Ubuntu 22.04 LTS. This is the desired version for formr instance.\nRegion - Choose your desired region.\nLinode Plan - Choose “Dedicated CPU” and pick a plan. The formr team recommends 8 CPUs, but I only picked the basic plan.\nLinode Label - Name your server as you wish. I named it as ubuntu-formr.\nAdd Tags - You may add a tag to indicate what this Linode server is for. I created a tag called formr.\nRoot Password - A root user will be generated for you upon server creation. This password is for accessing this root server. However, better create a real user and avoid using root. I’ll cover this later.\nSSH Keys - If you haven’t done so, create an SSH key using your Terminal. Save the key pairs to a safe place. On this page, click on Add An SSH Key and paste the public key here.\nLeave the rest settings as they are.\n\n\n\n1.2 Access online using LISH\nOnce you have created your Linode server, you’ll see it in the “Linodes” section. Click on it to make sure it’s properly running. On top right corner, you’ll see a “Launch LISH Console” button, where LISH is short for Linode Shell. By clicking on it, you’ll open the online shell command terminal.\n\n\n\n\nFigure 1: Click on this button to launch the online shell terminal\n\n\n\n\n\n1.3 Access locally using Terminal\nHowever, I prefer to use my local Terminal. Follow these steps to access this Linode using your local Terminal:\n\nLaunch your Terminal.\nType in ssh root@your_ip_address, and then input the root password that you created.\nYou’ll see a welcoming message if everything goes properly.\n\nIn fact, you can easily copy the SSH Access command from your Linode dashboard:\n\n\n\n\nFigure 2: Click on the SSH Access contents to directly copy the command\n\n\n\nNow you have created your Linode server for Ubuntu 22.04 and accessed it with your Terminal!"
-  },
-  {
-    "objectID": "blogs/02_formr_instance_deployment/index.html#step-2---create-the-user",
-    "href": "blogs/02_formr_instance_deployment/index.html#step-2---create-the-user",
-    "title": "formr Instance Deployment",
-    "section": "Step 2 - Create the User",
-    "text": "Step 2 - Create the User\nSee the full instruction of Digital Ocean here, or you can follow my guides. Keep in mind that both Digital Ocean’s guides and my instructions contain personalizations. You need to modify to your own case.\nRun the commands below line by line and follow the instructions when necessary. You’ll need to create the password and personal information for the new user.\n# Log in as root\nssh root@your_ip_address\n\n# Add a user called \"pingfan\"\nadduser pingfan\n\n# Assign sudo privilege \nusermod -aG sudo pingfan\n\n# Open a new Terminal window to login as pingfan\nssh pingfan@your_ip_address\nOnce your new user is ready, you’ll need to use it for the following steps.\n\nHint: There is always a root user by default, but you need to avoid using it for daily purposes. This makes user creation always being our first step."
-  },
-  {
-    "objectID": "blogs/02_formr_instance_deployment/index.html#step-3---install-docker",
-    "href": "blogs/02_formr_instance_deployment/index.html#step-3---install-docker",
-    "title": "formr Instance Deployment",
-    "section": "Step 3 - Install Docker",
-    "text": "Step 3 - Install Docker\nThe formr instance requires Docker. It is a virtual container for securely running your software. See the Docker official instructions here, or follow my steps below.\n\nHint: The official instructions assume you are using a local machine with GUI, but since we are accessing a remote machine using Terminal, I slightly modified the shell commands.\n\n3.1 Install gnome-terminal\nsudo apt install gnome-terminal\n3.2 Set up Docker’s apt repository\n# Add Docker's official GPG key:\nsudo apt-get update\nsudo apt-get install ca-certificates curl gnupg\nsudo install -m 0755 -d /etc/apt/keyrings\ncurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg\nsudo chmod a+r /etc/apt/keyrings/docker.gpg\n\n# Add the repository to Apt sources:\necho \\\n  \"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \\\n  $(. /etc/os-release && echo \"$VERSION_CODENAME\") stable\" | \\\n  sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null\nsudo apt-get update\n3.3 Install the latest Docker packages\nsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin\n3.4 Verify that the Docker Engine installation is successful by running the hello-world image\nsudo docker run hello-world\n3.5 Download latest DEB package\nwget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.26.1-amd64.deb\n\nHint: Until the composition of this blog, the latest version is docker-desktop-4.26.1-amd64.deb.\n\n3.6 Install the package with apt\nsudo apt-get update\nsudo apt-get install ./docker-desktop-4.26.1-amd64.deb\n3.7 Launch Docker Desktop\nsystemctl --user start docker-desktop\n3.8 Check the versions\ndocker compose version\ndocker --version\ndocker version\n3.9 Enable Docker Desktop to start on login\nsystemctl --user enable docker-desktop\nNow the Dock Desktop should be installed and set as auto-launch upon system start."
-  },
-  {
-    "objectID": "blogs/02_formr_instance_deployment/index.html#step-4---clone-and-configure-the-formr-repo",
-    "href": "blogs/02_formr_instance_deployment/index.html#step-4---clone-and-configure-the-formr-repo",
-    "title": "formr Instance Deployment",
-    "section": "Step 4 - Clone and Configure the formr Repo",
-    "text": "Step 4 - Clone and Configure the formr Repo\nSee the formr official instructions here, or you can follow my steps below.\n4.1 Clone the formr repo\ngit clone https://github.com/rubenarslan/formr_dev_docker.git\n4.2 Change dir and run ./setup.sh\ncd formr_dev_docker\nsudo ./setup.sh\n4.3 Configure database and domain names\nsudo nano .env\n\nHint: nano is the default editor of files in Terminal. After you are satisfied with your editing, you can use Ctrl + O to write out, and then Ctrl + X to exit.\n\nYou’ll need to modify the contents to meet your own personalization. Below is the official hint:\n# Mysql password of root, by default a random password will be generated\nMARIADB_ROOT_PASSWORD\n\n# Mysql database name, default = formr_db\nMARIADB_DATABASE\n\n# Mysql database user, default = formr_user\nMARIADB_USER\n\n# Mysql database password of user MARIADB_USER\n# By default a random password will be generated\nMARIADB_PASSWORD\n\n# The main domain of your formr instance\nMAIN_DOMAIN\n\n# Domain of formr_app. Can fill with multiple domain with separated by comma (,)\n# Default value = formr.org,www.formr.org\nFORMR_DOMAIN\n\n# (Sub)domain for opencpu. Access to this domain needs basic-auth\n# Default value = ocpu.formr.org\nOPENCPU_DOMAIN\n\n# Email for the ACME Let's Encrypt configuration and for the first superadmin\nFORMR_EMAIL\n\n# Default superadmin password\nFORMR_PASSWORD\n\n# formr version or branch. Default value = v0.20.6\n# Please check on this link https://github.com/rubenarslan/formr.org/tags\nFORMR_TAG\n\n# defaults to Europe/Berlin\nTIMEZONE\n4.4 Build containers and install initial schema\nsudo ./build.sh\ncd formr_app/formr/config\nsudo nano settings.php\ncd ~/formr_dev_docker\nsudo docker compose restart\nThe formr instance should be installed now. You may access your formr instance by pasting your IP address to your browser.\nYou can access mine using this link. It looks the same as the official version.\n\nHint: If you want to access your formr instance via a personalized domain, you’ll need to go back to 4.3 and set the main domain, and also modify your domain by adding a new A Record and assign the value as your IP address."
-  },
-  {
-    "objectID": "blogs/02_formr_instance_deployment/index.html#step-5---trouble-shooting",
-    "href": "blogs/02_formr_instance_deployment/index.html#step-5---trouble-shooting",
-    "title": "formr Instance Deployment",
-    "section": "Step 5 - Trouble-shooting",
-    "text": "Step 5 - Trouble-shooting\n5.1 Hints for the cd command\n# To change to root dir\ncd\n\n# To change to a dir by inputting relative path\n# A relative path is where you start from your current dir\ncd dir_name\n\n# To change to a dir by inputting absolute path\n# An absolute path disregards your current path\ncd ~/dir_name\n5.2 Configurational files\nThere are 3 configurational files in formr. They can be accessed using the following commands:\n# .env\ncd ~/formr_dev_docker\nsudo nano .env\n\n# settings.php\ncd ~/formr_dev_docker/formr_app/formr/config\nsudo nano settings.php\n\n# Session.php\ncd ~/formr_dev_docker/formr_app/formr/application\nsudo nano Session.php\n5.3 Restart Docker\nAfter each configuration, you’ll need to restart Docker by using the following commands:\ncd ~/formr_dev_docker\nsudo docker compose restart\n\n\n\nFigure 1: Click on this button to launch the online shell terminal\nFigure 2: Click on the SSH Access contents to directly copy the command"
-  },
-  {
-    "objectID": "blogs/03_how_to_do_research/index.html",
-    "href": "blogs/03_how_to_do_research/index.html",
-    "title": "How to Do Research",
-    "section": "",
-    "text": "Research:\n Google Scholar   GWU Library   Connected Papers   Zotero \n\n\nCoding:\nGitHub GitHub Desktop RStudio\n\n\nNote Taking:\nQuarto  Craft Doc   Notion \n\n\nRelated Blog:\n How to Make a Personal Website"
-  },
-  {
-    "objectID": "blogs/03_how_to_do_research/index.html#useful-links",
-    "href": "blogs/03_how_to_do_research/index.html#useful-links",
-    "title": "How to Do Research",
-    "section": "",
-    "text": "Research:\n Google Scholar   GWU Library   Connected Papers   Zotero \n\n\nCoding:\nGitHub GitHub Desktop RStudio\n\n\nNote Taking:\nQuarto  Craft Doc   Notion \n\n\nRelated Blog:\n How to Make a Personal Website"
-  },
-  {
-    "objectID": "blogs/03_how_to_do_research/index.html#abstract",
-    "href": "blogs/03_how_to_do_research/index.html#abstract",
-    "title": "How to Do Research",
-    "section": "Abstract",
-    "text": "Abstract\nThis blog provides a concise overview of my research methodologies.\nIt encompasses three core aspects:\n\nResearch Methods\nResearch Tools\nPublication & Communication."
-  },
-  {
-    "objectID": "blogs/03_how_to_do_research/index.html#introduction",
-    "href": "blogs/03_how_to_do_research/index.html#introduction",
-    "title": "How to Do Research",
-    "section": "Introduction",
-    "text": "Introduction\nDoing research is a must-learn technique not only for PhD students but for all researchers and learners in the academic field. Despite the existence of common methodologies, there is no unique way of doing research. The best way to do research is what makes you feel comfortable.\nAs a 2nd year PhD student, I am still refining my ways of doing research. I write this blog to share my experiences to you and keep on track of possible optimization for myself.\nI break down my research approaches into 3 categories:\n\nResearch Methods: Literature Review, Bibliography, and Research Notes.\nResearch Tools: Google Scholar, University Library, Connected Papers, and Zotero.\nPublication & Communication: GitHub, Craft Doc, and Personal Website."
-  },
-  {
-    "objectID": "blogs/03_how_to_do_research/index.html#research-methods",
-    "href": "blogs/03_how_to_do_research/index.html#research-methods",
-    "title": "How to Do Research",
-    "section": "Research Methods",
-    "text": "Research Methods\nYou may have heard a lot about literature review and bibliography since this is usually the very first step of starting your project. There are tons of online advice that you can reach to. I watched a lot of YouTube videos teaching me how to do them step-by-step, and they were very helpful. Since these experiences are not new to us, I want to talk something different.\n\n1. Literature Review and Bibliography\nI want to discuss some simple questions: Why do we do literature review and bibliography? What are the requirements for them? The usual answers are “I do so since my supervisor wants me to, and he/she has some solid requirements.” This interpretation is correct, but not enough. My interpretations are:\n\nYou do literature review because you want to study and record the current progress of your research field or topic, and a bibliography works as a collection of your successful literature review.\nThere is no solid requirement for doing literature review and bibliography, since you are doing them for yourself. It’s more important that your review notes make sense to you than to anyone else.\nAlthough there is no solid requirement, your literature review should at least contain 2 parts: what you can learn from this literature, and what you can criticize. The other optional parts are the datasets and plots that interest you, or the methods you can learn from.\n\nWorking as a PhD student or a researcher is different from being an ordinary student. You are already in your career and should treat your job in a professional way instead of “finishing tasks and handing in assignments”, so, doing research is not to acquire objectives from your supervisor, get them done and report back. It is rather a conversation to yourself: What can I learn from this literature? What are its problems? How can it contribute to my project?\n\n\n2. Research Notes\nTaking research notes is a highly case-by-case matter. It’s purely depending on your topic and your objectives. For me, I keep track of my project progress in different forms:\n\nMeeting Minutes and GitHub Issues: GitHub is a repository management database by Microsoft. If you have coding projects, it’s highly recommended to set up a GitHub account and start managing your project on it. I have weekly meeting with my supervisor, and bi-weekly meetings with my research team. I take notes and summarize into meeting minutes, have them sent to the team via email, and record into the Issue page of my project GitHub repo. For problems that cannot be immediately solved, I create a stand-alone issue and label as “To-do”.\nMarkdown Pages: I use Quarto on RStudio and record my research progress as qmd documents and sort them in chronological order. It’s easy for me to trace back and look for the project history.\nCraft Doc: For some semi-formal notes, I usually record them into my Craft Doc. Craft is a note-taking platform compatible with Mac, Windows, and mobile devices. It is similar to Notion but is a bit simpler to deal with. How Craft Doc works is by creating markdown documents and render them in real time.\nApple Notes: For purely informal notes, which might come out during conversations or casual time, I quickly note down with Apple Notes. There is one little trick for Mac: simply moving your cursor to the bottom right corner, you can see a little pop-up of a note page. Click on it and start to write. I record and clear these notes on weekly basis to make sure I have them taken good care of before I totally forget what these graffiti are.\n\nYou might want to share some notes with your supervisor or your other teammates. I’ll discuss about them in the Publication & Communication section."
-  },
-  {
-    "objectID": "blogs/03_how_to_do_research/index.html#research-tools",
-    "href": "blogs/03_how_to_do_research/index.html#research-tools",
-    "title": "How to Do Research",
-    "section": "Research Tools",
-    "text": "Research Tools\nThere are tons of tools that we can freely access. For me, I’m making use of Google Scholar, GWU Library, Connected Papers, and Zotero.\n\n1. Google Scholar\nGoogle Scholar is the starting point of doing research, and it’s perhaps the largest database that we can access. You may search for any keywords with proper filtering to look for the possible outcomes that may interest you. You may also search for your supervisor’s name. His/her personal page will show the list of publications, along with the counts of citations in a bar chart in chronological order.\n\n\n\n\nFigure 1: Google Scholar: Stand on the shoulders of giants\n\n\n\nHowever, since Google Scholar is an all-inclusive database, it’s only suitable for the beginning of your research. As you go deeper, you will need some more precised targeting to specific papers. This requires you to use better tools as reinforcement.\n\n\n2. University Library\nEach university has its online library that grants you access to the literature publications. For example, GWU Library can be accessed here. It allows you to conduct searching with more advanced filtering techniques and grants you access to some paid contents.\n\n\n\n\nFigure 2: GWU Library provides more advanced searching and filtering techniques, and grants you access to some paid contents\n\n\n\n\n\n3. Connected Papers\nConnected Papers is a new platform that gives you access of related papers. It requires you to input keywords and locate to a paper as a starting point.\n\n\n\n\nFigure 3: Connected Papers: Enter keywords of a paper to start\n\n\n\nOnce you locate to a paper, you are provided with a network view of all related papers, with your searched paper at the center. In this network view (as referred from Connected Papers’ official instructions):\n\nPapers are arranged according to their similarity (this is not a citation tree).\nNode size is the number of citations.\nNode color is the publishing year.\nSimilar papers have strong connecting lines and cluster together.\n\nTake the example of the work of Helveston (2023). You can see the generated network below:\n\n\n\n\nFigure 4: Connected Papers: Example of Dr Helveston 2023\n\n\n\nThis network can be accessed here. Below are the interpretations of this network page:\n\nThe yellow highlighted part on the left is the list of the papers, with Dr Helveston’s paper on the top.\nThe red part in the middle shows the paper network according to their similarity. Feel free to hover over any of the nodes to see their details both on the pop-up info, and on the right side of the page (highlighted in blue).\nThe green part at the bottom shows the color scale of how far away these papers are from today. The lightest color represents 2010, and darkest 2023.\nThe blue part on the right is whatever the paper that I am hovering over (otherwise the main paper which is Dr Helveston’s in this case). It shows the paper’s title, abstract, and places where you can access it.\n\nConnected Papers is a great platform for your in-depth research so that you can easily skim through the related publications, and it provides quick justifications of the papers’ publishing date and numbers of citations.\nHowever, free accounts of Connected Papers only give you 5 networks per day. If you use it frequently, you might need monthly or annual subscriptions.\n\n\n4. Zotero\nZotero is a web-based literature management platform developed by George Mason University. It is widely used as a must-have research tool. Zotero is accessible on Mac, Windows, mobile devices, and webpage. I prefer to use it on my desktop machines (aka Mac and Windows), but you may try all and see if any of them fit you.\nAfter the installation of Zotero, you will be guided to install Zotero add-on for your web browser. You save the desired literature by clicking on the web browser Zotero button:\n\n\n\n\nFigure 5: Click on this Zotero web browser button to save the literature you find on the web\n\n\n\nThen, this literature resource should appear in your Zotero main interface. Below is the main interface:\n\n\n\n\nFigure 6: Zotero Main Interface\n\n\n\nIn this interface:\n\nThe yellow highlighted sidebar on the left is your database, where you can create and manage groups. I categorized my database groups by professor names, then further by different projects. You may find your own way of categorizing them.\nThe green highlighted side bar on the left is the shared database group from others. Zotero supports database sharing so that you can easily acquire or share databases.\nThe red highlighted part in the middle is the literature collection of your selected database group, which you may choose from the sidebar on the left (yellow highlighted). These literature resources are usually shown as a toggle on/off entry. In this screenshot, it is toggled on, so that you can see the actual PDF file and sometimes other useful contents like literature links or web links.\nThe blue highlighted part on the right is the details of the selected literature. Note that I selected on the entry, not the PDF file. Here you can see the details of this literature, including title, author(s), type, date, page, etc. This is a perfect definition for reference lists and in-text citations. If any of the information is wrong or missing, you are free to modify.\n\nTips of using Zotero:\n\nCreate an account to synchronize your literature collections, settings, and add-ons across the devices.\nZotero has a mature add-on market and is definitely more than what I can introduce here. Learn to use the add-ons and try some to enhance your user experience.\nZotero itself has markdown note capabilities. Some people might prefer using it instead of other note-taking approaches.\nZotero is compatible with Microsoft Word and RStudio (might have other compatibility but these 2 platforms are what I am using). You can manage literature sources, insert in-text citations and reference list by one click.\n\n\n\n\n\nFigure 7: Zotero add-on for Microsoft Word\n\n\n\n\n\n\n\nFigure 8: Zotero compatibility for RStudio"
-  },
-  {
-    "objectID": "blogs/03_how_to_do_research/index.html#publication-communication",
-    "href": "blogs/03_how_to_do_research/index.html#publication-communication",
-    "title": "How to Do Research",
-    "section": "Publication & Communication",
-    "text": "Publication & Communication\nRome was not built in a day. It takes a considerable amount of time to do the research project. It’s vital to have regular communication with your supervisor. It could be face to face, online, email, or whatever method you both may prefer. Having your research resources available to your supervisor and other team members is important. Then it comes to the publication and communication methods.\nLikewise, there is no unique rule to do this, and only what you and your team feels comfortable is the right rule. For me, I use GitHub, Craft Doc, and my personal website (yeah, this website).\n\n1. GitHub\nI mentioned GitHub in the 2. Research Notes section, since I use GitHub Issues to take meeting notes, which is already a good way of communication, since these notes are not only for myself. However, GitHub is much more than just a note-taking system. It is an online repository database that can synchronize with your local machine, and your collaborators.\nThis blog is not a GitHub tutorial, and I am still familiarizing with GitHub (for example, I don’t usually use the fork and merge functions). I’ll only briefly show what you can do with GitHub. In fact, I am managing this personal website on GitHub.\nTo start with, we better know about Git, GitHub, and GitHub Desktop:\n\nGit is a distributed version control system, allowing developers to save different versions of their projects.\nGitHub is a web-based platform that incorporates Git’s version control features. It uses cloud storage and can be treated as a manual version of iCloud or OneDrive for your coding projects.\nGitHub Desktop is a software developed by GitHub, by which you can use a GUI to manage your GitHub repositories. Otherwise, you’ll have to use Shell commands on your Terminal.\n\nI recommend that you understand what Git is, create a GitHub account, and download the GitHub Desktop software.\nTips of using GitHub and GitHub Desktop:\n\nNouns in GitHub:\n\nWe call your database “repositories”, shortened as repo.\nYou can create issues to mark problems, progresses, and assign to whoever is responsible to solve.\nYou can start a project with your teammates and use the project management system in GitHub. Note that project is not the same as repo.\nYou can fork main repo or any branch to make your own branch. Then, you may choose to merge your branch to main when necessary. This is for teamwork purpose.\n\nPrivate vs Public:\n\nGitHub repos are by default set as private as you create them, which is necessary for all your on-going projects since they are usually confidential. Then, you assign your supervisor or anyone you want to cooperate with as collaborator(s).\nIf you want to share your ideas and thoughts, you may set some of your other repos as public, so that they can benefit the others.\n\nVerbs in GitHub:\n\nTo commit means to commit your local version on stage and ready for pushing.\nTo push means to actually upload this updated local version to online.\nTo fetch means to check if there are updated versions.\nTo pull means to actually download the updated online version to local.\nTo clone means to download an online repo to your local machine.\nTo fork means to create a branch of the repo.\nTo merge means to merge your branch into main.\n\n\nGitHub is much more than what I can describe here. If you are interested and find it useful for your research, start from these basic knowledge and do your investigation. It’s efficient, cutting-edge, and fun!\n\n\n2. Craft Doc\nCraft Doc is an easy-to-use local document system. You can understand it as Microsoft Word + online file management. If you are familiar with Notion, then Craft Doc is considered a simpler version of it. They both render markdown in real time and illustrate you with beautifully rendered outputs. Craft is accessible on Mac, Windows, online, and in mobile devices.\nCraft Doc can be private for your personal use, and you can share your pages via your designated URLs as well. Check out my Craft Doc notebook as an example.\nCraft Doc can be literally used seamlessly, and there are tons of tutorial videos and documents online, so I won’t talk too much in my blog. The point is, that having a combination of note-taking, storage, and online sharing platform really speeds up your research and sharing.\n\n\n3. Personal Website\nThere are many ways to do personal websites. In fact, any software or platform that can generate HTML files can be the candidate of generating personal websites. I use a combination of Quarto, RStudio, GitHub, Namecheap, and Netlify to build my website. Below is the breakdown:\n\nQuarto is a code-enabled publishing system, compatible with R, Python, Julia, and Observable. It can be run on Jupyter Notebook, RStudio, and VS Code. The extension of a Quarto doc is called qmd, short for Quarto Markdown. This document, for example, is rendered from a qmd file.\nRStudio is the major IDE that we use for R coding. I use Quarto on RStudio to create and edit my website project and other coding projects.\nGitHub is used as an online repository management platform. It’s necessary here since Netlify fetches the GitHub repo and deploys the site.\nNamecheap is used to buy and manage domains. It also lets you to manage DNS, which is important for linking your domain to Netlify. In fact, I bought my domain at Namecheap.\nNetlify deploys your site. You may log in using your GitHub credential. Netlify also sells domains, by doing which can speed up your website deployment, since you’ll have DNS settings automatically taken care of.\n\n\nAbove is just a brief introduction of which is which. If you are interested in building a website in this way, please go to another blog of mine: How to Make a Personal Website."
-  },
-  {
-    "objectID": "blogs/03_how_to_do_research/index.html#summary",
-    "href": "blogs/03_how_to_do_research/index.html#summary",
-    "title": "How to Do Research",
-    "section": "Summary",
-    "text": "Summary\nSo, why bother doing all these? Well, it’s my way to perform, collect, store, share, and present my research. Again, Rome was not built in one day, and these setup works were also not done in a short time. For me, it took me nearly half a year to sort all these things out.\nIf you are at the very beginning of your research, don’t panic, since it takes time and efforts to do great things; and if you are already an experienced researcher, I will be glad if any of them could be helpful for your research.\n\n\n\nFigure 1: Google Scholar: Stand on the shoulders of giants\nFigure 2: GWU Library provides more advanced searching and filtering techniques, and grants you access to some paid contents\nFigure 3: Connected Papers: Enter keywords of a paper to start\nFigure 4: Connected Papers: Example of Dr Helveston 2023\nFigure 5: Click on this Zotero web browser button to save the literature you find on the web\nFigure 6: Zotero Main Interface\nFigure 7: Zotero add-on for Microsoft Word\nFigure 8: Zotero compatibility for RStudio"
-  },
-  {
-    "objectID": "blogs/01_how_to_make_a_personal_website/index.html",
-    "href": "blogs/01_how_to_make_a_personal_website/index.html",
-    "title": "How to Make a Personal Website",
-    "section": "",
-    "text": "My Repo\n GitHub Repo of My Website \n\n\nSoftware\n GitHub Desktop   R   RStudio   Quarto \n\n\nPlatforms\n GitHub (Repo)   Namecheap (Domain)   Netlify (Server)"
-  },
-  {
-    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#useful-links",
-    "href": "blogs/01_how_to_make_a_personal_website/index.html#useful-links",
-    "title": "How to Make a Personal Website",
-    "section": "",
-    "text": "My Repo\n GitHub Repo of My Website \n\n\nSoftware\n GitHub Desktop   R   RStudio   Quarto \n\n\nPlatforms\n GitHub (Repo)   Namecheap (Domain)   Netlify (Server)"
-  },
-  {
-    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#abstract",
-    "href": "blogs/01_how_to_make_a_personal_website/index.html#abstract",
-    "title": "How to Make a Personal Website",
-    "section": "Abstract",
-    "text": "Abstract\nThis is a tutorial of making a personal website using Quarto on RStudio.\nThis tutorial contains the following:\n\nConstructing the personal blog R project using Quarto\nPushing the project as a GitHub repo\nPurchasing your domain on Namecheap or Netlify\nDeploying the repo on Netlify\n\nIn summary, this website is made using Quarto on RStudio, and is deployed by accessing the GitHub repo on Netlify. I bought my domain on Namecheap, but Netlify sells domain as well."
-  },
-  {
-    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#introduction",
-    "href": "blogs/01_how_to_make_a_personal_website/index.html#introduction",
-    "title": "How to Make a Personal Website",
-    "section": "Introduction",
-    "text": "Introduction\nBuilding a personal website is a very good attempt of showcasing your own abilities and your projects, either for academic reasons or job-seeking purposes. There are a lot of ways to construct your personal website, including some low code or even no code options. As an R programmer, I prefer to make one using the R coding environment. Quarto is an open-source publishing system compatible with Python, R and Julia. It is the next generation of R Markdown, and is a good option for personal website construction as well."
-  },
-  {
-    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#step-1---preparation",
-    "href": "blogs/01_how_to_make_a_personal_website/index.html#step-1---preparation",
-    "title": "How to Make a Personal Website",
-    "section": "Step 1 - Preparation",
-    "text": "Step 1 - Preparation\nThe first step is to install the environment. If you haven’t done already, please download and install R language, RStudio, and Quarto.\nYou’ll also need to have your GitHub account ready. It’s also a good idea to install GitHub Desktop to manage your local GitHub repos.\nYou’ll use Netlify to deploy your GitHub repo as a website, which by default allows you to generate your customized third-level domain name, with a fixed second and top domain being netlify.app. For example, you can name your domain as: myfancywebsite.netlify.app.\n\nHint: Domain names are usually in the format of third.second.top. For example, in Google’s homepage www.google.com, com is the top-level domain; google is second; and www is third.\n\nYou can use Netlify or Namecheap to buy your personalized domain. For example, my domain is pingfanhu.com. It is bought from Namecheap and deployed on Netlify. If you do this, both the default Netlify domain and your customized domain will work. They are not replacing each other. Below is the example of my case:\n\n\n\n\nFigure 1: Both my personal domain and netlify-assigned domain are functioning. Plus, there is a re-direction from www by default.\n\n\n\n\nHint: If you want to save time, I recommend that you buy domain on Netlify so that you won’t need to bother dealing with DNS assignment. However, Namecheap gives you full service of domain management and DNS customization, and, as its name indicates, it sells domains a little cheaper."
-  },
-  {
-    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#step-2---website-project",
-    "href": "blogs/01_how_to_make_a_personal_website/index.html#step-2---website-project",
-    "title": "How to Make a Personal Website",
-    "section": "Step 2 - Website Project",
-    "text": "Step 2 - Website Project\nThe next step is to create the R project of your website. You can either clone my website repo or make from scratch.\n\n2.1 Clone my repo\nIf you want to clone my repo, proceed to the site, and click on the Code button or Use this template button. Both buttons are in green.\n\n\n\n\nFigure 2: On the top right of the page, either click on the “Code” or the “Use this template” button to clone my repo as your own.\n\n\n\nIf you are using my template, there are several things I want to explain to ease your understanding:\n\nMy repo is slightly different from the Quarto official blog tutorial, since I prefer to show my personal page as default, and make the other pages, including “About”, “Blogs”, “Projects”, etc. as tabs on the nav bar.\nI used the United theme. This is a free theme made by Bootswatch. There are 25 Bootswatch themes in total, all compatible with Quarto doc. You can access them in the Themes drop-down menu.\nI also used a customized scss file called theme.scss and another css file called styles.css. Both scss and css files are used to define personal page layout settings. The YAML grammar looks like this (You can see the full YAML codes in the _quarto.yml file):\nformat:\n  html:\n    theme: [united, theme.scss]\n    css: styles.css\n    backgroundcolor: \"#F8F7F0\"\nNote that there is a backgroundcolor: \"#F8F7F0\" used to set the page background color. The short reason for it being here and not in .scss or .css is that, it gives the best compatibility.\nThe original United theme primary color is orange, but I changed that in my theme.scss file.\nI manually pasted my resume.pdf file to the _site -&gt; contents directory, since I failed to find an automatic solution of creating this file upon knitting.\n\n\n\n2.2 Make from scratch\nIf you want to make one from scratch, please proceed to the official Quarto blog tutorial. For the project set-up, you can follow these steps:\n\n\n\n\nFigure 3: Launch RStudio and click on “New Project…” from the “File” drop-down menu\n\n\n\n\n\n\n\nFigure 4: Select “New Directory”\n\n\n\n\n\n\n\nFigure 5: Click on “Quarto Blog”\n\n\n\n\n\n\n\nFigure 6: Define the directory name and path, and finally click on “Create Project”\n\n\n\nThe creation of the Quarto Blog R project constructs the skeleton of your personal website. You can now add the contents on to it and make it your own.\n\n\n2.3 Project file structure\nI’ll use my project as an example. If you decided to construct on your own, make sure to have your files and folders sorted in a way that is easy to understand and to reproduce.\nIn my project:\n\nThe _site folder is auto-generated during the knitting process. It stores the HTML pages as well as the PDF files that I want my website to access. Note that the knitting process does not create the PDF files even if they are placed in my project folder. My solution is to manually paste them to the desired locations.\nThe contents folder contains my code, figure, and pdf resources. The folders of blogs and projects are kind of special. They are where the blog and project qmd files are stored, including this one.\nIn the root folder, there are theme files, main tab qmd files, the favicon file, and the _quarto.yml file.\n\n\nHint: You may have noticed that there are several index.qmd files in the project. Index is an important file name. The file with this name will be opened by default. For example, in the root folder, there are several qmd files, but if you open my website homepage, the page you see by default is the one in the index.qmd file.\n\nI recommend you use similar file structure as mine, but if you have a personal preference, feel free to play around and figure out your own style.\n\n\n2.4 Push to GitHub repo\nRemember to push your project to your GitHub repo so that it can be managed and updated in the future. I recommend you using GitHub Desktop. This GitHub repo will also be used in Netlify to deploy your website."
-  },
-  {
-    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#step-3---buy-your-personal-domain",
-    "href": "blogs/01_how_to_make_a_personal_website/index.html#step-3---buy-your-personal-domain",
-    "title": "How to Make a Personal Website",
-    "section": "Step 3 - Buy your personal domain",
-    "text": "Step 3 - Buy your personal domain\nThis step can be skipped if you don’t want to have your own domain. Like I explained, Netlify will assign you with your preferred third-level domain.\n\n3.1 Buy from Namecheap\nIf you decided to buy from Namecheap, you need to create your account and pick your preferred domain name. My domain name costs me about $10 per year, which can be referred as your anchor.\nRemember, although you have full control with your domain on Namecheap, you’ll need to manually set your DNS to link it with your Netlify server, which we’ll cover in Step 4.\n\n\n3.2 Buy from Netlify\nBuying from Netlify is also an option, so that you won’t need to deal with the DNS thing. However, Netlify does not provide a direct page of buying it. As you go through your site creation process, you will have the option to buy your domain."
-  },
-  {
-    "objectID": "blogs/01_how_to_make_a_personal_website/index.html#step-4---deploy-your-website",
-    "href": "blogs/01_how_to_make_a_personal_website/index.html#step-4---deploy-your-website",
-    "title": "How to Make a Personal Website",
-    "section": "Step 4 - Deploy your website",
-    "text": "Step 4 - Deploy your website\nCreate your Netlify account using GitHub, and choose to deploy your website from GitHub. Select on your repo and follow the instructions.\nYou can access the Quarto official tutorial on Netlify deployment. Below are several hints from me:\n\nWhen setting your publishing directory, you need to input _site. As I explained in 2.3 Project file structure, this is the default directory for your HTML files. If you defined your own directory, make sure to input the directory name here. The other build settings can be left as they are.\n\n\n\n\n\nFigure 7: In “Publish Directory”, you’ll need to fill in _site or your own defined directory name\n\n\n\n\nIf you bought your domain from Namecheap, you’ll need to manually fill in the DNS hostnames. You can access them in Dashboard -&gt; Domains -&gt; Name servers of your Netlify page.\n\n\n\n\n\nFigure 8: This is where you can find the DNS hostnames in Netlify\n\n\n\n\n\n\n\nFigure 9: This is where you can paste the DNS hostnames in Namecheap\n\n\n\n\nNetlify takes care of SSL/TLS certificate, (aka the HTTPS protocol you can see in the site URLs). It’s a free service by Let’s Encrypt, which is enough for personal use. You can access it in Sites -&gt; Domain management -&gt; SSL/TLS certificate. It’s usually automatically enabled, but it can be manually renewed by clicking on the button on this page.\n\n\n\n\n\nFigure 10: HTTPS is taken good care of by Netlify\n\n\n\n\nSince Netlify has direct access to your GitHub repo, each time you push new version to GitHub, your website will be updated automatically. You can also trace the process on your Netlify dashboard. There is no need to type the command of quarto publish netlify in RStudio.\n\n\n\n\nFigure 1: Both my personal domain and netlify-assigned domain are functioning. Plus, there is a re-direction from www by default.\nFigure 2: On the top right of the page, either click on the “Code” or the “Use this template” button to clone my repo as your own.\nFigure 3: Launch RStudio and click on “New Project…” from the “File” drop-down menu\nFigure 4: Select “New Directory”\nFigure 5: Click on “Quarto Blog”\nFigure 6: Define the directory name and path, and finally click on “Create Project”\nFigure 7: In “Publish Directory”, you’ll need to fill in _site or your own defined directory name\nFigure 8: This is where you can find the DNS hostnames in Netlify\nFigure 9: This is where you can paste the DNS hostnames in Namecheap\nFigure 10: HTTPS is taken good care of by Netlify"
-  },
-  {
-    "objectID": "projects/01_network_science/index.html",
-    "href": "projects/01_network_science/index.html",
-    "title": "Network Science of the Mid-Atlantic Region",
-    "section": "",
-    "text": "This project is a multi-layer network science study on the Mid-Atlantic region. It is a student research project for the FEW’s Lab managed by Prof Caitlin Grady.\n Access the Project"
-  },
-  {
-    "objectID": "projects/01_network_science/index.html#about",
-    "href": "projects/01_network_science/index.html#about",
-    "title": "Network Science of the Mid-Atlantic Region",
-    "section": "",
-    "text": "This project is a multi-layer network science study on the Mid-Atlantic region. It is a student research project for the FEW’s Lab managed by Prof Caitlin Grady.\n Access the Project"
-  },
-  {
-    "objectID": "projects/01_network_science/index.html#project-scope",
-    "href": "projects/01_network_science/index.html#project-scope",
-    "title": "Network Science of the Mid-Atlantic Region",
-    "section": "Project Scope",
-    "text": "Project Scope\n\n\n\n\n\nThe Mid-Atlantic Region\n\n\nNo.\nAbbr.\nFull Name\n\n\n\n\n1\nDC\nDistrict of Columbia\n\n\n2\nDE\nDelaware\n\n\n3\nMD\nMaryland\n\n\n4\nNC\nNorth Carolina\n\n\n5\nNJ\nNew Jersey\n\n\n6\nNY\nNew York\n\n\n7\nPA\nPennsylvania\n\n\n8\nVA\nVirginia\n\n\n\n\n\n\n\n\n\n\n\nThe Multilayers\n\n\nNo.\nLayer\n\n\n\n\n1\nAirline\n\n\n2\nMarine\n\n\n3\nRail\n\n\n4\nRoad\n\n\n\n\n\n\n\n\n\nThe latter part of this project focuses on layers of rail and road.\nThe codes can be modified so that you can expand to other selections of states, or to introduce other sources of shp files or csv files."
-  },
-  {
-    "objectID": "projects/01_network_science/index.html#project-overview",
-    "href": "projects/01_network_science/index.html#project-overview",
-    "title": "Network Science of the Mid-Atlantic Region",
-    "section": "Project Overview",
-    "text": "Project Overview\n\n1. Spatial Analysis\nThis section is the starting part of this project. It takes in geographical files from trusted sources and generates the proper maps and csv files out of them.\nThis section takes in shp files and csv files from these sources:\n\n TIGER/Line   HIFLD   OurAirports \n\nThis section generates:\n\n9 csv files:\n\nFAF zone correspondence\nedges of airlines, marine, rails, and roads\nnodes of airports, marine, rails and roads\n\n2 maps - the spatial map and the topography map\n\nThe Spatial Map:\n\n\n\n\n\nThe Topography Map:\n\n\n\n\n\n\n\n2. Centrality Analysis\nThis section takes in the 4 edge files and the 4 node files, and generates the 3 types of centralities of each.\nThe 3 types of centralities are: betweenness centrality, closeness centrality, and degree centrality.\nNote that the centralities are all in relative values, which means their values are based on the size of the system network.\nThe centrality values are all listed in a descending order.\nHint: any centrality csv file can also be used as a collection of nodes in its corresponding layer.\n\n\n3. Path Calculation\nStarting from this section, we only focus on the rail and road layers.\nThis section takes in edge and node files of rail and roads, and generates path counts.\nThe path counts are based on FAF zones of all 8 states, so that each OD pair is inter-FAF-zone.\nThere are 40 rail OD pairs, and 186 road OD pairs.\nThe csv headers are:\n\nNo. - counting number starting from 1\nSource - the source node\nSource State\nSource FAF Zone\nSource FAF Zone Description\nTarget - the target node\nTarget State\nTarget FAF Zone\nTarget FAF Zone Description\nPath Count - the count of shortest paths\n\n\n\n4. Degree Centrality Dist\nThis section takes in the degree centralities of rails and roads, and generates the degree centrality distribution plots of them.\nThe Rail Degree Centrality Distribution plot:\n\n\n\n\n\nThe Road Degree Centrality Distribution plot:\n\n\n\n\n\n\n\n5. Network Attacks\nThis section generates the deterministic and stochastic attacks on rails and roads.\nIt takes in these files:\n\nedge and node csv files\npath count files\n3 ranked centrality files (betweenness centrality also used as node collections)\n\nThe plots contain:\n\nDeterministic removal plots of the 3 centralities\nStochastic removal with random node selections (surrounded by 95% CI)\n\nThe Rail Centrality Attack plot:\n\n\n\n\n\nThe Road Centrality Attack plot:"
-  },
-  {
-    "objectID": "projects/06_ai_for_bot_detection/index.html",
-    "href": "projects/06_ai_for_bot_detection/index.html",
-    "title": "(Expected) Using AI to Detect Bots in Surveys",
-    "section": "",
-    "text": "Initial thoughts of detecting bots on surveys using LLM."
-  },
-  {
-    "objectID": "projects/06_ai_for_bot_detection/index.html#initial-ideas",
-    "href": "projects/06_ai_for_bot_detection/index.html#initial-ideas",
-    "title": "(Expected) Using AI to Detect Bots in Surveys",
-    "section": "Initial Ideas",
-    "text": "Initial Ideas\n\nAttempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
-  },
-  {
-    "objectID": "projects/02_solar_and_wind/index.html",
-    "href": "projects/02_solar_and_wind/index.html",
-    "title": "Solar and Wind Energy Advancements",
-    "section": "",
-    "text": "This project studies the driving effects of solar and wind energy advancements. It is a Master-level project for EMSE 6572 instructed by Prof John Helveston.\n Access the Project"
-  },
-  {
-    "objectID": "projects/02_solar_and_wind/index.html#about",
-    "href": "projects/02_solar_and_wind/index.html#about",
-    "title": "Solar and Wind Energy Advancements",
-    "section": "",
-    "text": "This project studies the driving effects of solar and wind energy advancements. It is a Master-level project for EMSE 6572 instructed by Prof John Helveston.\n Access the Project"
-  },
-  {
-    "objectID": "projects/02_solar_and_wind/index.html#project-overview",
-    "href": "projects/02_solar_and_wind/index.html#project-overview",
-    "title": "Solar and Wind Energy Advancements",
-    "section": "Project Overview",
-    "text": "Project Overview\nThis project is performed as a team consisting of Pingfan Hu and Abbey Kollar.\nRenewable energy in the USA has seen significant growth from 2000 to 2023. This research studies solar and wind energies and dives into three primary reasons behind this expansion:\n\nCost of Solar and Wind Energy\nPolicies and Incentives, and\nEnergy Research Budgets\n\nThis project contains the following:\n\nProject Proposal\nProgress Report\nFinal Report\nPresentation\n\nThe study aims to highlight which of these factors played the most crucial roles in this energy transformation. By understanding these relationships, we can better anticipate the future of renewable energy and make informed decisions.\nData wrangling and analysis are both performed using R coding language, presented with Quarto files."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
@@ -319,139 +18,356 @@
     "href": "about.html#personal-life",
     "title": "About Me",
     "section": "Personal Life",
-    "text": "Personal Life\nThroughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Washington DC.\nI am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.\n\n\n\n\nPinocchio\n\n\n\n\n\n\nPinocchio"
+    "text": "Personal Life\nThroughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Washington DC.\nI am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.\n\n\n\n\nPinocchio"
   },
   {
-    "objectID": "projects/06_ai_for_bot_detection/index.html#about",
-    "href": "projects/06_ai_for_bot_detection/index.html#about",
-    "title": "(Expected) Using AI to Detect Bots in Surveys",
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Blogs",
     "section": "",
-    "text": "Initial thoughts of detecting bots on surveys using LLM."
+    "text": "The History of Logit\n\n\n\n\n\n\nLogit\n\n\n\n\n\n\n\n\n\nMay 20, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Do Research\n\n\n\n\n\n\nResearch\n\n\n\n\n\n\n\n\n\nJan 30, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nformr Instance Deployment\n\n\n\n\n\n\nformr\n\n\nLinode\n\n\n\n\n\n\n\n\n\nDec 30, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Make a Personal Website\n\n\n\n\n\n\nWebsite\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nMaster Projects\n\n\n\n\n\n\nNetwork\n\n\nData Viz\n\n\n\n\n\n\n\n\n\nMay 24, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "blogs/04_what_is_conjoint/index.html",
-    "href": "blogs/04_what_is_conjoint/index.html",
-    "title": "What Is a Conjoint Survey",
+    "objectID": "blogs/01_master_projects/index.html",
+    "href": "blogs/01_master_projects/index.html",
+    "title": "Master Projects",
     "section": "",
-    "text": "Back to top"
+    "text": "This is a collection of my master-level projects. It contains a multi-layer network analysis, and a renewable energy data viz."
   },
   {
-    "objectID": "blogs/05_how_to_use_chatgpt/index.html",
-    "href": "blogs/05_how_to_use_chatgpt/index.html",
-    "title": "Tips on Using ChatGPT",
+    "objectID": "blogs/01_master_projects/index.html#about",
+    "href": "blogs/01_master_projects/index.html#about",
+    "title": "Master Projects",
     "section": "",
-    "text": "Back to top"
+    "text": "This is a collection of my master-level projects. It contains a multi-layer network analysis, and a renewable energy data viz."
   },
   {
-    "objectID": "blogs/04_logit/index.html",
-    "href": "blogs/04_logit/index.html",
-    "title": "The History of Logit",
+    "objectID": "blogs/01_master_projects/index.html#network-science-of-the-mid-atlantic-region",
+    "href": "blogs/01_master_projects/index.html#network-science-of-the-mid-atlantic-region",
+    "title": "Master Projects",
+    "section": "Network Science of the Mid-Atlantic Region",
+    "text": "Network Science of the Mid-Atlantic Region\nThis project is a multi-layer network science study on the Mid-Atlantic region. It is a student research project for the FEW’s Lab managed by Prof Caitlin Grady.\n Access the Project \n\nProject Scope\n\n\n\n\n\nThe Mid-Atlantic Region\n\n\nNo.\nAbbr.\nFull Name\n\n\n\n\n1\nDC\nDistrict of Columbia\n\n\n2\nDE\nDelaware\n\n\n3\nMD\nMaryland\n\n\n4\nNC\nNorth Carolina\n\n\n5\nNJ\nNew Jersey\n\n\n6\nNY\nNew York\n\n\n7\nPA\nPennsylvania\n\n\n8\nVA\nVirginia\n\n\n\n\n\n\n\n\n\n\n\nThe Multilayers\n\n\nNo.\nLayer\n\n\n\n\n1\nAirline\n\n\n2\nMarine\n\n\n3\nRail\n\n\n4\nRoad\n\n\n\n\n\n\n\n\n\nThe latter part of this project focuses on layers of rail and road.\nThe codes can be modified so that you can expand to other selections of states, or to introduce other sources of shp files or csv files.\n\n\nProject Overview\n\n1. Spatial Analysis\nThis section is the starting part of this project. It takes in geographical files from trusted sources and generates the proper maps and csv files out of them.\nThis section takes in shp files and csv files from these sources:\n\n TIGER/Line   HIFLD   OurAirports \n\nThis section generates:\n\n9 csv files:\n\nFAF zone correspondence\nedges of airlines, marine, rails, and roads\nnodes of airports, marine, rails and roads\n\n2 maps - the spatial map and the topography map\n\nThe Spatial Map:\n\n\n\n\n\nThe Topography Map:\n\n\n\n\n\n\n\n2. Centrality Analysis\nThis section takes in the 4 edge files and the 4 node files, and generates the 3 types of centralities of each.\nThe 3 types of centralities are: betweenness centrality, closeness centrality, and degree centrality.\nNote that the centralities are all in relative values, which means their values are based on the size of the system network.\nThe centrality values are all listed in a descending order.\nHint: any centrality csv file can also be used as a collection of nodes in its corresponding layer.\n\n\n3. Path Calculation\nStarting from this section, we only focus on the rail and road layers.\nThis section takes in edge and node files of rail and roads, and generates path counts.\nThe path counts are based on FAF zones of all 8 states, so that each OD pair is inter-FAF-zone.\nThere are 40 rail OD pairs, and 186 road OD pairs.\nThe csv headers are:\n\nNo. - counting number starting from 1\nSource - the source node\nSource State\nSource FAF Zone\nSource FAF Zone Description\nTarget - the target node\nTarget State\nTarget FAF Zone\nTarget FAF Zone Description\nPath Count - the count of shortest paths\n\n\n\n4. Degree Centrality Dist\nThis section takes in the degree centralities of rails and roads, and generates the degree centrality distribution plots of them.\nThe Rail Degree Centrality Distribution plot:\n\n\n\n\n\nThe Road Degree Centrality Distribution plot:\n\n\n\n\n\n\n\n5. Network Attacks\nThis section generates the deterministic and stochastic attacks on rails and roads.\nIt takes in these files:\n\nedge and node csv files\npath count files\n3 ranked centrality files (betweenness centrality also used as node collections)\n\nThe plots contain:\n\nDeterministic removal plots of the 3 centralities\nStochastic removal with random node selections (surrounded by 95% CI)\n\nThe Rail Centrality Attack plot:\n\n\n\n\n\nThe Road Centrality Attack plot:"
+  },
+  {
+    "objectID": "blogs/01_master_projects/index.html#solar-and-wind-energy-advancements",
+    "href": "blogs/01_master_projects/index.html#solar-and-wind-energy-advancements",
+    "title": "Master Projects",
+    "section": "Solar and Wind Energy Advancements",
+    "text": "Solar and Wind Energy Advancements\nThis project studies the driving effects of solar and wind energy advancements. It is a Master-level project for EMSE 6572 instructed by Prof John Helveston.\n Access the Project \n\nProject Overview\nThis project is performed as a team consisting of Pingfan Hu and Abbey Kollar.\nRenewable energy in the USA has seen significant growth from 2000 to 2023. This research studies solar and wind energies and dives into three primary reasons behind this expansion:\n\nCost of Solar and Wind Energy\nPolicies and Incentives, and\nEnergy Research Budgets\n\nThis project contains the following:\n\nProject Proposal\nProgress Report\nFinal Report\nPresentation\n\nThe study aims to highlight which of these factors played the most crucial roles in this energy transformation. By understanding these relationships, we can better anticipate the future of renewable energy and make informed decisions.\nData wrangling and analysis are both performed using R coding language, presented with Quarto files."
+  },
+  {
+    "objectID": "blogs/02_how_to_make_a_personal_website/index.html",
+    "href": "blogs/02_how_to_make_a_personal_website/index.html",
+    "title": "How to Make a Personal Website",
     "section": "",
-    "text": "Research Paper\n The Origins of Logit Regression \n\n\nLecture Slides\n Intro to Choice Modeling \n\n\nOnline Article\n What is Logit (Chinese)"
+    "text": "My Repo\n GitHub Repo of My Website \n\n\nSoftware\n GitHub Desktop   R   RStudio   Quarto \n\n\nPlatforms\n GitHub (Repo)   Namecheap (Domain)   Netlify (Server)"
   },
   {
-    "objectID": "blogs/04_logit/index.html#useful-links",
-    "href": "blogs/04_logit/index.html#useful-links",
-    "title": "The History of Logit",
+    "objectID": "blogs/02_how_to_make_a_personal_website/index.html#useful-links",
+    "href": "blogs/02_how_to_make_a_personal_website/index.html#useful-links",
+    "title": "How to Make a Personal Website",
     "section": "",
-    "text": "Research Paper\n The Origins of Logit Regression \n\n\nLecture Slides\n Intro to Choice Modeling \n\n\nOnline Article\n What is Logit (Chinese)"
+    "text": "My Repo\n GitHub Repo of My Website \n\n\nSoftware\n GitHub Desktop   R   RStudio   Quarto \n\n\nPlatforms\n GitHub (Repo)   Namecheap (Domain)   Netlify (Server)"
   },
   {
-    "objectID": "blogs/04_logit/index.html#abstract",
-    "href": "blogs/04_logit/index.html#abstract",
+    "objectID": "blogs/02_how_to_make_a_personal_website/index.html#abstract",
+    "href": "blogs/02_how_to_make_a_personal_website/index.html#abstract",
+    "title": "How to Make a Personal Website",
+    "section": "Abstract",
+    "text": "Abstract\nThis is a tutorial of making a personal website using Quarto on RStudio.\nThis tutorial contains the following:\n\nConstructing the personal blog R project using Quarto\nPushing the project as a GitHub repo\nPurchasing your domain on Namecheap or Netlify\nDeploying the repo on Netlify\n\nIn summary, this website is made using Quarto on RStudio, and is deployed by accessing the GitHub repo on Netlify. I bought my domain on Namecheap, but Netlify sells domain as well."
+  },
+  {
+    "objectID": "blogs/02_how_to_make_a_personal_website/index.html#introduction",
+    "href": "blogs/02_how_to_make_a_personal_website/index.html#introduction",
+    "title": "How to Make a Personal Website",
+    "section": "Introduction",
+    "text": "Introduction\nBuilding a personal website is a very good attempt of showcasing your own abilities and your projects, either for academic reasons or job-seeking purposes. There are a lot of ways to construct your personal website, including some low code or even no code options. As an R programmer, I prefer to make one using the R coding environment. Quarto is an open-source publishing system compatible with Python, R and Julia. It is the next generation of R Markdown, and is a good option for personal website construction as well."
+  },
+  {
+    "objectID": "blogs/02_how_to_make_a_personal_website/index.html#step-1---preparation",
+    "href": "blogs/02_how_to_make_a_personal_website/index.html#step-1---preparation",
+    "title": "How to Make a Personal Website",
+    "section": "Step 1 - Preparation",
+    "text": "Step 1 - Preparation\nThe first step is to install the environment. If you haven’t done already, please download and install R language, RStudio, and Quarto.\nYou’ll also need to have your GitHub account ready. It’s also a good idea to install GitHub Desktop to manage your local GitHub repos.\nYou’ll use Netlify to deploy your GitHub repo as a website, which by default allows you to generate your customized third-level domain name, with a fixed second and top domain being netlify.app. For example, you can name your domain as: myfancywebsite.netlify.app.\n\nHint: Domain names are usually in the format of third.second.top. For example, in Google’s homepage www.google.com, com is the top-level domain; google is second; and www is third.\n\nYou can use Netlify or Namecheap to buy your personalized domain. For example, my domain is pingfanhu.com. It is bought from Namecheap and deployed on Netlify. If you do this, both the default Netlify domain and your customized domain will work. They are not replacing each other. Below is the example of my case:\n\n\n\n\nFigure 1: Both my personal domain and netlify-assigned domain are functioning. Plus, there is a re-direction from www by default.\n\n\n\n\nHint: If you want to save time, I recommend that you buy domain on Netlify so that you won’t need to bother dealing with DNS assignment. However, Namecheap gives you full service of domain management and DNS customization, and, as its name indicates, it sells domains a little cheaper."
+  },
+  {
+    "objectID": "blogs/02_how_to_make_a_personal_website/index.html#step-2---website-project",
+    "href": "blogs/02_how_to_make_a_personal_website/index.html#step-2---website-project",
+    "title": "How to Make a Personal Website",
+    "section": "Step 2 - Website Project",
+    "text": "Step 2 - Website Project\nThe next step is to create the R project of your website. You can either clone my website repo or make from scratch.\n\n2.1 Clone my repo\nIf you want to clone my repo, proceed to the site, and click on the Code button or Use this template button. Both buttons are in green.\n\n\n\n\nFigure 2: On the top right of the page, either click on the “Code” or the “Use this template” button to clone my repo as your own.\n\n\n\nIf you are using my template, there are several things I want to explain to ease your understanding:\n\nMy repo is slightly different from the Quarto official blog tutorial, since I prefer to show my personal page as default, and make the other pages, including “About”, “Blogs”, “Projects”, etc. as tabs on the nav bar.\nI used the United theme. This is a free theme made by Bootswatch. There are 25 Bootswatch themes in total, all compatible with Quarto doc. You can access them in the Themes drop-down menu.\nI also used a customized scss file called theme.scss and another css file called styles.css. Both scss and css files are used to define personal page layout settings. The YAML grammar looks like this (You can see the full YAML codes in the _quarto.yml file):\nformat:\n  html:\n    theme: [united, theme.scss]\n    css: styles.css\n    backgroundcolor: \"#F8F7F0\"\nNote that there is a backgroundcolor: \"#F8F7F0\" used to set the page background color. The short reason for it being here and not in .scss or .css is that, it gives the best compatibility.\nThe original United theme primary color is orange, but I changed that in my theme.scss file.\nI manually pasted my resume.pdf file to the _site -&gt; contents directory, since I failed to find an automatic solution of creating this file upon knitting.\n\n\n\n2.2 Make from scratch\nIf you want to make one from scratch, please proceed to the official Quarto blog tutorial. For the project set-up, you can follow these steps:\n\n\n\n\nFigure 3: Launch RStudio and click on “New Project…” from the “File” drop-down menu\n\n\n\n\n\n\n\nFigure 4: Select “New Directory”\n\n\n\n\n\n\n\nFigure 5: Click on “Quarto Blog”\n\n\n\n\n\n\n\nFigure 6: Define the directory name and path, and finally click on “Create Project”\n\n\n\nThe creation of the Quarto Blog R project constructs the skeleton of your personal website. You can now add the contents on to it and make it your own.\n\n\n2.3 Project file structure\nI’ll use my project as an example. If you decided to construct on your own, make sure to have your files and folders sorted in a way that is easy to understand and to reproduce.\nIn my project:\n\nThe _site folder is auto-generated during the knitting process. It stores the HTML pages as well as the PDF files that I want my website to access. Note that the knitting process does not create the PDF files even if they are placed in my project folder. My solution is to manually paste them to the desired locations.\nThe contents folder contains my code, figure, and pdf resources. The folders of blogs and projects are kind of special. They are where the blog and project qmd files are stored, including this one.\nIn the root folder, there are theme files, main tab qmd files, the favicon file, and the _quarto.yml file.\n\n\nHint: You may have noticed that there are several index.qmd files in the project. Index is an important file name. The file with this name will be opened by default. For example, in the root folder, there are several qmd files, but if you open my website homepage, the page you see by default is the one in the index.qmd file.\n\nI recommend you use similar file structure as mine, but if you have a personal preference, feel free to play around and figure out your own style.\n\n\n2.4 Push to GitHub repo\nRemember to push your project to your GitHub repo so that it can be managed and updated in the future. I recommend you using GitHub Desktop. This GitHub repo will also be used in Netlify to deploy your website."
+  },
+  {
+    "objectID": "blogs/02_how_to_make_a_personal_website/index.html#step-3---buy-your-personal-domain",
+    "href": "blogs/02_how_to_make_a_personal_website/index.html#step-3---buy-your-personal-domain",
+    "title": "How to Make a Personal Website",
+    "section": "Step 3 - Buy your personal domain",
+    "text": "Step 3 - Buy your personal domain\nThis step can be skipped if you don’t want to have your own domain. Like I explained, Netlify will assign you with your preferred third-level domain.\n\n3.1 Buy from Namecheap\nIf you decided to buy from Namecheap, you need to create your account and pick your preferred domain name. My domain name costs me about $10 per year, which can be referred as your anchor.\nRemember, although you have full control with your domain on Namecheap, you’ll need to manually set your DNS to link it with your Netlify server, which we’ll cover in Step 4.\n\n\n3.2 Buy from Netlify\nBuying from Netlify is also an option, so that you won’t need to deal with the DNS thing. However, Netlify does not provide a direct page of buying it. As you go through your site creation process, you will have the option to buy your domain."
+  },
+  {
+    "objectID": "blogs/02_how_to_make_a_personal_website/index.html#step-4---deploy-your-website",
+    "href": "blogs/02_how_to_make_a_personal_website/index.html#step-4---deploy-your-website",
+    "title": "How to Make a Personal Website",
+    "section": "Step 4 - Deploy your website",
+    "text": "Step 4 - Deploy your website\nCreate your Netlify account using GitHub, and choose to deploy your website from GitHub. Select on your repo and follow the instructions.\nYou can access the Quarto official tutorial on Netlify deployment. Below are several hints from me:\n\nWhen setting your publishing directory, you need to input _site. As I explained in 2.3 Project file structure, this is the default directory for your HTML files. If you defined your own directory, make sure to input the directory name here. The other build settings can be left as they are.\n\n\n\n\n\nFigure 7: In “Publish Directory”, you’ll need to fill in _site or your own defined directory name\n\n\n\n\nIf you bought your domain from Namecheap, you’ll need to manually fill in the DNS hostnames. You can access them in Dashboard -&gt; Domains -&gt; Name servers of your Netlify page.\n\n\n\n\n\nFigure 8: This is where you can find the DNS hostnames in Netlify\n\n\n\n\n\n\n\nFigure 9: This is where you can paste the DNS hostnames in Namecheap\n\n\n\n\nNetlify takes care of SSL/TLS certificate, (aka the HTTPS protocol you can see in the site URLs). It’s a free service by Let’s Encrypt, which is enough for personal use. You can access it in Sites -&gt; Domain management -&gt; SSL/TLS certificate. It’s usually automatically enabled, but it can be manually renewed by clicking on the button on this page.\n\n\n\n\n\nFigure 10: HTTPS is taken good care of by Netlify\n\n\n\n\nSince Netlify has direct access to your GitHub repo, each time you push new version to GitHub, your website will be updated automatically. You can also trace the process on your Netlify dashboard. There is no need to type the command of quarto publish netlify in RStudio."
+  },
+  {
+    "objectID": "blogs/03_formr_instance_deployment/index.html",
+    "href": "blogs/03_formr_instance_deployment/index.html",
+    "title": "formr Instance Deployment",
+    "section": "",
+    "text": "Showcase\nMy formr Instance Official formr\n\n\nPreparation\n Initial Setup with Ubuntu   Install Docker on Ubuntu \n\n\nDeployment\n Deploy formr (Docker Version)"
+  },
+  {
+    "objectID": "blogs/03_formr_instance_deployment/index.html#useful-links",
+    "href": "blogs/03_formr_instance_deployment/index.html#useful-links",
+    "title": "formr Instance Deployment",
+    "section": "",
+    "text": "Showcase\nMy formr Instance Official formr\n\n\nPreparation\n Initial Setup with Ubuntu   Install Docker on Ubuntu \n\n\nDeployment\n Deploy formr (Docker Version)"
+  },
+  {
+    "objectID": "blogs/03_formr_instance_deployment/index.html#abstract",
+    "href": "blogs/03_formr_instance_deployment/index.html#abstract",
+    "title": "formr Instance Deployment",
+    "section": "Abstract",
+    "text": "Abstract\nThis is a tutorial of deploying the formr instance using Ubuntu 22.04 on Akamai (prior name Linode).\nThis tutorial contains my personal settings. If you are following this tutorial to make your own deployment, make sure to modify based on your preference.\nThis tutorial consists of the following:\n\nCreate an Ubuntu 22.04 server using Akamai’s Linode.\nCreate user and assign sudo privilege.\nInstall Docker.\nClone and configure the formr repo.\nTrouble-shooting."
+  },
+  {
+    "objectID": "blogs/03_formr_instance_deployment/index.html#my-customization",
+    "href": "blogs/03_formr_instance_deployment/index.html#my-customization",
+    "title": "formr Instance Deployment",
+    "section": "My Customization",
+    "text": "My Customization\n\n\n\nServer IP\n172.233.238.100\n\n\nUser Name\npingfan\n\n\nSQL Database Password\n0727\n\n\nHost Email\nformrcloudgwu@gmail.com"
+  },
+  {
+    "objectID": "blogs/03_formr_instance_deployment/index.html#step-1---create-the-server",
+    "href": "blogs/03_formr_instance_deployment/index.html#step-1---create-the-server",
+    "title": "formr Instance Deployment",
+    "section": "Step 1 - Create the Server",
+    "text": "Step 1 - Create the Server\n\n1.1 Create the server\nProceed to Akamai and create a Linode server following these configurations:\n\nImages - Choose Ubuntu 22.04 LTS. This is the desired version for formr instance.\nRegion - Choose your desired region.\nLinode Plan - Choose “Dedicated CPU” and pick a plan. The formr team recommends 8 CPUs, but I only picked the basic plan.\nLinode Label - Name your server as you wish. I named it as ubuntu-formr.\nAdd Tags - You may add a tag to indicate what this Linode server is for. I created a tag called formr.\nRoot Password - A root user will be generated for you upon server creation. This password is for accessing this root server. However, better create a real user and avoid using root. I’ll cover this later.\nSSH Keys - If you haven’t done so, create an SSH key using your Terminal. Save the key pairs to a safe place. On this page, click on Add An SSH Key and paste the public key here.\nLeave the rest settings as they are.\n\n\n\n1.2 Access online using LISH\nOnce you have created your Linode server, you’ll see it in the “Linodes” section. Click on it to make sure it’s properly running. On top right corner, you’ll see a “Launch LISH Console” button, where LISH is short for Linode Shell. By clicking on it, you’ll open the online shell command terminal.\n\n\n\n\nFigure 1: Click on this button to launch the online shell terminal\n\n\n\n\n\n1.3 Access locally using Terminal\nHowever, I prefer to use my local Terminal. Follow these steps to access this Linode using your local Terminal:\n\nLaunch your Terminal.\nType in ssh root@your_ip_address, and then input the root password that you created.\nYou’ll see a welcoming message if everything goes properly.\n\nIn fact, you can easily copy the SSH Access command from your Linode dashboard:\n\n\n\n\nFigure 2: Click on the SSH Access contents to directly copy the command\n\n\n\nNow you have created your Linode server for Ubuntu 22.04 and accessed it with your Terminal!"
+  },
+  {
+    "objectID": "blogs/03_formr_instance_deployment/index.html#step-2---create-the-user",
+    "href": "blogs/03_formr_instance_deployment/index.html#step-2---create-the-user",
+    "title": "formr Instance Deployment",
+    "section": "Step 2 - Create the User",
+    "text": "Step 2 - Create the User\nSee the full instruction of Digital Ocean here, or you can follow my guides. Keep in mind that both Digital Ocean’s guides and my instructions contain personalizations. You need to modify to your own case.\nRun the commands below line by line and follow the instructions when necessary. You’ll need to create the password and personal information for the new user.\n# Log in as root\nssh root@your_ip_address\n\n# Add a user called \"pingfan\"\nadduser pingfan\n\n# Assign sudo privilege \nusermod -aG sudo pingfan\n\n# Open a new Terminal window to login as pingfan\nssh pingfan@your_ip_address\nOnce your new user is ready, you’ll need to use it for the following steps.\n\nHint: There is always a root user by default, but you need to avoid using it for daily purposes. This makes user creation always being our first step."
+  },
+  {
+    "objectID": "blogs/03_formr_instance_deployment/index.html#step-3---install-docker",
+    "href": "blogs/03_formr_instance_deployment/index.html#step-3---install-docker",
+    "title": "formr Instance Deployment",
+    "section": "Step 3 - Install Docker",
+    "text": "Step 3 - Install Docker\nThe formr instance requires Docker. It is a virtual container for securely running your software. See the Docker official instructions here, or follow my steps below.\n\nHint: The official instructions assume you are using a local machine with GUI, but since we are accessing a remote machine using Terminal, I slightly modified the shell commands.\n\n3.1 Install gnome-terminal\nsudo apt install gnome-terminal\n3.2 Set up Docker’s apt repository\n# Add Docker's official GPG key:\nsudo apt-get update\nsudo apt-get install ca-certificates curl gnupg\nsudo install -m 0755 -d /etc/apt/keyrings\ncurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg\nsudo chmod a+r /etc/apt/keyrings/docker.gpg\n\n# Add the repository to Apt sources:\necho \\\n  \"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \\\n  $(. /etc/os-release && echo \"$VERSION_CODENAME\") stable\" | \\\n  sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null\nsudo apt-get update\n3.3 Install the latest Docker packages\nsudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin\n3.4 Verify that the Docker Engine installation is successful by running the hello-world image\nsudo docker run hello-world\n3.5 Download latest DEB package\nwget https://desktop.docker.com/linux/main/amd64/docker-desktop-4.26.1-amd64.deb\n\nHint: Until the composition of this blog, the latest version is docker-desktop-4.26.1-amd64.deb.\n\n3.6 Install the package with apt\nsudo apt-get update\nsudo apt-get install ./docker-desktop-4.26.1-amd64.deb\n3.7 Launch Docker Desktop\nsystemctl --user start docker-desktop\n3.8 Check the versions\ndocker compose version\ndocker --version\ndocker version\n3.9 Enable Docker Desktop to start on login\nsystemctl --user enable docker-desktop\nNow the Dock Desktop should be installed and set as auto-launch upon system start."
+  },
+  {
+    "objectID": "blogs/03_formr_instance_deployment/index.html#step-4---clone-and-configure-the-formr-repo",
+    "href": "blogs/03_formr_instance_deployment/index.html#step-4---clone-and-configure-the-formr-repo",
+    "title": "formr Instance Deployment",
+    "section": "Step 4 - Clone and Configure the formr Repo",
+    "text": "Step 4 - Clone and Configure the formr Repo\nSee the formr official instructions here, or you can follow my steps below.\n4.1 Clone the formr repo\ngit clone https://github.com/rubenarslan/formr_dev_docker.git\n4.2 Change dir and run ./setup.sh\ncd formr_dev_docker\nsudo ./setup.sh\n4.3 Configure database and domain names\nsudo nano .env\n\nHint: nano is the default editor of files in Terminal. After you are satisfied with your editing, you can use Ctrl + O to write out, and then Ctrl + X to exit.\n\nYou’ll need to modify the contents to meet your own personalization. Below is the official hint:\n# Mysql password of root, by default a random password will be generated\nMARIADB_ROOT_PASSWORD\n\n# Mysql database name, default = formr_db\nMARIADB_DATABASE\n\n# Mysql database user, default = formr_user\nMARIADB_USER\n\n# Mysql database password of user MARIADB_USER\n# By default a random password will be generated\nMARIADB_PASSWORD\n\n# The main domain of your formr instance\nMAIN_DOMAIN\n\n# Domain of formr_app. Can fill with multiple domain with separated by comma (,)\n# Default value = formr.org,www.formr.org\nFORMR_DOMAIN\n\n# (Sub)domain for opencpu. Access to this domain needs basic-auth\n# Default value = ocpu.formr.org\nOPENCPU_DOMAIN\n\n# Email for the ACME Let's Encrypt configuration and for the first superadmin\nFORMR_EMAIL\n\n# Default superadmin password\nFORMR_PASSWORD\n\n# formr version or branch. Default value = v0.20.6\n# Please check on this link https://github.com/rubenarslan/formr.org/tags\nFORMR_TAG\n\n# defaults to Europe/Berlin\nTIMEZONE\n4.4 Build containers and install initial schema\nsudo ./build.sh\ncd formr_app/formr/config\nsudo nano settings.php\ncd ~/formr_dev_docker\nsudo docker compose restart\nThe formr instance should be installed now. You may access your formr instance by pasting your IP address to your browser.\nYou can access mine using this link. It looks the same as the official version.\n\nHint: If you want to access your formr instance via a personalized domain, you’ll need to go back to 4.3 and set the main domain, and also modify your domain by adding a new A Record and assign the value as your IP address."
+  },
+  {
+    "objectID": "blogs/03_formr_instance_deployment/index.html#step-5---trouble-shooting",
+    "href": "blogs/03_formr_instance_deployment/index.html#step-5---trouble-shooting",
+    "title": "formr Instance Deployment",
+    "section": "Step 5 - Trouble-shooting",
+    "text": "Step 5 - Trouble-shooting\n5.1 Hints for the cd command\n# To change to root dir\ncd\n\n# To change to a dir by inputting relative path\n# A relative path is where you start from your current dir\ncd dir_name\n\n# To change to a dir by inputting absolute path\n# An absolute path disregards your current path\ncd ~/dir_name\n5.2 Configurational files\nThere are 3 configurational files in formr. They can be accessed using the following commands:\n# .env\ncd ~/formr_dev_docker\nsudo nano .env\n\n# settings.php\ncd ~/formr_dev_docker/formr_app/formr/config\nsudo nano settings.php\n\n# Session.php\ncd ~/formr_dev_docker/formr_app/formr/application\nsudo nano Session.php\n5.3 Restart Docker\nAfter each configuration, you’ll need to restart Docker by using the following commands:\ncd ~/formr_dev_docker\nsudo docker compose restart"
+  },
+  {
+    "objectID": "blogs/04_how_to_do_research/index.html",
+    "href": "blogs/04_how_to_do_research/index.html",
+    "title": "How to Do Research",
+    "section": "",
+    "text": "Research:\n Google Scholar   GWU Library   Connected Papers   Zotero \n\n\nCoding:\nGitHub GitHub Desktop RStudio\n\n\nNote Taking:\nQuarto  Craft Doc   Notion \n\n\nRelated Blog:\n How to Make a Personal Website"
+  },
+  {
+    "objectID": "blogs/04_how_to_do_research/index.html#useful-links",
+    "href": "blogs/04_how_to_do_research/index.html#useful-links",
+    "title": "How to Do Research",
+    "section": "",
+    "text": "Research:\n Google Scholar   GWU Library   Connected Papers   Zotero \n\n\nCoding:\nGitHub GitHub Desktop RStudio\n\n\nNote Taking:\nQuarto  Craft Doc   Notion \n\n\nRelated Blog:\n How to Make a Personal Website"
+  },
+  {
+    "objectID": "blogs/04_how_to_do_research/index.html#abstract",
+    "href": "blogs/04_how_to_do_research/index.html#abstract",
     "title": "How to Do Research",
     "section": "Abstract",
     "text": "Abstract\nThis blog provides a concise overview of my research methodologies.\nIt encompasses three core aspects:\n\nResearch Methods\nResearch Tools\nPublication & Communication."
   },
   {
-    "objectID": "blogs/04_logit/index.html#introduction",
-    "href": "blogs/04_logit/index.html#introduction",
+    "objectID": "blogs/04_how_to_do_research/index.html#introduction",
+    "href": "blogs/04_how_to_do_research/index.html#introduction",
     "title": "How to Do Research",
     "section": "Introduction",
     "text": "Introduction\nDoing research is a must-learn technique not only for PhD students but for all researchers and learners in the academic field. Despite the existence of common methodologies, there is no unique way of doing research. The best way to do research is what makes you feel comfortable.\nAs a 2nd year PhD student, I am still refining my ways of doing research. I write this blog to share my experiences to you and keep on track of possible optimization for myself.\nI break down my research approaches into 3 categories:\n\nResearch Methods: Literature Review, Bibliography, and Research Notes.\nResearch Tools: Google Scholar, University Library, Connected Papers, and Zotero.\nPublication & Communication: GitHub, Craft Doc, and Personal Website."
   },
   {
-    "objectID": "blogs/04_logit/index.html#research-methods",
-    "href": "blogs/04_logit/index.html#research-methods",
+    "objectID": "blogs/04_how_to_do_research/index.html#research-methods",
+    "href": "blogs/04_how_to_do_research/index.html#research-methods",
     "title": "How to Do Research",
     "section": "Research Methods",
     "text": "Research Methods\nYou may have heard a lot about literature review and bibliography since this is usually the very first step of starting your project. There are tons of online advice that you can reach to. I watched a lot of YouTube videos teaching me how to do them step-by-step, and they were very helpful. Since these experiences are not new to us, I want to talk something different.\n\n1. Literature Review and Bibliography\nI want to discuss some simple questions: Why do we do literature review and bibliography? What are the requirements for them? The usual answers are “I do so since my supervisor wants me to, and he/she has some solid requirements.” This interpretation is correct, but not enough. My interpretations are:\n\nYou do literature review because you want to study and record the current progress of your research field or topic, and a bibliography works as a collection of your successful literature review.\nThere is no solid requirement for doing literature review and bibliography, since you are doing them for yourself. It’s more important that your review notes make sense to you than to anyone else.\nAlthough there is no solid requirement, your literature review should at least contain 2 parts: what you can learn from this literature, and what you can criticize. The other optional parts are the datasets and plots that interest you, or the methods you can learn from.\n\nWorking as a PhD student or a researcher is different from being an ordinary student. You are already in your career and should treat your job in a professional way instead of “finishing tasks and handing in assignments”, so, doing research is not to acquire objectives from your supervisor, get them done and report back. It is rather a conversation to yourself: What can I learn from this literature? What are its problems? How can it contribute to my project?\n\n\n2. Research Notes\nTaking research notes is a highly case-by-case matter. It’s purely depending on your topic and your objectives. For me, I keep track of my project progress in different forms:\n\nMeeting Minutes and GitHub Issues: GitHub is a repository management database by Microsoft. If you have coding projects, it’s highly recommended to set up a GitHub account and start managing your project on it. I have weekly meeting with my supervisor, and bi-weekly meetings with my research team. I take notes and summarize into meeting minutes, have them sent to the team via email, and record into the Issue page of my project GitHub repo. For problems that cannot be immediately solved, I create a stand-alone issue and label as “To-do”.\nMarkdown Pages: I use Quarto on RStudio and record my research progress as qmd documents and sort them in chronological order. It’s easy for me to trace back and look for the project history.\nCraft Doc: For some semi-formal notes, I usually record them into my Craft Doc. Craft is a note-taking platform compatible with Mac, Windows, and mobile devices. It is similar to Notion but is a bit simpler to deal with. How Craft Doc works is by creating markdown documents and render them in real time.\nApple Notes: For purely informal notes, which might come out during conversations or casual time, I quickly note down with Apple Notes. There is one little trick for Mac: simply moving your cursor to the bottom right corner, you can see a little pop-up of a note page. Click on it and start to write. I record and clear these notes on weekly basis to make sure I have them taken good care of before I totally forget what these graffiti are.\n\nYou might want to share some notes with your supervisor or your other teammates. I’ll discuss about them in the Publication & Communication section."
   },
   {
-    "objectID": "blogs/04_logit/index.html#research-tools",
-    "href": "blogs/04_logit/index.html#research-tools",
+    "objectID": "blogs/04_how_to_do_research/index.html#research-tools",
+    "href": "blogs/04_how_to_do_research/index.html#research-tools",
     "title": "How to Do Research",
     "section": "Research Tools",
     "text": "Research Tools\nThere are tons of tools that we can freely access. For me, I’m making use of Google Scholar, GWU Library, Connected Papers, and Zotero.\n\n1. Google Scholar\nGoogle Scholar is the starting point of doing research, and it’s perhaps the largest database that we can access. You may search for any keywords with proper filtering to look for the possible outcomes that may interest you. You may also search for your supervisor’s name. His/her personal page will show the list of publications, along with the counts of citations in a bar chart in chronological order.\n\n\n\n\nFigure 1: Google Scholar: Stand on the shoulders of giants\n\n\n\nHowever, since Google Scholar is an all-inclusive database, it’s only suitable for the beginning of your research. As you go deeper, you will need some more precised targeting to specific papers. This requires you to use better tools as reinforcement.\n\n\n2. University Library\nEach university has its online library that grants you access to the literature publications. For example, GWU Library can be accessed here. It allows you to conduct searching with more advanced filtering techniques and grants you access to some paid contents.\n\n\n\n\nFigure 2: GWU Library provides more advanced searching and filtering techniques, and grants you access to some paid contents\n\n\n\n\n\n3. Connected Papers\nConnected Papers is a new platform that gives you access of related papers. It requires you to input keywords and locate to a paper as a starting point.\n\n\n\n\nFigure 3: Connected Papers: Enter keywords of a paper to start\n\n\n\nOnce you locate to a paper, you are provided with a network view of all related papers, with your searched paper at the center. In this network view (as referred from Connected Papers’ official instructions):\n\nPapers are arranged according to their similarity (this is not a citation tree).\nNode size is the number of citations.\nNode color is the publishing year.\nSimilar papers have strong connecting lines and cluster together.\n\nTake the example of the work of Helveston (2023). You can see the generated network below:\n\n\n\n\nFigure 4: Connected Papers: Example of Dr Helveston 2023\n\n\n\nThis network can be accessed here. Below are the interpretations of this network page:\n\nThe yellow highlighted part on the left is the list of the papers, with Dr Helveston’s paper on the top.\nThe red part in the middle shows the paper network according to their similarity. Feel free to hover over any of the nodes to see their details both on the pop-up info, and on the right side of the page (highlighted in blue).\nThe green part at the bottom shows the color scale of how far away these papers are from today. The lightest color represents 2010, and darkest 2023.\nThe blue part on the right is whatever the paper that I am hovering over (otherwise the main paper which is Dr Helveston’s in this case). It shows the paper’s title, abstract, and places where you can access it.\n\nConnected Papers is a great platform for your in-depth research so that you can easily skim through the related publications, and it provides quick justifications of the papers’ publishing date and numbers of citations.\nHowever, free accounts of Connected Papers only give you 5 networks per day. If you use it frequently, you might need monthly or annual subscriptions.\n\n\n4. Zotero\nZotero is a web-based literature management platform developed by George Mason University. It is widely used as a must-have research tool. Zotero is accessible on Mac, Windows, mobile devices, and webpage. I prefer to use it on my desktop machines (aka Mac and Windows), but you may try all and see if any of them fit you.\nAfter the installation of Zotero, you will be guided to install Zotero add-on for your web browser. You save the desired literature by clicking on the web browser Zotero button:\n\n\n\n\nFigure 5: Click on this Zotero web browser button to save the literature you find on the web\n\n\n\nThen, this literature resource should appear in your Zotero main interface. Below is the main interface:\n\n\n\n\nFigure 6: Zotero Main Interface\n\n\n\nIn this interface:\n\nThe yellow highlighted sidebar on the left is your database, where you can create and manage groups. I categorized my database groups by professor names, then further by different projects. You may find your own way of categorizing them.\nThe green highlighted side bar on the left is the shared database group from others. Zotero supports database sharing so that you can easily acquire or share databases.\nThe red highlighted part in the middle is the literature collection of your selected database group, which you may choose from the sidebar on the left (yellow highlighted). These literature resources are usually shown as a toggle on/off entry. In this screenshot, it is toggled on, so that you can see the actual PDF file and sometimes other useful contents like literature links or web links.\nThe blue highlighted part on the right is the details of the selected literature. Note that I selected on the entry, not the PDF file. Here you can see the details of this literature, including title, author(s), type, date, page, etc. This is a perfect definition for reference lists and in-text citations. If any of the information is wrong or missing, you are free to modify.\n\nTips of using Zotero:\n\nCreate an account to synchronize your literature collections, settings, and add-ons across the devices.\nZotero has a mature add-on market and is definitely more than what I can introduce here. Learn to use the add-ons and try some to enhance your user experience.\nZotero itself has markdown note capabilities. Some people might prefer using it instead of other note-taking approaches.\nZotero is compatible with Microsoft Word and RStudio (might have other compatibility but these 2 platforms are what I am using). You can manage literature sources, insert in-text citations and reference list by one click.\n\n\n\n\n\nFigure 7: Zotero add-on for Microsoft Word\n\n\n\n\n\n\n\nFigure 8: Zotero compatibility for RStudio"
   },
   {
-    "objectID": "blogs/04_logit/index.html#publication-communication",
-    "href": "blogs/04_logit/index.html#publication-communication",
+    "objectID": "blogs/04_how_to_do_research/index.html#publication-communication",
+    "href": "blogs/04_how_to_do_research/index.html#publication-communication",
     "title": "How to Do Research",
     "section": "Publication & Communication",
     "text": "Publication & Communication\nRome was not built in a day. It takes a considerable amount of time to do the research project. It’s vital to have regular communication with your supervisor. It could be face to face, online, email, or whatever method you both may prefer. Having your research resources available to your supervisor and other team members is important. Then it comes to the publication and communication methods.\nLikewise, there is no unique rule to do this, and only what you and your team feels comfortable is the right rule. For me, I use GitHub, Craft Doc, and my personal website (yeah, this website).\n\n1. GitHub\nI mentioned GitHub in the 2. Research Notes section, since I use GitHub Issues to take meeting notes, which is already a good way of communication, since these notes are not only for myself. However, GitHub is much more than just a note-taking system. It is an online repository database that can synchronize with your local machine, and your collaborators.\nThis blog is not a GitHub tutorial, and I am still familiarizing with GitHub (for example, I don’t usually use the fork and merge functions). I’ll only briefly show what you can do with GitHub. In fact, I am managing this personal website on GitHub.\nTo start with, we better know about Git, GitHub, and GitHub Desktop:\n\nGit is a distributed version control system, allowing developers to save different versions of their projects.\nGitHub is a web-based platform that incorporates Git’s version control features. It uses cloud storage and can be treated as a manual version of iCloud or OneDrive for your coding projects.\nGitHub Desktop is a software developed by GitHub, by which you can use a GUI to manage your GitHub repositories. Otherwise, you’ll have to use Shell commands on your Terminal.\n\nI recommend that you understand what Git is, create a GitHub account, and download the GitHub Desktop software.\nTips of using GitHub and GitHub Desktop:\n\nNouns in GitHub:\n\nWe call your database “repositories”, shortened as repo.\nYou can create issues to mark problems, progresses, and assign to whoever is responsible to solve.\nYou can start a project with your teammates and use the project management system in GitHub. Note that project is not the same as repo.\nYou can fork main repo or any branch to make your own branch. Then, you may choose to merge your branch to main when necessary. This is for teamwork purpose.\n\nPrivate vs Public:\n\nGitHub repos are by default set as private as you create them, which is necessary for all your on-going projects since they are usually confidential. Then, you assign your supervisor or anyone you want to cooperate with as collaborator(s).\nIf you want to share your ideas and thoughts, you may set some of your other repos as public, so that they can benefit the others.\n\nVerbs in GitHub:\n\nTo commit means to commit your local version on stage and ready for pushing.\nTo push means to actually upload this updated local version to online.\nTo fetch means to check if there are updated versions.\nTo pull means to actually download the updated online version to local.\nTo clone means to download an online repo to your local machine.\nTo fork means to create a branch of the repo.\nTo merge means to merge your branch into main.\n\n\nGitHub is much more than what I can describe here. If you are interested and find it useful for your research, start from these basic knowledge and do your investigation. It’s efficient, cutting-edge, and fun!\n\n\n2. Craft Doc\nCraft Doc is an easy-to-use local document system. You can understand it as Microsoft Word + online file management. If you are familiar with Notion, then Craft Doc is considered a simpler version of it. They both render markdown in real time and illustrate you with beautifully rendered outputs. Craft is accessible on Mac, Windows, online, and in mobile devices.\nCraft Doc can be private for your personal use, and you can share your pages via your designated URLs as well. Check out my Craft Doc notebook as an example.\nCraft Doc can be literally used seamlessly, and there are tons of tutorial videos and documents online, so I won’t talk too much in my blog. The point is, that having a combination of note-taking, storage, and online sharing platform really speeds up your research and sharing.\n\n\n3. Personal Website\nThere are many ways to do personal websites. In fact, any software or platform that can generate HTML files can be the candidate of generating personal websites. I use a combination of Quarto, RStudio, GitHub, Namecheap, and Netlify to build my website. Below is the breakdown:\n\nQuarto is a code-enabled publishing system, compatible with R, Python, Julia, and Observable. It can be run on Jupyter Notebook, RStudio, and VS Code. The extension of a Quarto doc is called qmd, short for Quarto Markdown. This document, for example, is rendered from a qmd file.\nRStudio is the major IDE that we use for R coding. I use Quarto on RStudio to create and edit my website project and other coding projects.\nGitHub is used as an online repository management platform. It’s necessary here since Netlify fetches the GitHub repo and deploys the site.\nNamecheap is used to buy and manage domains. It also lets you to manage DNS, which is important for linking your domain to Netlify. In fact, I bought my domain at Namecheap.\nNetlify deploys your site. You may log in using your GitHub credential. Netlify also sells domains, by doing which can speed up your website deployment, since you’ll have DNS settings automatically taken care of.\n\n\nAbove is just a brief introduction of which is which. If you are interested in building a website in this way, please go to another blog of mine: How to Make a Personal Website."
   },
   {
-    "objectID": "blogs/04_logit/index.html#summary",
-    "href": "blogs/04_logit/index.html#summary",
+    "objectID": "blogs/04_how_to_do_research/index.html#summary",
+    "href": "blogs/04_how_to_do_research/index.html#summary",
     "title": "How to Do Research",
     "section": "Summary",
     "text": "Summary\nSo, why bother doing all these? Well, it’s my way to perform, collect, store, share, and present my research. Again, Rome was not built in one day, and these setup works were also not done in a short time. For me, it took me nearly half a year to sort all these things out.\nIf you are at the very beginning of your research, don’t panic, since it takes time and efforts to do great things; and if you are already an experienced researcher, I will be glad if any of them could be helpful for your research."
   },
   {
-    "objectID": "blogs/04_logit/index.html#preface",
-    "href": "blogs/04_logit/index.html#preface",
-    "title": "History of Logit",
-    "section": "",
-    "text": "In the biology class of my high school, I learned that the population will grow exponentially given unlimited resources and spaces. This is called the “Malthus Population Problem” and was give the name “J Curve”, since the exponential Malthusian Model looks like the English letter J.\nThe Malthusian Growth Function:\n\\[\nN_t = N_0 \\cdot e^{rt}\n\\] Where:\n\n\\(N_t\\) stands for the population size at time of \\(t\\),\n\\(N_0\\) stands for the initial population size, and\n\\(r\\) stands for the growth rate.\n\nThe Malthusian Growth Model (CDF):\n\n\nCode\n# Parameters\nK &lt;- 10000\nN_0 &lt;- 100\nr &lt;- 1\n\n# Calculation\nx &lt;- seq(0, 10, length.out = 400)\nN_t_malthus &lt;- N_0 * exp(r * x)\ndata &lt;- data.frame(Time = x, Population = N_t_malthus)\n\n# Plotting\nggplot(data, aes(x = Time, y = Population)) +\n  geom_line(color = \"#5654A2\") +\n  labs(title = \"Malthusian Growth Model\",\n       subtitle = expression(\n         paste(\"Parameters: \", K, \"=10000, \", N[0], \"=100, \", r, \"=1\")\n         ),\n       x = \"Time (t)\",\n       y = expression(paste(\"Population (\", N[t], \")\"))) +\n  ylim(0, 10000) +\n  theme_bw(base_family = 'Ubuntu') +\n  theme(plot.subtitle = element_text(hjust = 0.5, size = 10),\n        plot.title = element_text(hjust = 0.5, size = 14))\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: Malthusian Model. \\(K\\) is the carrying capacity, and is thus the value of \\(N_t\\) when \\(t\\) reaches maximum.\n\n\n\nHowever, this exponential model is unrealistic due to the scarcity of resources and spaces. A Belgian mathematician named Verhulst realized the cap of population growth. He used an S curve to explain this cap. This S curve is perhaps the first S-shaped curve that we could learn in our textbooks.\nVerhulst named this distribution “logistique”, originated from a French word “logis”, meaning “lodging” in English. However, we used the word “Logistic” instead for statistical analysis. This model is thus called the “Logistic Model”, or “Logit Model”.\nThe Logit Growth Function:\n\\[\nN_t = \\frac{K}{1 + \\left( \\frac{K - N_0}{N_0} \\right) e^{-rt}}\n\\]"
-  },
-  {
-    "objectID": "blogs/04_logit/index.html#the-malthus-population-problem",
-    "href": "blogs/04_logit/index.html#the-malthus-population-problem",
-    "title": "The History of Logit",
-    "section": "The Malthus Population Problem",
-    "text": "The Malthus Population Problem\n\n1. The Malthusian Growth Model\nIn the biology class of my high school, I learned that the population will grow exponentially given unlimited resources and spaces. This is called the “Malthus Population Problem” and was give the name “J Curve”, since the exponential Malthusian Model looks like the English letter J.\nThe Malthusian Growth Function:\n\\[\nN_t = N_0 \\cdot e^{rt}\n\\] Where:\n\n\\(K\\) (not in this equation but will be used later) stands for the carrying capacity, which is the maximum allowed population in the system.\n\\(N_t\\) stands for the population size at time of \\(t\\),\n\\(N_0\\) stands for the initial population size, and\n\\(r\\) stands for the growth rate.\n\nThe Malthusian Growth Model (CDF):\n\n\nCode\n# Parameters\nK &lt;- 10000\nN_0 &lt;- 100\nr &lt;- 1\n\n# Calculation\nx &lt;- seq(0, 10, length.out = 400)\nN_t_malthus &lt;- N_0 * exp(r * x)\ndata_malthus &lt;- data.frame(Time = x, Population = N_t_malthus)\n\n# Plotting\nggplot(data_malthus, aes(x = Time, y = Population)) +\n  geom_line(color = \"#5654A2\") +\n  labs(title = \"Malthusian Growth Model\",\n       subtitle = expression(\n         paste(\"Parameters: \", K, \"=10000, \", N[0], \"=100, \", r, \"=1\")\n         ),\n       x = \"Time (t)\",\n       y = expression(paste(\"Population (\", N[t], \")\"))) +\n  ylim(0, 10000) +\n  theme_bw(base_family = 'Ubuntu') +\n  theme(plot.subtitle = element_text(hjust = 0.5, size = 10),\n        plot.title = element_text(hjust = 0.5, size = 14))\n\n\n\n\n\n\n\n\n\nIn this model, we set a simple scenario of \\(K\\) = 10,000, \\(N_0\\) = 100, and \\(r\\) = 1. It can be seen that the population grows so fast, that it reaches the cap while \\(t\\) value is a little over 4.\n\n\n2. The Logistic Growth Model\nHowever, this exponential model is unrealistic due to the scarcity of resources and spaces. A Belgian mathematician named Verhulst realized the cap of population growth. He used an S curve to explain this cap. This S curve is perhaps the first S-shaped curve that we could learn in our textbooks.\nVerhulst named this distribution “logistique”, originated from a French word “logis”, meaning “lodging” in English. However, we used the word “Logistic” instead for statistical analysis. This model is thus called the “Logistic Model”, or “Logit Model”.\n\nThe word “logit” is a portmanteau, coming from logistic + unit.\n\nThe Logit Growth Function:\n\\[\nN_t = \\frac{K}{1 + \\left( \\frac{K - N_0}{N_0} \\right) e^{-rt}}\n\\]\nThe Logit Growth Model (CDF):\n\n\nCode\n# Calculation for Logistic Growth Model\nN_t_logit &lt;- K / (1 + ((K - N_0) / N_0) * exp(-r * x))\ndata_logit &lt;- data.frame(Time = x, Population = N_t_logit)\n\n# Plotting the Logistic Growth Model\nggplot(data_logit, aes(x = Time, y = Population)) +\n  geom_line(color = \"#5654A2\") +\n  labs(title = \"Logistic Growth Model\",\n       subtitle = expression(\n         paste(\"Parameters: \", K, \"=10000, \", N[0], \"=100, \", r, \"=1\")\n         ),\n       x = \"Time (t)\",\n       y = expression(paste(\"Population (\", N[t], \")\"))) +\n  ylim(0, 10000) +\n  theme_bw(base_family = 'Ubuntu') +\n  theme(plot.subtitle = element_text(hjust = 0.5, size = 10),\n        plot.title = element_text(hjust = 0.5, size = 14))\n\n\n\n\n\n\n\n\n\nThis is the “S Curve” we’ve been seen in a lot of scenarios where there is a designed cap of population due to resource scarcity. There are also other S shaped curves. To avoid ambiguity, we use the term “Logit” instead."
-  },
-  {
-    "objectID": "blogs/04_logit/index.html#the-logit-model",
-    "href": "blogs/04_logit/index.html#the-logit-model",
-    "title": "The History of Logit",
-    "section": "The Logit Model",
-    "text": "The Logit Model\n\n1. Probability vs Logit\nThe traditional way of defining the odds (aka the probability) is to calculate the utility of choosing over the sum of utilities. The equation is written like this:\n\\[\nP_j = \\frac{v_j}{v_j + v_k}\n\\]\nIn this equation, the probability of choosing \\(j\\) over \\(k\\) is the utility of \\(j\\) over the sum of utilities. In this model, utilities are normally distributed.\nAn alternative way is to use the Logit Model, where we take the logarithm of the odds:\n\\[\nP_j = \\frac{e^{v_j}}{e^{v_j} + e^{v_k}}\n\\]\nThis is again the probability of choosing \\(j\\) over \\(k\\). To generalize the equation, the probability of choosing \\(j\\) over all other alternatives is written as this:\n\\[\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\]\nThe logit model utilizes the Type 1 Extreme Value distribution, and requires independent errors (IIA).\n\nIIA can be problematic when products are close substitutes. For example, in a DCM scenario, alternatives of Taxi, Red Bus, and Blue Bus are in fact 2 alternatives, since the Red Bus and the Blue Bus should be identical and only considered as one alternative. This is ignored by the IIA property.\n\n\n\n2. Why Logit\nSo, why using Logit Model? Why bother transforming the simple probability value into a somewhat non-intuitive value? An important reason is that the Logit Model does not have lower and upper limits. This can be better explained by the Logit Transformation:\n\\[\n\\text{Probability} \\rightarrow \\text{Odds} \\rightarrow \\text{Logit}\n\\]\nIn statistics, both probability and odds are used to describe the likelihood of an event occurring, but they have an important difference:\n\nProbability refers to the ratio of the number of times an event A occurs to the total number of possible outcomes, while\nOdds refer to the ratio of the probability of an event occurring to the probability of the event not occurring.\n\nThe probability equation writes:\n\\[\nP(A) = \\frac{\\text{Number of Event A}}{\\text{Total Number of Events}}\n\\]\nThe probability \\(P\\) is a real number between 0 and 1. \\(P = 0\\) indicates that an event will definitely not occur, while \\(P = 1\\) indicates that an event will definitely occur. In the case of rolling a die, the probability of rolling a 6 is:\n\\[\nP = \\frac{1}{6}\n\\]\nThe odds equation writes:\n\\[\n\\text{Odds} = \\frac{\\text{Probability of event}}{\\text{Probability of no event}} = \\frac{P}{1 - P}\n\\]\nContinuing with the example of rolling a die, the probability of rolling a 6 is \\(P = \\frac{1}{6}\\), and the probability of rolling any other number is \\(1 - P = \\frac{5}{6}\\). According to the equation, the odds of rolling a 6 is:\n\\[\n\\text{Odds} = \\frac{1/6}{5/6} = \\frac{1}{5}\n\\]\nNow you can see: The ratio of the probability of successfully rolling a 6 to that of not is 1:5.\nLike many other concepts in probability theory, the idea of odds originates from gambling. Suppose two people, A and B, bet on rolling a die; if A bets 1 dollar on rolling a 6, B would need to bet 5 dollars to ensure a fair game.\n\\(1/6\\) and \\(1/5\\) is not a big difference, but the point is to show that probability is happening vs all, while odds is happening vs not happening.\nImaging another scenario of drawing a ball from a packet, where there are 3 red balls and 2 blue balls. The probability of drawing a red ball is \\(3/5\\), while the odds is \\(3/2\\). This time, we have a larger difference, and the odds is even grater than one. In fact, the value of odds can be from 0 to positive infinity. Till now, we transformed from probability to odds.\nThe next transformation is from odds to logit. This can be simply done by taking the log value of odds:\n\\[\n\\text{Logit} = \\log(\\text{Odds})\n\\]\nTherefore, the full Logit Transformation is:\n\\[\n\\text{Probability} = P \\rightarrow \\text{Odds} = \\frac{P}{1-P} \\rightarrow \\text{Logit} = \\log(\\text{Odds})\n\\]\nTo better explain the differences between these 3, I constructed a data frame and sketched 2 plots of P vs Odds and P vs Logit:\n\n\n\n\n\n\n\nP\nOdds\nLogit\n\n\n\n\n0.01\n0.01\n-4.61\n\n\n0.10\n0.11\n-2.21\n\n\n0.20\n0.25\n-1.39\n\n\n0.30\n0.43\n-0.84\n\n\n0.40\n0.67\n-0.40\n\n\n0.50\n1.00\n0.00\n\n\n0.60\n1.50\n0.41\n\n\n0.70\n2.33\n0.85\n\n\n0.80\n4.00\n1.39\n\n\n0.90\n9.00\n2.20\n\n\n0.95\n19.00\n2.94\n\n\n0.99\n99.00\n4.60\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA summary of the transformation:\n\nProbability values range from \\(0\\) to \\(1\\).\nOdds values range from \\(0\\) to \\(+\\infty\\).\nLogit values range from \\(-\\infty\\) to \\(+\\infty\\)."
-  },
-  {
-    "objectID": "blogs/04_history_of_logit/index.html",
-    "href": "blogs/04_history_of_logit/index.html",
+    "objectID": "blogs/05_history_of_logit/index.html",
+    "href": "blogs/05_history_of_logit/index.html",
     "title": "The History of Logit",
     "section": "",
     "text": "Research Paper\n The Origins of Logit Regression \n\n\nLecture Slides\n Intro to Choice Modeling \n\n\nOnline Article\n What is Logit (Chinese)"
   },
   {
-    "objectID": "blogs/04_history_of_logit/index.html#useful-links",
-    "href": "blogs/04_history_of_logit/index.html#useful-links",
+    "objectID": "blogs/05_history_of_logit/index.html#useful-links",
+    "href": "blogs/05_history_of_logit/index.html#useful-links",
     "title": "The History of Logit",
     "section": "",
     "text": "Research Paper\n The Origins of Logit Regression \n\n\nLecture Slides\n Intro to Choice Modeling \n\n\nOnline Article\n What is Logit (Chinese)"
   },
   {
-    "objectID": "blogs/04_history_of_logit/index.html#abstract",
-    "href": "blogs/04_history_of_logit/index.html#abstract",
+    "objectID": "blogs/05_history_of_logit/index.html#abstract",
+    "href": "blogs/05_history_of_logit/index.html#abstract",
     "title": "The History of Logit",
     "section": "Abstract",
     "text": "Abstract\nThis blog describes a brief history of the Logit Model.\nIt starts from the famous Malthus population problem, and explains the necessity of transforming from probability to logit."
   },
   {
-    "objectID": "blogs/04_history_of_logit/index.html#the-malthus-population-problem",
-    "href": "blogs/04_history_of_logit/index.html#the-malthus-population-problem",
+    "objectID": "blogs/05_history_of_logit/index.html#the-malthus-population-problem",
+    "href": "blogs/05_history_of_logit/index.html#the-malthus-population-problem",
     "title": "The History of Logit",
     "section": "The Malthus Population Problem",
     "text": "The Malthus Population Problem\n\n1. The Malthusian Growth Model\nIn the biology class of my high school, I learned that the population will grow exponentially given unlimited resources and spaces. This is called the “Malthus Population Problem” and was give the name “J Curve”, since the exponential Malthusian Model looks like the English letter J.\nThe Malthusian Growth Function:\n\\[\nN_t = N_0 \\cdot e^{rt}\n\\] Where:\n\n\\(K\\) (not in this equation but will be used later) stands for the carrying capacity, which is the maximum allowed population in the system.\n\\(N_t\\) stands for the population size at time of \\(t\\),\n\\(N_0\\) stands for the initial population size, and\n\\(r\\) stands for the growth rate.\n\nThe Malthusian Growth Model (CDF):\n\n\nCode\n# Parameters\nK &lt;- 10000\nN_0 &lt;- 100\nr &lt;- 1\n\n# Calculation\nx &lt;- seq(0, 10, length.out = 400)\nN_t_malthus &lt;- N_0 * exp(r * x)\ndata_malthus &lt;- data.frame(Time = x, Population = N_t_malthus)\n\n# Plotting\nggplot(data_malthus, aes(x = Time, y = Population)) +\n  geom_line(color = \"#5654A2\") +\n  labs(title = \"Malthusian Growth Model\",\n       subtitle = expression(\n         paste(\"Parameters: \", K, \"=10000, \", N[0], \"=100, \", r, \"=1\")\n         ),\n       x = \"Time (t)\",\n       y = expression(paste(\"Population (\", N[t], \")\"))) +\n  ylim(0, 10000) +\n  theme_bw(base_family = 'Ubuntu') +\n  theme(plot.subtitle = element_text(hjust = 0.5, size = 10),\n        plot.title = element_text(hjust = 0.5, size = 14))\n\n\n\n\n\n\n\n\n\nIn this model, we set a simple scenario of \\(K\\) = 10,000, \\(N_0\\) = 100, and \\(r\\) = 1. It can be seen that the population grows so fast, that it reaches the cap while \\(t\\) value is a little over 4.\n\n\n2. The Logistic Growth Model\nHowever, this exponential model is unrealistic due to the scarcity of resources and spaces. A Belgian mathematician named Verhulst realized the cap of population growth. He used an S curve to explain this cap. This S curve is perhaps the first S-shaped curve that we could learn in our textbooks.\nVerhulst named this distribution “logistique”, originated from a French word “logis”, meaning “lodging” in English. However, we used the word “Logistic” instead for statistical analysis. This model is thus called the “Logistic Model”, or “Logit Model”.\n\nThe word “logit” is a portmanteau, coming from logistic + unit.\n\nThe Logit Growth Function:\n\\[\nN_t = \\frac{K}{1 + \\left( \\frac{K - N_0}{N_0} \\right) e^{-rt}}\n\\]\nThe Logit Growth Model (CDF):\n\n\nCode\n# Calculation for Logistic Growth Model\nN_t_logit &lt;- K / (1 + ((K - N_0) / N_0) * exp(-r * x))\ndata_logit &lt;- data.frame(Time = x, Population = N_t_logit)\n\n# Plotting the Logistic Growth Model\nggplot(data_logit, aes(x = Time, y = Population)) +\n  geom_line(color = \"#5654A2\") +\n  labs(title = \"Logistic Growth Model\",\n       subtitle = expression(\n         paste(\"Parameters: \", K, \"=10000, \", N[0], \"=100, \", r, \"=1\")\n         ),\n       x = \"Time (t)\",\n       y = expression(paste(\"Population (\", N[t], \")\"))) +\n  ylim(0, 10000) +\n  theme_bw(base_family = 'Ubuntu') +\n  theme(plot.subtitle = element_text(hjust = 0.5, size = 10),\n        plot.title = element_text(hjust = 0.5, size = 14))\n\n\n\n\n\n\n\n\n\nThis is the “S Curve” we’ve been seen in a lot of scenarios where there is a designed cap of population due to resource scarcity. There are also other S shaped curves. To avoid ambiguity, we use the term “Logit” instead.\n\nThe CDF of logit model is an S curve. With a visible diminishing of returns, it is a perfect model for human behavior studies for the purpose of generating a feasible marketing strategy."
   },
   {
-    "objectID": "blogs/04_history_of_logit/index.html#the-logit-model",
-    "href": "blogs/04_history_of_logit/index.html#the-logit-model",
+    "objectID": "blogs/05_history_of_logit/index.html#the-logit-model",
+    "href": "blogs/05_history_of_logit/index.html#the-logit-model",
     "title": "The History of Logit",
     "section": "The Logit Model",
     "text": "The Logit Model\n\n1. Probability vs Logit\nThe traditional way of defining the probability is to calculate the utility of choosing over the sum of utilities. The equation is written like this:\n\\[\nP_j = \\frac{v_j}{v_j + v_k}\n\\]\nIn this equation, the probability of choosing \\(j\\) over \\(k\\) is the utility of \\(j\\) over the sum of utilities. In this model, utilities are normally distributed.\nAn alternative way is to use the Logit Model, where we take the logarithm of the odds:\n\\[\nP_j = \\frac{e^{v_j}}{e^{v_j} + e^{v_k}}\n\\]\nThis is again the probability of choosing \\(j\\) over \\(k\\). To generalize the equation, the probability of choosing \\(j\\) over all other alternatives is written as this:\n\\[\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\]\nThe logit model utilizes the Type 1 Extreme Value distribution, and requires independent errors (IIA).\n\nIIA can be problematic when products are close substitutes. For example, in a DCM scenario, alternatives of Taxi, Red Bus, and Blue Bus are in fact 2 alternatives, since the Red Bus and the Blue Bus should be identical and only considered as one alternative. This is ignored by the IIA property.\n\n\n\n2. Why Logit\nSo, why using Logit Model? Why bother transforming the simple probability value into a somewhat non-intuitive value? An important reason is that the Logit Model does not have lower and upper limits. This can be better explained by the Logit Transformation:\n\\[\n\\text{Probability} \\rightarrow \\text{Odds} \\rightarrow \\text{Logit}\n\\]\nIn statistics, both probability and odds are used to describe the likelihood of an event occurring, but they have an important difference:\n\nProbability refers to the ratio of the number of times an event A occurs to the total number of possible outcomes, while\nOdds refers to the ratio of the probability of an event occurring to the probability of the event not occurring.\n\nThe probability equation writes:\n\\[\nP(A) = \\frac{\\text{Number of Event A}}{\\text{Total Number of Events}}\n\\]\nThe probability \\(P\\) is a real number between 0 and 1. \\(P = 0\\) indicates that an event will definitely not occur, while \\(P = 1\\) indicates that an event will definitely occur. In the case of rolling a die, the probability of rolling a 6 is:\n\\[\nP = \\frac{1}{6}\n\\]\nThe odds equation writes:\n\\[\n\\text{Odds} = \\frac{\\text{Probability of event}}{\\text{Probability of no event}} = \\frac{P}{1 - P}\n\\]\nContinuing with the example of rolling a die, the probability of rolling a 6 is \\(P = \\frac{1}{6}\\), and the probability of rolling any other number is \\(1 - P = \\frac{5}{6}\\). According to the equation, the odds of rolling a 6 is:\n\\[\n\\text{Odds} = \\frac{1/6}{5/6} = \\frac{1}{5}\n\\]\nNow you can see: The ratio of the probability of successfully rolling a 6 to that of not is 1:5.\nLike many other concepts in probability theory, the idea of odds originates from gambling. Suppose two people, A and B, bet on rolling a die; if A bets 1 dollar on rolling a 6, B would need to bet 5 dollars to ensure a fair game.\n\\(1/6\\) and \\(1/5\\) is not a big difference, but the point is to show that probability is happening vs all, while odds is happening vs not happening.\nImaging another scenario of drawing a ball from a packet, where there are 3 red balls and 2 blue balls. The probability of drawing a red ball is \\(3/5\\), while the odds is \\(3/2\\). This time, we have a larger difference, and the odds is even grater than one. In fact, the value of odds can be from 0 to positive infinity. Till now, we transformed from probability to odds.\nThe next transformation is from odds to logit. This can be simply done by taking the log value of odds:\n\\[\n\\text{Logit} = \\log(\\text{Odds})\n\\]\nTherefore, the full Logit Transformation is:\n\\[\n\\text{Probability} = P \\rightarrow \\text{Odds} = \\frac{P}{1-P} \\rightarrow \\text{Logit} = \\log(\\text{Odds})\n\\]\nTo better explain the differences between these 3, I constructed a data frame and sketched 2 plots of P vs Odds and P vs Logit:\n\n\n\n\n\n\n\nP\nOdds\nLogit\n\n\n\n\n0.01\n0.01\n-4.61\n\n\n0.10\n0.11\n-2.21\n\n\n0.20\n0.25\n-1.39\n\n\n0.30\n0.43\n-0.84\n\n\n0.40\n0.67\n-0.40\n\n\n0.50\n1.00\n0.00\n\n\n0.60\n1.50\n0.41\n\n\n0.70\n2.33\n0.85\n\n\n0.80\n4.00\n1.39\n\n\n0.90\n9.00\n2.20\n\n\n0.95\n19.00\n2.94\n\n\n0.99\n99.00\n4.60\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA summary of the transformation:\n\nProbability values range from \\(0\\) to \\(1\\).\nOdds values range from \\(0\\) to \\(+\\infty\\).\nLogit values range from \\(-\\infty\\) to \\(+\\infty\\)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pingfan Hu",
+    "section": "",
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey for BEV (Battery Electric Vehicle) Smart Charging adoption."
+  },
+  {
+    "objectID": "index.html#welcome-to-my-website",
+    "href": "index.html#welcome-to-my-website",
+    "title": "Pingfan Hu",
+    "section": "",
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey for BEV (Battery Electric Vehicle) Smart Charging adoption."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "BEV Smart Charging\n\n\n\nSmart Charging\n\n\nConjoint\n\n\n\n\n\n\n\nPingfan Hu\n\n\nSep 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe surveydown R package\n\n\n\nSurvey\n\n\nSoftware\n\n\n\n\n\n\n\nJohn Helveston, Pingfan Hu\n\n\nJun 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Using AI to Detect Bots in Surveys\n\n\n\nLLM\n\n\nConjoint\n\n\n\n\n\n\n\nPingfan Hu\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "projects/01_bev_smart_charging/index.html",
+    "href": "projects/01_bev_smart_charging/index.html",
+    "title": "BEV Smart Charging",
+    "section": "",
+    "text": "This project builds a Conjoint Survey on BEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Showcase Website"
+  },
+  {
+    "objectID": "projects/01_bev_smart_charging/index.html#about",
+    "href": "projects/01_bev_smart_charging/index.html#about",
+    "title": "BEV Smart Charging",
+    "section": "",
+    "text": "This project builds a Conjoint Survey on BEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Showcase Website"
+  },
+  {
+    "objectID": "projects/01_bev_smart_charging/index.html#project-overview",
+    "href": "projects/01_bev_smart_charging/index.html#project-overview",
+    "title": "BEV Smart Charging",
+    "section": "Project Overview",
+    "text": "Project Overview\nThis project is a combination of Master and PhD levels. The Master-level project is performed as a team with these members: Pingfan Hu, Bharath Ravindra, Sampada Dhakal, and Vedanth Surendra Hegde.\nSmart Charging means to control and monitor the BEV charging process. In our project, it contains SMC and V2G. SMC is short for “Supplier-Managed Charging”. It allows the charging stations to monitor, manage, and even restrict the charging process to optimize energy consumption. V2G is short for “Vehicle-to-Grid”. It allows bidirectional charging, so that the vehicle can discharge a certain amount of electricity back to the grid to further optimize energy consumption by balancing supply and demand.\nA previous study of Tarroja and Hittinger (2021) has proved the economic feasibility of both SMC and V2G. This project is therefore a succeeding study of it.\nThe motivation of this study is described as below:\n\nThe adoption of plug-in electric vehicles (BEVs) is essential for the U.S. to transition to a low-carbon energy system. However, if BEVs are charged during peak electricity demand hours, it could negate their environmental benefits and strain the electrical grid, necessitating expensive upgrades.\nSMC is a solution that aims to control the timing of BEV charging according to grid conditions. This strategy is particularly useful for BEV owners who leave their vehicles plugged in for extended periods, allowing the grid to intermittently charge the vehicles when it is most convenient for the grid.\nOn the other hand, V2G is to charge the electricity from the BEVs back to the grid. It is a tougher objective compared with smart charging. This objective aims to decrease the amount of stationary power storage of the utility by better using the existing electricity in the BEVs.\nThe challenge lies in convincing BEV owners to participate in the SMC and V2G programs. Concerns about privacy, the need for flexibility in their schedules, and lack of adequate compensation can deter participation.\nFor our program to succeed, there’s a need for a better understanding of social, behavioral, and economic factors influencing BEV owners’ willingness to participate. Different regions, based on their BEV adoption and renewable energy levels, will have varying requirements for such programs.\n\nIn summary, the widespread adoption of BEVs is crucial for a sustainable future, but charging them during peak hours can have drawbacks. The Smart Charging programs could solve this issue, yet its success hinges on understanding and addressing BEV owners’ concerns and varying regional needs."
+  },
+  {
+    "objectID": "projects/02_surveydown/index.html",
+    "href": "projects/02_surveydown/index.html",
+    "title": "The surveydown R package",
+    "section": "",
+    "text": "The {surveydown} R package is a flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase.\n Visit surveydown Official Website \nThis project is led by Prof John Helveston. For more details, see our About page.\n\n\n\n\n\nThe basic concept is:\n\nDesign your survey as a Quarto document using markdown and R code.\nConvert your survey into a Shiny app that can be hosted online and sent to respondents.\nStore your survey responses in a Supabase database (or any Postgres database).\n\nThe {surveydown} R package provides functions to bring this all together.\nSee the documentation to get started making your own surveydown survey!\nSee the demo surveys and use them as your survey templates!"
+  },
+  {
+    "objectID": "projects/02_surveydown/index.html#about",
+    "href": "projects/02_surveydown/index.html#about",
+    "title": "The surveydown R package",
+    "section": "",
+    "text": "The {surveydown} R package is a flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase.\n Visit surveydown Official Website \nThis project is led by Prof John Helveston. For more details, see our About page.\n\n\n\n\n\nThe basic concept is:\n\nDesign your survey as a Quarto document using markdown and R code.\nConvert your survey into a Shiny app that can be hosted online and sent to respondents.\nStore your survey responses in a Supabase database (or any Postgres database).\n\nThe {surveydown} R package provides functions to bring this all together.\nSee the documentation to get started making your own surveydown survey!\nSee the demo surveys and use them as your survey templates!"
+  },
+  {
+    "objectID": "projects/02_surveydown/index.html#background-motivation",
+    "href": "projects/02_surveydown/index.html#background-motivation",
+    "title": "The surveydown R package",
+    "section": "Background & Motivation",
+    "text": "Background & Motivation\nMost survey platforms (e.g., Google forms, Qualtrics, etc.) use drag-and-drop interfaces to design surveys, making version control and collaboration with others difficult. They’re also not reproducible (others cannot easily reproduce a survey made on these platforms), and many require a paid subscription or license to use.\nThe surveydown package was designed to address these problems. As an open-source, markdown-based platform, all survey content is defined with plain text (markdown and R code) in a survey.qmd file and an app.R file that renders your survey into a Shiny app that can be hosted online. This makes your survey easy to reproduce, share, and version control with common tools like Git. The survey data collected is also owned by the survey designer in a separate Postgres database (we recommend Supabase as a free and open-source database provider).\nIf you’re curious where this whole idea came from, check out this blog post, which outlines more on the general idea and the motivation for it. The post is now outdated in terms of the overall package design, but it provides something of an origin story and some of the motivation for developing this project."
+  },
+  {
+    "objectID": "projects/02_surveydown/index.html#installation",
+    "href": "projects/02_surveydown/index.html#installation",
+    "title": "The surveydown R package",
+    "section": "Installation",
+    "text": "Installation\n\n1. Install R & Quarto\nWe also recommend working with an IDE that has good support for R, Quarto, and Shiny. RStudio is great, and we also like VSCode and Positron.\n\n\n2. Install the {surveydown} R package\nThe {surveydown} R package is not yet on CRAN, but you can install the development version from GitHub with the following command in your R console:\n\n# install.packages(\"remotes\")\nremotes::install_github(\"surveydown-dev/surveydown\")\n\n\n\nVersion Control\nWe made some functions to make it easier to keep your R package up to date.\nTo check which version of the {surveydown} package you have installed, run:\n\nsurveydown::sd_version()\n\nTo update to the latest version of the {surveydown} package, run:\n\nsurveydown::sd_update()"
+  },
+  {
+    "objectID": "projects/02_surveydown/index.html#license-information",
+    "href": "projects/02_surveydown/index.html#license-information",
+    "title": "The surveydown R package",
+    "section": "License Information",
+    "text": "License Information\nSee the license information here."
+  },
+  {
+    "objectID": "projects/02_surveydown/index.html#citation-information",
+    "href": "projects/02_surveydown/index.html#citation-information",
+    "title": "The surveydown R package",
+    "section": "Citation Information",
+    "text": "Citation Information\nIf you use this package for in a publication, please cite it! You can get the citation by typing citation(\"surveydown\") into R:"
+  },
+  {
+    "objectID": "projects/03_ai_for_bot_detection/index.html",
+    "href": "projects/03_ai_for_bot_detection/index.html",
+    "title": "(Expected) Using AI to Detect Bots in Surveys",
+    "section": "",
+    "text": "Initial thoughts of detecting bots on surveys using LLM."
+  },
+  {
+    "objectID": "projects/03_ai_for_bot_detection/index.html#about",
+    "href": "projects/03_ai_for_bot_detection/index.html#about",
+    "title": "(Expected) Using AI to Detect Bots in Surveys",
+    "section": "",
+    "text": "Initial thoughts of detecting bots on surveys using LLM."
+  },
+  {
+    "objectID": "projects/03_ai_for_bot_detection/index.html#initial-ideas",
+    "href": "projects/03_ai_for_bot_detection/index.html#initial-ideas",
+    "title": "(Expected) Using AI to Detect Bots in Surveys",
+    "section": "Initial Ideas",
+    "text": "Initial Ideas\n\nAttempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
   }
 ]
