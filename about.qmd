@@ -12,18 +12,16 @@ My current project is a [conjoint survey](https://jhelvy.github.io/smartcharging
 
 Access my Resume for more details: <a href="resume.pdf" class="btn btn-primary btn-sm" role="button" target="_blank"> Pingfan's Resume </a>
 
-## Experiences
+## Experience and Expertise
 
-This part shows my past degrees, professional skills, and language skills.
-
-#### Past Degrees
+#### My Degrees
 
 -   I have Bachelor's degree in Industrial & Manufacturing Engineering at [Penn State University](https://www.ime.psu.edu), with a minor of Six Sigma.
 -   I have a Master's degree in Mechanical Engineering at [Sydney University](https://www.sydney.edu.au/engineering/study/undergraduate-courses/mechanical-engineering.html), qualified by [Engineers Australia](https://www.engineersaustralia.org.au).
 
 #### Professional Skills
 
--   Experienced in [R](https://www.r-project.org) and [Python](https://www.python.org) coding, and mainly use [RStudio](https://posit.co/download/rstudio-desktop/) and [VS Code](https://code.visualstudio.com) as working IDE.
+-   Experienced in [R](https://www.r-project.org) coding and R package development. I also do [Python](https://www.python.org) coding.
 -   Expertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.
 -   Proficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.
 -   Engineering management capability.

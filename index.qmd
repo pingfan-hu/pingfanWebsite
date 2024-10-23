@@ -22,6 +22,9 @@ about:
 
 Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of [Engineering Management and Systems Engineering](https://www.emse.seas.gwu.edu) with expertise in systems engineering and data analysis.
 
-I am experienced in [R](https://www.r-project.org) and [Python](https://www.python.org) coding, and mainly use [RStudio](https://posit.co/download/rstudio-desktop/) and [VS Code](https://code.visualstudio.com) as working IDE.
+I am experienced in data analysis, data visualization, and package development using [R](https://www.r-project.org) programming language. I'm also skilled at [Python](https://www.python.org) coding.
 
-My current project is a [conjoint survey](https://jhelvy.github.io/smartcharging/) for BEV (Battery Electric Vehicle) Smart Charging adoption.
+My current projects are:
+
+1. A [conjoint survey project](https://sc.pingfanhu.com) for BEV (Battery Electric Vehicle) Smart Charging adoption.
+2. The [surveydown R package](https://surveydown.org) that supports survey construction using [Quarto](https://quarto.org) doc. It generates as a [Shiny](https://shiny.posit.co) app that can be deployed online and have data stored on [Supabase](https://supabase.com).

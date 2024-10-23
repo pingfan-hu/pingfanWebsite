@@ -11,7 +11,7 @@
     "href": "about.html#experiences",
     "title": "About Me",
     "section": "Experiences",
-    "text": "Experiences\nThis part shows my past degrees, professional skills, and language skills.\n\nPast Degrees\n\nI have Bachelor’s degree in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\nI have a Master’s degree in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\n\n\n\nProfessional Skills\n\nExperienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nEngineering management capability.\n\n\n\nLanguage Skills\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication"
+    "text": "Experiences\nThis part shows my past degrees, professional skills, and language skills.\n\nMy Degrees\n\nI have Bachelor’s degree in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\nI have a Master’s degree in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\n\n\n\nProfessional Skills\n\nExperienced in R coding and R package development. I also do Python coding.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nEngineering management capability.\n\n\n\nLanguage Skills\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication"
   },
   {
     "objectID": "about.html#personal-life",
@@ -270,14 +270,14 @@
     "href": "index.html",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey for BEV (Battery Electric Vehicle) Smart Charging adoption."
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in data analysis, data visualization, and package development using R programming language. I’m also skilled at Python coding.\nMy current projects are:\n\nA conjoint survey project for BEV (Battery Electric Vehicle) Smart Charging adoption.\nThe surveydown R package that supports survey construction using Quarto doc. It generates as a Shiny app that can be deployed online and have data stored on Supabase."
   },
   {
     "objectID": "index.html#welcome-to-my-website",
     "href": "index.html#welcome-to-my-website",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in R and Python coding, and mainly use RStudio and VS Code as working IDE.\nMy current project is a conjoint survey for BEV (Battery Electric Vehicle) Smart Charging adoption."
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in data analysis, data visualization, and package development using R programming language. I’m also skilled at Python coding.\nMy current projects are:\n\nA conjoint survey project for BEV (Battery Electric Vehicle) Smart Charging adoption.\nThe surveydown R package that supports survey construction using Quarto doc. It generates as a Shiny app that can be deployed online and have data stored on Supabase."
   },
   {
     "objectID": "projects.html",
@@ -369,5 +369,12 @@
     "title": "(Expected) Using AI to Detect Bots in Surveys",
     "section": "Initial Ideas",
     "text": "Initial Ideas\n\nAttempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
+  },
+  {
+    "objectID": "about.html#experience-and-expertise",
+    "href": "about.html#experience-and-expertise",
+    "title": "About Me",
+    "section": "Experience and Expertise",
+    "text": "Experience and Expertise\n\nMy Degrees\n\nI have Bachelor’s degree in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\nI have a Master’s degree in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\n\n\n\nProfessional Skills\n\nExperienced in R coding and R package development. I also do Python coding.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nEngineering management capability.\n\n\n\nLanguage Skills\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication"
   }
 ]
