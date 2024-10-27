@@ -312,14 +312,14 @@
     "href": "projects/02_surveydown/index.html",
     "title": "The surveydown R package",
     "section": "",
-    "text": "The {surveydown} R package is a flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase.\n Visit surveydown Official Website \nThis project is led by Prof John Helveston. For more details, see our About page.\n\n\n\n\n\nThe basic concept is:\n\nDesign your survey as a Quarto document using markdown and R code.\nConvert your survey into a Shiny app that can be hosted online and sent to respondents.\nStore your survey responses in a Supabase database (or any Postgres database).\n\nThe {surveydown} R package provides functions to bring this all together.\nSee the documentation to get started making your own surveydown survey!\nSee the demo surveys and use them as your survey templates!"
+    "text": "The {surveydown} R package is a flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase.\n Visit surveydown Official Website"
   },
   {
     "objectID": "projects/02_surveydown/index.html#about",
     "href": "projects/02_surveydown/index.html#about",
     "title": "The surveydown R package",
     "section": "",
-    "text": "The {surveydown} R package is a flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase.\n Visit surveydown Official Website \nThis project is led by Prof John Helveston. For more details, see our About page.\n\n\n\n\n\nThe basic concept is:\n\nDesign your survey as a Quarto document using markdown and R code.\nConvert your survey into a Shiny app that can be hosted online and sent to respondents.\nStore your survey responses in a Supabase database (or any Postgres database).\n\nThe {surveydown} R package provides functions to bring this all together.\nSee the documentation to get started making your own surveydown survey!\nSee the demo surveys and use them as your survey templates!"
+    "text": "The {surveydown} R package is a flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase.\n Visit surveydown Official Website"
   },
   {
     "objectID": "projects/02_surveydown/index.html#background-motivation",
@@ -376,5 +376,12 @@
     "title": "About Me",
     "section": "Experience and Expertise",
     "text": "Experience and Expertise\n\nMy Degrees\n\nI have Bachelor’s degree in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\nI have a Master’s degree in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\n\n\n\nProfessional Skills\n\nExperienced in R coding and R package development. I also do Python coding.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nEngineering management capability.\n\n\n\nLanguage Skills\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication"
+  },
+  {
+    "objectID": "projects/02_surveydown/index.html#overview",
+    "href": "projects/02_surveydown/index.html#overview",
+    "title": "The surveydown R package",
+    "section": "Overview",
+    "text": "Overview\nThis project is led by Prof John Helveston. For more details, see our About page.\n\n\n\n\n\nThe basic concept is:\n\nDesign your survey as a Quarto document using markdown and R code.\nConvert your survey into a Shiny app that can be hosted online and sent to respondents.\nStore your survey responses in a Supabase database (or any Postgres database).\n\nThe {surveydown} R package provides functions to bring this all together.\nSee the documentation to get started making your own surveydown survey!\nSee the demo surveys and use them as your survey templates!"
   }
 ]

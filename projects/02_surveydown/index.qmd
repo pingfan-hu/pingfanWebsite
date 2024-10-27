@@ -18,6 +18,8 @@ The {surveydown} R package is a flexible, open-source platform for making survey
 
 <a href="https://surveydown.org" class="btn btn-primary" role="button"> Visit surveydown Official Website </a>
 
+## Overview
+
 This project is led by [Prof John Helveston](https://www.jhelvy.com). For more details, see our [About](https://surveydown.org/about) page.
 
 ![](/figs/surveydown.png){fig-align="center" width="550"}
