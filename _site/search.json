@@ -270,14 +270,14 @@
     "href": "index.html",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in data analysis, data visualization, and package development using R programming language. I’m also skilled at Python coding.\nMy current projects are:\n\nA conjoint survey project for BEV (Battery Electric Vehicle) Smart Charging adoption.\nThe surveydown R package that supports survey construction using Quarto doc. It generates as a Shiny app that can be deployed online and have data stored on Supabase."
+    "text": "My name is Pingfan Hu, a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I am experienced in R (base R + tidyverse) and Python development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.\nMy ongoing projects are:\n\nSmart charging adoption: A survey-based data analysis that studies BEV (Battery Electric Vehicle) owners’ willingness to opt in smart charging programs.\nsurveydown: A flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase, co-author with professor John Helveston."
   },
   {
     "objectID": "index.html#welcome-to-my-website",
     "href": "index.html#welcome-to-my-website",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI am experienced in data analysis, data visualization, and package development using R programming language. I’m also skilled at Python coding.\nMy current projects are:\n\nA conjoint survey project for BEV (Battery Electric Vehicle) Smart Charging adoption.\nThe surveydown R package that supports survey construction using Quarto doc. It generates as a Shiny app that can be deployed online and have data stored on Supabase."
+    "text": "My name is Pingfan Hu, a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I am experienced in R (base R + tidyverse) and Python development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.\nMy ongoing projects are:\n\nSmart charging adoption: A survey-based data analysis that studies BEV (Battery Electric Vehicle) owners’ willingness to opt in smart charging programs.\nsurveydown: A flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase, co-author with professor John Helveston."
   },
   {
     "objectID": "projects.html",

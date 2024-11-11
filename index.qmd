@@ -8,23 +8,20 @@ about:
   image-shape: round
   links:
     - icon: linkedin
-      text: LinkedIn
       href: https://www.linkedin.com/in/pingfan/
     - icon: github
-      text: Github
       href: https://github.com/pingfan-hu
-    - icon: envelope-at
-      text: Email
+    - text: "<span class='about-link-text'><i class='ai ai-orcid'></i></span>"
+      href: https://orcid.org/0009-0001-4877-4844
+    - icon: envelope-at-fill
       href: mailto:pingfan.hu@gwu.edu
 ---
 
 ## Welcome to my website!
 
-Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of [Engineering Management and Systems Engineering](https://www.emse.seas.gwu.edu) with expertise in systems engineering and data analysis.
+My name is **Pingfan Hu**, a PhD student in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I am experienced in R (base R + tidyverse) and Python development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.
 
-I am experienced in data analysis, data visualization, and package development using [R](https://www.r-project.org) programming language. I'm also skilled at [Python](https://www.python.org) coding.
+My ongoing projects are:
 
-My current projects are:
-
-1. A [conjoint survey project](https://sc.pingfanhu.com) for BEV (Battery Electric Vehicle) Smart Charging adoption.
-2. The [surveydown R package](https://surveydown.org) that supports survey construction using [Quarto](https://quarto.org) doc. It generates as a [Shiny](https://shiny.posit.co) app that can be deployed online and have data stored on [Supabase](https://supabase.com).
+1. [Smart charging adoption](https://sc.pingfanhu.com): A survey-based data analysis that studies BEV (Battery Electric Vehicle) owners' willingness to opt in smart charging programs.
+2. [surveydown](https://surveydown.org): A flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase, co-author with professor [John Helveston](https://www.jhelvy.com).

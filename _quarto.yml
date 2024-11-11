@@ -15,6 +15,9 @@ format:
     link-external-newwindow: true
     link-external-icon: false
     backgroundcolor: "#F8F7F0"
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 knitr: 
   opts_chunk: 
