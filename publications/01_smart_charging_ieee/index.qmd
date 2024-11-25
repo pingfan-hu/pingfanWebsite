@@ -1,0 +1,16 @@
+---
+title: "Measuring Consumer Willingness to Enroll in Battery Electric Vehicle Smart Charging Programs"
+date: "Oct 10, 2024"
+categories: [Conference, IEEE]
+bibliography: ../references.bib
+---
+
+## About
+
+This is a conference paper of BEV smart charging, published by @pingfan_measuring_2024 in IEEE VPPC 2024.
+
+<a href="https://ieeexplore.ieee.org/document/10755299" class="btn btn-primary" role="button"> Access the Paper </a>
+
+## Abstract
+
+As Battery Electric Vehicles (BEVs) gain popularity, managing their charging becomes crucial for grid stability. Smart charging programs can help utilities manage this demand and integrate more renewable energy by controlling when and how BEVs are charged. However, these programs require participation from BEV owners, who may be hesitant to freely provide such control. This study uses a discrete choice experiment (also called conjoint analysis) to measure BEV owners' willingness to participate in smart charging programs under various incentives and features. We examine two types of smart charging: Supplier-Managed Charging (SMC), which controls charging times, and Vehicle-to-Grid (V2G), allowing BEVs to return power to the grid. In an online survey conducted via Facebook and Instagram ads, we collected 858 valid responses, with 815 responses for SMC program choices and 414 for V2G program choices. We used mixed logit (MXL) models to quantify respondents' willingness to participate. The findings indicate a general reluctance to participate in both programs without some form of incentive, with respondents being most sensitive to recurring monetary incentives. For SMC, there is also concern about ensuring sufficient battery levels in the mornings. Simulations were conducted to predict enrollment rates based on different program features. Additional data will be collected to refine the models in the coming months.

@@ -49,16 +49,20 @@ website:
       - icon: person-badge
         href: about.qmd
         text: "About"
-      - icon: file-text
-        href: blogs.qmd
-        text: "Blogs"
       - icon: file-bar-graph
         href: projects.qmd
         text: "Projects"
+      - icon: file-text
+        href: blogs.qmd
+        text: "Blogs"
+      - icon: pencil-square
+        href: publications.qmd
+        text: "Publications"
+
+    right:
       - icon: person-circle
         href: resume.pdf
         text: "Resume"
-    right:
       - icon: linkedin
         href: https://www.linkedin.com/in/pingfan/
       - icon: github
