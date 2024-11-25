@@ -2,7 +2,7 @@
 title: "The surveydown R package"
 subtitle: "A flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase."
 author:
-  - "John Helveston"
+  - "John Paul Helveston, Ph.D."
   - "Pingfan Hu"
 date: "Jun 01, 2024"
 categories: [Survey, Software]

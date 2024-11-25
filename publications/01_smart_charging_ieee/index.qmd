@@ -1,6 +1,14 @@
 ---
 title: "Measuring Consumer Willingness to Enroll in Battery Electric Vehicle Smart Charging Programs"
 date: "Oct 10, 2024"
+author: 
+  - "Pingfan Hu"
+  - "Brian Tarroja, Ph.D., P.E."
+  - "Matthew Dean, Ph.D."
+  - "Kate Forrest, Ph.D."
+  - "Eric Hittinger, Ph.D."
+  - "Alan Jenn, Ph.D."
+  - "John Paul Helveston, Ph.D."
 categories: [Conference, IEEE]
 bibliography: ../references.bib
 ---
