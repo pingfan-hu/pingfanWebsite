@@ -1,5 +1,6 @@
 ---
-title: "Measuring Consumer Willingness to Enroll in Battery Electric Vehicle Smart Charging Programs"
+title: "IEEE VPPC 2024"
+subtitle: "Measuring Consumer Willingness to Enroll in Battery Electric Vehicle Smart Charging Programs"
 date: "Oct 10, 2024"
 author: 
   - "Pingfan Hu"

@@ -1,7 +1,7 @@
 ---
 title: "formr Instance Deployment"
 date: "Dec 30, 2023"
-categories: [formr, Linode]
+categories: [Tutorial]
 ---
 
 ## Useful Links

@@ -25,7 +25,7 @@
     "href": "blogs.html",
     "title": "Blogs",
     "section": "",
-    "text": "The History of Logit\n\n\n\n\n\n\nLogit\n\n\n\n\n\n\n\n\n\nMay 20, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Do Research\n\n\n\n\n\n\nResearch\n\n\n\n\n\n\n\n\n\nJan 30, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nformr Instance Deployment\n\n\n\n\n\n\nformr\n\n\nLinode\n\n\n\n\n\n\n\n\n\nDec 30, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Make a Personal Website\n\n\n\n\n\n\nWebsite\n\n\nQuarto\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nMaster Projects\n\n\n\n\n\n\nNetwork\n\n\nData Viz\n\n\n\n\n\n\n\n\n\nMay 24, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "The History of Logit\n\n\n\n\n\n\nModeling\n\n\n\n\n\n\n\n\n\nMay 20, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Do Research\n\n\n\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\nJan 30, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nformr Instance Deployment\n\n\n\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\nDec 30, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Make a Personal Website\n\n\n\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nMaster Projects\n\n\n\n\n\n\nData Viz\n\n\n\n\n\n\n\n\n\nMay 24, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "blogs/01_master_projects/index.html",
@@ -389,26 +389,26 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Measuring Consumer Willingness to Enroll in Battery Electric Vehicle Smart Charging Programs\n\n\n\n\n\n\nConference\n\n\nIEEE\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nPingfan Hu, Brian Tarroja, Ph.D., P.E., Matthew Dean, Ph.D., Kate Forrest, Ph.D., Eric Hittinger, Ph.D., Alan Jenn, Ph.D., John Paul Helveston, Ph.D.\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "IEEE VPPC 2024\n\n\nMeasuring Consumer Willingness to Enroll in Battery Electric Vehicle Smart Charging Programs\n\n\n\nConference\n\n\nIEEE\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nPingfan Hu, Brian Tarroja, Ph.D., P.E., Matthew Dean, Ph.D., Kate Forrest, Ph.D., Eric Hittinger, Ph.D., Alan Jenn, Ph.D., John Paul Helveston, Ph.D.\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "publications/01_smart_charging_ieee/index.html",
     "href": "publications/01_smart_charging_ieee/index.html",
-    "title": "Measuring Consumer Willingness to Enroll in Battery Electric Vehicle Smart Charging Programs",
+    "title": "IEEE VPPC 2024",
     "section": "",
     "text": "This is a conference paper of BEV smart charging, published by Hu et al. (2024) in IEEE VPPC 2024.\n Access the Paper"
   },
   {
     "objectID": "publications/01_smart_charging_ieee/index.html#about",
     "href": "publications/01_smart_charging_ieee/index.html#about",
-    "title": "Measuring Consumer Willingness to Enroll in Battery Electric Vehicle Smart Charging Programs",
+    "title": "IEEE VPPC 2024",
     "section": "",
     "text": "This is a conference paper of BEV smart charging, published by Hu et al. (2024) in IEEE VPPC 2024.\n Access the Paper"
   },
   {
     "objectID": "publications/01_smart_charging_ieee/index.html#abstract",
     "href": "publications/01_smart_charging_ieee/index.html#abstract",
-    "title": "Measuring Consumer Willingness to Enroll in Battery Electric Vehicle Smart Charging Programs",
+    "title": "IEEE VPPC 2024",
     "section": "Abstract",
     "text": "Abstract\nAs Battery Electric Vehicles (BEVs) gain popularity, managing their charging becomes crucial for grid stability. Smart charging programs can help utilities manage this demand and integrate more renewable energy by controlling when and how BEVs are charged. However, these programs require participation from BEV owners, who may be hesitant to freely provide such control. This study uses a discrete choice experiment (also called conjoint analysis) to measure BEV owners’ willingness to participate in smart charging programs under various incentives and features. We examine two types of smart charging: Supplier-Managed Charging (SMC), which controls charging times, and Vehicle-to-Grid (V2G), allowing BEVs to return power to the grid. In an online survey conducted via Facebook and Instagram ads, we collected 858 valid responses, with 815 responses for SMC program choices and 414 for V2G program choices. We used mixed logit (MXL) models to quantify respondents’ willingness to participate. The findings indicate a general reluctance to participate in both programs without some form of incentive, with respondents being most sensitive to recurring monetary incentives. For SMC, there is also concern about ensuring sufficient battery levels in the mornings. Simulations were conducted to predict enrollment rates based on different program features. Additional data will be collected to refine the models in the coming months."
   }
