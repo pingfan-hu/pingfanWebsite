@@ -9,8 +9,8 @@ format:
     toc-depth: 5
     toc-location: right
     lightbox: true
-    theme: [united, theme.scss]
-    css: styles.css
+    theme: [united, theme/theme.scss]
+    css: theme/styles.css
     self-contained: true
     link-external-newwindow: true
     link-external-icon: false
@@ -58,6 +58,10 @@ website:
       - icon: pencil-square
         href: publications.qmd
         text: "Publications"
+      - icon: file-earmark-slides
+        href: https://slides.pingfanhu.com
+        text: "Talks"
+        target: _blank
 
     right:
       - icon: person-circle
