@@ -42,7 +42,7 @@ website:
   back-to-top-navigation: true
   search:
     location: navbar
-    type: textbox
+    type: overlay
     copy-button: true
   navbar:
     left:
@@ -62,14 +62,17 @@ website:
         href: https://slides.pingfanhu.com
         text: "Talks"
         target: _blank
-
-    right:
-      - icon: person-circle
+      - icon: person-vcard
         href: resume.pdf
         text: "Resume"
+        target: _blank
+
+    right:
       - icon: linkedin
         href: https://www.linkedin.com/in/pingfan/
       - icon: github
         href: https://github.com/pingfan-hu
+      - text: "<span class='about-link-text'><i class='ai ai-orcid'></i></span>"
+        href: https://orcid.org/0009-0001-4877-4844
       - icon: envelope-at
         href: mailto:pingfan.hu@gwu.edu
