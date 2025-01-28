@@ -284,7 +284,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "BEV Smart Charging\n\n\n\nSmart Charging\n\n\n\n\n\n\n\nPingfan Hu\n\n\nSep 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe surveydown  Package 🎉\n\n\n\nSoftware\n\n\n\n\n\n\n\nJohn Paul Helveston, Ph.D., Pingfan Hu\n\n\nJun 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Using AI to Detect Bots in Surveys\n\n\n\nLLM\n\n\n\n\n\n\n\nPingfan Hu\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "BEV Smart Charging\n\n\n\nSmart Charging\n\n\n\n\n\n\n\nPingfan Hu\n\n\nSep 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe surveydown  Package\n\n\n\nSoftware\n\n\n\n\n\n\n\nJohn Paul Helveston, Ph.D., Pingfan Hu\n\n\nJun 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Using AI to Detect Bots in Surveys\n\n\n\nLLM\n\n\n\n\n\n\n\nPingfan Hu\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "projects/01_bev_smart_charging/index.html",
@@ -310,14 +310,14 @@
   {
     "objectID": "projects/02_surveydown/index.html",
     "href": "projects/02_surveydown/index.html",
-    "title": "The surveydown  Package 🎉",
+    "title": "The surveydown  Package",
     "section": "",
     "text": "{surveydown} is a flexible, open-source survey tool using , Quarto, Shiny, and PostgreSQL.\n\n\n Visit surveydown Official Website"
   },
   {
     "objectID": "projects/02_surveydown/index.html#about",
     "href": "projects/02_surveydown/index.html#about",
-    "title": "The surveydown  Package 🎉",
+    "title": "The surveydown  Package",
     "section": "",
     "text": "{surveydown} is a flexible, open-source survey tool using , Quarto, Shiny, and PostgreSQL.\n\n\n Visit surveydown Official Website"
   },
@@ -331,21 +331,21 @@
   {
     "objectID": "projects/02_surveydown/index.html#installation",
     "href": "projects/02_surveydown/index.html#installation",
-    "title": "The surveydown  Package 🎉",
+    "title": "The surveydown  Package",
     "section": "Installation",
     "text": "Installation\n\n1. Install R & Quarto\nYou need both:\n\nInstall \nInstall Quarto\n\nWe also recommend working with an IDE that has good support for R, Quarto, and Shiny.\nRStudio is great, and we also like VSCode and Positron.\n\n\n2. Install the {surveydown} R package\nYou can install {surveydown} from CRAN in your R console:\n\ninstall.packages(\"surveydown\")\n\nor you can install the development version from GitHub:\n\n# install.packages(\"pak\")\npak::pak('surveydown-dev/surveydown')\n\nLoad the package with:\n\nlibrary(surveydown)\n\nYou can also check which version you have installed:\n\nsurveydown::sd_version()"
   },
   {
     "objectID": "projects/02_surveydown/index.html#license-information",
     "href": "projects/02_surveydown/index.html#license-information",
-    "title": "The surveydown  Package 🎉",
+    "title": "The surveydown  Package",
     "section": "License Information",
     "text": "License Information\nSee the license information here."
   },
   {
     "objectID": "projects/02_surveydown/index.html#citation-information",
     "href": "projects/02_surveydown/index.html#citation-information",
-    "title": "The surveydown  Package 🎉",
+    "title": "The surveydown  Package",
     "section": "Citation Information",
     "text": "Citation Information\nIf you use this package for in a publication, please cite it! You can get the citation by typing citation(\"surveydown\") into R:\n\ncitation(\"surveydown\")"
   },
@@ -380,7 +380,7 @@
   {
     "objectID": "projects/02_surveydown/index.html#overview",
     "href": "projects/02_surveydown/index.html#overview",
-    "title": "The surveydown  Package 🎉",
+    "title": "The surveydown  Package",
     "section": "Overview",
     "text": "Overview\nThis project is led by Prof John Helveston. For more details, see our About page.\n\n\n\n\n\n\nThe basic concept is:\n\nDesign your survey as a Quarto document using markdown and R code.\nRender your survey into a Shiny app that can be hosted online and sent to respondents.\nStore survey response data in a PostgreSQL database. We recommend Supabase as a free, secure, and easy to use option.\n\nThe {surveydown} R package provides functions to bring this all together.\nSee Documentation to get started making your own surveydown survey!\nSee Demos and use them as your survey templates!"
   },
@@ -415,14 +415,14 @@
   {
     "objectID": "projects/02_surveydown/index.html#motivation",
     "href": "projects/02_surveydown/index.html#motivation",
-    "title": "The surveydown  Package 🎉",
+    "title": "The surveydown  Package",
     "section": "Motivation",
     "text": "Motivation\nMost survey platforms (e.g., Google forms, Qualtrics, etc.) use graphic interfaces or spreadsheets to define survey content, making version control, collaboration, and reproducibility difficult or impossible. The surveydown package was designed to address these problems. As an open-source, markdown-based platform, all survey content is defined using plain text (markdown and R code) in two files:\n\nsurvey.qmd: A Quarto document that contains the survey content (pages, questions, etc).\napp.R: An R script defining a shiny app that contains global settings (libraries, database configuration, etc.) and server configuration options (e.g., conditional skipping / display, etc.).\n\nThis approach makes your survey easy to reproduce, share, and version control with common tools like Git. And since all survey data is stored in a PostgreSQL database, you have total control over where your survey data lives. We provide direct support for Supabase as a free, secure, and easy to use option.\nIn case you’re interested in the background behind the project, this blog post provides something of an origin story. Note that the design discussed in the post is now quite outdated with what ultimately became surveydown."
   },
   {
     "objectID": "projects/02_surveydown/index.html#awards",
     "href": "projects/02_surveydown/index.html#awards",
-    "title": "The surveydown  Package 🎉",
+    "title": "The surveydown  Package",
     "section": "Awards 🎉",
     "text": "Awards 🎉\n{surveydown} has been awarded the 2nd Prize in the 2024 Student Open Source Awards Program at GWU!"
   }

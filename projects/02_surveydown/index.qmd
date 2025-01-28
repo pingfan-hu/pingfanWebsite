@@ -1,5 +1,5 @@
 ---
-title: "The surveydown {{< var rnolink >}} Package 🎉"
+title: "The surveydown {{< var rnolink >}} Package"
 subtitle: "A flexible, open-source platform for making surveys"
 author:
   - "John Paul Helveston, Ph.D."
