@@ -10,30 +10,37 @@ I have 4 years' engineering working experience in top companies, and am now back
 
 My current project is a [conjoint survey](https://jhelvy.github.io/smartcharging/) for BEV (Battery Electric Vehicle) Smart Charging adoption. This project aims to understand BEV owners' preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid.
 
-Access my Resume for more details: <a href="resume.pdf" class="btn btn-primary btn-sm" role="button" target="_blank"> Pingfan's Resume </a>
+Access my Resume for more details:
+
+<center>
+<a href="resume.pdf" class="btn btn-primary" role="button" target="_blank"> Pingfan's Resume </a>
+</center>
+<br>
 
 ## Experience and Expertise
 
-#### My Degrees
+#### Degrees
 
--   I have Bachelor's degree in Industrial & Manufacturing Engineering at [Penn State University](https://www.ime.psu.edu), with a minor of Six Sigma.
--   I have a Master's degree in Mechanical Engineering at [Sydney University](https://www.sydney.edu.au/engineering/study/undergraduate-courses/mechanical-engineering.html), qualified by [Engineers Australia](https://www.engineersaustralia.org.au).
+- (Ongoing) **PhD** - *Doctor of Philosophy* in Engineering Management and Systems Engineering at [George Washington University](https://www.emse.seas.gwu.edu), supervised by prof [John Helveston](https://www.jhelvy.com).
+- **MPE** - *Master of Professional Engineering* in Mechanical Engineering at [Sydney University](https://www.sydney.edu.au/engineering/study/undergraduate-courses/mechanical-engineering.html), qualified by [Engineers Australia](https://www.engineersaustralia.org.au).
+- **BS** - *Bachelor of Science* in Industrial & Manufacturing Engineering at [Penn State University](https://www.ime.psu.edu), with a minor of Six Sigma.
 
 #### Professional Skills
 
--   Experienced in [R](https://www.r-project.org) coding and R package development. I also do [Python](https://www.python.org) coding.
+-   Experienced in {{< var rproject >}} coding and {{< var rproject >}} package development. Capable of {{< var python >}} coding as well.
 -   Expertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.
+-   Advanced usage on LLM (large language model) like ChatGPT, Claude, and DeepSeek; capable of local deployment.
 -   Proficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.
 -   Engineering management capability.
 
-#### Language Skills
+#### Languages
 
 -   Chinese Mandarin - Native language
 -   English - Proficient technical writing and oral communication
 
 ## Personal Life
 
-Throughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Washington DC.
+Throughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Vienna, VA.
 
 I am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.
 

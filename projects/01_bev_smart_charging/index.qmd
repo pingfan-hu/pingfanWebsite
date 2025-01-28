@@ -3,7 +3,7 @@ title: "BEV Smart Charging"
 subtitle: "Quantifying the benefits and constraints of BEV Smart Charging adoption."
 author: "Pingfan Hu"
 date: "Sept 07, 2023"
-categories: [Smart Charging, Survey]
+categories: [Smart Charging]
 bibliography: ../references.bib
 ---
 
@@ -11,7 +11,11 @@ bibliography: ../references.bib
 
 This project builds a Conjoint Survey on BEV Smart Charging. It utilizes the [`cbctools`](https://jhelvy.github.io/cbcTools/) and [`logitr`](https://jhelvy.github.io/logitr/) packages developed by [Prof John Helveston](https://www.jhelvy.com).
 
+<br>
+<center>
 <a href="https://sc.pingfanhu.com" class="btn btn-primary" role="button"> Showcase Website </a>
+<a href="../../publications/01_smart_charging_ieee/" class="btn btn-primary" role="button"> IEEE Conference Paper </a>
+</center>
 
 ## Project Overview
 

@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI have 4 years’ engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia.\nMy current project is a conjoint survey for BEV (Battery Electric Vehicle) Smart Charging adoption. This project aims to understand BEV owners’ preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid.\nAccess my Resume for more details:  Pingfan’s Resume"
+    "text": "Hi! My name is Pingfan Hu. I am a PhD student and researcher at George Washington University in the Department of Engineering Management and Systems Engineering with expertise in systems engineering and data analysis.\nI have 4 years’ engineering working experience in top companies, and am now back to school and pursuing a PhD degree to seek for a breakthrough in academia.\nMy current project is a conjoint survey for BEV (Battery Electric Vehicle) Smart Charging adoption. This project aims to understand BEV owners’ preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid.\nAccess my Resume for more details:"
   },
   {
     "objectID": "about.html#experiences",
@@ -18,7 +18,7 @@
     "href": "about.html#personal-life",
     "title": "About Me",
     "section": "Personal Life",
-    "text": "Personal Life\nThroughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Washington DC.\nI am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.\n\n\n\n\nPinocchio"
+    "text": "Personal Life\nThroughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Vienna, VA.\nI am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.\n\n\n\n\nPinocchio"
   },
   {
     "objectID": "blogs.html",
@@ -270,35 +270,35 @@
     "href": "index.html",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "My name is Pingfan Hu, a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I am experienced in R (base R + tidyverse) and Python development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.\nMy ongoing projects are:\n\nSmart charging adoption: A survey-based data analysis that studies BEV (Battery Electric Vehicle) owners’ willingness to opt in smart charging programs.\nsurveydown: A flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase, co-author with professor John Helveston."
+    "text": "My name is Pingfan Hu, a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I am experienced in  (base  + tidyverse) and Python development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.\nOngoing projects:\n\nSmart Charging Adoption: A survey-based data analysis that studies BEV (Battery Electric Vehicle) owners’ willingness to opt in smart charging programs, funded by the Alfred P. Sloan Foundation.\nsurveydown: A flexible, open-source platform for making surveys with , Quarto, Shiny, and PostgreSQL, co-author with professor John Helveston, awarded 2nd prize in the 2024 Student Open Source Awards Program at GWU."
   },
   {
     "objectID": "index.html#welcome-to-my-website",
     "href": "index.html#welcome-to-my-website",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "My name is Pingfan Hu, a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I am experienced in R (base R + tidyverse) and Python development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.\nMy ongoing projects are:\n\nSmart charging adoption: A survey-based data analysis that studies BEV (Battery Electric Vehicle) owners’ willingness to opt in smart charging programs.\nsurveydown: A flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase, co-author with professor John Helveston."
+    "text": "My name is Pingfan Hu, a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I am experienced in  (base  + tidyverse) and Python development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.\nOngoing projects:\n\nSmart Charging Adoption: A survey-based data analysis that studies BEV (Battery Electric Vehicle) owners’ willingness to opt in smart charging programs, funded by the Alfred P. Sloan Foundation.\nsurveydown: A flexible, open-source platform for making surveys with , Quarto, Shiny, and PostgreSQL, co-author with professor John Helveston, awarded 2nd prize in the 2024 Student Open Source Awards Program at GWU."
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "BEV Smart Charging\n\n\n\nSmart Charging\n\n\nSurvey\n\n\n\n\n\n\n\nPingfan Hu\n\n\nSep 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe surveydown R package\n\n\n\nSurvey\n\n\nSoftware\n\n\n\n\n\n\n\nJohn Paul Helveston, Ph.D., Pingfan Hu\n\n\nJun 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Using AI to Detect Bots in Surveys\n\n\n\nLLM\n\n\nSurvey\n\n\n\n\n\n\n\nPingfan Hu\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "BEV Smart Charging\n\n\n\nSmart Charging\n\n\n\n\n\n\n\nPingfan Hu\n\n\nSep 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe surveydown  Package 🎉\n\n\n\nSoftware\n\n\n\n\n\n\n\nJohn Paul Helveston, Ph.D., Pingfan Hu\n\n\nJun 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Expected) Using AI to Detect Bots in Surveys\n\n\n\nLLM\n\n\n\n\n\n\n\nPingfan Hu\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "projects/01_bev_smart_charging/index.html",
     "href": "projects/01_bev_smart_charging/index.html",
     "title": "BEV Smart Charging",
     "section": "",
-    "text": "This project builds a Conjoint Survey on BEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Showcase Website"
+    "text": "This project builds a Conjoint Survey on BEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n\n\n Showcase Website   IEEE Conference Paper"
   },
   {
     "objectID": "projects/01_bev_smart_charging/index.html#about",
     "href": "projects/01_bev_smart_charging/index.html#about",
     "title": "BEV Smart Charging",
     "section": "",
-    "text": "This project builds a Conjoint Survey on BEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n Showcase Website"
+    "text": "This project builds a Conjoint Survey on BEV Smart Charging. It utilizes the cbctools and logitr packages developed by Prof John Helveston.\n\n\n Showcase Website   IEEE Conference Paper"
   },
   {
     "objectID": "projects/01_bev_smart_charging/index.html#project-overview",
@@ -310,42 +310,42 @@
   {
     "objectID": "projects/02_surveydown/index.html",
     "href": "projects/02_surveydown/index.html",
-    "title": "The surveydown R package",
+    "title": "The surveydown  Package 🎉",
     "section": "",
-    "text": "The {surveydown} R package is a flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase.\n Visit surveydown Official Website"
+    "text": "{surveydown} is a flexible, open-source survey tool using , Quarto, Shiny, and PostgreSQL.\n\n\n Visit surveydown Official Website"
   },
   {
     "objectID": "projects/02_surveydown/index.html#about",
     "href": "projects/02_surveydown/index.html#about",
-    "title": "The surveydown R package",
+    "title": "The surveydown  Package 🎉",
     "section": "",
-    "text": "The {surveydown} R package is a flexible, open-source platform for making surveys with R, Quarto, Shiny, and Supabase.\n Visit surveydown Official Website"
+    "text": "{surveydown} is a flexible, open-source survey tool using , Quarto, Shiny, and PostgreSQL.\n\n\n Visit surveydown Official Website"
   },
   {
     "objectID": "projects/02_surveydown/index.html#background-motivation",
     "href": "projects/02_surveydown/index.html#background-motivation",
     "title": "The surveydown R package",
     "section": "Background & Motivation",
-    "text": "Background & Motivation\nMost survey platforms (e.g., Google forms, Qualtrics, etc.) use drag-and-drop interfaces to design surveys, making version control and collaboration with others difficult. They’re also not reproducible (others cannot easily reproduce a survey made on these platforms), and many require a paid subscription or license to use.\nThe surveydown package was designed to address these problems. As an open-source, markdown-based platform, all survey content is defined with plain text (markdown and R code) in a survey.qmd file and an app.R file that renders your survey into a Shiny app that can be hosted online. This makes your survey easy to reproduce, share, and version control with common tools like Git. The survey data collected is also owned by the survey designer in a separate Postgres database (we recommend Supabase as a free and open-source database provider).\nIf you’re curious where this whole idea came from, check out this blog post, which outlines more on the general idea and the motivation for it. The post is now outdated in terms of the overall package design, but it provides something of an origin story and some of the motivation for developing this project."
+    "text": "Background & Motivation\nMost survey platforms (e.g., Google forms, Qualtrics, etc.) use graphic interfaces or spreadsheets to define survey content, making version control, collaboration, and reproducibility difficult or impossible. The surveydown package was designed to address these problems. As an open-source, markdown-based platform, all survey content is defined using plain text (markdown and R code) in two files:\n\nsurvey.qmd: A Quarto document that contains the survey content (pages, questions, etc).\napp.R: An R script defining a shiny app that contains global settings (libraries, database configuration, etc.) and server configuration options (e.g., conditional skipping / display, etc.).\n\nThis approach makes your survey easy to reproduce, share, and version control with common tools like Git. And since all survey data is stored in a PostgreSQL database, you have total control over where your survey data lives. We provide direct support for Supabase as a free, secure, and easy to use option.\nIn case you’re interested in the background behind the project, this blog post provides something of an origin story. Note that the design discussed in the post is now quite outdated with what ultimately became surveydown."
   },
   {
     "objectID": "projects/02_surveydown/index.html#installation",
     "href": "projects/02_surveydown/index.html#installation",
-    "title": "The surveydown R package",
+    "title": "The surveydown  Package 🎉",
     "section": "Installation",
-    "text": "Installation\n\n1. Install R & Quarto\nWe also recommend working with an IDE that has good support for R, Quarto, and Shiny. RStudio is great, and we also like VSCode and Positron.\n\n\n2. Install the {surveydown} R package\nThe {surveydown} R package is not yet on CRAN, but you can install the development version from GitHub with the following command in your R console:\n\n# install.packages(\"remotes\")\nremotes::install_github(\"surveydown-dev/surveydown\")\n\n\n\nVersion Control\nWe made some functions to make it easier to keep your R package up to date.\nTo check which version of the {surveydown} package you have installed, run:\n\nsurveydown::sd_version()\n\nTo update to the latest version of the {surveydown} package, run:\n\nsurveydown::sd_update()"
+    "text": "Installation\n\n1. Install R & Quarto\nYou need both:\n\nInstall \nInstall Quarto\n\nWe also recommend working with an IDE that has good support for R, Quarto, and Shiny.\nRStudio is great, and we also like VSCode and Positron.\n\n\n2. Install the {surveydown} R package\nYou can install {surveydown} from CRAN in your R console:\n\ninstall.packages(\"surveydown\")\n\nor you can install the development version from GitHub:\n\n# install.packages(\"pak\")\npak::pak('surveydown-dev/surveydown')\n\nLoad the package with:\n\nlibrary(surveydown)\n\nYou can also check which version you have installed:\n\nsurveydown::sd_version()"
   },
   {
     "objectID": "projects/02_surveydown/index.html#license-information",
     "href": "projects/02_surveydown/index.html#license-information",
-    "title": "The surveydown R package",
+    "title": "The surveydown  Package 🎉",
     "section": "License Information",
     "text": "License Information\nSee the license information here."
   },
   {
     "objectID": "projects/02_surveydown/index.html#citation-information",
     "href": "projects/02_surveydown/index.html#citation-information",
-    "title": "The surveydown R package",
+    "title": "The surveydown  Package 🎉",
     "section": "Citation Information",
     "text": "Citation Information\nIf you use this package for in a publication, please cite it! You can get the citation by typing citation(\"surveydown\") into R:\n\ncitation(\"surveydown\")"
   },
@@ -375,14 +375,14 @@
     "href": "about.html#experience-and-expertise",
     "title": "About Me",
     "section": "Experience and Expertise",
-    "text": "Experience and Expertise\n\nMy Degrees\n\nI have Bachelor’s degree in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\nI have a Master’s degree in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\n\n\n\nProfessional Skills\n\nExperienced in R coding and R package development. I also do Python coding.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nEngineering management capability.\n\n\n\nLanguage Skills\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication"
+    "text": "Experience and Expertise\n\nDegrees\n\n(Ongoing) PhD - Doctor of Philosophy in Engineering Management and Systems Engineering at George Washington University, supervised by prof John Helveston.\nMPE - Master of Professional Engineering in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\nBS - Bachelor of Science in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\n\n\n\nProfessional Skills\n\nExperienced in ?var:rproject coding and ?var:rproject package development. Capable of Python coding as well.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.\nAdvanced usage on LLM (large language model) like ChatGPT, Claude, and DeepSeek; capable of local deployment.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nEngineering management capability.\n\n\n\nLanguages\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication"
   },
   {
     "objectID": "projects/02_surveydown/index.html#overview",
     "href": "projects/02_surveydown/index.html#overview",
-    "title": "The surveydown R package",
+    "title": "The surveydown  Package 🎉",
     "section": "Overview",
-    "text": "Overview\nThis project is led by Prof John Helveston. For more details, see our About page.\n\n\n\n\n\nThe basic concept is:\n\nDesign your survey as a Quarto document using markdown and R code.\nConvert your survey into a Shiny app that can be hosted online and sent to respondents.\nStore your survey responses in a Supabase database (or any Postgres database).\n\nThe {surveydown} R package provides functions to bring this all together.\nSee the documentation to get started making your own surveydown survey!\nSee the demo surveys and use them as your survey templates!"
+    "text": "Overview\nThis project is led by Prof John Helveston. For more details, see our About page.\n\n\n\n\n\n\nThe basic concept is:\n\nDesign your survey as a Quarto document using markdown and R code.\nRender your survey into a Shiny app that can be hosted online and sent to respondents.\nStore survey response data in a PostgreSQL database. We recommend Supabase as a free, secure, and easy to use option.\n\nThe {surveydown} R package provides functions to bring this all together.\nSee Documentation to get started making your own surveydown survey!\nSee Demos and use them as your survey templates!"
   },
   {
     "objectID": "publications.html",
@@ -396,14 +396,14 @@
     "href": "publications/01_smart_charging_ieee/index.html",
     "title": "IEEE VPPC 2024",
     "section": "",
-    "text": "This is a conference paper of BEV smart charging, published by Hu et al. (2024) in IEEE VPPC 2024.\n Access the Paper"
+    "text": "This is a conference paper of BEV smart charging, published by Hu et al. (2024) in IEEE VPPC 2024.\n\n\n Access the Paper"
   },
   {
     "objectID": "publications/01_smart_charging_ieee/index.html#about",
     "href": "publications/01_smart_charging_ieee/index.html#about",
     "title": "IEEE VPPC 2024",
     "section": "",
-    "text": "This is a conference paper of BEV smart charging, published by Hu et al. (2024) in IEEE VPPC 2024.\n Access the Paper"
+    "text": "This is a conference paper of BEV smart charging, published by Hu et al. (2024) in IEEE VPPC 2024.\n\n\n Access the Paper"
   },
   {
     "objectID": "publications/01_smart_charging_ieee/index.html#abstract",
@@ -411,5 +411,19 @@
     "title": "IEEE VPPC 2024",
     "section": "Abstract",
     "text": "Abstract\nAs Battery Electric Vehicles (BEVs) gain popularity, managing their charging becomes crucial for grid stability. Smart charging programs can help utilities manage this demand and integrate more renewable energy by controlling when and how BEVs are charged. However, these programs require participation from BEV owners, who may be hesitant to freely provide such control. This study uses a discrete choice experiment (also called conjoint analysis) to measure BEV owners’ willingness to participate in smart charging programs under various incentives and features. We examine two types of smart charging: Supplier-Managed Charging (SMC), which controls charging times, and Vehicle-to-Grid (V2G), allowing BEVs to return power to the grid. In an online survey conducted via Facebook and Instagram ads, we collected 858 valid responses, with 815 responses for SMC program choices and 414 for V2G program choices. We used mixed logit (MXL) models to quantify respondents’ willingness to participate. The findings indicate a general reluctance to participate in both programs without some form of incentive, with respondents being most sensitive to recurring monetary incentives. For SMC, there is also concern about ensuring sufficient battery levels in the mornings. Simulations were conducted to predict enrollment rates based on different program features. Additional data will be collected to refine the models in the coming months."
+  },
+  {
+    "objectID": "projects/02_surveydown/index.html#motivation",
+    "href": "projects/02_surveydown/index.html#motivation",
+    "title": "The surveydown  Package 🎉",
+    "section": "Motivation",
+    "text": "Motivation\nMost survey platforms (e.g., Google forms, Qualtrics, etc.) use graphic interfaces or spreadsheets to define survey content, making version control, collaboration, and reproducibility difficult or impossible. The surveydown package was designed to address these problems. As an open-source, markdown-based platform, all survey content is defined using plain text (markdown and R code) in two files:\n\nsurvey.qmd: A Quarto document that contains the survey content (pages, questions, etc).\napp.R: An R script defining a shiny app that contains global settings (libraries, database configuration, etc.) and server configuration options (e.g., conditional skipping / display, etc.).\n\nThis approach makes your survey easy to reproduce, share, and version control with common tools like Git. And since all survey data is stored in a PostgreSQL database, you have total control over where your survey data lives. We provide direct support for Supabase as a free, secure, and easy to use option.\nIn case you’re interested in the background behind the project, this blog post provides something of an origin story. Note that the design discussed in the post is now quite outdated with what ultimately became surveydown."
+  },
+  {
+    "objectID": "projects/02_surveydown/index.html#awards",
+    "href": "projects/02_surveydown/index.html#awards",
+    "title": "The surveydown  Package 🎉",
+    "section": "Awards 🎉",
+    "text": "Awards 🎉\n{surveydown} has been awarded the 2nd Prize in the 2024 Student Open Source Awards Program at GWU!"
   }
 ]

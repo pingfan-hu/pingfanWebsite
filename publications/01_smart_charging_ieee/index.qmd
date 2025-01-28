@@ -18,7 +18,10 @@ bibliography: ../references.bib
 
 This is a conference paper of BEV smart charging, published by @pingfan_measuring_2024 in IEEE VPPC 2024.
 
+<br>
+<center>
 <a href="https://ieeexplore.ieee.org/document/10755299" class="btn btn-primary" role="button"> Access the Paper </a>
+</center>
 
 ## Abstract
 
