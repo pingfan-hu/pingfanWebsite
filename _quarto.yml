@@ -15,9 +15,6 @@ format:
     link-external-newwindow: true
     link-external-icon: false
     backgroundcolor: "#F8F7F0"
-    include-in-header:
-      - text: |
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 knitr: 
   opts_chunk: 
@@ -80,6 +77,6 @@ website:
       - text: "<i class='fa-brands fa-google-scholar'></i>"
         href: https://scholar.google.com/citations?hl=en&user=cHRn7ysAAAAJ&view_op=list_works&gmla=AOv-ny_SNvl4HxALL_saOPSbgciX2yIEDuqGz8VcwqjeV8_KIsvS3Clzw9UsU0HyvsfVAVgU_yJO2NLq6vLT1IL2
         target: _blank
-      - icon: envelope-at
+      - icon: envelope-at-fill
         href: mailto:pingfan.hu@gwu.edu
         target: _blank
