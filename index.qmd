@@ -16,6 +16,9 @@ about:
     - text: "<i class='fa-brands fa-orcid'></i>"
       href: https://orcid.org/0009-0001-4877-4844
       target: _blank
+    - text: "<i class='fa-brands fa-researchgate'></i>"
+      href: https://www.researchgate.net/profile/Pingfan-Hu-2
+      target: _blank
     - text: "<i class='fa-brands fa-google-scholar'></i>"
       href: https://scholar.google.com/citations?hl=en&user=cHRn7ysAAAAJ&view_op=list_works&gmla=AOv-ny_SNvl4HxALL_saOPSbgciX2yIEDuqGz8VcwqjeV8_KIsvS3Clzw9UsU0HyvsfVAVgU_yJO2NLq6vLT1IL2
       target: _blank

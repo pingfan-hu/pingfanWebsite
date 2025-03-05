@@ -1,44 +1,20 @@
 {
   "about.qmd": {
-    "about.html": "a6dc3156"
+    "about.html": "857f1abd"
   },
   "blogs.qmd": {
-    "blogs.html": "5a6d791a"
+    "blogs.html": "28d87ff0"
   },
   "blogs/01_master_projects/index.qmd": {
-    "index.html": "5d7ca9e4"
+    "index.html": "eed719ab"
   },
   "blogs/02_how_to_make_a_personal_website/index.qmd": {
-    "index.html": "fce692b2"
+    "index.html": "f3f7707b"
   },
   "blogs/03_formr_instance_deployment/index.qmd": {
-    "index.html": "f252b2f5"
+    "index.html": "00cc85df"
   },
   "blogs/04_how_to_do_research/index.qmd": {
-    "index.html": "920e96fc"
-  },
-  "blogs/05_history_of_logit/index.qmd": {
-    "index.html": "d9169e63"
-  },
-  "index.qmd": {
-    "index.html": "c54b8269"
-  },
-  "projects.qmd": {
-    "projects.html": "d3e0232d"
-  },
-  "projects/01_bev_smart_charging/index.qmd": {
-    "index.html": "acc3646b"
-  },
-  "projects/02_surveydown/index.qmd": {
-    "index.html": "3f4762e2"
-  },
-  "projects/03_ai_for_bot_detection/index.qmd": {
-    "index.html": "5909b5b5"
-  },
-  "publications.qmd": {
-    "publications.html": "9414ed5f"
-  },
-  "publications/01_smart_charging_ieee/index.qmd": {
-    "index.html": "204e9dde"
+    "index.html": "c04890e3"
   }
 }
