@@ -25,7 +25,7 @@
     "href": "blogs.html",
     "title": "Blogs",
     "section": "",
-    "text": "Shortcut to Pull GitHub Repos\n\n\n\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\nMar 5, 2025\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nThe History of Logit\n\n\n\n\n\n\nModeling\n\n\n\n\n\n\n\n\n\nMay 20, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Do Research\n\n\n\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\nJan 30, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nformr Instance Deployment\n\n\n\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\nDec 30, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Make a Personal Website\n\n\n\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nMaster Projects\n\n\n\n\n\n\nData Viz\n\n\n\n\n\n\n\n\n\nMay 24, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Shortcut to Pull GitHub Repos\n\n\n\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\nMar 7, 2025\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nThe History of Logit\n\n\n\n\n\n\nModeling\n\n\n\n\n\n\n\n\n\nMay 20, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Do Research\n\n\n\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\nJan 30, 2024\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nformr Instance Deployment\n\n\n\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\nDec 30, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nHow to Make a Personal Website\n\n\n\n\n\n\nTutorial\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\n\n\n\n\n\n\nMaster Projects\n\n\n\n\n\n\nData Viz\n\n\n\n\n\n\n\n\n\nMay 24, 2023\n\n\nPingfan Hu\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "blogs/01_master_projects/index.html",
@@ -431,20 +431,41 @@
     "href": "blogs/06_shortcut_to_pull_repos/index.html",
     "title": "Shortcut to Pull GitHub Repos",
     "section": "",
-    "text": "This is a MacOS tutorial on how to create a shortcut to pull all your local GitHub repositories at once. I have a lot of repositories, and I don’t want to pull them one by one. So I created a shortcut to do this. Here’s how you can do it too."
+    "text": "This is a MacOS tutorial on how to create a shortcut to pull all your local GitHub repositories at once.\nI have a lot of repositories, and I don’t want to pull them one by one. So I created a shortcut to do this. Here’s how you can do it too."
   },
   {
     "objectID": "blogs/06_shortcut_to_pull_repos/index.html#shell-file",
     "href": "blogs/06_shortcut_to_pull_repos/index.html#shell-file",
     "title": "Shortcut to Pull GitHub Repos",
     "section": "1 Shell File",
-    "text": "1 Shell File\nThe first thing you need is a shell file that pulls all your repositories. Here’s the code:\n\n#!/bin/bash\n\n# Text formatting\nBLUE='\\033[0;34m'\nGREEN='\\033[0;32m'\nNC='\\033[0m' # No Color\n\necho -e \"${BLUE}Starting to pull all repositories...${NC}\\n\"\n\n# Find all .git directories, excluding the .git directory itself if it exists\nfind . -type d -name \".git\" ! -path \"./.git\" | while read -r gitdir; do\n    # Get the parent directory of the .git folder (the actual repo directory)\n    repo_dir=$(dirname \"$gitdir\")\n    \n    echo -e \"${BLUE}Pulling${NC} ${repo_dir#./}\"\n    cd \"$repo_dir\" || continue\n    git pull\n    cd - &gt; /dev/null\n    echo \"\"\ndone\n\necho -e \"${GREEN}All repositories have been updated!${NC}\"\n\nSave it as pull-all-repos.sh in the root folder of your GitHub repo. I saved it here:"
+    "text": "1 Shell File\nThe first thing you need is a shell file that pulls all your repositories. Here’s the code:\n\n#!/bin/bash\n\n# Text formatting\nBLUE='\\033[0;34m'\nGREEN='\\033[0;32m'\nNC='\\033[0m' # No Color\n\necho -e \"${BLUE}Starting to pull all repositories...${NC}\\n\"\n\n# Find all .git directories, excluding the .git directory itself if it exists\nfind . -type d -name \".git\" ! -path \"./.git\" | while read -r gitdir; do\n    # Get the parent directory of the .git folder (the actual repo directory)\n    repo_dir=$(dirname \"$gitdir\")\n    \n    echo -e \"${BLUE}Pulling${NC} ${repo_dir#./}\"\n    cd \"$repo_dir\" || continue\n    git pull\n    cd - &gt; /dev/null\n    echo \"\"\ndone\n\necho -e \"${GREEN}All repositories have been updated!${NC}\"\n\nSave it as pull-all-repos.sh in the root folder of your GitHub repo. I saved it here:\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf you set up your GitHub desktop long time ago (before 2021), your repos are authenticated via HTTPS, which is no longer supported. A workaround is to make SSH keys, and save your SSH passphrase in the keychain (otherwise you’ll be prompted every time you pull your repo). You can follow the instructions here.\nOnce you are done with the SSH key setup, try to run the .sh file in the terminal to see if it works. If it does, you can proceed with the Automator and Quick Action setup."
   },
   {
     "objectID": "blogs/06_shortcut_to_pull_repos/index.html#automator-app",
     "href": "blogs/06_shortcut_to_pull_repos/index.html#automator-app",
     "title": "Shortcut to Pull GitHub Repos",
     "section": "2 Automator App",
-    "text": "2 Automator App\nSecondly, we need an Automator application:\n\nOpen Automator and select “Application” as the type of document.\nIn the search bar on the left, type “shell”. You’ll find “Run Shell Script”.\nDouble click on “Run Shell Script” from the actions list. It will appear on the workflow area on the right.\nIn the shell script box, enter:\n\n\ncd ~/Documents/GitHub # Change to your GitHub repo dir\n./pull-all-repos.sh\n\n\nSave it as an application. Mine has the name being “Pull All Repos”.\n\n\nOr you can simply download and unzip this application in my repo.\n\n\nThirdly, we need a Quick Action created by Automator:\n\nOpen Automator and select “Quick Action” as the type of document.\nIn the search bar on the left, type “launch”. You’ll find “Launch Application”.\nDouble click on “Launch Application” from the actions list. It will appear on the workflow area on the right.\nThe application will be “Contacts” by default. Change it to the “Pull All Repos” app.\nSave it. Mine has the name being “Pull All Repos”.\n\nYou’ll not see the saved directory, but if you wanna access it, it’s here:\n/Users/&lt;Your User Folder&gt;/Library/Services\n\nThe last step is to set up a keyboard shortcut:\n\nOpen System Settings and scroll down to “Keyboard”.\nClick on “Keyboard Shortcuts…”.\nSelect “Services” on the left, and then open the “General” dropdown menu on the right. You’ll see the “Pull All Repos” here.\n\n\n\n\nImage.png\n\n\n\nClick on the white space on the right and assign your preferred shortcut.\n\n\nHints:\n\n\n\nIf you download my application, the system will block you. You need to go to “Privacy & Security” in “System Settings”, scroll down and grant permission to this app.\n\n\nThe first time you run this, you’ll be prompted:\n\n\nzsh:2: permission denied: ./pull-all-repos.sh\n\nYou need to run these codes in your Terminal:\n\ncd ~/Documents/GitHub # Change to your root dir of GitHub repo\nsudo chmod +x pull-all-repos.sh"
+    "text": "2 Automator App\nSecondly, we need an Automator application:\n\nOpen Automator and select “Application” as the type of document.\nIn the search bar on the left, type “shell”. You’ll find “Run Shell Script”.\nDouble click on “Run Shell Script” from the actions list. It will appear on the workflow area on the right.\nIn the shell script box, enter:\n\n\ncd ~/Documents/GitHub # Change to your GitHub repo dir\n./pull-all-repos.sh\n\n\nSave it as an application and move it into your “Application” folder. Mine has the name being “Pull All Repos”."
+  },
+  {
+    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#quick-action",
+    "href": "blogs/06_shortcut_to_pull_repos/index.html#quick-action",
+    "title": "Shortcut to Pull GitHub Repos",
+    "section": "3 Quick Action",
+    "text": "3 Quick Action\nThirdly, we need a Quick Action created by Automator:\n\nOpen Automator and select “Quick Action” as the type of document.\nIn the search bar on the left, type “launch”. You’ll find “Launch Application”.\nDouble click on “Launch Application” from the actions list. It will appear on the workflow area on the right.\nThe application will be “Contacts” by default. Change it to the “Pull All Repos” app.\nSave it. Mine has the name being “Pull All Repos”.\n\nYou’ll not see the saved directory, but if you wanna access it, it’s here:\n\n/Users/&lt;Your User Folder&gt;/Library/Services"
+  },
+  {
+    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#keyboard-shortcut",
+    "href": "blogs/06_shortcut_to_pull_repos/index.html#keyboard-shortcut",
+    "title": "Shortcut to Pull GitHub Repos",
+    "section": "4 Keyboard Shortcut",
+    "text": "4 Keyboard Shortcut\nThe last step is to set up a keyboard shortcut to run the Quick Action:\n\nOpen System Settings and scroll down to “Keyboard”.\nClick on “Keyboard Shortcuts…”.\nSelect “Services” on the left, and then open the “General” dropdown menu on the right. You’ll see the “Pull All Repos” here.\nClick on the white space on the right and assign your preferred shortcut.\n\n\n\n\n\n\nThe first time you run this, you’ll be prompted:\n\nzsh:2: permission denied: ./pull-all-repos.sh\n\nYou need to run these codes in your Terminal:\n\ncd ~/Documents/GitHub # Change to your root dir of GitHub repo\nsudo chmod +x pull-all-repos.sh"
+  },
+  {
+    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#trigger-the-shortcut",
+    "href": "blogs/06_shortcut_to_pull_repos/index.html#trigger-the-shortcut",
+    "title": "Shortcut to Pull GitHub Repos",
+    "section": "5 Trigger the Shortcut",
+    "text": "5 Trigger the Shortcut\nNow, you can trigger the shortcut by pressing the keyboard shortcut you’ve set up. It will pull all your repositories at once. Once it’s done, your’ll see the Application Folder bounces in the dock (if you have it in the dock).\n\n\n\n\n\nThat’s it! You’ve created a shortcut to pull all your GitHub repositories at once. Enjoy! 🚀"
   }
 ]

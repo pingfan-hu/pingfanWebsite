@@ -1,6 +1,6 @@
 ---
 title: "Shortcut to Pull GitHub Repos"
-date: "Mar 05, 2025"
+date: "Mar 07, 2025"
 categories: [Tutorial]
 number-sections: true
 echo: true
@@ -11,15 +11,15 @@ eval: false
 #| label: setup
 #| include: false
 library(tidyverse)
-library(kableExtra)
-library(here)
 ```
 
-This is a **MacOS** tutorial on how to create a shortcut to pull all your local GitHub repositories at once. I have a lot of repositories, and I don't want to pull them one by one. So I created a shortcut to do this. Here's how you can do it too.
+This is a **MacOS** tutorial on how to create a shortcut to pull all your local GitHub repositories at once.
+
+I have a lot of repositories, and I don't want to pull them one by one. So I created a shortcut to do this. Here's how you can do it too.
 
 ## Shell File
 
-The first thing you need is a shell file that pulls all your repositories. Here's the code:
+The first thing you need is a **shell file** that pulls all your repositories. Here's the code:
 
 ```{bash}
 #!/bin/bash
@@ -48,11 +48,19 @@ echo -e "${GREEN}All repositories have been updated!${NC}"
 
 Save it as `pull-all-repos.sh` in the root folder of your GitHub repo. I saved it here:
 
-![](figs/pull_all_repos.png)
+![](figs/pull_all_repos.png){fig-align="center" width="90%"}
+
+::: {.callout-note}
+
+If you set up your GitHub desktop long time ago (before 2021), your repos are authenticated via HTTPS, which is no longer supported. A workaround is to make SSH keys, and save your SSH passphrase in the keychain (otherwise you'll be prompted every time you pull your repo). You can follow the instructions [here](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
+
+Once you are done with the SSH key setup, try to run the `.sh` file in the terminal to see if it works. If it does, you can proceed with the Automator and Quick Action setup.
+
+:::
 
 ## Automator App
 
-Secondly, we need an Automator application:
+Secondly, we need an **Automator** application:
 
 1. Open Automator and select "Application" as the type of document.
 2. In the search bar on the left, type "shell". You'll find "Run Shell Script".
@@ -64,13 +72,13 @@ cd ~/Documents/GitHub # Change to your GitHub repo dir
 ./pull-all-repos.sh
 ```
 
-5. Save it as an application. Mine has the name being "Pull All Repos".
+5. Save it as an application and move it into your "Application" folder. Mine has the name being "Pull All Repos".
 
-> Or you can simply [**download**](https://github.com/pingfan-hu/pingfanResources/raw/main/apps/pull_all_repos.zip) and unzip this application in my repo.
+![](figs/save_as_application.png){fig-align="center" width="60%"}
 
----
+## Quick Action
 
-**Thirdly**, we need a Quick Action created by Automator:
+Thirdly, we need a **Quick Action** created by Automator:
 
 1. Open Automator and select "Quick Action" as the type of document.
 2. In the search bar on the left, type "launch". You'll find "Launch Application".
@@ -80,35 +88,38 @@ cd ~/Documents/GitHub # Change to your GitHub repo dir
 
 You'll not see the saved directory, but if you wanna access it, it's here:
 
-```other
+```{bash}
 /Users/<Your User Folder>/Library/Services
 ```
 
----
+## Keyboard Shortcut
 
-The **last step** is to set up a keyboard shortcut:
+The last step is to set up a **keyboard shortcut** to run the Quick Action:
 
 1. Open System Settings and scroll down to "Keyboard".
 2. Click on "Keyboard Shortcuts...".
 3. Select "Services" on the left, and then open the "General" dropdown menu on the right. You'll see the "Pull All Repos" here.
-
-![Image.png](https://res.craft.do/user/full/9194f160-1a67-f8d6-6fd5-4521a4b6c612/doc/41275B3D-27C5-4716-B67B-1E833538FD32/6C4D59A8-D85B-44EC-BDBC-F56F61578D57_2/zVxYLitaTZzzAm3X7kB2rvJpBBI2vbdCZwgpAUCJTPQz/Image.png)
-
 4. Click on the white space on the right and assign your preferred shortcut.
 
-> Hints:
+![](figs/system_settings.png){fig-align="center" width="70%"}
 
-1. > If you download my application, the system will block you. You need to go to "Privacy & Security" in "System Settings", scroll down and grant permission to this app.
-2. > The first time you run this, you'll be prompted:
+The first time you run this, you'll be prompted:
 
-```shell
+```{bash}
 zsh:2: permission denied: ./pull-all-repos.sh
 ```
 
-   > You need to run these codes in your Terminal:
+You need to run these codes in your Terminal:
 
-```shell
+```{bash}
 cd ~/Documents/GitHub # Change to your root dir of GitHub repo
 sudo chmod +x pull-all-repos.sh
 ```
 
+## Trigger the Shortcut
+
+Now, you can trigger the shortcut by pressing the keyboard shortcut you've set up. It will pull all your repositories at once. Once it's done, your'll see the Application Folder bounces in the dock (if you have it in the dock).
+
+![](figs/bounce.gif){fig-align="center" width="30%"}
+
+That's it! You've created a shortcut to pull all your GitHub repositories at once. Enjoy! 🚀
