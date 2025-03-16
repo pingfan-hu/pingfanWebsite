@@ -30,7 +30,7 @@ The scripts will **NOT** pull:
 1. Any repos that are NOT on your machine, and
 2. Any branches that are NOT default, or NOT currently selected.
 
-In short, the scripts will only pull the repos on your machine, and up to 2 brunches (default and current) for each repo. In usual cases, it will run relatively fast and you'll see bounce in the dock when it's done.
+In short, the scripts will only pull the repos on your machine, and up to 2 brunches (default and current) for each repo. In usual cases, it will run relatively fast and will bounce in the dock when it's done.
 
 :::
 
@@ -175,7 +175,7 @@ sudo chmod +x pull-all-repos.sh
 
 ## Trigger the Shortcut
 
-Now, you can trigger the shortcut by pressing the keyboard shortcut you've set up. It will pull all your repositories at once. Once it's done, your'll see the Application Folder bounces in the dock (if you have it in the dock).
+Now, you can trigger the shortcut by pressing the keyboard shortcut you've set up. It will pull all your repositories at once. Once it's done, your'll see the Application Folder bounces in the dock (if you have it there).
 
 ![](figs/bounce.gif){fig-align="center" width="30%"}
 
