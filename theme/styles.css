@@ -9,6 +9,30 @@ blockquote {
   border-radius: 5px;
 }
 
+/* Code */
+/* Code block height and scrolling */
+pre.sourceCode {
+  max-height: 300px;
+  overflow-y: auto !important;
+}
+
+/* Line number formatting */
+pre > code.sourceCode > span:before {
+  content: counter(line) " ";
+  color: #999;
+  display: inline-block;
+  width: 2em;
+  text-align: right;
+  margin-right: 0.8em;
+  padding-right: 0.5em;
+  border-right: 1px solid #ddd;
+}
+
+/* Line numbering */
+pre > code.sourceCode > span {
+  counter-increment: line;
+}
+
 /* Table */
 table {
   width: auto !important;

@@ -2,6 +2,12 @@
   "listingMap": {
     "blogs.qmd": [
       "blogs"
+    ],
+    "projects.qmd": [
+      "projects"
+    ],
+    "publications.qmd": [
+      "publications"
     ]
   }
 }

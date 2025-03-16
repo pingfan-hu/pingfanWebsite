@@ -15,18 +15,37 @@ library(tidyverse)
 
 This is a **MacOS** tutorial on how to create a shortcut to pull all your local GitHub repositories at once.
 
-I have a lot of repositories, and I don't want to pull them one by one. So I created a shortcut to do this. Here's how you can do it too.
+I have a lot of repositories, and I don't want to pull them one by one. This motivated me to create a shortcut to do this. Here's how you can do it too.
+
+::: {.callout-note}
+
+The scripts will pull:
+
+1. Repos already on your machine,
+2. The default brunch (usually `main` or `master`) of each repo, and
+3. The current branch of each repo if it's not the default branch.
+
+The scripts will **NOT** pull:
+
+1. Any repos that are NOT on your machine, and
+2. Any branches that are NOT default, or NOT currently selected.
+
+In short, the scripts will only pull the repos on your machine, and up to 2 brunches (default and current) for each repo. In usual cases, it will run relatively fast and you'll see bounce in the dock when it's done.
+
+:::
 
 ## Shell File
 
-The first thing you need is a **shell file** that pulls all your repositories. Here's the code:
+The first thing you need is a **shell file** that pulls all your repositories. Here's the code (click on the copy icon on the top right corner to copy):
 
 ```{bash}
+#| max-height: 200px
 #!/bin/bash
 
 # Text formatting
 BLUE='\033[0;34m'
 GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
 NC='\033[0m' # No Color
 
 echo -e "${BLUE}Starting to pull all repositories...${NC}\n"
@@ -36,9 +55,47 @@ find . -type d -name ".git" ! -path "./.git" | while read -r gitdir; do
     # Get the parent directory of the .git folder (the actual repo directory)
     repo_dir=$(dirname "$gitdir")
     
-    echo -e "${BLUE}Pulling${NC} ${repo_dir#./}"
+    echo -e "${BLUE}Processing${NC} ${repo_dir#./}"
     cd "$repo_dir" || continue
+    
+    # Get current branch
+    current_branch=$(git branch --show-current)
+    
+    # Get default branch (usually main or master)
+    default_branch=$(git symbolic-ref refs/remotes/origin/HEAD 2>/dev/null | \
+                sed 's@^refs/remotes/origin/@@')
+    if [ -z "$default_branch" ]; then
+        # If the default branch couldn't be determined, try common names
+        if git show-ref --verify --quiet refs/remotes/origin/main; then
+            default_branch="main"
+        elif git show-ref --verify --quiet refs/remotes/origin/master; then
+            default_branch="master"
+        else
+            default_branch=""
+        fi
+    fi
+    
+    # Pull current branch
+    echo -e "${BLUE}Pulling current branch:${NC} $current_branch"
     git pull
+    
+    # If current branch is not the default branch, also pull the default branch
+    if [ -n "$default_branch" ] && [ "$current_branch" != "$default_branch" ]; then
+        echo -e "${YELLOW}Also pulling default branch:${NC} $default_branch"
+        # Save current changes if any
+        git stash -q
+        
+        # Switch to default branch and pull
+        git checkout "$default_branch"
+        git pull
+        
+        # Switch back to original branch
+        git checkout "$current_branch"
+        
+        # Apply stashed changes if any were stashed
+        git stash pop -q 2>/dev/null || true
+    fi
+    
     cd - > /dev/null
     echo ""
 done

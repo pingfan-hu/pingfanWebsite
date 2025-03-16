@@ -27,7 +27,7 @@ Access my Resume for more details:
 
 #### Professional Skills
 
--   Experienced in {{< var rproject >}} coding and {{< var rproject >}} package development. Capable of {{< var python >}} coding as well.
+-   Experienced in {{< var rlink >}} coding and {{< var rlink >}} package development. Capable of {{< var python >}} coding as well.
 -   Expertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.
 -   Advanced usage on LLM (large language model) like ChatGPT, Claude, and DeepSeek; capable of local deployment.
 -   Proficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.
