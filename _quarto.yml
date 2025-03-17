@@ -60,10 +60,6 @@ website:
         href: https://slides.pingfanhu.com
         text: "Talks"
         target: _blank
-      - icon: person-vcard
-        href: resume.pdf
-        text: "Resume"
-        target: _blank
 
     right:
       - icon: linkedin

@@ -56,3 +56,15 @@ thead {
 p {
   margin-bottom: 0.5rem;
 }
+
+/* Phone Mode */
+@media (min-width: 768px) {
+  .navbar-nav {
+    flex-wrap: nowrap !important;
+    white-space: nowrap;
+  }
+  
+  .navbar-nav .nav-item {
+    flex-shrink: 1;
+  }
+}
