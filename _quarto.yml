@@ -14,7 +14,6 @@ format:
     self-contained: true
     link-external-newwindow: true
     link-external-icon: false
-    code-copy: true
     backgroundcolor: "#F8F7F0"
 
 knitr: 
@@ -47,12 +46,12 @@ website:
       - icon: person-badge
         href: about.qmd
         text: "About"
-      - icon: file-bar-graph
-        href: projects.qmd
-        text: "Projects"
       - icon: file-text
         href: blogs.qmd
         text: "Blogs"
+      - icon: file-bar-graph
+        href: projects.qmd
+        text: "Projects"
       - icon: pencil-square
         href: publications.qmd
         text: "Publications"

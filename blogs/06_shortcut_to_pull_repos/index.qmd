@@ -36,7 +36,7 @@ In short, the scripts will only pull the repos on your machine, and up to 2 brun
 
 ## Shell File
 
-The first thing you need is a **shell file** that pulls all your repositories. Here's the code (click on the copy icon on the top right corner to copy):
+The first thing you need is a **shell file** that pulls all your repositories. Here's the code:
 
 ```{bash}
 #| max-height: 200px
@@ -177,6 +177,6 @@ sudo chmod +x pull-all-repos.sh
 
 Now, you can trigger the shortcut by pressing the keyboard shortcut you've set up. It will pull all your repositories at once. Once it's done, your'll see the Application Folder bounces in the dock (if you have it there).
 
-![](figs/bounce.gif){fig-align="center" width="30%"}
+![](figs/bounce.gif){fig-align="center"}
 
 That's it! You've created a shortcut to pull all your GitHub repositories at once. Enjoy! 🚀
