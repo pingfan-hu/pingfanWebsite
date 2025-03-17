@@ -6,11 +6,13 @@ title: "About Me"
 
 My name is **Pingfan Hu**, a PhD student in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I am experienced in {{< var rlink >}} (base {{< var rnolink >}} + tidyverse) and {{< var python >}} development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.
 
-I'm currently working on 2 projects in my field of study. The [Smart Charging Adoption](https://sc.pingfanhu.com) project is a survey-based data analysis that studies BEV (Battery Electric Vehicle) owners' willingness to opt in smart charging programs, funded by the {{< var sloan >}}. [surveydown](https://surveydown.org): A flexible, open-source platform for making surveys with {{< var rnolink >}}, Quarto, Shiny, and PostgreSQL, co-author with professor [John Helveston](https://www.jhelvy.com), awarded 2nd prize in the [2024 Student Open Source Awards Program](https://ospo.gwu.edu/2024-student-open-source-award-winners) at GWU.
+I'm currently working on 2 projects in my field of study. The [Smart Charging Adoption](https://sc.pingfanhu.com) project is a survey-based data analysis that studies BEV (Battery Electric Vehicle) owners' willingness to opt in smart charging programs, funded by the {{< var sloan >}}. The [surveydown](https://surveydown.org) {{< var rnolink >}} package is a flexible, open-source platform for making surveys with {{< var rnolink >}}, Quarto, Shiny, and PostgreSQL. Both projects are co-authored with professor [John Helveston](https://www.jhelvy.com). For more information about my projects, please proceed to the [Projects](/projects.html) page.
 
-My current project is a [conjoint survey](https://jhelvy.github.io/smartcharging/) for BEV (Battery Electric Vehicle) Smart Charging adoption. This project aims to understand BEV owners' preferences with respect to participating in the Smart Charging programs to improve grid resilience and enable greater integration of renewable energy onto the grid.
+I write blogs on this site, mainly for the purpose of encapsulating my thoughts and ideas in the process of my research. I also write tutorials and guides for the tools and packages I use. You can find them in the [Blogs](/blogs.html) page.
 
-Access my Resume for more details:
+The pages of [Publications](/publications.html) and [Talks](https://slides.pingfanhu.com) contain my academic publications and presentations. The publications are in forms of conference papers and journal articles, and the talks are in forms of conference posters and presentations.
+
+For a one-page summary of my academic and professional experience, please check out my resume:
 
 <center>
 <a href="resume.pdf" class="btn btn-primary" role="button" target="_blank"> Pingfan's Resume </a>
@@ -21,17 +23,17 @@ Access my Resume for more details:
 
 #### Degrees
 
-- (Ongoing) **PhD** - *Doctor of Philosophy* in Engineering Management and Systems Engineering at [George Washington University](https://www.emse.seas.gwu.edu), supervised by prof [John Helveston](https://www.jhelvy.com).
+- (Ongoing) **PhD** - *Doctor of Philosophy* in Engineering Management and Systems Engineering at [George Washington University](https://www.emse.seas.gwu.edu), supervised by professor [John Helveston](https://www.jhelvy.com).
 - **MPE** - *Master of Professional Engineering* in Mechanical Engineering at [Sydney University](https://www.sydney.edu.au/engineering/study/undergraduate-courses/mechanical-engineering.html), qualified by [Engineers Australia](https://www.engineersaustralia.org.au).
 - **BS** - *Bachelor of Science* in Industrial & Manufacturing Engineering at [Penn State University](https://www.ime.psu.edu), with a minor of Six Sigma.
 
 #### Professional Skills
 
--   Experienced in {{< var rlink >}} coding and {{< var rlink >}} package development. Capable of {{< var python >}} coding as well.
--   Expertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.
+-   Experienced in {{< var rlink >}} coding and {{< var rlink >}} package development. Proficient in {{< var python >}} coding as well.
+-   Expertise in data analysis and data visualization with coding skills and commercial tools like Power BI, Minitab, and Excel.
 -   Advanced usage on LLM (large language model) like ChatGPT, Claude, and DeepSeek; capable of local deployment.
 -   Proficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.
--   Engineering management capability.
+-   Solid work experience in engineering management.
 
 #### Languages
 
@@ -40,7 +42,7 @@ Access my Resume for more details:
 
 ## Personal Life
 
-Throughout the past years, I have traveled and lived in different countries, including China, USA, Australia, and Germany. Now I am located at Vienna, VA.
+Throughout the past years, I have traveled, lived, and worked in different countries, including China, USA, Australia, and Germany. Now I am located at Vienna, VA.
 
 I am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.
 
