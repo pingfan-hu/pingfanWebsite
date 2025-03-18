@@ -2,7 +2,7 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Me",
+    "title": "About",
     "section": "",
     "text": "My name is Pingfan Hu, a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I am experienced in  (base  + tidyverse) and Python development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.\nI’m currently working on 2 projects in my field of study. The Smart Charging Adoption project is a survey-based data analysis that studies BEV (Battery Electric Vehicle) owners’ willingness to opt in smart charging programs, funded by the Alfred P. Sloan Foundation. The surveydown  package is a flexible, open-source platform for making surveys with , Quarto, Shiny, and PostgreSQL. Both projects are co-authored with professor John Helveston. For more information about my projects, please proceed to the Projects page.\nI write blogs on this site, mainly for the purpose of encapsulating my thoughts and ideas in the process of my research. I also write tutorials and guides for the tools and packages I use. You can find them in the Blogs page.\nThe pages of Publications and Talks contain my academic publications and presentations. The publications are in forms of conference papers and journal articles, and the talks are in forms of conference posters and presentations.\nFor a one-page summary of my academic and professional experience, please check out my resume:"
   },
@@ -16,9 +16,9 @@
   {
     "objectID": "about.html#personal-life",
     "href": "about.html#personal-life",
-    "title": "About Me",
+    "title": "About",
     "section": "Personal Life",
-    "text": "Personal Life\nThroughout the past years, I have traveled, lived, and worked in different countries, including China, USA, Australia, and Germany. Now I am located at Vienna, VA.\nI am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.\n\n\n\n\nPinocchio"
+    "text": "Personal Life\nThroughout the past years, I have traveled, lived, and worked in different countries, including China, USA, Australia, and Germany. Now I am located at Virginia USA.\nI am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.\n\n\n\n\nPinocchio"
   },
   {
     "objectID": "blogs.html",
@@ -270,14 +270,14 @@
     "href": "index.html",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "My name is Pingfan Hu, a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I am experienced in  (base  + tidyverse) and Python development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.\nOngoing projects:\n\nSmart Charging Adoption: A survey-based data analysis that studies BEV (Battery Electric Vehicle) owners’ willingness to opt in smart charging programs, funded by the Alfred P. Sloan Foundation.\nsurveydown: A flexible, open-source platform for making surveys with , Quarto, Shiny, and PostgreSQL, co-author with professor John Helveston, awarded 2nd prize in the 2024 Student Open Source Awards Program at GWU."
+    "text": "I am an engineer and a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I do  development and data analysis in human behavior using choice models. I develop websites and webapps using Quarto and Shiny.\nOngoing projects:\n\nSmart Charging Adoption: A survey-based data analysis studying Battery Electric Vehicle owners’ willingness to opt in smart charging programs, funded by the Alfred P. Sloan Foundation.\nsurveydown: A flexible, open-source platform for making surveys with , Quarto, Shiny, and PostgreSQL, awarded 🎉 2nd prize in GW OSPO."
   },
   {
     "objectID": "index.html#welcome-to-my-website",
     "href": "index.html#welcome-to-my-website",
     "title": "Pingfan Hu",
     "section": "",
-    "text": "My name is Pingfan Hu, a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I am experienced in  (base  + tidyverse) and Python development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.\nOngoing projects:\n\nSmart Charging Adoption: A survey-based data analysis that studies BEV (Battery Electric Vehicle) owners’ willingness to opt in smart charging programs, funded by the Alfred P. Sloan Foundation.\nsurveydown: A flexible, open-source platform for making surveys with , Quarto, Shiny, and PostgreSQL, co-author with professor John Helveston, awarded 2nd prize in the 2024 Student Open Source Awards Program at GWU."
+    "text": "I am an engineer and a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I do  development and data analysis in human behavior using choice models. I develop websites and webapps using Quarto and Shiny.\nOngoing projects:\n\nSmart Charging Adoption: A survey-based data analysis studying Battery Electric Vehicle owners’ willingness to opt in smart charging programs, funded by the Alfred P. Sloan Foundation.\nsurveydown: A flexible, open-source platform for making surveys with , Quarto, Shiny, and PostgreSQL, awarded 🎉 2nd prize in GW OSPO."
   },
   {
     "objectID": "projects.html",
@@ -373,7 +373,7 @@
   {
     "objectID": "about.html#experience-and-expertise",
     "href": "about.html#experience-and-expertise",
-    "title": "About Me",
+    "title": "About",
     "section": "Experience and Expertise",
     "text": "Experience and Expertise\n\nDegrees\n\n(Ongoing) PhD - Doctor of Philosophy in Engineering Management and Systems Engineering at George Washington University, supervised by professor John Helveston.\nMPE - Master of Professional Engineering in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\nBS - Bachelor of Science in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\n\n\n\nProfessional Skills\n\nExperienced in  coding and  package development. Proficient in Python coding as well.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Power BI, Minitab, and Excel.\nAdvanced usage on LLM (large language model) like ChatGPT, Claude, and DeepSeek; capable of local deployment.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nSolid work experience in engineering management.\n\n\n\nLanguages\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication"
   },

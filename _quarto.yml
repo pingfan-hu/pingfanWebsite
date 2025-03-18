@@ -52,10 +52,10 @@ website:
       - icon: file-bar-graph
         href: projects.qmd
         text: "Projects"
-      - icon: pencil-square
+      - icon: file-pdf
         href: publications.qmd
         text: "Publications"
-      - icon: file-earmark-slides
+      - icon: file-slides
         href: https://slides.pingfanhu.com
         text: "Talks"
         target: _blank

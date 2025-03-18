@@ -29,9 +29,9 @@ about:
 
 ## Welcome to my website!
 
-My name is **Pingfan Hu**, a PhD student in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I am experienced in {{< var rlink >}} (base {{< var rnolink >}} + tidyverse) and {{< var python >}} development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.
+I am an engineer and a PhD student in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I do {{< var rlink >}} development and data analysis in human behavior using choice models. I develop websites and webapps using {{< var quarto >}} and {{< var shiny >}}.
 
 Ongoing projects:
 
-1. [Smart Charging Adoption](https://sc.pingfanhu.com): A survey-based data analysis that studies BEV (Battery Electric Vehicle) owners' willingness to opt in smart charging programs, funded by the {{< var sloan >}}.
-2. [surveydown](https://surveydown.org): A flexible, open-source platform for making surveys with {{< var rnolink >}}, Quarto, Shiny, and PostgreSQL, co-author with professor [John Helveston](https://www.jhelvy.com), awarded 2nd prize in the [2024 Student Open Source Awards Program](https://ospo.gwu.edu/2024-student-open-source-award-winners) at GWU.
+1. [Smart Charging Adoption](https://sc.pingfanhu.com): A survey-based data analysis studying Battery Electric Vehicle owners' willingness to opt in smart charging programs, funded by the {{< var sloan >}}.
+2. [surveydown](https://surveydown.org): A flexible, open-source platform for making surveys with {{< var rnolink >}}, Quarto, Shiny, and PostgreSQL, awarded 🎉 2nd prize in [GW OSPO](https://ospo.gwu.edu/2024-student-open-source-award-winners).

@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "About"
 ---
 
 ![](/figs/about.jpeg){fig-align="center" width="800"}
@@ -42,7 +42,7 @@ For a one-page summary of my academic and professional experience, please check 
 
 ## Personal Life
 
-Throughout the past years, I have traveled, lived, and worked in different countries, including China, USA, Australia, and Germany. Now I am located at Vienna, VA.
+Throughout the past years, I have traveled, lived, and worked in different countries, including China, USA, Australia, and Germany. Now I am located at Virginia USA.
 
 I am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.
 
