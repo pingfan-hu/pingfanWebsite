@@ -31,12 +31,16 @@ execute:
 
 website:
   title: "Pingfan Hu"
+  page-footer:
+    center: "© 2025 [Pingfan Hu](https://pingfanhu.com)"
+    border: true
+    background: light
   description: >
     If you are interested in EVs and renewable energy, please
     check out my website. It contains projects and blogs that
     well demonstrate these topics.
   favicon: figs/favicon.ico
-  back-to-top-navigation: true
+  back-to-top-navigation: false
   search:
     location: navbar
     type: overlay
