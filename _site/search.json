@@ -7,11 +7,11 @@
     "text": "My name is Pingfan Hu, a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I am experienced in  (base  + tidyverse) and Python development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.\nI’m currently working on 2 projects in my field of study. The Smart Charging Adoption project is a survey-based data analysis that studies BEV (Battery Electric Vehicle) owners’ willingness to opt in smart charging programs, funded by the Alfred P. Sloan Foundation. The surveydown  package is a flexible, open-source platform for making surveys with , Quarto, Shiny, and PostgreSQL. Both projects are co-authored with professor John Helveston. For more information about my projects, please proceed to the Projects page.\nI write blogs on this site, mainly for the purpose of encapsulating my thoughts and ideas in the process of my research. I also write tutorials and guides for the tools and packages I use. You can find them in the Blogs page.\nThe pages of Publications and Talks contain my academic publications and presentations. The publications are in forms of conference papers and journal articles, and the talks are in forms of conference posters and presentations.\nFor a one-page summary of my academic and professional experience, please check out my resume:"
   },
   {
-    "objectID": "about.html#experiences",
-    "href": "about.html#experiences",
-    "title": "About Me",
-    "section": "Experiences",
-    "text": "Experiences\nThis part shows my past degrees, professional skills, and language skills.\n\nMy Degrees\n\nI have Bachelor’s degree in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\nI have a Master’s degree in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\n\n\n\nProfessional Skills\n\nExperienced in R coding and R package development. I also do Python coding.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Excel, Power BI, and Minitab.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nEngineering management capability.\n\n\n\nLanguage Skills\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication"
+    "objectID": "about.html#experience-and-expertise",
+    "href": "about.html#experience-and-expertise",
+    "title": "About",
+    "section": "Experience and Expertise",
+    "text": "Experience and Expertise\n\nDegrees\n\n(Ongoing) PhD - Doctor of Philosophy in Engineering Management and Systems Engineering at George Washington University, supervised by professor John Helveston.\nMPE - Master of Professional Engineering in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\nBS - Bachelor of Science in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\n\n\n\nProfessional Skills\n\nExperienced in  coding and  package development. Proficient in Python coding as well.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Power BI, Minitab, and Excel.\nAdvanced usage on LLM (large language model) like ChatGPT, Claude, and DeepSeek; capable of local deployment.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nSolid work experience in engineering management.\n\n\n\nLanguages\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication"
   },
   {
     "objectID": "about.html#personal-life",
@@ -266,6 +266,48 @@
     "text": "The Logit Model\n\n1. Probability vs Logit\nThe traditional way of defining the probability is to calculate the utility of choosing over the sum of utilities. The equation is written like this:\n\\[\nP_j = \\frac{v_j}{v_j + v_k}\n\\]\nIn this equation, the probability of choosing \\(j\\) over \\(k\\) is the utility of \\(j\\) over the sum of utilities. In this model, utilities are normally distributed.\nAn alternative way is to use the Logit Model, where we take the logarithm of the odds:\n\\[\nP_j = \\frac{e^{v_j}}{e^{v_j} + e^{v_k}}\n\\]\nThis is again the probability of choosing \\(j\\) over \\(k\\). To generalize the equation, the probability of choosing \\(j\\) over all other alternatives is written as this:\n\\[\nP_j = \\frac{e^{v_j}}{\\sum_{k=1}^{J} e^{v_k}}\n\\]\nThe logit model utilizes the Type 1 Extreme Value distribution, and requires independent errors (IIA).\n\nIIA can be problematic when products are close substitutes. For example, in a DCM scenario, alternatives of Taxi, Red Bus, and Blue Bus are in fact 2 alternatives, since the Red Bus and the Blue Bus should be identical and only considered as one alternative. This is ignored by the IIA property.\n\n\n\n2. Why Logit\nSo, why using Logit Model? Why bother transforming the simple probability value into a somewhat non-intuitive value? An important reason is that the Logit Model does not have lower and upper limits. This can be better explained by the Logit Transformation:\n\\[\n\\text{Probability} \\rightarrow \\text{Odds} \\rightarrow \\text{Logit}\n\\]\nIn statistics, both probability and odds are used to describe the likelihood of an event occurring, but they have an important difference:\n\nProbability refers to the ratio of the number of times an event A occurs to the total number of possible outcomes, while\nOdds refers to the ratio of the probability of an event occurring to the probability of the event not occurring.\n\nThe probability equation writes:\n\\[\nP(A) = \\frac{\\text{Number of Event A}}{\\text{Total Number of Events}}\n\\]\nThe probability \\(P\\) is a real number between 0 and 1. \\(P = 0\\) indicates that an event will definitely not occur, while \\(P = 1\\) indicates that an event will definitely occur. In the case of rolling a die, the probability of rolling a 6 is:\n\\[\nP = \\frac{1}{6}\n\\]\nThe odds equation writes:\n\\[\n\\text{Odds} = \\frac{\\text{Probability of event}}{\\text{Probability of no event}} = \\frac{P}{1 - P}\n\\]\nContinuing with the example of rolling a die, the probability of rolling a 6 is \\(P = \\frac{1}{6}\\), and the probability of rolling any other number is \\(1 - P = \\frac{5}{6}\\). According to the equation, the odds of rolling a 6 is:\n\\[\n\\text{Odds} = \\frac{1/6}{5/6} = \\frac{1}{5}\n\\]\nNow you can see: The ratio of the probability of successfully rolling a 6 to that of not is 1:5.\nLike many other concepts in probability theory, the idea of odds originates from gambling. Suppose two people, A and B, bet on rolling a die; if A bets 1 dollar on rolling a 6, B would need to bet 5 dollars to ensure a fair game.\n\\(1/6\\) and \\(1/5\\) is not a big difference, but the point is to show that probability is happening vs all, while odds is happening vs not happening.\nImaging another scenario of drawing a ball from a packet, where there are 3 red balls and 2 blue balls. The probability of drawing a red ball is \\(3/5\\), while the odds is \\(3/2\\). This time, we have a larger difference, and the odds is even grater than one. In fact, the value of odds can be from 0 to positive infinity. Till now, we transformed from probability to odds.\nThe next transformation is from odds to logit. This can be simply done by taking the log value of odds:\n\\[\n\\text{Logit} = \\log(\\text{Odds})\n\\]\nTherefore, the full Logit Transformation is:\n\\[\n\\text{Probability} = P \\rightarrow \\text{Odds} = \\frac{P}{1-P} \\rightarrow \\text{Logit} = \\log(\\text{Odds})\n\\]\nTo better explain the differences between these 3, I constructed a data frame and sketched 2 plots of P vs Odds and P vs Logit:\n\n\n\n\n\n\n\nP\nOdds\nLogit\n\n\n\n\n0.01\n0.01\n-4.61\n\n\n0.10\n0.11\n-2.21\n\n\n0.20\n0.25\n-1.39\n\n\n0.30\n0.43\n-0.84\n\n\n0.40\n0.67\n-0.40\n\n\n0.50\n1.00\n0.00\n\n\n0.60\n1.50\n0.41\n\n\n0.70\n2.33\n0.85\n\n\n0.80\n4.00\n1.39\n\n\n0.90\n9.00\n2.20\n\n\n0.95\n19.00\n2.94\n\n\n0.99\n99.00\n4.60\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA summary of the transformation:\n\nProbability values range from \\(0\\) to \\(1\\).\nOdds values range from \\(0\\) to \\(+\\infty\\).\nLogit values range from \\(-\\infty\\) to \\(+\\infty\\)."
   },
   {
+    "objectID": "blogs/06_shortcut_to_pull_repos/index.html",
+    "href": "blogs/06_shortcut_to_pull_repos/index.html",
+    "title": "Shortcut to Pull GitHub Repos",
+    "section": "",
+    "text": "This is a MacOS tutorial on how to create a shortcut to pull all your local GitHub repositories at once.\nI have a lot of repositories, and I don’t want to pull them one by one. This motivated me to create a shortcut to do this. Here’s how you can do it too."
+  },
+  {
+    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#shell-file",
+    "href": "blogs/06_shortcut_to_pull_repos/index.html#shell-file",
+    "title": "Shortcut to Pull GitHub Repos",
+    "section": "1 Shell File",
+    "text": "1 Shell File\nThe first thing you need is a shell file that pulls all your repositories. Here’s the code:\n\n#!/bin/bash\n\n# Text formatting\nBLUE='\\033[0;34m'\nGREEN='\\033[0;32m'\nYELLOW='\\033[0;33m'\nNC='\\033[0m' # No Color\n\necho -e \"${BLUE}Starting to pull all repositories...${NC}\\n\"\n\n# Find all .git directories, excluding the .git directory itself if it exists\nfind . -type d -name \".git\" ! -path \"./.git\" | while read -r gitdir; do\n    # Get the parent directory of the .git folder (the actual repo directory)\n    repo_dir=$(dirname \"$gitdir\")\n    \n    echo -e \"${BLUE}Processing${NC} ${repo_dir#./}\"\n    cd \"$repo_dir\" || continue\n    \n    # Get current branch\n    current_branch=$(git branch --show-current)\n    \n    # Get default branch (usually main or master)\n    default_branch=$(git symbolic-ref refs/remotes/origin/HEAD 2&gt;/dev/null | \\\n                sed 's@^refs/remotes/origin/@@')\n    if [ -z \"$default_branch\" ]; then\n        # If the default branch couldn't be determined, try common names\n        if git show-ref --verify --quiet refs/remotes/origin/main; then\n            default_branch=\"main\"\n        elif git show-ref --verify --quiet refs/remotes/origin/master; then\n            default_branch=\"master\"\n        else\n            default_branch=\"\"\n        fi\n    fi\n    \n    # Pull current branch\n    echo -e \"${BLUE}Pulling current branch:${NC} $current_branch\"\n    git pull\n    \n    # If current branch is not the default branch, also pull the default branch\n    if [ -n \"$default_branch\" ] && [ \"$current_branch\" != \"$default_branch\" ]; then\n        echo -e \"${YELLOW}Also pulling default branch:${NC} $default_branch\"\n        # Save current changes if any\n        git stash -q\n        \n        # Switch to default branch and pull\n        git checkout \"$default_branch\"\n        git pull\n        \n        # Switch back to original branch\n        git checkout \"$current_branch\"\n        \n        # Apply stashed changes if any were stashed\n        git stash pop -q 2&gt;/dev/null || true\n    fi\n    \n    cd - &gt; /dev/null\n    echo \"\"\ndone\n\necho -e \"${GREEN}All repositories have been updated!${NC}\"\n\nSave it as pull-all-repos.sh in the root folder of your GitHub repo. I saved it here:\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf you set up your GitHub desktop long time ago (before 2021), your repos are authenticated via HTTPS, which is no longer supported. A workaround is to make SSH keys, and save your SSH passphrase in the keychain (otherwise you’ll be prompted every time you pull your repo). You can follow the instructions here.\nOnce you are done with the SSH key setup, try to run the .sh file in the terminal to see if it works. If it does, you can proceed with the Automator and Quick Action setup."
+  },
+  {
+    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#automator-app",
+    "href": "blogs/06_shortcut_to_pull_repos/index.html#automator-app",
+    "title": "Shortcut to Pull GitHub Repos",
+    "section": "2 Automator App",
+    "text": "2 Automator App\nSecondly, we need an Automator application:\n\nOpen Automator and select “Application” as the type of document.\nIn the search bar on the left, type “shell”. You’ll find “Run Shell Script”.\nDouble click on “Run Shell Script” from the actions list. It will appear on the workflow area on the right.\nIn the shell script box, enter:\n\n\ncd ~/Documents/GitHub # Change to your GitHub repo dir\n./pull-all-repos.sh\n\n\nSave it as an application and move it into your “Application” folder. Mine has the name being “Pull All Repos”."
+  },
+  {
+    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#quick-action",
+    "href": "blogs/06_shortcut_to_pull_repos/index.html#quick-action",
+    "title": "Shortcut to Pull GitHub Repos",
+    "section": "3 Quick Action",
+    "text": "3 Quick Action\nThirdly, we need a Quick Action created by Automator:\n\nOpen Automator and select “Quick Action” as the type of document.\nIn the search bar on the left, type “launch”. You’ll find “Launch Application”.\nDouble click on “Launch Application” from the actions list. It will appear on the workflow area on the right.\nThe application will be “Contacts” by default. Change it to the “Pull All Repos” app.\nSave it. Mine has the name being “Pull All Repos”.\n\nYou’ll not see the saved directory, but if you wanna access it, it’s here:\n\n/Users/&lt;Your User Folder&gt;/Library/Services"
+  },
+  {
+    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#keyboard-shortcut",
+    "href": "blogs/06_shortcut_to_pull_repos/index.html#keyboard-shortcut",
+    "title": "Shortcut to Pull GitHub Repos",
+    "section": "4 Keyboard Shortcut",
+    "text": "4 Keyboard Shortcut\nThe last step is to set up a keyboard shortcut to run the Quick Action:\n\nOpen System Settings and scroll down to “Keyboard”.\nClick on “Keyboard Shortcuts…”.\nSelect “Services” on the left, and then open the “General” dropdown menu on the right. You’ll see the “Pull All Repos” here.\nClick on the white space on the right and assign your preferred shortcut.\n\n\n\n\n\n\nThe first time you run this, you’ll be prompted:\n\nzsh:2: permission denied: ./pull-all-repos.sh\n\nYou need to run these codes in your Terminal:\n\ncd ~/Documents/GitHub # Change to your root dir of GitHub repo\nsudo chmod +x pull-all-repos.sh"
+  },
+  {
+    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#trigger-the-shortcut",
+    "href": "blogs/06_shortcut_to_pull_repos/index.html#trigger-the-shortcut",
+    "title": "Shortcut to Pull GitHub Repos",
+    "section": "5 Trigger the Shortcut",
+    "text": "5 Trigger the Shortcut\nNow, you can trigger the shortcut by pressing the keyboard shortcut you’ve set up. It will pull all your repositories at once. Once it’s done, your’ll see the Application Folder bounces in the dock (if you have it there).\n\n\n\n\n\nThat’s it! You’ve created a shortcut to pull all your GitHub repositories at once. Enjoy! 🚀"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Pingfan Hu",
@@ -278,6 +320,34 @@
     "title": "Pingfan Hu",
     "section": "",
     "text": "I am an engineer and a PhD student in EMSE at George Washington University, supervised by professor John Helveston. I do  development and data analysis in human behavior using choice models. I develop websites and webapps using Quarto and Shiny.\nOngoing projects:\n\nSmart Charging Adoption: A survey-based data analysis studying Battery Electric Vehicle owners’ willingness to opt in smart charging programs, funded by the Alfred P. Sloan Foundation.\nsurveydown: A flexible, open-source platform for making surveys with , Quarto, Shiny, and PostgreSQL, awarded 🎉 2nd prize in GW OSPO."
+  },
+  {
+    "objectID": "papers.html",
+    "href": "papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "IEEE VPPC 2024\n\n\nMeasuring Consumer Willingness to Enroll in Battery Electric Vehicle Smart Charging Programs\n\n\n\nConference\n\n\nIEEE\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nPingfan Hu, Brian Tarroja, Ph.D., P.E., Matthew Dean, Ph.D., Kate Forrest, Ph.D., Eric Hittinger, Ph.D., Alan Jenn, Ph.D., John Paul Helveston, Ph.D.\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "papers/01_smart_charging_ieee/index.html",
+    "href": "papers/01_smart_charging_ieee/index.html",
+    "title": "IEEE VPPC 2024",
+    "section": "",
+    "text": "This is a conference paper of BEV smart charging, published by Hu et al. (2024) in IEEE VPPC 2024.\n\n\n Access the Paper"
+  },
+  {
+    "objectID": "papers/01_smart_charging_ieee/index.html#about",
+    "href": "papers/01_smart_charging_ieee/index.html#about",
+    "title": "IEEE VPPC 2024",
+    "section": "",
+    "text": "This is a conference paper of BEV smart charging, published by Hu et al. (2024) in IEEE VPPC 2024.\n\n\n Access the Paper"
+  },
+  {
+    "objectID": "papers/01_smart_charging_ieee/index.html#abstract",
+    "href": "papers/01_smart_charging_ieee/index.html#abstract",
+    "title": "IEEE VPPC 2024",
+    "section": "Abstract",
+    "text": "Abstract\nAs Battery Electric Vehicles (BEVs) gain popularity, managing their charging becomes crucial for grid stability. Smart charging programs can help utilities manage this demand and integrate more renewable energy by controlling when and how BEVs are charged. However, these programs require participation from BEV owners, who may be hesitant to freely provide such control. This study uses a discrete choice experiment (also called conjoint analysis) to measure BEV owners’ willingness to participate in smart charging programs under various incentives and features. We examine two types of smart charging: Supplier-Managed Charging (SMC), which controls charging times, and Vehicle-to-Grid (V2G), allowing BEVs to return power to the grid. In an online survey conducted via Facebook and Instagram ads, we collected 858 valid responses, with 815 responses for SMC program choices and 414 for V2G program choices. We used mixed logit (MXL) models to quantify respondents’ willingness to participate. The findings indicate a general reluctance to participate in both programs without some form of incentive, with respondents being most sensitive to recurring monetary incentives. For SMC, there is also concern about ensuring sufficient battery levels in the mornings. Simulations were conducted to predict enrollment rates based on different program features. Additional data will be collected to refine the models in the coming months."
   },
   {
     "objectID": "projects.html",
@@ -322,11 +392,25 @@
     "text": "{surveydown} is a flexible, open-source survey tool using , Quarto, Shiny, and PostgreSQL.\n\n\n Visit surveydown Official Website"
   },
   {
-    "objectID": "projects/02_surveydown/index.html#background-motivation",
-    "href": "projects/02_surveydown/index.html#background-motivation",
-    "title": "The surveydown R package",
-    "section": "Background & Motivation",
-    "text": "Background & Motivation\nMost survey platforms (e.g., Google forms, Qualtrics, etc.) use graphic interfaces or spreadsheets to define survey content, making version control, collaboration, and reproducibility difficult or impossible. The surveydown package was designed to address these problems. As an open-source, markdown-based platform, all survey content is defined using plain text (markdown and R code) in two files:\n\nsurvey.qmd: A Quarto document that contains the survey content (pages, questions, etc).\napp.R: An R script defining a shiny app that contains global settings (libraries, database configuration, etc.) and server configuration options (e.g., conditional skipping / display, etc.).\n\nThis approach makes your survey easy to reproduce, share, and version control with common tools like Git. And since all survey data is stored in a PostgreSQL database, you have total control over where your survey data lives. We provide direct support for Supabase as a free, secure, and easy to use option.\nIn case you’re interested in the background behind the project, this blog post provides something of an origin story. Note that the design discussed in the post is now quite outdated with what ultimately became surveydown."
+    "objectID": "projects/02_surveydown/index.html#awards",
+    "href": "projects/02_surveydown/index.html#awards",
+    "title": "The surveydown  Package",
+    "section": "Awards 🎉",
+    "text": "Awards 🎉\n{surveydown} has been awarded the 2nd Prize in the 2024 Student Open Source Awards Program at GWU!"
+  },
+  {
+    "objectID": "projects/02_surveydown/index.html#overview",
+    "href": "projects/02_surveydown/index.html#overview",
+    "title": "The surveydown  Package",
+    "section": "Overview",
+    "text": "Overview\nThis project is led by Prof John Helveston. For more details, see our About page.\n\n\n\n\n\n\nThe basic concept is:\n\nDesign your survey as a Quarto document using markdown and R code.\nRender your survey into a Shiny app that can be hosted online and sent to respondents.\nStore survey response data in a PostgreSQL database. We recommend Supabase as a free, secure, and easy to use option.\n\nThe {surveydown} R package provides functions to bring this all together.\nSee Documentation to get started making your own surveydown survey!\nSee Demos and use them as your survey templates!"
+  },
+  {
+    "objectID": "projects/02_surveydown/index.html#motivation",
+    "href": "projects/02_surveydown/index.html#motivation",
+    "title": "The surveydown  Package",
+    "section": "Motivation",
+    "text": "Motivation\nMost survey platforms (e.g., Google forms, Qualtrics, etc.) use graphic interfaces or spreadsheets to define survey content, making version control, collaboration, and reproducibility difficult or impossible. The surveydown package was designed to address these problems. As an open-source, markdown-based platform, all survey content is defined using plain text (markdown and R code) in two files:\n\nsurvey.qmd: A Quarto document that contains the survey content (pages, questions, etc).\napp.R: An R script defining a shiny app that contains global settings (libraries, database configuration, etc.) and server configuration options (e.g., conditional skipping / display, etc.).\n\nThis approach makes your survey easy to reproduce, share, and version control with common tools like Git. And since all survey data is stored in a PostgreSQL database, you have total control over where your survey data lives. We provide direct support for Supabase as a free, secure, and easy to use option.\nIn case you’re interested in the background behind the project, this blog post provides something of an origin story. Note that the design discussed in the post is now quite outdated with what ultimately became surveydown."
   },
   {
     "objectID": "projects/02_surveydown/index.html#installation",
@@ -369,103 +453,5 @@
     "title": "(Expected) Using AI to Detect Bots in Surveys",
     "section": "Initial Ideas",
     "text": "Initial Ideas\n\nAttempt to use LLM to distinguish between humans responses and bot responses.\nThis survey can be as generic as possible, for example, the apple conjoint surveys.\nWe perform the survey on human participants and via LLM. Then the results will be embedded by GPT models to generate corresponding digital values.\nOnce we have the embedded models for both human and LLM respondents, we can use them as templates to check for our public survey results such as Mechanical Turk."
-  },
-  {
-    "objectID": "about.html#experience-and-expertise",
-    "href": "about.html#experience-and-expertise",
-    "title": "About",
-    "section": "Experience and Expertise",
-    "text": "Experience and Expertise\n\nDegrees\n\n(Ongoing) PhD - Doctor of Philosophy in Engineering Management and Systems Engineering at George Washington University, supervised by professor John Helveston.\nMPE - Master of Professional Engineering in Mechanical Engineering at Sydney University, qualified by Engineers Australia.\nBS - Bachelor of Science in Industrial & Manufacturing Engineering at Penn State University, with a minor of Six Sigma.\n\n\n\nProfessional Skills\n\nExperienced in  coding and  package development. Proficient in Python coding as well.\nExpertise in data analysis and data visualization with coding skills and commercial tools like Power BI, Minitab, and Excel.\nAdvanced usage on LLM (large language model) like ChatGPT, Claude, and DeepSeek; capable of local deployment.\nProficient knowledge in vehicles, transportation, and supply chain with industrial & mechanical engineering skills.\nSolid work experience in engineering management.\n\n\n\nLanguages\n\nChinese Mandarin - Native language\nEnglish - Proficient technical writing and oral communication"
-  },
-  {
-    "objectID": "projects/02_surveydown/index.html#overview",
-    "href": "projects/02_surveydown/index.html#overview",
-    "title": "The surveydown  Package",
-    "section": "Overview",
-    "text": "Overview\nThis project is led by Prof John Helveston. For more details, see our About page.\n\n\n\n\n\n\nThe basic concept is:\n\nDesign your survey as a Quarto document using markdown and R code.\nRender your survey into a Shiny app that can be hosted online and sent to respondents.\nStore survey response data in a PostgreSQL database. We recommend Supabase as a free, secure, and easy to use option.\n\nThe {surveydown} R package provides functions to bring this all together.\nSee Documentation to get started making your own surveydown survey!\nSee Demos and use them as your survey templates!"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "IEEE VPPC 2024\n\n\nMeasuring Consumer Willingness to Enroll in Battery Electric Vehicle Smart Charging Programs\n\n\n\nConference\n\n\nIEEE\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nPingfan Hu, Brian Tarroja, Ph.D., P.E., Matthew Dean, Ph.D., Kate Forrest, Ph.D., Eric Hittinger, Ph.D., Alan Jenn, Ph.D., John Paul Helveston, Ph.D.\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
-    "objectID": "publications/01_smart_charging_ieee/index.html",
-    "href": "publications/01_smart_charging_ieee/index.html",
-    "title": "IEEE VPPC 2024",
-    "section": "",
-    "text": "This is a conference paper of BEV smart charging, published by Hu et al. (2024) in IEEE VPPC 2024.\n\n\n Access the Paper"
-  },
-  {
-    "objectID": "publications/01_smart_charging_ieee/index.html#about",
-    "href": "publications/01_smart_charging_ieee/index.html#about",
-    "title": "IEEE VPPC 2024",
-    "section": "",
-    "text": "This is a conference paper of BEV smart charging, published by Hu et al. (2024) in IEEE VPPC 2024.\n\n\n Access the Paper"
-  },
-  {
-    "objectID": "publications/01_smart_charging_ieee/index.html#abstract",
-    "href": "publications/01_smart_charging_ieee/index.html#abstract",
-    "title": "IEEE VPPC 2024",
-    "section": "Abstract",
-    "text": "Abstract\nAs Battery Electric Vehicles (BEVs) gain popularity, managing their charging becomes crucial for grid stability. Smart charging programs can help utilities manage this demand and integrate more renewable energy by controlling when and how BEVs are charged. However, these programs require participation from BEV owners, who may be hesitant to freely provide such control. This study uses a discrete choice experiment (also called conjoint analysis) to measure BEV owners’ willingness to participate in smart charging programs under various incentives and features. We examine two types of smart charging: Supplier-Managed Charging (SMC), which controls charging times, and Vehicle-to-Grid (V2G), allowing BEVs to return power to the grid. In an online survey conducted via Facebook and Instagram ads, we collected 858 valid responses, with 815 responses for SMC program choices and 414 for V2G program choices. We used mixed logit (MXL) models to quantify respondents’ willingness to participate. The findings indicate a general reluctance to participate in both programs without some form of incentive, with respondents being most sensitive to recurring monetary incentives. For SMC, there is also concern about ensuring sufficient battery levels in the mornings. Simulations were conducted to predict enrollment rates based on different program features. Additional data will be collected to refine the models in the coming months."
-  },
-  {
-    "objectID": "projects/02_surveydown/index.html#motivation",
-    "href": "projects/02_surveydown/index.html#motivation",
-    "title": "The surveydown  Package",
-    "section": "Motivation",
-    "text": "Motivation\nMost survey platforms (e.g., Google forms, Qualtrics, etc.) use graphic interfaces or spreadsheets to define survey content, making version control, collaboration, and reproducibility difficult or impossible. The surveydown package was designed to address these problems. As an open-source, markdown-based platform, all survey content is defined using plain text (markdown and R code) in two files:\n\nsurvey.qmd: A Quarto document that contains the survey content (pages, questions, etc).\napp.R: An R script defining a shiny app that contains global settings (libraries, database configuration, etc.) and server configuration options (e.g., conditional skipping / display, etc.).\n\nThis approach makes your survey easy to reproduce, share, and version control with common tools like Git. And since all survey data is stored in a PostgreSQL database, you have total control over where your survey data lives. We provide direct support for Supabase as a free, secure, and easy to use option.\nIn case you’re interested in the background behind the project, this blog post provides something of an origin story. Note that the design discussed in the post is now quite outdated with what ultimately became surveydown."
-  },
-  {
-    "objectID": "projects/02_surveydown/index.html#awards",
-    "href": "projects/02_surveydown/index.html#awards",
-    "title": "The surveydown  Package",
-    "section": "Awards 🎉",
-    "text": "Awards 🎉\n{surveydown} has been awarded the 2nd Prize in the 2024 Student Open Source Awards Program at GWU!"
-  },
-  {
-    "objectID": "blogs/06_shortcut_to_pull_repos/index.html",
-    "href": "blogs/06_shortcut_to_pull_repos/index.html",
-    "title": "Shortcut to Pull GitHub Repos",
-    "section": "",
-    "text": "This is a MacOS tutorial on how to create a shortcut to pull all your local GitHub repositories at once.\nI have a lot of repositories, and I don’t want to pull them one by one. This motivated me to create a shortcut to do this. Here’s how you can do it too."
-  },
-  {
-    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#shell-file",
-    "href": "blogs/06_shortcut_to_pull_repos/index.html#shell-file",
-    "title": "Shortcut to Pull GitHub Repos",
-    "section": "1 Shell File",
-    "text": "1 Shell File\nThe first thing you need is a shell file that pulls all your repositories. Here’s the code:\n\n#!/bin/bash\n\n# Text formatting\nBLUE='\\033[0;34m'\nGREEN='\\033[0;32m'\nYELLOW='\\033[0;33m'\nNC='\\033[0m' # No Color\n\necho -e \"${BLUE}Starting to pull all repositories...${NC}\\n\"\n\n# Find all .git directories, excluding the .git directory itself if it exists\nfind . -type d -name \".git\" ! -path \"./.git\" | while read -r gitdir; do\n    # Get the parent directory of the .git folder (the actual repo directory)\n    repo_dir=$(dirname \"$gitdir\")\n    \n    echo -e \"${BLUE}Processing${NC} ${repo_dir#./}\"\n    cd \"$repo_dir\" || continue\n    \n    # Get current branch\n    current_branch=$(git branch --show-current)\n    \n    # Get default branch (usually main or master)\n    default_branch=$(git symbolic-ref refs/remotes/origin/HEAD 2&gt;/dev/null | \\\n                sed 's@^refs/remotes/origin/@@')\n    if [ -z \"$default_branch\" ]; then\n        # If the default branch couldn't be determined, try common names\n        if git show-ref --verify --quiet refs/remotes/origin/main; then\n            default_branch=\"main\"\n        elif git show-ref --verify --quiet refs/remotes/origin/master; then\n            default_branch=\"master\"\n        else\n            default_branch=\"\"\n        fi\n    fi\n    \n    # Pull current branch\n    echo -e \"${BLUE}Pulling current branch:${NC} $current_branch\"\n    git pull\n    \n    # If current branch is not the default branch, also pull the default branch\n    if [ -n \"$default_branch\" ] && [ \"$current_branch\" != \"$default_branch\" ]; then\n        echo -e \"${YELLOW}Also pulling default branch:${NC} $default_branch\"\n        # Save current changes if any\n        git stash -q\n        \n        # Switch to default branch and pull\n        git checkout \"$default_branch\"\n        git pull\n        \n        # Switch back to original branch\n        git checkout \"$current_branch\"\n        \n        # Apply stashed changes if any were stashed\n        git stash pop -q 2&gt;/dev/null || true\n    fi\n    \n    cd - &gt; /dev/null\n    echo \"\"\ndone\n\necho -e \"${GREEN}All repositories have been updated!${NC}\"\n\nSave it as pull-all-repos.sh in the root folder of your GitHub repo. I saved it here:\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf you set up your GitHub desktop long time ago (before 2021), your repos are authenticated via HTTPS, which is no longer supported. A workaround is to make SSH keys, and save your SSH passphrase in the keychain (otherwise you’ll be prompted every time you pull your repo). You can follow the instructions here.\nOnce you are done with the SSH key setup, try to run the .sh file in the terminal to see if it works. If it does, you can proceed with the Automator and Quick Action setup."
-  },
-  {
-    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#automator-app",
-    "href": "blogs/06_shortcut_to_pull_repos/index.html#automator-app",
-    "title": "Shortcut to Pull GitHub Repos",
-    "section": "2 Automator App",
-    "text": "2 Automator App\nSecondly, we need an Automator application:\n\nOpen Automator and select “Application” as the type of document.\nIn the search bar on the left, type “shell”. You’ll find “Run Shell Script”.\nDouble click on “Run Shell Script” from the actions list. It will appear on the workflow area on the right.\nIn the shell script box, enter:\n\n\ncd ~/Documents/GitHub # Change to your GitHub repo dir\n./pull-all-repos.sh\n\n\nSave it as an application and move it into your “Application” folder. Mine has the name being “Pull All Repos”."
-  },
-  {
-    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#quick-action",
-    "href": "blogs/06_shortcut_to_pull_repos/index.html#quick-action",
-    "title": "Shortcut to Pull GitHub Repos",
-    "section": "3 Quick Action",
-    "text": "3 Quick Action\nThirdly, we need a Quick Action created by Automator:\n\nOpen Automator and select “Quick Action” as the type of document.\nIn the search bar on the left, type “launch”. You’ll find “Launch Application”.\nDouble click on “Launch Application” from the actions list. It will appear on the workflow area on the right.\nThe application will be “Contacts” by default. Change it to the “Pull All Repos” app.\nSave it. Mine has the name being “Pull All Repos”.\n\nYou’ll not see the saved directory, but if you wanna access it, it’s here:\n\n/Users/&lt;Your User Folder&gt;/Library/Services"
-  },
-  {
-    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#keyboard-shortcut",
-    "href": "blogs/06_shortcut_to_pull_repos/index.html#keyboard-shortcut",
-    "title": "Shortcut to Pull GitHub Repos",
-    "section": "4 Keyboard Shortcut",
-    "text": "4 Keyboard Shortcut\nThe last step is to set up a keyboard shortcut to run the Quick Action:\n\nOpen System Settings and scroll down to “Keyboard”.\nClick on “Keyboard Shortcuts…”.\nSelect “Services” on the left, and then open the “General” dropdown menu on the right. You’ll see the “Pull All Repos” here.\nClick on the white space on the right and assign your preferred shortcut.\n\n\n\n\n\n\nThe first time you run this, you’ll be prompted:\n\nzsh:2: permission denied: ./pull-all-repos.sh\n\nYou need to run these codes in your Terminal:\n\ncd ~/Documents/GitHub # Change to your root dir of GitHub repo\nsudo chmod +x pull-all-repos.sh"
-  },
-  {
-    "objectID": "blogs/06_shortcut_to_pull_repos/index.html#trigger-the-shortcut",
-    "href": "blogs/06_shortcut_to_pull_repos/index.html#trigger-the-shortcut",
-    "title": "Shortcut to Pull GitHub Repos",
-    "section": "5 Trigger the Shortcut",
-    "text": "5 Trigger the Shortcut\nNow, you can trigger the shortcut by pressing the keyboard shortcut you’ve set up. It will pull all your repositories at once. Once it’s done, your’ll see the Application Folder bounces in the dock (if you have it there).\n\n\n\n\n\nThat’s it! You’ve created a shortcut to pull all your GitHub repositories at once. Enjoy! 🚀"
   }
 ]

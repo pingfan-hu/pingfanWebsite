@@ -23,8 +23,6 @@ about:
     - text: "<i class='fa-brands fa-google-scholar'></i>"
       href: https://scholar.google.com/citations?hl=en&user=cHRn7ysAAAAJ&view_op=list_works&gmla=AOv-ny_SNvl4HxALL_saOPSbgciX2yIEDuqGz8VcwqjeV8_KIsvS3Clzw9UsU0HyvsfVAVgU_yJO2NLq6vLT1IL2
       target: _blank
-    - icon: envelope-at-fill
-      href: mailto:pingfan.hu@gwu.edu
 ---
 
 ## Welcome to my website!

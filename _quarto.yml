@@ -53,8 +53,8 @@ website:
         href: projects.qmd
         text: "Projects"
       - icon: file-pdf
-        href: publications.qmd
-        text: "Publications"
+        href: papers.qmd
+        text: "Papers"
       - icon: file-slides
         href: https://slides.pingfanhu.com
         text: "Talks"
@@ -75,7 +75,4 @@ website:
         target: _blank
       - text: "<i class='fa-brands fa-google-scholar'></i>"
         href: https://scholar.google.com/citations?hl=en&user=cHRn7ysAAAAJ&view_op=list_works&gmla=AOv-ny_SNvl4HxALL_saOPSbgciX2yIEDuqGz8VcwqjeV8_KIsvS3Clzw9UsU0HyvsfVAVgU_yJO2NLq6vLT1IL2
-        target: _blank
-      - icon: envelope-at-fill
-        href: mailto:pingfan.hu@gwu.edu
         target: _blank

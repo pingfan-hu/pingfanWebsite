@@ -3,11 +3,11 @@
     "blogs.qmd": [
       "blogs"
     ],
+    "papers.qmd": [
+      "papers"
+    ],
     "projects.qmd": [
       "projects"
-    ],
-    "publications.qmd": [
-      "publications"
     ]
   }
 }
