@@ -68,3 +68,10 @@ p {
     flex-shrink: 1;
   }
 }
+
+/* Footer */
+@media (max-width: 767.98px) {
+  .nav-footer-center {
+    margin-top: 0em !important;
+  }
+}
