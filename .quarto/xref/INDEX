@@ -1,47 +1,47 @@
 {
   "about.qmd": {
-    "about.html": "62435945"
+    "about.html": "b2c1493b"
   },
   "blogs.qmd": {
-    "blogs.html": "532103d1"
+    "blogs.html": "8e68c1b4"
   },
   "blogs/01_master_projects/index.qmd": {
-    "index.html": "a388da89"
+    "index.html": "76ebe194"
   },
   "blogs/02_how_to_make_a_personal_website/index.qmd": {
-    "index.html": "fcdb1db2"
+    "index.html": "89426eee"
   },
   "blogs/03_formr_instance_deployment/index.qmd": {
-    "index.html": "2970fa3a"
+    "index.html": "c81d93d5"
   },
   "blogs/04_how_to_do_research/index.qmd": {
-    "index.html": "84648c10"
+    "index.html": "855cb67c"
   },
   "blogs/05_history_of_logit/index.qmd": {
-    "index.html": "4e836415"
+    "index.html": "7ba26dd3"
   },
   "blogs/06_shortcut_to_pull_repos/index.qmd": {
-    "index.html": "c5e047ec"
+    "index.html": "5173f1cf"
   },
   "index.qmd": {
-    "index.html": "eadb49f1"
+    "index.html": "ba4f294c"
   },
   "papers.qmd": {
-    "papers.html": "6c58de33"
+    "papers.html": "f11b39f4"
   },
   "papers/01_smart_charging_ieee/index.qmd": {
-    "index.html": "fb249dec"
+    "index.html": "524e9293"
   },
   "projects.qmd": {
-    "projects.html": "cbc48ba4"
+    "projects.html": "0c19d7a8"
   },
   "projects/01_bev_smart_charging/index.qmd": {
-    "index.html": "70983199"
+    "index.html": "0556e7a4"
   },
   "projects/02_surveydown/index.qmd": {
-    "index.html": "e9b7dc8e"
+    "index.html": "40f0d9df"
   },
   "projects/03_ai_for_bot_detection/index.qmd": {
-    "index.html": "664f6359"
+    "index.html": "af59248c"
   }
 }
