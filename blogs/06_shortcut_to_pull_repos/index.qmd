@@ -5,6 +5,7 @@ categories: [Tutorial]
 number-sections: true
 echo: true
 eval: false
+description: "A MacOS tutorial of a shortcut to pull all local GitHub repositories"
 ---
 
 ```{r}

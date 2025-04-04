@@ -15,7 +15,7 @@ The pages of [Publications](/publications.html) and [Talks](https://slides.pingf
 For a one-page summary of my academic and professional experience, please check out my resume:
 
 <center>
-<a href="resume.pdf" class="btn btn-primary" role="button" target="_blank"> Pingfan's Resume </a>
+<a href="pdf/resume.pdf" class="btn btn-primary" role="button" target="_blank"> Pingfan's Resume </a>
 </center>
 <br>
 

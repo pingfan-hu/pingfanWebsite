@@ -3,11 +3,8 @@ title: "Master Projects"
 date: "May 24, 2023"
 categories: [Data Viz]
 bibliography: ../references.bib
+description: "A collection of my master-level projects. It contains a multi-layer network analysis, and a renewable energy data viz"
 ---
-
-## About
-
-This is a collection of my master-level projects. It contains a multi-layer network analysis, and a renewable energy data viz.
 
 ## Network Science of the Mid-Atlantic Region
 

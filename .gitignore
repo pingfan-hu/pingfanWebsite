@@ -1,2 +1,6 @@
+.DS_Store
 /.quarto/
 .Rproj.user
+.Rhistory
+_site
+site_libs

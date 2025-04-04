@@ -1,9 +1,9 @@
 ---
 title: "How to Do Research"
 date: "Jan 30, 2024"
-date-modified: "Apr 29, 2024"
 categories: [Tutorial]
 bibliography: references.bib
+description: "An overview of my research methodologies"
 ---
 
 ## Useful Links
@@ -17,9 +17,7 @@ bibliography: references.bib
 
 ## Abstract
 
-This blog provides a concise overview of my research methodologies.
-
-It encompasses three core aspects:
+This blog provides a concise overview of my research methodologies. It encompasses three core aspects:
 
 1.  [Research Methods]
 2.  [Research Tools]

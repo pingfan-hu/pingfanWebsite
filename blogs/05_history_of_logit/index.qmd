@@ -2,11 +2,9 @@
 title: "The History of Logit"
 date: "May 20, 2024"
 categories: [Modeling]
-
-format:
-  html:
-    code-fold: true
-    code-tools: true
+code-fold: true
+code-tools: true
+description: "A brief history of the Logit Model"
 ---
 
 ```{r}
@@ -27,9 +25,7 @@ library(here)
 
 ## Abstract
 
-This blog describes a brief history of the Logit Model.
-
-It starts from the famous Malthus population problem, and explains the necessity of transforming from probability to logit.
+This blog describes a brief history of the Logit Model. It starts from the famous Malthus population problem, and explains the necessity of transforming from probability to logit.
 
 ## The Malthus Population Problem
 

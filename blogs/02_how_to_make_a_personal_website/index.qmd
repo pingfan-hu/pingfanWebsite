@@ -2,6 +2,7 @@
 title: "How to Make a Personal Website"
 date: "Dec 29, 2023"
 categories: [Tutorial]
+description: "A tutorial of making a personal website using Quarto on RStudio"
 ---
 
 ## Useful Links
@@ -14,9 +15,7 @@ categories: [Tutorial]
 
 ## Abstract
 
-This is a tutorial of making a personal website using Quarto on RStudio.
-
-This tutorial contains the following:
+This is a tutorial of making a personal website using Quarto on RStudio. It contains the following:
 
 1.  Constructing the personal blog R project using [Quarto](https://quarto.org)
 2.  Pushing the project as a [GitHub](https://github.com) repo
