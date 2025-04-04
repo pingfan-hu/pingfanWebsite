@@ -1,11 +1,5 @@
 project:
   type: website
-  output-dir: _site
-  preview:
-    port: 5678
-    browser: true
-  render:
-    - "**/*.qmd"
   resources:
     - "pdf/"
 
