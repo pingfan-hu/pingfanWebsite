@@ -10,7 +10,7 @@ I'm currently working on 2 projects in my field of study. The [Smart Charging Ad
 
 I write blogs on this site, mainly for the purpose of encapsulating my thoughts and ideas in the process of my research. I also write tutorials and guides for the tools and packages I use. You can find them in the [Blogs](/blogs.html) page.
 
-The pages of [Publications](/publications.html) and [Talks](https://slides.pingfanhu.com) contain my academic publications and presentations. The publications are in forms of conference papers and journal articles, and the talks are in forms of conference posters and presentations.
+The pages of [Papers](/papers.html) and [Talks](https://slides.pingfanhu.com) contain my academic publications and presentations. The publications are in forms of conference papers and journal articles, and the talks are in forms of conference posters and presentations.
 
 For a one-page summary of my academic and professional experience, please check out my resume:
 
