@@ -32,7 +32,7 @@ This project is led by [Prof John Helveston](https://www.jhelvy.com). For more d
 
 <br>
 
-![](/figs/surveydown.svg){fig-align="center" width="550"}
+![](surveydown.svg){fig-align="center" width="550"}
 
 The basic concept is:
 

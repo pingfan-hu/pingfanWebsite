@@ -56,7 +56,7 @@ Proceed to [Akamai](https://www.akamai.com) and create a Linode server following
 Once you have created your Linode server, you'll see it in the "Linodes" section. Click on it to make sure it's properly running. On top right corner, you'll see a "***Launch LISH Console***" button, where *LISH* is short for *Linode Shell*. By clicking on it, you'll open the online shell command terminal.
 
 ::: {style="text-align: center;"}
-![**Figure 1**: *Click on this button to launch the online shell terminal*](figs/01_lish.jpg){width="700"}
+![**Figure 1**: *Click on this button to launch the online shell terminal*](images/01_lish.jpg){width="700"}
 :::
 
 ### 1.3 Access locally using Terminal
@@ -70,7 +70,7 @@ However, I prefer to use my local **Terminal**. Follow these steps to access thi
 In fact, you can easily copy the SSH Access command from your Linode dashboard:
 
 ::: {style="text-align: center;"}
-![**Figure 2**: *Click on the **SSH Access** contents to directly copy the command*](figs/02_access_linode.jpg){width="700"}
+![**Figure 2**: *Click on the **SSH Access** contents to directly copy the command*](images/02_access_linode.jpg){width="700"}
 :::
 
 Now you have created your Linode server for Ubuntu 22.04 and accessed it with your Terminal!

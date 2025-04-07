@@ -69,7 +69,7 @@ There are tons of tools that we can freely access. For me, I'm making use of [Go
 [Google Scholar](https://scholar.google.com) is the starting point of doing research, and it's perhaps the largest database that we can access. You may search for any keywords with proper filtering to look for the possible outcomes that may interest you. You may also search for your supervisor's name. His/her personal page will show the list of publications, along with the counts of citations in a bar chart in chronological order.
 
 ::: {style="text-align: center;"}
-![***Figure 1**: Google Scholar: Stand on the shoulders of giants*](figs/01_google_scholar.jpg){width="600"}
+![***Figure 1**: Google Scholar: Stand on the shoulders of giants*](images/01_google_scholar.jpg){width="600"}
 :::
 
 However, since Google Scholar is an all-inclusive database, it's only suitable for the beginning of your research. As you go deeper, you will need some more precised targeting to specific papers. This requires you to use better tools as reinforcement.
@@ -79,7 +79,7 @@ However, since Google Scholar is an all-inclusive database, it's only suitable f
 Each university has its online library that grants you access to the literature publications. For example, GWU Library can be accessed [**here**](https://library.gwu.edu). It allows you to conduct searching with more advanced filtering techniques and grants you access to some paid contents.
 
 ::: {style="text-align: center;"}
-![***Figure 2**: GWU Library provides more advanced searching and filtering techniques, and grants you access to some paid contents*](figs/02_gw_library.jpg){width="600"}
+![***Figure 2**: GWU Library provides more advanced searching and filtering techniques, and grants you access to some paid contents*](images/02_gw_library.jpg){width="600"}
 :::
 
 ### 3. Connected Papers
@@ -87,7 +87,7 @@ Each university has its online library that grants you access to the literature 
 [Connected Papers](https://www.connectedpapers.com) is a new platform that gives you access of related papers. It requires you to input keywords and locate to a paper as a starting point.
 
 ::: {style="text-align: center;"}
-![***Figure 3**: Connected Papers: Enter keywords of a paper to start*](figs/03_connected_papers_1.jpg){width="600"}
+![***Figure 3**: Connected Papers: Enter keywords of a paper to start*](images/03_connected_papers_1.jpg){width="600"}
 :::
 
 Once you locate to a paper, you are provided with a network view of all related papers, with your searched paper at the center. In this network view (as referred from Connected Papers' official instructions):
@@ -100,7 +100,7 @@ Once you locate to a paper, you are provided with a network view of all related 
 Take the example of the work of @helveston2023. You can see the generated network below:
 
 ::: {style="text-align: center;"}
-![***Figure 4**: Connected Papers: Example of Dr Helveston 2023*](figs/04_connected_papers_2.jpg){width="800"}
+![***Figure 4**: Connected Papers: Example of Dr Helveston 2023*](images/04_connected_papers_2.jpg){width="800"}
 :::
 
 This network can be accessed [**here**](https://www.connectedpapers.com/main/0997dca68d8e8a735ac51130e3e0820c24810b95/graph?utm_source=share_popup&utm_medium=copy_link&utm_campaign=share_graph). Below are the interpretations of this network page:
@@ -121,13 +121,13 @@ However, free accounts of Connected Papers only give you 5 networks per day. If 
 After the installation of Zotero, you will be guided to install Zotero **add-on** for your web browser. You save the desired literature by clicking on the web browser Zotero button:
 
 ::: {style="text-align: center;"}
-![***Figure 5**: Click on this Zotero web browser button to save the literature you find on the web*](figs/05_zotero_1.jpg){width="400"}
+![***Figure 5**: Click on this Zotero web browser button to save the literature you find on the web*](images/05_zotero_1.jpg){width="400"}
 :::
 
 Then, this literature resource should appear in your Zotero main interface. Below is the main interface:
 
 ::: {style="text-align: center;"}
-![***Figure 6**: Zotero Main Interface*](figs/06_zotero_2.jpg){width="800"}
+![***Figure 6**: Zotero Main Interface*](images/06_zotero_2.jpg){width="800"}
 :::
 
 In this **interface**:
@@ -148,11 +148,11 @@ In this **interface**:
 4.  Zotero is compatible with Microsoft Word and RStudio (might have other compatibility but these 2 platforms are what I am using). You can manage literature sources, insert in-text citations and reference list by one click.
 
 ::: {style="text-align: center;"}
-![***Figure 7**: Zotero add-on for Microsoft Word*](figs/07_zotero_3.jpg){width="400"}
+![***Figure 7**: Zotero add-on for Microsoft Word*](images/07_zotero_3.jpg){width="400"}
 :::
 
 ::: {style="text-align: center;"}
-![***Figure 8**: Zotero compatibility for RStudio*](figs/08_zotero_4.jpg){width="400"}
+![***Figure 8**: Zotero compatibility for RStudio*](images/08_zotero_4.jpg){width="400"}
 :::
 
 ## Publication & Communication {#publication-communication}

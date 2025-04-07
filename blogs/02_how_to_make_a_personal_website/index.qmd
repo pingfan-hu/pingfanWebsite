@@ -41,7 +41,7 @@ You'll use [Netlify](https://www.netlify.com) to deploy your GitHub repo as a we
 You can use [Netlify](https://www.netlify.com) or [Namecheap](https://www.namecheap.com) to buy your personalized domain. For example, my domain is [pingfanhu.com](https://pingfanhu.com). It is bought from [Namecheap](https://www.namecheap.com) and deployed on [Netlify](https://www.netlify.com). If you do this, both the default Netlify domain and your customized domain will work. They are not replacing each other. Below is the example of my case:
 
 ::: {style="text-align: center;"}
-![**Figure 1**: *Both my personal domain and netlify-assigned domain are functioning. Plus, there is a re-direction from www by default.*](figs/01_my_domain.jpg){width="700"}
+![**Figure 1**: *Both my personal domain and netlify-assigned domain are functioning. Plus, there is a re-direction from www by default.*](images/01_my_domain.jpg){width="700"}
 :::
 
 > Hint: If you want to save time, I recommend that you buy domain on [Netlify](https://www.netlify.com) so that you won't need to bother dealing with DNS assignment. However, [Namecheap](https://www.namecheap.com) gives you full service of domain management and DNS customization, and, as its name indicates, it sells domains a little cheaper.
@@ -55,7 +55,7 @@ The next step is to create the R project of your website. You can either clone [
 If you want to clone my repo, [proceed to the site](https://github.com/pingfan0727/My-Website), and click on the **Code** button or **Use this template** button. Both buttons are in green.
 
 ::: {style="text-align: center;"}
-![**Figure 2**: *On the top right of the page, either click on the "Code" or the "Use this template" button to clone my repo as your own.*](figs/02_clone_my_repo.jpg){width="800"}
+![**Figure 2**: *On the top right of the page, either click on the "Code" or the "Use this template" button to clone my repo as your own.*](images/02_clone_my_repo.jpg){width="800"}
 :::
 
 If you are using my template, there are several things I want to explain to ease your understanding:
@@ -85,19 +85,19 @@ If you are using my template, there are several things I want to explain to ease
 If you want to make one from scratch, please proceed to the [official Quarto blog tutorial](https://quarto.org/docs/websites/website-blog.html). For the project set-up, you can follow these steps:
 
 ::: {style="text-align: center;"}
-![**Figure 3**: *Launch RStudio and click on "New Project..." from the "File" drop-down menu*](figs/03_new_project.jpg){width="500"}
+![**Figure 3**: *Launch RStudio and click on "New Project..." from the "File" drop-down menu*](images/03_new_project.jpg){width="500"}
 :::
 
 ::: {style="text-align: center;"}
-![**Figure 4**: *Select "New Directory"*](figs/04_create_project.jpg){width="500"}
+![**Figure 4**: *Select "New Directory"*](images/04_create_project.jpg){width="500"}
 :::
 
 ::: {style="text-align: center;"}
-![**Figure 5**: *Click on "Quarto Blog"*](figs/05_project_type.jpg){width="500"}
+![**Figure 5**: *Click on "Quarto Blog"*](images/05_project_type.jpg){width="500"}
 :::
 
 ::: {style="text-align: center;"}
-![**Figure 6**: *Define the directory name and path, and finally click on "Create Project"*](figs/06_create_quarto_blog.jpg){width="500"}
+![**Figure 6**: *Define the directory name and path, and finally click on "Create Project"*](images/06_create_quarto_blog.jpg){width="500"}
 :::
 
 The creation of the Quarto Blog R project constructs the skeleton of your personal website. You can now add the contents on to it and make it your own.
@@ -143,23 +143,23 @@ You can access the [Quarto official tutorial on Netlify deployment](https://quar
 1.  When setting your publishing directory, you need to input `_site`. As I explained in [2.3 Project file structure], this is the default directory for your HTML files. If you defined your own directory, make sure to input the directory name here. The other build settings can be left as they are.
 
 ::: {style="text-align: center;"}
-![**Figure 7**: *In "Publish Directory", you'll need to fill in `_site` or your own defined directory name*](figs/07_publish_directory.jpg){width="400"}
+![**Figure 7**: *In "Publish Directory", you'll need to fill in `_site` or your own defined directory name*](images/07_publish_directory.jpg){width="400"}
 :::
 
 2.  If you bought your domain from Namecheap, you'll need to manually fill in the DNS hostnames. You can access them in **Dashboard** -\> **Domains** -\> **Name servers** of your Netlify page.
 
 ::: {style="text-align: center;"}
-![**Figure 8**: *This is where you can find the DNS hostnames in Netlify*](figs/08_dns_info_netlify.jpg){width="800"}
+![**Figure 8**: *This is where you can find the DNS hostnames in Netlify*](images/08_dns_info_netlify.jpg){width="800"}
 :::
 
 ::: {style="text-align: center;"}
-![**Figure 9**: *This is where you can paste the DNS hostnames in Namecheap*](figs/09_dns_setting_namecheap.jpg){width="800"}
+![**Figure 9**: *This is where you can paste the DNS hostnames in Namecheap*](images/09_dns_setting_namecheap.jpg){width="800"}
 :::
 
 3.  Netlify takes care of SSL/TLS certificate, (aka the HTTPS protocol you can see in the site URLs). It's a free service by Let's Encrypt, which is enough for personal use. You can access it in **Sites** -\> **Domain management** -\> **SSL/TLS certificate**. It's usually automatically enabled, but it can be manually renewed by clicking on the button on this page.
 
 ::: {style="text-align: center;"}
-![**Figure 10**: *HTTPS is taken good care of by Netlify*](figs/10_ssl_tls_certificate.jpg){width="800"}
+![**Figure 10**: *HTTPS is taken good care of by Netlify*](images/10_ssl_tls_certificate.jpg){width="800"}
 :::
 
 4.  Since Netlify has direct access to your GitHub repo, each time you push new version to GitHub, your website will be updated automatically. You can also trace the process on your Netlify dashboard. There is no need to type the command of `quarto publish netlify` in RStudio.

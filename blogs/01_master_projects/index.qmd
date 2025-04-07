@@ -82,11 +82,11 @@ This section generates:
 
 The Spatial Map:
 
-![](figs/01_spacial_map.png){fig-align="center" width="800"}
+![](images/01_spacial_map.png){fig-align="center" width="800"}
 
 The Topography Map:
 
-![](figs/02_topography_map.png){fig-align="center" width="800"}
+![](images/02_topography_map.png){fig-align="center" width="800"}
 
 #### 2. Centrality Analysis
 
@@ -129,11 +129,11 @@ This section takes in the degree centralities of rails and roads, and generates 
 
 The ***Rail*** Degree Centrality Distribution plot:
 
-![](figs/03_rail_degree_centrality.png){fig-align="center" width="800"}
+![](images/03_rail_degree_centrality.png){fig-align="center" width="800"}
 
 The ***Road*** Degree Centrality Distribution plot:
 
-![](figs/04_road_degree_centrality.png){fig-align="center" width="800"}
+![](images/04_road_degree_centrality.png){fig-align="center" width="800"}
 
 #### 5. Network Attacks
 
@@ -152,11 +152,11 @@ The plots contain:
 
 The Rail Centrality Attack plot:
 
-![](figs/05_rail_centrality_attack.png){fig-align="center" width="800"}
+![](images/05_rail_centrality_attack.png){fig-align="center" width="800"}
 
 The Road Centrality Attack plot:
 
-![](figs/06_road_centrality_attack.png){fig-align="center" width="800"}
+![](images/06_road_centrality_attack.png){fig-align="center" width="800"}
 
 ## Solar and Wind Energy Advancements
 

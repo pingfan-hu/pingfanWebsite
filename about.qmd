@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-![](/figs/about.jpeg){fig-align="center" width="800"}
+![](/images/about.jpeg){fig-align="center" width="800"}
 
 My name is **Pingfan Hu**, a PhD student in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I am experienced in {{< var rlink >}} (base {{< var rnolink >}} + tidyverse) and {{< var python >}} development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.
 
@@ -47,5 +47,5 @@ Throughout the past years, I have traveled, lived, and worked in different count
 I am married and having busy and enjoyable life with my wife. We have a cat named Pinocchio.
 
 ::: {style="text-align: center;"}
-![*Pinocchio*](/figs/pinocchio.jpeg){fig-alt="Pinocchio" width="600"}
+![*Pinocchio*](/images/pinocchio.jpeg){fig-alt="Pinocchio" width="600"}
 :::

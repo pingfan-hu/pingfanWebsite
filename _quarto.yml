@@ -1,50 +1,28 @@
 project:
   type: website
+  output-dir: _site
   resources:
     - "pdf/"
 
-format:
-  html:
-    toc: true
-    toc-depth: 5
-    toc-location: right
-    lightbox: true
-    theme: [united, theme/theme.scss]
-    css: theme/styles.css
-    self-contained: true
-    link-external-newwindow: true
-    link-external-icon: false
-    backgroundcolor: "#F8F7F0"
-
-knitr: 
-  opts_chunk: 
-    comment: "#>"
-    fig.align: "center"
-    fig.show: "hold"
-    fig.asp: 0.618
-    fig.retna: 3
-    out.width: 80%
-
-execute:
-  freeze: false
-  warning: false
-
 website:
-  title: "Pingfan Hu"
+  title: Pingfan Hu
+  image: images/logo.ico
+  favicon: images/logo.ico
+  site-url: https://pingfanhu.com
+  repo-url: https://github.com/pingfan-hu/pingfanWebsite
+  back-to-top-navigation: false
+  open-graph:
+    locale: es_ES
+    site-name: https://pingfanhu.com
   page-footer:
     center: "© 2025 [Pingfan Hu](https://pingfanhu.com)"
     border: true
     background: light
-  description: >
-    If you are interested in EVs and renewable energy, please
-    check out my website. It contains projects and blogs that
-    well demonstrate these topics.
-  favicon: figs/favicon.ico
-  back-to-top-navigation: false
   search:
     location: navbar
     type: overlay
     copy-button: true
+
   navbar:
     left:
       - icon: person-badge
@@ -80,3 +58,29 @@ website:
       - text: "<i class='fa-brands fa-google-scholar'></i>"
         href: https://scholar.google.com/citations?hl=en&user=cHRn7ysAAAAJ&view_op=list_works&gmla=AOv-ny_SNvl4HxALL_saOPSbgciX2yIEDuqGz8VcwqjeV8_KIsvS3Clzw9UsU0HyvsfVAVgU_yJO2NLq6vLT1IL2
         target: _blank
+
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    toc-location: right
+    lightbox: true
+    theme: [united, theme/theme.scss]
+    css: theme/styles.css
+    self-contained: true
+    link-external-newwindow: true
+    link-external-icon: false
+    link-external-filter: '^(?:http:|https:)\/\/(?:www\.)?pingfanhu\.com'
+    backgroundcolor: "#F8F7F0"
+
+knitr: 
+  opts_chunk: 
+    comment: "#>"
+    fig.align: "center"
+    fig.show: "hold"
+    fig.asp: 0.618
+    fig.retna: 3
+    out.width: 80%
+
+execute:
+  warning: false

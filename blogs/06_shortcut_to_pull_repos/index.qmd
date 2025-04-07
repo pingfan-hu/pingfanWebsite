@@ -107,7 +107,7 @@ echo -e "${GREEN}All repositories have been updated!${NC}"
 
 Save it as `pull-all-repos.sh` in the root folder of your GitHub repo. I saved it here:
 
-![](figs/pull_all_repos.png){fig-align="center" width="90%"}
+![](images/pull_all_repos.png){fig-align="center" width="90%"}
 
 ::: {.callout-note}
 
@@ -133,7 +133,7 @@ cd ~/Documents/GitHub # Change to your GitHub repo dir
 
 5. Save it as an application and move it into your "Application" folder. Mine has the name being "Pull All Repos".
 
-![](figs/save_as_application.png){fig-align="center" width="60%"}
+![](images/save_as_application.png){fig-align="center" width="60%"}
 
 ## Quick Action
 
@@ -160,7 +160,7 @@ The last step is to set up a **keyboard shortcut** to run the Quick Action:
 3. Select "Services" on the left, and then open the "General" dropdown menu on the right. You'll see the "Pull All Repos" here.
 4. Click on the white space on the right and assign your preferred shortcut.
 
-![](figs/system_settings.png){fig-align="center" width="70%"}
+![](images/system_settings.png){fig-align="center" width="70%"}
 
 The first time you run this, you'll be prompted:
 
@@ -179,6 +179,6 @@ sudo chmod +x pull-all-repos.sh
 
 Now, you can trigger the shortcut by pressing the keyboard shortcut you've set up. It will pull all your repositories at once. Once it's done, your'll see the Application Folder bounces in the dock (if you have it there).
 
-![](figs/bounce.gif){fig-align="center"}
+![](images/bounce.gif){fig-align="center"}
 
 That's it! You've created a shortcut to pull all your GitHub repositories at once. Enjoy! 🚀
