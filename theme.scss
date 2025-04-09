@@ -1,5 +1,11 @@
-/* Import Academicons */
-@import url('https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css');
+/*-- scss:defaults --*/
+// Base document colors
+$primary: #5654A2;
+$code-color: #ED6D46;
+$code-bg: #EDEDED;
+$code-block-bg: #F5F2E9;
+$popover-bg: #F8F7F0;
+$input-bg: #F8F7F0;
 
 /* Blockquote */
 blockquote {
@@ -69,9 +75,7 @@ p {
   }
 }
 
-/* Footer */
-@media (max-width: 767.98px) {
-  .nav-footer-center {
-    margin-top: 0em !important;
-  }
+/* Grid Image Ratio fix */
+.thumbnail-image.card-img {
+  height: auto !important;
 }
