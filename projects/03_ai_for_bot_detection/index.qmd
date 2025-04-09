@@ -5,6 +5,7 @@ author: "Pingfan Hu"
 date: "Jul, 2025"
 categories: [LLM]
 bibliography: ../references.bib
+description: "Initial thoughts of detecting bots on surveys using LLM."
 ---
 
 ## About

@@ -11,6 +11,7 @@ execute:
   echo: true
   eval: false
   warning: false
+description: "An open-source survey platform using R, Quarto, Shiny, and PostgreSQL."
 ---
 
 ## About

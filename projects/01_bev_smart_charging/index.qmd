@@ -5,6 +5,7 @@ author: "Pingfan Hu"
 date: "Sept 07, 2023"
 categories: [Smart Charging]
 bibliography: ../references.bib
+description: "A BEV user preference study using conjoint survey."
 ---
 
 ## About
