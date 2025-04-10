@@ -1,6 +1,6 @@
 ---
 title: "Pingfan Hu"
-image: images/profile.jpeg
+image: images/profile.png
 toc: false
 about:
   template: trestles

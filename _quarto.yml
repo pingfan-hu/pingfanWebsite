@@ -1,12 +1,13 @@
 project:
   type: website
   resources:
-    - "pdf/"
+    - images/
+    - pdf/
 
 website:
   title: Pingfan Hu
-  image: images/logo.ico
-  favicon: images/logo.ico
+  description: "The personal website of Pingfan Hu"
+  favicon: images/logo.png
   site-url: https://pingfanhu.com
   repo-url: https://github.com/pingfan-hu/pingfanWebsite
   back-to-top-navigation: false
@@ -65,7 +66,6 @@ format:
     toc-location: right
     lightbox: true
     theme: [united, theme.scss]
-    self-contained: true
     link-external-newwindow: true
     link-external-icon: false
     link-external-filter: '^(?:http:|https:)\/\/(?:www\.)?pingfanhu\.com'
