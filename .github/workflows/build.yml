@@ -18,8 +18,10 @@ jobs:
     - name: Install quarto
       uses: quarto-dev/quarto-actions/setup@v2
       
-    - name: Set up R dependencies with renv
-      uses: r-lib/actions/setup-renv@v2
+    - name: Install R dependencies
+      run: |
+        install.packages(c("rmarkdown", "quarto", "tidyverse", "kableExtra", "here", "surveydown"))
+      shell: Rscript {0}
       
     - name: Render Quarto website
       run: |
