@@ -65,7 +65,8 @@ format:
     toc-depth: 5
     toc-location: right
     lightbox: true
-    theme: [united, theme.scss]
+    css: themes/styles.css
+    theme: [united, themes/theme.scss]
     link-external-newwindow: true
     link-external-icon: false
     link-external-filter: '^(?:http:|https:)\/\/(?:www\.)?pingfanhu\.com'

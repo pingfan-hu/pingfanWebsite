@@ -1,18 +1,9 @@
-/*-- scss:defaults --*/
-// Base document colors
-$primary: #5654A2;
-$code-color: #ED6D46;
-$code-bg: #EDEDED;
-$code-block-bg: #F5F2E9;
-$popover-bg: #F8F7F0;
-$input-bg: #F8F7F0;
-
 /* Blockquote */
 blockquote {
-  background-color: #DDDCEC;
-  padding: 10px;
-  border-color: #5654A2;
-  border-radius: 5px;
+    background-color: #DDDCEC;
+    padding: 10px;
+    border-color: #5654A2;
+    border-radius: 5px;
 }
 
 /* Code */

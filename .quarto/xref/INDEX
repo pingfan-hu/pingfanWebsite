@@ -43,5 +43,8 @@
   },
   "projects/03_ai_for_bot_detection/index.qmd": {
     "index.html": "9a6dc627"
+  },
+  "blogs/07_github_action_to_build_website/index.qmd": {
+    "index.html": "b4df773d"
   }
 }
