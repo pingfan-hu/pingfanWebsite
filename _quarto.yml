@@ -65,6 +65,7 @@ format:
     toc-depth: 5
     toc-location: right
     lightbox: true
+    number-sections: true
     css: themes/styles.css
     theme: [united, themes/theme.scss]
     link-external-newwindow: true
