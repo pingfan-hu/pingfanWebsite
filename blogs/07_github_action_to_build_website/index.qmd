@@ -128,7 +128,7 @@ Since we are deploying with GitHub, we don't need Netlify to build the site anym
 
 ## Using `renv` for R Package Dependencies
 
-There are 2 wauys to manage R package dependencies in your GitHub Actions workflow. One is to manually install all required packages, and the other is to use `renv` to manage the dependencies. I chose to use `renv` so I don't need to manually update the package list in the workflow file.
+There are 2 ways to manage R package dependencies in your GitHub Actions workflow. One is to manually install all required packages, and the other is to use `renv` to manage the dependencies. I chose to use `renv` so I don't need to manually update the package list in the workflow file.
 
 You may have noticed that in the `build.yml` file, I have these under the build jobs:
 
