@@ -2,6 +2,7 @@
 title: "Pingfan Hu"
 image: images/profile.png
 toc: false
+number-sections: false
 about:
   template: trestles
   image-width: 15em
