@@ -38,7 +38,7 @@ website:
         href: papers.qmd
         text: "Papers"
       - icon: file-slides
-        href: https://slides.pingfanhu.com
+        href: https://talks.pingfanhu.com
         text: "Talks"
         target: _blank
 
