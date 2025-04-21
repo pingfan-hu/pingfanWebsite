@@ -1,5 +1,6 @@
 ---
 title: "About"
+number-sections: false
 ---
 
 ![](/images/about.png){fig-align="center" width="800"}
