@@ -70,3 +70,8 @@ p {
 .thumbnail-image.card-img {
   height: auto !important;
 }
+
+/* Publications Card Shadow */
+.custom-card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

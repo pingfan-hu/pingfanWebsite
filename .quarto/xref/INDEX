@@ -46,5 +46,14 @@
   },
   "blogs/07_github_action_to_build_website/index.qmd": {
     "index.html": "b4df773d"
+  },
+  "projects/03_bev_grid_support/index.qmd": {
+    "index.html": "51c7bd27"
+  },
+  "projects/01_surveydown/index.qmd": {
+    "index.html": "415c09c0"
+  },
+  "projects/02_bev_smart_charging/index.qmd": {
+    "index.html": "96c14d50"
   }
 }

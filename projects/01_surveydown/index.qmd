@@ -1,22 +1,14 @@
 ---
-title: "The surveydown {{< var rnolink >}} Package"
-subtitle: "A flexible, open-source platform for making surveys"
-author:
-  - "John Paul Helveston, Ph.D."
-  - "Pingfan Hu"
-date: "Jun 01, 2024"
-date-modified: "Jan 28, 2025"
-categories: [Software]
+title: "surveydown"
+author: "Pingfan Hu et al."
+date: "Jan, 2024"
+categories: [Software, Survey]
 execute:
   echo: true
   eval: false
   warning: false
-description: "An open-source survey platform using R, Quarto, Shiny, and PostgreSQL."
+description: "An open-source survey platform using {{< var rnolink >}}, Quarto, Shiny, and PostgreSQL."
 ---
-
-## About
-
-{surveydown} is a flexible, open-source survey tool using {{< var rlink >}}, {{< var quarto >}}, {{< var shiny >}}, and {{< var postgres >}}.
 
 <br>
 <center>
@@ -25,7 +17,7 @@ description: "An open-source survey platform using R, Quarto, Shiny, and Postgre
 
 ## Awards 🎉
 
-{surveydown} has been awarded the 2nd Prize in the [2024 Student Open Source Awards Program](https://ospo.gwu.edu/2024-student-open-source-award-winners) at GWU!
+**surveydown** has been awarded the 2nd Prize in the [2024 Student Open Source Awards Program](https://ospo.gwu.edu/2024-student-open-source-award-winners) at GWU!
 
 ## Overview
 
@@ -37,11 +29,11 @@ This project is led by [Prof John Helveston](https://www.jhelvy.com). For more d
 
 The basic concept is:
 
-1. Design your survey as a {{< var quarto >}} document using markdown and R code.
+1. Design your survey as a {{< var quarto >}} document using markdown and {{< var rnolink >}} code.
 2. Render your survey into a {{< var shiny >}} app that can be hosted online and sent to respondents.
 3. Store survey response data in a {{< var postgres >}} database. We recommend {{< var supabase >}} as a free, secure, and easy to use option.
 
-The {surveydown} R package provides functions to bring this all
+The `surveydown` {{< var rnolink >}} package provides functions to bring this all
 together.
 
 **See [Documentation](https://surveydown.org/documentation) to get started making
@@ -51,10 +43,10 @@ your own surveydown survey!**
 
 ## Motivation
 
-Most survey platforms (e.g., Google forms, Qualtrics, etc.) use graphic interfaces or spreadsheets to define survey content, making version control, collaboration, and reproducibility difficult or impossible. The surveydown package was designed to address these problems. As an open-source, markdown-based platform, all survey content is defined using **plain text** (markdown and R code) in two files:
+Most survey platforms (e.g., Google forms, Qualtrics, etc.) use graphic interfaces or spreadsheets to define survey content, making version control, collaboration, and reproducibility difficult or impossible. The `surveydown` {{< var rnolink >}} package was designed to address these problems. As an open-source, markdown-based platform, all survey content is defined using **plain text** (markdown and {{< var rnolink >}} code) in two files:
 
-- `survey.qmd`: A {{< var quarto >}} document that contains the survey content (pages, questions, etc).
-- `app.R`: An R script defining a shiny app that contains global settings (libraries, database configuration, etc.) and server configuration options (e.g., conditional skipping / display, etc.).
+- **survey.qmd**: A {{< var quarto >}} document that contains the survey content (pages, questions, etc).
+- **app.R**: An {{< var rnolink >}} script defining a shiny app that contains global settings (libraries, database configuration, etc.) and server configuration options (e.g., conditional skipping / display, etc.).
 
 This approach makes your survey easy to reproduce, share, and version control with common tools like Git. And since all survey data is stored in a {{< var postgres >}} database, you have total control over where your survey data lives. We provide direct support for {{< var supabase >}} as a free, secure, and easy to use option.
 
@@ -62,20 +54,20 @@ In case you're interested in the background behind the project, this [blog post]
 
 ## Installation
 
-### 1. Install R & Quarto
+### 1. Install {{< var rnolink >}} & Quarto
 
 You need both: 
 
 - Install {{< var rlink >}}
 - Install {{< var quarto >}}
 
-We also recommend working with an IDE that has good support for R, Quarto, and Shiny.
+We also recommend working with an IDE that has good support for {{< var rnolink >}}, Quarto, and Shiny.
 
 {{< var rstudio_ide >}} is great, and we also like {{< var vscode >}} and {{< var positron >}}.
 
-### 2. Install the {surveydown} R package
+### 2. Install the `surveydown` R package
 
-You can install {surveydown} from CRAN in your R console:
+You can install `surveydown` from CRAN in your {{< var rnolink >}} console:
 
 ```{r}
 #| eval: false
@@ -115,7 +107,7 @@ See the license information [here](https://github.com/surveydown-dev/surveydown/
 ## Citation Information
 
 If you use this package for in a publication, please cite it! You can
-get the citation by typing `citation("surveydown")` into R:
+get the citation by typing `citation("surveydown")` into {{< var rnolink >}}:
 
 ```{r}
 citation("surveydown")

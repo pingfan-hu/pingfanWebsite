@@ -34,9 +34,6 @@ website:
       - icon: file-bar-graph
         href: projects.qmd
         text: "Projects"
-      - icon: file-pdf
-        href: papers.qmd
-        text: "Papers"
       - icon: file-slides
         href: https://talks.pingfanhu.com
         text: "Talks"
@@ -65,7 +62,6 @@ format:
     toc-depth: 5
     toc-location: right
     lightbox: true
-    number-sections: true
     css: themes/styles.css
     theme: [united, themes/theme.scss]
     link-external-newwindow: true
