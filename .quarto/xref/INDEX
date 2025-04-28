@@ -55,5 +55,11 @@
   },
   "projects/02_bev_smart_charging/index.qmd": {
     "index.html": "96c14d50"
+  },
+  "projects/03_surveydown/index.qmd": {
+    "index.html": "f0ba185a"
+  },
+  "projects/02_bev_grid_support/index.qmd": {
+    "index.html": "5fd5e633"
   }
 }

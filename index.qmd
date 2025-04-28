@@ -30,5 +30,5 @@ I am an engineer and a PhD student in [EMSE](https://emse.engineering.gwu.edu/) 
 
 **Ongoing projects:**
 
-1. [surveydown](https://surveydown.org): A flexible, open-source platform for making surveys with {{< var rnolink >}}, Quarto, Shiny, and PostgreSQL, awarded 🎉 2nd prize in [GW OSPO](https://ospo.gwu.edu/2024-student-open-source-award-winners), funded by the {{< var sloan >}}.
-2. [BEV Smart Charging](https://sc.pingfanhu.com): A survey-based data analysis studying Battery Electric Vehicle owners' willingness to opt in smart charging programs, funded by the {{< var sloan >}}.
+1. [BEV Smart Charging](https://sc.pingfanhu.com): A survey-based data analysis studying Battery Electric Vehicle owners' willingness to opt in smart charging programs, funded by the {{< var sloan >}}.
+2. [surveydown](https://surveydown.org): A flexible, open-source platform for making surveys with {{< var rnolink >}}, Quarto, Shiny, and PostgreSQL, awarded 🎉 2nd prize in [GW OSPO](https://ospo.gwu.edu/2024-student-open-source-award-winners), funded by the {{< var sloan >}}.
