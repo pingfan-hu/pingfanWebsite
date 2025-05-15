@@ -26,7 +26,7 @@ about:
 
 ## Welcome to my website!
 
-I am an engineer and a PhD student in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I do {{< var rlink >}} development and data analysis in human behavior using choice models. I develop websites and webapps using {{< var quarto >}} and {{< var shiny >}}.
+I am an engineer and a PhD candidate in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I do {{< var rlink >}} development and data analysis in human behavior using choice models. I develop websites and webapps using {{< var quarto >}} and {{< var shiny >}}.
 
 **Ongoing projects:**
 

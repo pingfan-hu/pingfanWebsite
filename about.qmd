@@ -5,7 +5,7 @@ number-sections: false
 
 ![](/images/about.png){fig-align="center" width="800"}
 
-My name is **Pingfan Hu**, a PhD student in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I am experienced in {{< var rlink >}} (base {{< var rnolink >}} + tidyverse) and {{< var python >}} development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.
+My name is **Pingfan Hu**, a PhD candidate in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I am experienced in {{< var rlink >}} (base {{< var rnolink >}} + tidyverse) and {{< var python >}} development mainly in data analysis and data viz. I write moderate CSS and HTML codes as well.
 
 I'm currently working on 2 projects in my field of study. The [Smart Charging Adoption](https://sc.pingfanhu.com) project is a survey-based data analysis that studies BEV (Battery Electric Vehicle) owners' willingness to opt in smart charging programs, funded by the {{< var sloan >}}. The [surveydown](https://surveydown.org) {{< var rnolink >}} package is a flexible, open-source platform for making surveys with {{< var rnolink >}}, Quarto, Shiny, and PostgreSQL. Both projects are co-authored with professor [John Helveston](https://www.jhelvy.com). For more information about my projects, please proceed to the [Projects](/projects.html) page.
 
