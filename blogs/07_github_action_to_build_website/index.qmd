@@ -109,8 +109,8 @@ The `NETLIFY_SITE_ID` can be found in the settings of your Netlify site:
 
 1. Log in to [Netlify](https://app.netlify.com/).
 2. Select your site from the dashboard.
-3. Go to "Site Configuration".
-4. Under "General" -> "Site details", you will find the "Site ID".
+3. Go to "Project Configuration".
+4. Under "General" -> "Project details", you will find the "Project ID".
 
 With these two secrets in hand, you can pass them to your GitHub repository:
 
@@ -119,7 +119,7 @@ With these two secrets in hand, you can pass them to your GitHub repository:
 3. In the left sidebar, click on "Secrets and variables" -> "Actions".
 4. Click on "New repository secret".
 5. Add `NETLIFY_AUTH_TOKEN` and paste the token you generated.
-6. Add `NETLIFY_SITE_ID` and paste the Site ID you found.
+6. Add `NETLIFY_SITE_ID` and paste the Project ID you found.
 
 ## Change Netlify Settings for Site Deployment
 
@@ -127,7 +127,7 @@ Since we are deploying with GitHub, we don't need Netlify to build the site anym
 
 1. Log in to [Netlify](https://app.netlify.com/).
 2. Select your site from the dashboard.
-3. Go to "Site Configuration".
+3. Go to "Project Configuration".
 4. Under "Build & deploy" -> "Continuous Deployment" -> "Build settings", click on "Configure".
 5. Set "Build status" to "Stopped builds".
 
