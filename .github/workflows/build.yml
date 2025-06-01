@@ -35,9 +35,11 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
 
       - name: Deploy to Netlify
-        uses: netlify/actions/cli@master
+        uses: nwtgck/actions-netlify@v3.0
         with:
-          args: deploy --dir=_site --prod
+          publish-dir: '_site'
+          production-branch: main
+          deploy-message: "Deploy from GitHub Actions"
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

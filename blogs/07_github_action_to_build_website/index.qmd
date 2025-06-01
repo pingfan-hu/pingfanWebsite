@@ -129,63 +129,6 @@ Since we are deploying with GitHub, we don't need Netlify to build the site anym
 4. Under "Build & deploy" -> "Continuous Deployment" -> "Build settings", click on "Configure".
 5. Set "Build status" to "Stopped builds".
 
-## Using `renv` for R Package Dependencies
-
-There are 2 ways to manage R package dependencies in your GitHub Actions workflow. One is to manually install all required packages, and the other is to use `renv` to manage the dependencies. I chose to use `renv` so I don't need to manually update the package list in the workflow file.
-
-You may have noticed that in the `build.yml` file, I have these under the build jobs:
-
-```{yaml}
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    
-    ...
-
-    steps:
-    - name: Set up R dependencies with renv
-      uses: r-lib/actions/setup-renv@v2
-```
-
-This is to set up the R package dependencies using `renv`.
-
-Locaclly in your R console, run these to install and initialize `renv`:
-
-```{r}
-# Install renv if you don't have it
-install.packages("renv")
-
-# Initialize renv for your project
-renv::init()
-
-# After you've used all the packages in your project
-renv::snapshot()
-```
-
-When you run `renv::init()`, it will create several files including:
-
-- `renv.lock`: the package lockfile
-- `.Rprofile`: hidden, to activate renv when you open the project
-- `renv/` directory: contains project-specific package cache
-
-The important file for GitHub Actions is `renv.lock`, which contains information about all the packages your project needs. This file should be committed to your Git repository.
-
-**Two extra steps:**
-
-Firstly, in the future, any time you install new packages, you should locally run `renv::snapshot()` again to let GitHub Actions intall the same packages automatically:
-
-```{r}
-# Update the lockfile with new packages
-renv::snapshot()
-```
-
-Another important step is when you switch to another computer or environment. You should run `renv::restore()` to restore all packages from the lockfile:
-
-```{r}
-# Restore all packages from the lockfile
-renv::restore()
-```
-
 ## Conclusion
 
 Now we are done. The site is still hosted on Netlify, but the building process is fully automated with GitHub Actions. Whenever you push changes to your GitHub repository, the site will be automatically built and deployed to Netlify. There is no need to push `_site/` directory or manually rebuild the site locally.
