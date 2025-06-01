@@ -40,11 +40,13 @@ jobs:
             libtiff5-dev \
             libjpeg-dev
 
-      - name: Query R package dependencies
+      - name: Setup package list for caching
         run: |
           install.packages('pak', repos = sprintf("https://r-lib.github.io/p/pak/stable/%s/%s/%s", .Platform$pkgType, R.Version()$os, R.Version()$arch))
-          pak::pkg_install('here')
-          saveRDS(pak::local_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
+          
+          # Create a simple list of your packages for caching
+          packages <- c('tidyverse', 'kableExtra', 'here', 'surveydown')
+          saveRDS(packages, ".github/depends.Rds", version = 2)
           writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
         shell: Rscript {0}
 
@@ -69,9 +71,6 @@ jobs:
             'here',
             'surveydown'
           ))
-          
-          # Install any additional dependencies from DESCRIPTION file
-          pak::local_install_deps(dependencies = TRUE)
         shell: Rscript {0}
 
       - name: Set up Quarto
