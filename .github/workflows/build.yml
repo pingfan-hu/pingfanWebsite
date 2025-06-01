@@ -1,42 +1,97 @@
-name: Build Quarto Website
+name: Build and Deploy Personal Quarto Website
 
 on:
   push:
-    branches: [ main ]
-  workflow_dispatch:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  schedule:
+    # Scheduled to run at midnight EST (5:00 UTC) every Sunday
+    - cron: '0 5 * * 0'
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
-    
+
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      R_VERSION: '4.3.2'
+
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Set up R
-      uses: r-lib/actions/setup-r@v2
-      
-    - name: Install system dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libfontconfig1-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libfribidi-dev libharfbuzz-dev
-      
-    - name: Install quarto
-      uses: quarto-dev/quarto-actions/setup@v2
-      
-    - name: Set up R dependencies with renv
-      uses: r-lib/actions/setup-renv@v2
-      
-    - name: Render Quarto website
-      run: |
-        quarto render
-        
-    - name: Deploy to Netlify
-      uses: nwtgck/actions-netlify@v2.0
-      with:
-        publish-dir: './_site'
-        production-branch: main
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        deploy-message: "Deploy from GitHub Actions"
-      env:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      - uses: actions/checkout@v4
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: ${{ env.R_VERSION }}
+          use-public-rspm: true  # Use RStudio Package Manager for better reliability
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libcurl4-openssl-dev \
+            libssl-dev \
+            libxml2-dev \
+            libharfbuzz-dev \
+            libfribidi-dev \
+            libfreetype6-dev \
+            libpng-dev \
+            libtiff5-dev \
+            libjpeg-dev
+
+      - name: Query R package dependencies
+        run: |
+          install.packages('pak', repos = sprintf("https://r-lib.github.io/p/pak/stable/%s/%s/%s", .Platform$pkgType, R.Version()$os, R.Version()$arch))
+          pak::pkg_install('here')
+          saveRDS(pak::local_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
+          writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
+        shell: Rscript {0}
+
+      - name: Cache R packages
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: ${{ runner.os }}-${{ env.R_VERSION }}-1-${{ hashFiles('.github/depends.Rds') }}
+          restore-keys: ${{ runner.os }}-${{ env.R_VERSION }}-1-
+
+      - name: Install R dependencies
+        run: |
+          # Install pak if not already available
+          if (!requireNamespace("pak", quietly = TRUE)) {
+            install.packages('pak', repos = sprintf("https://r-lib.github.io/p/pak/stable/%s/%s/%s", .Platform$pkgType, R.Version()$os, R.Version()$arch))
+          }
+          
+          # Install your specific packages using pak
+          pak::pkg_install(c(
+            'tidyverse',
+            'kableExtra', 
+            'here',
+            'surveydown'
+          ))
+          
+          # Install any additional dependencies from DESCRIPTION file
+          pak::local_install_deps(dependencies = TRUE)
+        shell: Rscript {0}
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto Project
+        uses: quarto-dev/quarto-actions/render@v2
+
+      # Optional: Check for broken links (commented out by default)
+      # - name: Check URLs
+      #   uses: lycheeverse/lychee-action@v1.9.0
+      #   with:
+      #     args: --verbose --no-progress './_site/**/*.html'
+      #     fail: false  # Set to true if you want the workflow to fail on broken links
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
