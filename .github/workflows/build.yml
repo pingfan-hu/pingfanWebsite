@@ -2,20 +2,22 @@ name: Build and Deploy Personal Quarto Website
 
 on:
   push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
-  schedule:
-    # Scheduled to run at midnight EST (5:00 UTC) every Sunday
-    - cron: '0 5 * * 0'
+    branches: [ main ]
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-
-    env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-      R_VERSION: '4.3.2'
 
     steps:
       - uses: actions/checkout@v4
@@ -23,74 +25,34 @@ jobs:
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
         with:
-          r-version: ${{ env.R_VERSION }}
-          use-public-rspm: true  # Use RStudio Package Manager for better reliability
+          r-version: '4.3.2'
+          use-public-rspm: true
 
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            libcurl4-openssl-dev \
-            libssl-dev \
-            libxml2-dev \
-            libharfbuzz-dev \
-            libfribidi-dev \
-            libfreetype6-dev \
-            libpng-dev \
-            libtiff5-dev \
-            libjpeg-dev
+          sudo apt-get install -y libcurl4-openssl-dev libxml2-dev
 
-      - name: Setup package list for caching
+      - name: Install R packages
         run: |
           install.packages('pak', repos = sprintf("https://r-lib.github.io/p/pak/stable/%s/%s/%s", .Platform$pkgType, R.Version()$os, R.Version()$arch))
-          
-          # Create a simple list of your packages for caching
-          packages <- c('tidyverse', 'kableExtra', 'here', 'surveydown')
-          saveRDS(packages, ".github/depends.Rds", version = 2)
-          writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
+          pak::pkg_install(c('tidyverse', 'kableExtra', 'here', 'surveydown'))
         shell: Rscript {0}
 
-      - name: Cache R packages
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.R_LIBS_USER }}
-          key: ${{ runner.os }}-${{ env.R_VERSION }}-1-${{ hashFiles('.github/depends.Rds') }}
-          restore-keys: ${{ runner.os }}-${{ env.R_VERSION }}-1-
-
-      - name: Install R dependencies
-        run: |
-          # Install pak if not already available
-          if (!requireNamespace("pak", quietly = TRUE)) {
-            install.packages('pak', repos = sprintf("https://r-lib.github.io/p/pak/stable/%s/%s/%s", .Platform$pkgType, R.Version()$os, R.Version()$arch))
-          }
-          
-          # Install your specific packages using pak
-          pak::pkg_install(c(
-            'tidyverse',
-            'kableExtra', 
-            'here',
-            'surveydown'
-          ))
-        shell: Rscript {0}
-
-      - name: Set up Quarto
+      - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
 
-      # Optional: Check for broken links (commented out by default)
-      # - name: Check URLs
-      #   uses: lycheeverse/lychee-action@v1.9.0
-      #   with:
-      #     args: --verbose --no-progress './_site/**/*.html'
-      #     fail: false  # Set to true if you want the workflow to fail on broken links
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
 
-      - name: Publish to GitHub Pages
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: ./_site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
