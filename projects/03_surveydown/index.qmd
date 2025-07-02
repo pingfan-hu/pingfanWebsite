@@ -1,6 +1,9 @@
 ---
 title: "surveydown"
-author: "Pingfan Hu et al."
+author:
+  - name: "[Pingfan Hu](https://pingfanhu.com)"
+  - name: "[John Helveston](https://www.jhelvy.com)"
+  - name: "[Bogdan Bunea](https://www.linkedin.com/in/bogdanbt/)"
 date: "Mar, 2025"
 categories: [Software, Survey]
 execute:
@@ -10,22 +13,19 @@ execute:
 description: "An open-source survey platform using {{< var rnolink >}}, Quarto, Shiny, and PostgreSQL."
 ---
 
-<br>
-<center>
-<a href="https://surveydown.org" class="btn btn-primary" role="button"> Visit surveydown Official Website </a>
-</center>
-
 ## Awards 🎉
+
+<a href='https://surveydown.org'><img src='surveydown.png' align="right" style="height:139px;"/></a>
 
 **surveydown** has been awarded the 2nd Prize in the [2024 Student Open Source Awards Program](https://ospo.gwu.edu/2024-student-open-source-award-winners) at GWU!
 
 ## Overview
 
-This project is led by [Prof John Helveston](https://www.jhelvy.com). For more details, see our [About](https://surveydown.org/about) page.
+The [**surveydown**](https://surveydown.org) project is led by [Prof John Helveston](https://www.jhelvy.com). For more details, see our [About](https://surveydown.org/about) page.
 
 <br>
 
-![](surveydown.svg){fig-align="center" width="550"}
+![](technologies.svg){fig-align="center" width="550"}
 
 The basic concept is:
 
@@ -39,7 +39,7 @@ together.
 **See [Documentation](https://surveydown.org/documentation) to get started making
 your own surveydown survey!**
 
-**See [Demos](https://surveydown.org/demos) and use them as your survey templates!**
+**See [Templates](https://surveydown.org/templates) for a variety of templates!**
 
 ## Motivation
 
