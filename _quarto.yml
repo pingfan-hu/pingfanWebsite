@@ -1,5 +1,8 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!CLAUDE.md"
   resources:
     - images/
     - pdf/
