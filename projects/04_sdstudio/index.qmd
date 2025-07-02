@@ -1,0 +1,284 @@
+---
+title: sdstudio
+author:
+  - name: "[Pingfan Hu](https://pingfanhu.com)"
+  - name: "[John Helveston](https://www.jhelvy.com)"
+  - name: "[Bogdan Bunea](https://www.linkedin.com/in/bogdanbt/)"
+description: |
+  A companion R package as GUI support for surveydown.
+date: '2025-06-29'
+image: "banner.png"
+number-sections: true
+categories:
+  - Software
+  - Survey
+execute:
+  echo: true
+  eval: false
+---
+
+## Introduction
+
+<a href='https://sdstudio.surveydown.org'><img src='images/sdstudio.png' align="right" style="height:139px;"/></a>
+
+As a companion package to the [surveydown](https://surveydown.org/) platform, **sdstudio** serves as a comprehensive GUI for survey construction, preview, and data management, without requiring extensive programming knowledge.
+
+<!-- **PLACEHOLDER: 5-minute full introduction video**
+   Description: Place your comprehensive intro video here showing the overall sdstudio interface, 
+   launching the application, and a quick tour of all three tabs. This should give viewers 
+   a complete overview before diving into the detailed sections below. -->
+
+The **sdstudio** package is currently in development and can be installed directly from GitHub:
+
+```r
+# Development version
+pak::pak("surveydown-dev/sdstudio", ask = FALSE)
+```
+
+Since **sdstudio** is a companion package of **surveydown**, make sure to install **surveydown** as well:
+
+```r
+# Development version
+pak::pak("surveydown-dev/surveydown", ask = FALSE)
+
+# CRAN version
+install.packages("surveydown")
+```
+
+Launch the studio in your browser using this function:
+
+```r
+sdstudio::launch()
+```
+
+<!-- **PLACEHOLDER: Screenshot of the sdstudio launch process**
+   Description: Show the R console command and the resulting browser window opening 
+   with the sdstudio interface. Capture the clean, modern Bootstrap 5 design. -->
+
+The **sdstudio** interface is organized into three main tabs that follow the natural survey workflow:
+
+- **🏗️ Build**: Visual survey creation with side-by-side structure and scripts
+- **👁️ Preview**: Real-time survey testing
+- **📊 Responses**: Data collection, analytics, and export capabilities
+
+## The "Build" Tab
+
+### Start from a Template
+
+The "Build" tab is your workspace of survey construction. You can either start from a prepared template or continue with your own survey files. The "Directory" will show your current working directory, but you can change it to any directory where your survey files are stored.
+
+::: {.callout-note}
+There are 15 templates available. The ***default*** template contains a minimum basic structure for a clean start. You might also try the ***question_type*** template for a showcase of all question types, or try some advanced features with ***conditional_display***, ***conditional_navigation***, etc.
+
+For a full list of templates, see the [templates repo](https://github.com/surveydown-dev/templates) on GitHub.
+:::
+
+<br>
+<center>
+<img src="images/build_tab_1.png" style="width: 100%; max-width: 1000px; border: 1px solid #ddd;">
+<p style="color: gray; font-weight: bold;"><em>Start from a Template in the Build Tab</em></p>
+</center>
+<br>
+
+### Build Your Survey
+
+After you've selected your template, or if you already have an existing survey, you'll see the dual panel of survey constructions on the "Build" tab. The "Structure" section on the left shows the page-content structure of your survey. The "Code" section on the right displays the survey scripts in a code editor.
+
+<br>
+<center>
+<img src="images/build_tab_2.png" style="width: 100%; max-width: 1000px; border: 1px solid #ddd;">
+<p style="color: gray; font-weight: bold;"><em>Dual Panel of the Build Tab</em></p>
+</center>
+<br>
+
+
+#### The Structure Section
+
+The **"Structure"** section on the left gives you 2 hierarchies: page and content. The pages can be toggled on to show the content, or toggled off. There are two types of content: questions and texts, with labels of "Q" and "T", respectively.
+
+There are buttons on each page and content which self-explain their capabilities. The "Add A New Page" button at the bottom allows you to create a new page.
+
+The *question* content shows question ID, question type, and question label. You can review the full question details with the edit button, or view the full question definition code on the code section. The *text* content shows the first 5 words of the full piece of text.
+
+<br>
+<center>
+<img src="images/build_tab_3.png" style="width: 100%; max-width: 1000px; border: 1px solid #ddd;">
+<p style="color: gray; font-weight: bold;"><em>Click on the +T/+Q button to add a text/question</em></p>
+</center>
+<br>
+
+All elements support drag-n-drop operations. After each operation, the structure will refresh and update the code editor on the right. If you move two test elements together, they will merge in to one text element.
+
+<br>
+<center>
+<img src="images/build_tab_4.gif" style="width: 100%; max-width: 1000px; border: 1px solid #ddd;">
+<p style="color: gray; font-weight: bold;"><em>Dragging two texts together will merge them</em></p>
+</center>
+<br>
+
+#### The Code Section
+
+::: {.callout-note}
+For now the surveydown Studio has powerful support to **survey.qmd** because it is meant to be the main file for survey construction. However, even though **app.R** is directly editable, we still recommend that you edit it using your IDE or other text editors. All our templates have the **app.R** file ready to run, which can be a good starting point.
+:::
+
+The **"Code"** section on the right is an integrated code editor that allows you to edit the survey scripts directly, with the **survey.qmd** file opened by default. It also reflects any operation you've done on the "Structure" section. The other file, **app.R**, is available for direct editing as well.
+
+## The "Preview" Tab
+
+The "Preview" tab is where your survey comes to life. It provides a real-time, interactive preview of your survey as you build it, allowing you to see exactly how respondents will experience your survey.
+
+
+### Live Rendering
+
+Every time you make changes in the Build tab, the survey is live-rendered and revealed in the Preview tab. It takes a couple of seconds to render, so if you switch to the Preview tab too early, you'll see message of survey being rendered. After rendering is done, the survey will be available.
+
+<br>
+<center>
+<img src="images/preview_tab_1.gif" style="width: 100%; max-width: 1000px; border: 1px solid #ddd;">
+<p style="color: gray; font-weight: bold;"><em>The survey preview is live and interactive</em></p>
+</center>
+<br>
+
+### Desktop and Mobile Views
+
+You can toggle between "Desktop View" and "Mobile View" using the pair of buttons at the top right corner:
+
+<br>
+<center>
+<img src="images/preview_tab_2.gif" style="width: 100%; max-width: 1000px; border: 1px solid #ddd;">
+<p style="color: gray; font-weight: bold;"><em>Toggling between desktop and mobile views</em></p>
+</center>
+<br>
+
+### New Sessions
+
+You might have noticed there is a green refresh button on the top right as well. This is for you to manually refresh the preview if you want to restart a session:
+
+<br>
+<center>
+<img src="images/preview_tab_3.gif" style="width: 100%; max-width: 1000px; border: 1px solid #ddd;">
+<p style="color: gray; font-weight: bold;"><em>Restart a new session using the refresh button</em></p>
+</center>
+<br>
+
+## The "Responses" Tab
+
+**surveydown Studio** serves two purposes: survey construction and data management. They form a stream-lined process, but the data management part can also function on its own. Therefore, the "Responses" tab has 3 use cases:
+
+1. Local Mode: After survey creation and test runs, you can locally view survey responses without connecting to database.
+2. DB Mode for Live-view: After survey creation and test runs, you can live-view the responses with database connection.
+2. DB Mode used alone: Without creating any survey, you can come to "Responses" directly, input your database credentials, and obtain all your stored survey responses.
+
+Lets go through all these use cases in details.
+
+### Local Mode - Local View of Responses
+
+All our templates have **Local Mode** enabled by default, because we recommend you to start from local testing. To start with your local testing, you can simply go through all 3 tabs in order: **Build**, **Preview**, and then **Responses**.
+
+Below is a brief walkthrough of the process:
+
+<br>
+<center>
+<img src="images/responses_tab_1.gif" style="width: 100%; max-width: 1000px; border: 1px solid #ddd;">
+<p style="color: gray; font-weight: bold;"><em>Build, Preview, and Responses in Sequence</em></p>
+</center>
+<br>
+
+### DB Mode - Live-view the Test Responses
+
+::: {.callout-note}
+For instructions on how to obtain your database credentials, proceed to the [Storing Data](https://surveydown.org/docs/storing-data.html#getting-your-supabase-credentials) documentation page.
+:::
+
+You might also want to test the database connection. To do so, you need to firstly switch to **DB Mode** by clicking the "DB Mode" button on the top right corner. This is available in all 3 tabs. Then, in your "Responses" tab, you'll see a "Database Connection" section on the top. Toggle on the "Settings" button and fill in your database credentials. You can test the connection by clicking the "Test Connection" button.
+
+In order to have a clean start, we recommend you to name a new table in the "Table" field of "Database Connection". Upon clicking "Test Connection", this table will only be a placeholder, and the database will create such table once you start your first survey run.
+
+<br>
+<center>
+<img src="images/responses_tab_2.png" style="width: 100%; max-width: 1000px; border: 1px solid #ddd;">
+<p style="color: gray; font-weight: bold;"><em>Input your credentials and create a new table</em></p>
+</center>
+<br>
+
+If the connection is successful, you will see a "Connected" status message in green. The "Choose a table to view" section will show the new table you just created, but all fields will be empty. They will be filled in once you run your survey in the **Preview** tab.
+
+After you've taken care of the database connection, you can go back to the **Build** tab and proceed with your survey construction, following the exact same steps. The only difference is that now, when you run the survey in the **Preview** tab, your responses will be stored in the database table you just created.
+
+### DB Mode - Standalone Usage
+
+::: {.callout-note}
+In order to access the online database, the studio needs to be on "DB Mode", which is the default mode as we launch it.
+
+For instructions on how to obtain your database credentials, proceed to the [Storing Data](https://surveydown.org/docs/storing-data.html#getting-your-supabase-credentials) documentation page.
+:::
+
+As you launch the studio using `sdstudio::launch()`, you can jump over all the other tabs and directly go to the "Responses" tab. Click on the "Settings" button of the "Database Connection" section on the top of the tab and fill in your database credentials. If you don't know which table to view, leave it blank, but the rest credentials are required.
+
+<br>
+<center>
+<img src="images/responses_tab_3.png" style="width: 100%; max-width: 1000px; border: 1px solid #ddd;">
+<p style="color: gray; font-weight: bold;"><em>Input your database credentials</em></p>
+</center>
+<br>
+
+If the connection is successful, you will see a "Connected" status message in green. You can choose your desired response table from the dropdown menu, review its progress and details, and download the csv file if needed:
+
+<br>
+<center>
+<img src="images/responses_tab_4.gif" style="width: 100%; max-width: 1000px; border: 1px solid #ddd;">
+<p style="color: gray; font-weight: bold;"><em>Fill in your database credentials and click on the "Test Connection" button</em></p>
+</center>
+<br>
+
+## Data Security
+
+### The `.env` File
+
+In fact, inputting your database credentials in the "Responses" tab creates an `.env` file in your current working directory. It's by default hidden. This file is used to store environment variables securely. Along with this file, there will be a `.gitignore` file created to prevent it from being pushed to your git repository. This is a good practice to keep your credentials safe.
+
+In this `.env` file, you will find the following variables:
+
+```r
+# Database connection settings for surveydown
+SD_HOST="your-database-host"
+SD_PORT="your-database-port"
+SD_DBNAME="your-database-name"
+SD_USER="your-database-username"
+SD_PASSWORD="your-database-password"
+SD_TABLE="your-database-table"
+```
+
+The editing of this file is bi-directional, so you can either edit on this file, or use the surveydown Studio interface.
+
+### GSSAPI Encryption
+
+The `sdstudio::launch()` function allows the `gssencmode` argument. It controls the encryption mode for database connections. This is crucial for ensuring secure communication with your database, especially when handling sensitive survey data.
+
+By default, we set `gssencmode = "auto"`, which attempts to use GSSAPI encryption if available, falling back to a plain connection if not. This is the recommended mode for most users. The connection status will show a green "Connected (GSSAPI enabled)" message if GSSAPI is successfully enabled, or a yellow "Connected (GSSAPI disabled)" message if it falls back to plain connection:
+
+```r
+# Auto mode (recommended) - tries GSSAPI first, falls back if needed
+sdstudio::launch()
+```
+
+However, if you want to explicitly control the encryption mode, you can set `gssencmode` to one of the following values:
+
+```r
+# Prefer mode - only use GSSAPI
+sdstudio::launch(gssencmode = "prefer")
+
+# Disable mode - forces plain connection (useful for VPN environments)
+sdstudio::launch(gssencmode = "disable")
+```
+
+## Conclusion
+
+As a companion GUI for the **surveydown** platform, **sdstudio** significantly simplifies the survey creation process. It allows users to build, preview, and manage surveys through an intuitive interface, without requiring extensive programming skills. The three-tab workflow - Build, Preview, and Responses - provides a comprehensive solution that covers the entire survey lifecycle.
+
+Whether you're conducting academic research, gathering customer feedback, running marketing surveys, or performing data analysis, **sdstudio** provides the tools you need to create, deploy, and manage surveys with confidence and efficiency.
+
+---
+
+*For more information, visit the [sdstudio documentation](https://sdstudio.surveydown.org) or explore the [surveydown platform](https://surveydown.org).*

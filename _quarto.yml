@@ -29,8 +29,8 @@ website:
         href: about.qmd
         text: "About"
       - icon: file-text
-        href: blogs.qmd
-        text: "Blogs"
+        href: blog.qmd
+        text: "Blog"
       - icon: file-bar-graph
         href: projects.qmd
         text: "Projects"

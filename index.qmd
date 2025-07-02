@@ -26,10 +26,9 @@ about:
 
 ## Welcome to my website!
 
-I am an engineer and a PhD candidate in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I do {{< var rlink >}} development and data analysis in human behavior using choice models. I develop websites and webapps using {{< var quarto >}} and {{< var shiny >}}.
+I am a research software engineer and PhD candidate in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I do {{< var rlink >}} development and data analysis in human behavior using choice models. I develop websites and webapps using {{< var quarto >}} and {{< var shiny >}}.
 
-**Ongoing projects:**
+#### Research Focus:
 
-1. [BEV Smart Charging](https://sc.pingfanhu.com): A survey-based data analysis studying Battery Electric Vehicle owners' willingness to opt in smart charging programs, funded by the {{< var sloan >}}.
-2. [surveydown](https://surveydown.org): A flexible, open-source platform for making surveys with {{< var rnolink >}}, Quarto, Shiny, and PostgreSQL, awarded 🎉 2nd prize in [GW OSPO](https://ospo.gwu.edu/2024-student-open-source-award-winners), funded by the {{< var sloan >}}.
-3. [sdApps](https://sdapps.surveydown.org): A companion R package of surveydown, containing a GUI studio and a dashboard, in cooperation with [Bogdan Bunea](https://www.linkedin.com/in/bogdanbt/).
+1. **Transportation Research**: I study human behavior in sustainable transportation using discrete choice models. My work focuses on smart charging [adoption](projects/01_smart_charging_adoption) and [cost-effectiveness](projects/02_smart_charging_cost_effectiveness), providing insights to help policymakers and utilities design better systems that benefit both the grid and EV owners.
+2. **Open-Source Software**: I develop open-source tools for survey construction and data analysis. [surveydown](https://surveydown.org) is a flexible platform for creating surveys with {{< var rnolink >}}, Quarto, and Shiny. [sdstudio](https://sdstudio.surveydown.org) is a companion GUI for surveydown.
