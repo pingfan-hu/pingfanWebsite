@@ -2,8 +2,8 @@
 title: "Smart Charging Cost-Effectiveness"
 author: "Pingfan Hu et al."
 date: "Feb, 2025"
-categories: [Smart Charging, Simulation]
-description: "Evaluating Cost-Effectiveness Analysis of BEV Smart Charging Programs."
+categories: [Smart Charging]
+description: "Cost-effectiveness of BEV smart charging programs."
 ---
 
 ## Background

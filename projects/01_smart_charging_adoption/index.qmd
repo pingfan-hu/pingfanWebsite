@@ -3,7 +3,7 @@ title: "Smart Charging Adoption"
 author: "Pingfan Hu et al."
 date: "Jan, 2025"
 categories: [Smart Charging, Survey]
-description: "Electric Vehicle Owner Preferences for Supplier Managed Charging and Vehicle-to-Grid Programs."
+description: "EV owner preferences for smart charging programs."
 ---
 
 ## Useful Links
