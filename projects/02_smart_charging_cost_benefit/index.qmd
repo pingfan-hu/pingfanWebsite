@@ -1,9 +1,9 @@
 ---
-title: "Smart Charging Cost-Effectiveness"
+title: "Smart Charging Cost-Benefit"
 author: "Pingfan Hu et al."
 date: "Feb, 2025"
 categories: [Smart Charging]
-description: "Cost-effectiveness of BEV smart charging programs."
+description: "Cost-benefit analysis of BEV smart charging programs."
 ---
 
 ## Background
