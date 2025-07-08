@@ -33,6 +33,8 @@ jobs:
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v3.0

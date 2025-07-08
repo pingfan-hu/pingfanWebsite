@@ -1,3 +1,29 @@
+```{r}
+#| echo: false
+#| results: asis
+
+# Read .env file if it exists
+if (file.exists(".env")) {
+  env_lines <- readLines(".env")
+  for (line in env_lines) {
+    if (nchar(line) > 0 && !startsWith(line, "#")) {
+      parts <- strsplit(line, "=", fixed = TRUE)[[1]]
+      if (length(parts) == 2) {
+        env_name <- parts[1]
+        env_value <- parts[2]
+        do.call(Sys.setenv, setNames(list(env_value), env_name))
+      }
+    }
+  }
+}
+
+site_password <- Sys.getenv("SITE_PASSWORD", "defaultpass")
+cat(paste0('<script>
+const SITE_PASSWORD = "', site_password, '";
+</script>'))
+```
+
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Function to create and show password modal
   function showPasswordModal(targetUrl) {
@@ -81,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Function to validate password
   window.validatePassword = function(targetUrl) {
     const password = document.getElementById('modal-password').value;
-    const correctPassword = 'REDACTED';
+    const correctPassword = SITE_PASSWORD;
     
     if (password === correctPassword) {
       // Store authentication and redirect
@@ -114,3 +140,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }, 1000);
 });
+</script>

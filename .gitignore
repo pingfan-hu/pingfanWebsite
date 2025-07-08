@@ -6,3 +6,4 @@ CLAUDE.md
 _site
 site_libs
 /.claude/
+.env
