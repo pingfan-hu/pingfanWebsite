@@ -67,6 +67,7 @@ format:
     lightbox: true
     css: themes/styles.css
     theme: [united, themes/theme.scss]
+    embed-resources: true
     link-external-newwindow: true
     link-external-icon: false
     link-external-filter: '^(?:http:|https:)\/\/(?:www\.)?pingfanhu\.com'
