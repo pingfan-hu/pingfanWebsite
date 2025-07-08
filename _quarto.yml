@@ -65,8 +65,8 @@ format:
     toc-depth: 5
     toc-location: right
     lightbox: true
-    css: themes/styles.css
-    theme: [united, themes/theme.scss]
+    css: styling/styles.css
+    theme: [united, styling/theme.scss]
     embed-resources: true
     link-external-newwindow: true
     link-external-icon: false

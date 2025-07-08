@@ -8,4 +8,9 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
+resources:
+  - styling/auth.js
 ---
+
+<script src="styling/auth.js"></script>
+
