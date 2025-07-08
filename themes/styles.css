@@ -13,6 +13,11 @@ pre.sourceCode {
   overflow-y: auto !important;
 }
 
+/* Code soft wrap */
+pre.sourceCode code {
+  white-space: pre-wrap !important;
+}
+
 /* Line number formatting */
 pre > code.sourceCode > span:before {
   content: counter(line) " ";
@@ -25,9 +30,11 @@ pre > code.sourceCode > span:before {
   border-right: 1px solid #ddd;
 }
 
-/* Line numbering */
+/* Line numbering with proper indentation for wrapped lines */
 pre > code.sourceCode > span {
   counter-increment: line;
+  text-indent: -2.8em;
+  padding-left: 2.8em;
 }
 
 /* Table */

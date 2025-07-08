@@ -31,12 +31,12 @@ website:
       - icon: person-badge
         href: about.qmd
         text: "About"
-      - icon: file-text
-        href: blog.qmd
-        text: "Blog"
       - icon: file-bar-graph
         href: projects.qmd
         text: "Projects"
+      - icon: file-text
+        href: blog.qmd
+        text: "Blog"
       - icon: file-slides
         href: https://talks.pingfanhu.com
         text: "Talks"
