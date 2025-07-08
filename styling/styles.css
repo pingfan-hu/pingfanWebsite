@@ -82,3 +82,12 @@ p {
 .custom-card {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+/* Callout Light Green Background */
+.callout.callout-style-default {
+  background-color: #ecf4ec !important;
+}
+
+.callout.callout-style-default .callout-header {
+  background-color: #deeede !important;
+}
