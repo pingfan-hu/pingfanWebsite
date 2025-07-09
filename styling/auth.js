@@ -1,29 +1,6 @@
-```{r}
-#| echo: false
-#| results: asis
+// Authentication system for password-protected blog content
+// The password will be injected via environment variable during build
 
-# Read .env file if it exists
-if (file.exists(".env")) {
-  env_lines <- readLines(".env")
-  for (line in env_lines) {
-    if (nchar(line) > 0 && !startsWith(line, "#")) {
-      parts <- strsplit(line, "=", fixed = TRUE)[[1]]
-      if (length(parts) == 2) {
-        env_name <- parts[1]
-        env_value <- parts[2]
-        do.call(Sys.setenv, setNames(list(env_value), env_name))
-      }
-    }
-  }
-}
-
-site_password <- Sys.getenv("SITE_PASSWORD", "defaultpass")
-cat(paste0('<script>
-const SITE_PASSWORD = "', site_password, '";
-</script>'))
-```
-
-<script>
 document.addEventListener('DOMContentLoaded', function() {
   // Function to create and show password modal
   function showPasswordModal(targetUrl) {
@@ -102,12 +79,19 @@ document.addEventListener('DOMContentLoaded', function() {
         validatePassword(targetUrl);
       }
     });
+    
+    // Add ESC key support to close modal
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeModal();
+      }
+    });
   }
   
   // Function to validate password
   window.validatePassword = function(targetUrl) {
     const password = document.getElementById('modal-password').value;
-    const correctPassword = SITE_PASSWORD;
+    const correctPassword = window.SITE_PASSWORD || 'defaultpass';
     
     if (password === correctPassword) {
       // Store authentication and redirect
@@ -131,13 +115,17 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Wait for the listing to load, then attach event listeners
   setTimeout(function() {
-    const links = document.querySelectorAll('a[href*="08_dynata_tutorial"]');
-    links.forEach(function(link) {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        showPasswordModal(link.href);
+    // Get protected files from global variable
+    const protectedFiles = window.PROTECTED_FILES || [];
+    
+    protectedFiles.forEach(function(protectedFile) {
+      const links = document.querySelectorAll(`a[href*="${protectedFile}"]`);
+      links.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          showPasswordModal(link.href);
+        });
       });
     });
   }, 1000);
 });
-</script>

@@ -4,7 +4,6 @@ project:
     - "*.qmd"
     - "!CLAUDE.md"
   resources:
-    - images/
     - pdf/
 
 website:
