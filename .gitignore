@@ -4,6 +4,7 @@
 .Rhistory
 CLAUDE.md
 _site
+blog_files
 site_libs
 /.claude/
 .env

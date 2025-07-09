@@ -83,6 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add ESC key support to close modal
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') {
+        e.preventDefault();
         closeModal();
       }
     });
@@ -113,19 +114,40 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   };
   
-  // Wait for the listing to load, then attach event listeners
-  setTimeout(function() {
-    // Get protected files from global variable
+  // Function to attach password protection to links
+  function attachPasswordProtection() {
     const protectedFiles = window.PROTECTED_FILES || [];
     
     protectedFiles.forEach(function(protectedFile) {
       const links = document.querySelectorAll(`a[href*="${protectedFile}"]`);
       links.forEach(function(link) {
-        link.addEventListener('click', function(e) {
-          e.preventDefault();
-          showPasswordModal(link.href);
-        });
+        // Only attach if not already protected
+        if (!link.hasAttribute('data-password-protected')) {
+          link.setAttribute('data-password-protected', 'true');
+          link.addEventListener('click', function(e) {
+            e.preventDefault();
+            showPasswordModal(link.href);
+          });
+        }
       });
     });
-  }, 1000);
+  }
+  
+  // Try to attach immediately
+  attachPasswordProtection();
+  
+  // Also watch for dynamically added content
+  const observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+        attachPasswordProtection();
+      }
+    });
+  });
+  
+  // Start observing
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
 });
