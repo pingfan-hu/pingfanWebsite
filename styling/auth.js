@@ -4,6 +4,8 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Function to create and show password modal
   function showPasswordModal(targetUrl) {
+    // Store current scroll position
+    const currentScrollY = window.scrollY;
     // Create modal HTML
     const modal = document.createElement('div');
     modal.id = 'password-modal';
@@ -46,15 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
         </div>
         <div style="display: flex; gap: 10px; justify-content: center;">
-          <button onclick="validatePassword('${targetUrl}')" style="
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-          ">Access</button>
           <button onclick="closeModal()" style="
             padding: 10px 20px;
             background-color: #6c757d;
@@ -64,9 +57,21 @@ document.addEventListener('DOMContentLoaded', function() {
             cursor: pointer;
             font-size: 16px;
           ">Cancel</button>
+          <button onclick="validatePassword('${targetUrl}')" style="
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+          ">Access</button>
         </div>
       </div>
     `;
+    
+    // Store scroll position in modal dataset
+    modal.dataset.scrollY = currentScrollY;
     
     document.body.appendChild(modal);
     
@@ -83,6 +88,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add ESC key support to close modal
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') {
+        e.preventDefault();
+        closeModal();
+      }
+    });
+    
+    // Add click-outside-to-close functionality
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) {
         e.preventDefault();
         closeModal();
       }
@@ -110,7 +123,10 @@ document.addEventListener('DOMContentLoaded', function() {
   window.closeModal = function() {
     const modal = document.getElementById('password-modal');
     if (modal) {
+      const currentScrollY = modal.dataset.scrollY || window.scrollY;
       modal.remove();
+      // Restore scroll position to prevent jumping
+      window.scrollTo(0, currentScrollY);
     }
   };
   

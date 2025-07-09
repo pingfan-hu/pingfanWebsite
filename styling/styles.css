@@ -91,3 +91,26 @@ p {
 .callout.callout-style-default .callout-header {
   background-color: #deeede !important;
 }
+
+/* Footer */
+.nav-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0em;
+}
+
+.nav-footer-center {
+  min-height: 2em;
+}
+
+@media (max-width: 767.98px) {
+  .nav-footer-center,
+  .nav-footer-left,
+  .nav-footer-right {
+    margin-top: -1em;
+    margin-bottom: 0em;
+  }
+}
