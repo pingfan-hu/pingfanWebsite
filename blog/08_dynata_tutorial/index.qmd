@@ -7,18 +7,16 @@ description: "A brief tutorial on how to embed Dynata links in your surveydown s
 ---
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Check if user is authenticated
-  if (sessionStorage.getItem('auth') !== 'true') {
-    // Redirect back to blog page if not authenticated
-    window.location.href = '/blog.html';
-  }
-  
-  // Clear authentication after 1 hour (optional)
-  setTimeout(function() {
-    sessionStorage.removeItem('auth');
-  }, 3600000); // 1 hour in milliseconds
-});
+// Hide content immediately if not authenticated
+if (sessionStorage.getItem('auth') !== 'true') {
+  document.documentElement.style.display = 'none';
+  window.location.href = '/blog.html';
+} else {
+  document.addEventListener('DOMContentLoaded', function() {
+    // Show content if authenticated
+    document.documentElement.style.display = 'block';
+  });
+}
 </script>
 
 ## Motivation
