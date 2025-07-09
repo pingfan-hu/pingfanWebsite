@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       ">
         <h3 style="margin-bottom: 20px; color: #333;">🔒 Protected Content</h3>
-        <p style="margin-bottom: 20px; color: #666;">This tutorial requires a passcode to access.</p>
+        <p style="margin-bottom: 20px; color: #666;">This content requires a passcode to access.</p>
         <div style="margin-bottom: 20px;">
           <input type="password" id="modal-password" placeholder="Enter passcode..." style="
             width: 100%;
