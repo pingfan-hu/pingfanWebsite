@@ -4,7 +4,6 @@ author:
   - name: "[Pingfan Hu](https://pingfanhu.com)"
   - name: "[John Helveston](https://www.jhelvy.com)"
   - name: "[Bogdan Bunea](https://www.linkedin.com/in/bogdanbt/)"
-description: A companion {{< var rnolink >}} package as GUI support for surveydown.
 date: '2025-06-29'
 image: "banner.png"
 number-sections: true
@@ -14,6 +13,7 @@ categories:
 execute:
   echo: true
   eval: false
+description: A companion {{< var rnolink >}} package as GUI support for surveydown.
 ---
 
 <a href='https://sdstudio.surveydown.org'><img src='images/sdstudio.png' align="right" style="height:139px;"/></a>

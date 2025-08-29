@@ -1,5 +1,5 @@
 ---
-title: "surveydown"
+title: surveydown
 author:
   - name: "[Pingfan Hu](https://pingfanhu.com)"
   - name: "[John Helveston](https://www.jhelvy.com)"
@@ -13,11 +13,30 @@ execute:
 description: "An open-source survey platform using {{< var rnolink >}}, Quarto, Shiny, and PostgreSQL."
 ---
 
-## Awards 🎉
-
 <a href='https://surveydown.org'><img src='surveydown.png' align="right" style="height:139px;"/></a>
 
-**surveydown** has been awarded the 2nd Prize in the [2024 Student Open Source Awards Program](https://ospo.gwu.edu/2024-student-open-source-award-winners) at GWU!
+## Useful Links
+
+::: {.d-flex .justify-content-center}
+[<i class="bi bi-browser-safari"></i> Website](https://surveydown.org){.btn .btn-primary .mx-1}
+[<i class="bi bi-github"></i> GitHub](https://github.com/surveydown-dev/surveydown){.btn .btn-primary .mx-1}
+[<i class="bi bi-award"></i> Award](https://ospo.gwu.edu/2024-student-open-source-award-winners){.btn .btn-primary .mx-1}
+:::
+
+## Publication
+
+:::: {.card .mb-4 .custom-card}
+::: {.card-body}
+**Journal Paper** - surveydown: An open-source, markdown-based platform for programmable and reproducible surveys
+
+PLOS One, *August 2025*
+
+::: {.d-flex .justify-content-end}
+[<i class="bi bi-journal-bookmark-fill"></i> Journal Webpage](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0331002){.btn .btn-outline-primary .mx-1}
+[<i class="bi bi-file-earmark-pdf"></i> PDF](/pdf/surveydown_2025.pdf){.btn .btn-outline-primary .mx-1}
+:::
+:::
+::::
 
 ## Overview
 
@@ -92,14 +111,6 @@ Load the package with:
 library(surveydown)
 ```
 
-You can also check which version you have installed:
-
-```{r}
-#| eval: false
-
-surveydown::sd_version()
-```
-
 ## License Information
 
 See the license information [here](https://github.com/surveydown-dev/surveydown/blob/master/LICENSE.md).
@@ -113,3 +124,8 @@ get the citation by typing `citation("surveydown")` into {{< var rnolink >}}:
 citation("surveydown")
 ```
 
+Or you can copy the following citation texts:
+
+```{.default}
+Hu P, Bunea B, Helveston JP (2025) surveydown: An open-source, markdown-based platform for programmable and reproducible surveys. PLoS One 20(8): e0331002. https://doi.org/10.1371/journal.pone.0331002
+```
