@@ -14,7 +14,10 @@ blockquote {
 }
 
 /* Text selection */
-::selection,
+::selection {
+  background-color: #D6C2DD !important;
+  color: #694696 !important;
+}
 ::-moz-selection {
   background-color: #D6C2DD !important;
   color: #694696 !important;
