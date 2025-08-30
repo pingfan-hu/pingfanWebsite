@@ -1,9 +1,9 @@
 /* Blockquote */
 blockquote {
-    background-color: #DDDCEC;
-    padding: 10px;
-    border-color: #5654A2;
-    border-radius: 5px;
+  background-color: #DDDCEC;
+  padding: 10px;
+  border-color: #5654A2;
+  border-radius: 5px;
 }
 
 /* Code */
@@ -12,12 +12,12 @@ pre.sourceCode {
   max-height: 300px;
   overflow-y: auto !important;
 }
-
 /* Code soft wrap */
 pre.sourceCode code {
   white-space: pre-wrap !important;
 }
 
+/* Line number */
 /* Line number formatting */
 pre > code.sourceCode > span:before {
   content: counter(line) " ";
@@ -29,7 +29,6 @@ pre > code.sourceCode > span:before {
   padding-right: 0.5em;
   border-right: 1px solid #ddd;
 }
-
 /* Line numbering with proper indentation for wrapped lines */
 pre > code.sourceCode > span {
   counter-increment: line;
@@ -90,6 +89,113 @@ p {
 
 .callout.callout-style-default .callout-header {
   background-color: #deeede !important;
+}
+
+/* Sidebar */
+.sidebar-title {
+  color: #ECF0F1;
+}
+
+/* Slide Embedding */
+.golden-ratio-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 61.8%;
+}
+
+.golden-ratio-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #5654A2;
+}
+
+/* Presentation Box Styles */
+.presentation-box {
+  display: flex;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #E5DFD5;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.presentation-content {
+  flex: 1;
+}
+
+.presentation-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.presentation-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.event-location {
+  flex: 1;
+}
+
+.event-location a {
+  color: #5654A2;
+  text-decoration: none;
+}
+
+.event-location a:hover {
+  text-decoration: underline;
+}
+
+.presentation-date {
+  color: #888;
+}
+
+.presentation-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-left: 2rem;
+  padding-left: 1.5rem;
+  border-left: 1px solid #E5DFD5;
+}
+
+.presentation-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #5654A2;
+  border-radius: 4px;
+  color: #5654A2;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.presentation-button:hover {
+  background-color: #5654A2;
+  text-decoration: none;
+  color: white;
+}
+
+.presentation-button i {
+  font-size: 1rem;
+  color: inherit;
+}
+
+.presentation-button {
+  text-decoration: none;
 }
 
 /* Footer */

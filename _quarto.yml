@@ -1,10 +1,8 @@
 project:
   type: website
-  render:
-    - "*.qmd"
-    - "!CLAUDE.md"
   resources:
     - pdf/
+    - talks/pdf/
 
 website:
   title: Pingfan Hu
@@ -37,9 +35,8 @@ website:
         href: blog.qmd
         text: "Blog"
       - icon: file-slides
-        href: https://talks.pingfanhu.com
+        href: talks.qmd
         text: "Talks"
-        target: _blank
 
     right:
       - icon: linkedin

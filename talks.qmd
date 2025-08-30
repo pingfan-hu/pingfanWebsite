@@ -1,0 +1,82 @@
+---
+title: "Talks"
+echo: false
+toc: false
+---
+
+```{r}
+library(tidyverse)
+library(googlesheets4)
+library(htmltools)
+library(commonmark)
+
+gs4_deauth()
+talks_data <- read_sheet("1WISHM4Y0kp12QAsXMRt3KhE9mQ18ofpNSUzz6V82tU8")
+
+# Function to convert markdown to HTML
+render_markdown <- function(text) {
+  HTML(markdown_html(text))
+}
+
+# Functions to construct paths
+make_slides_path <- function(folder_name) {
+  file.path("/talks", "slides", folder_name)
+}
+
+make_pdf_path <- function(folder_name) {
+  paste0(file.path("/talks", "pdf", folder_name), ".pdf")
+}
+
+# Create presentations using HTML tags
+presentations <- talks_data %>%
+  pmap(function(Date, Title, Event, Location, Directory, Type = "slide") {
+    # Default to "slide" if Type is not provided
+    presentation_type <- if(is.null(Type) || is.na(Type)) "slide" else tolower(Type)
+    
+    div(
+      class = "presentation-box",
+      div(
+        class = "presentation-content",
+        div(class = "presentation-title", Title),
+        div(
+          class = "presentation-details",
+          div(class = "event-location", render_markdown(Event)),
+          div(class = "presentation-date", format(Date, "%B %d, %Y"))
+        )
+      ),
+      div(
+        class = "presentation-icons",
+        # Conditionally render either Slides button or Poster text
+        if(presentation_type == "slide") {
+          a(
+            href = make_slides_path(Directory),
+            class = "presentation-button",
+            target = "_blank",
+            rel = "noopener noreferrer",
+            tags$i(class = "bi bi-file-earmark-slides"),
+            span("Slides")
+          )
+        } else {
+          # Simple centered text for Poster
+          div(
+            style = "text-align: center; width: 100px; margin-right: 0.5rem;",
+            tags$i(class = "bi bi-easel"),
+            span("Poster")
+          )
+        },
+        # Always show PDF button
+        a(
+          href = make_pdf_path(Directory),
+          class = "presentation-button",
+          target = "_blank",
+          rel = "noopener noreferrer",
+          tags$i(class = "bi bi-file-earmark-pdf"),
+          span("PDF")
+        )
+      )
+    )
+  })
+
+# Render all presentations
+div(class = "presentations-container", presentations)
+```
