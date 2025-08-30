@@ -124,6 +124,31 @@ get the citation by typing `citation("surveydown")` into {{< var rnolink >}}:
 citation("surveydown")
 ```
 
+It will show:
+
+::: {.full-height}
+```{.bibtex}
+To cite surveydown in publications use:
+
+  Hu P, Bunea B, Helveston J (2025). “surveydown: An open-source,
+  markdown-based platform for programmable and reproducible surveys.”
+  _PLOS One_, *20*(8). doi:10.1371/journal.pone.0331002
+  <https://doi.org/10.1371/journal.pone.0331002>.
+
+A BibTeX entry for LaTeX users is
+
+  @Article{,
+    title = {surveydown: An open-source, markdown-based platform for programmable and reproducible surveys},
+    author = {Pingfan Hu and Bogdan Bunea and John Paul Helveston},
+    journal = {PLOS One},
+    year = {2025},
+    volume = {20},
+    number = {8},
+    doi = {10.1371/journal.pone.0331002},
+  }
+```
+:::
+
 Or you can copy the following citation texts:
 
 ```{.default}

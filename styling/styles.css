@@ -1,4 +1,11 @@
-/* Blockquote */
+/* ---- Typography ---- */
+
+/* Paragraph spacing */
+p {
+  margin-bottom: 0.5rem;
+}
+
+/* Blockquote styling */
 blockquote {
   background-color: #DDDCEC;
   padding: 10px;
@@ -6,19 +13,36 @@ blockquote {
   border-radius: 5px;
 }
 
-/* Code */
-/* Code block height and scrolling */
+/* Text selection */
+::selection {
+  background-color: #D6C2DD !important;
+  color: #694696 !important;
+}
+::-moz-selection {
+  background-color: #D6C2DD !important;
+  color: #694696 !important;
+}
+
+/* ---- Code ---- */
+
+/* Default height limit */
 pre.sourceCode {
   max-height: 300px;
   overflow-y: auto !important;
 }
-/* Code soft wrap */
+
+/* Unlimited height override */
+.full-height pre.sourceCode {
+  max-height: none !important;
+  overflow-y: visible !important;
+}
+
+/* Soft wrapping */
 pre.sourceCode code {
   white-space: pre-wrap !important;
 }
 
-/* Line number */
-/* Line number formatting */
+/* Line numbers */
 pre > code.sourceCode > span:before {
   content: counter(line) " ";
   color: #999;
@@ -29,74 +53,33 @@ pre > code.sourceCode > span:before {
   padding-right: 0.5em;
   border-right: 1px solid #ddd;
 }
-/* Line numbering with proper indentation for wrapped lines */
+
+/* Line number indentation */
 pre > code.sourceCode > span {
   counter-increment: line;
   text-indent: -2.8em;
   padding-left: 2.8em;
 }
 
-/* Table */
+/* ---- Tables ---- */
+
 table {
   width: auto !important;
 }
+
 thead {
   border-top: solid #E5DFD5;
   border-bottom: solid #E5DFD5;
 }
 
-/* Highlight Color */
-::selection {
-  background-color: #D6C2DD !important;
-  color: #694696 !important;
-}
-::-moz-selection {
-  background-color: #D6C2DD !important;
-  color: #694696 !important;
-}
+/* ---- Images ---- */
 
-/*Spacing*/
-p {
-  margin-bottom: 0.5rem;
-}
-
-/* Phone Mode */
-@media (min-width: 768px) {
-  .navbar-nav {
-    flex-wrap: nowrap !important;
-    white-space: nowrap;
-  }
-  
-  .navbar-nav .nav-item {
-    flex-shrink: 1;
-  }
-}
-
-/* Grid Image Ratio fix */
+/* Grid image fix */
 .thumbnail-image.card-img {
   height: auto !important;
 }
 
-/* Publications Card Shadow */
-.custom-card {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Callout Light Green Background */
-.callout.callout-style-default {
-  background-color: #ecf4ec !important;
-}
-
-.callout.callout-style-default .callout-header {
-  background-color: #deeede !important;
-}
-
-/* Sidebar */
-.sidebar-title {
-  color: #ECF0F1;
-}
-
-/* Slide Embedding */
+/* Slide embedding */
 .golden-ratio-wrapper {
   position: relative;
   width: 100%;
@@ -113,7 +96,24 @@ p {
   border: 2px solid #5654A2;
 }
 
-/* Presentation Box Styles */
+/* ---- Cards ---- */
+
+/* Publication cards */
+.custom-card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Callout styling */
+.callout.callout-style-default {
+  background-color: #ecf4ec !important;
+}
+
+.callout.callout-style-default .callout-header {
+  background-color: #deeede !important;
+}
+
+/* ---- Presentations ---- */
+
 .presentation-box {
   display: flex;
   margin: 1rem 0;
@@ -181,6 +181,7 @@ p {
   background-color: white;
   cursor: pointer;
   transition: all 0.2s ease;
+  text-decoration: none;
 }
 
 .presentation-button:hover {
@@ -194,8 +195,23 @@ p {
   color: inherit;
 }
 
-.presentation-button {
-  text-decoration: none;
+/* ---- Layout ---- */
+
+/* Sidebar */
+.sidebar-title {
+  color: #ECF0F1;
+}
+
+/* Navigation */
+@media (min-width: 768px) {
+  .navbar-nav {
+    flex-wrap: nowrap !important;
+    white-space: nowrap;
+  }
+  
+  .navbar-nav .nav-item {
+    flex-shrink: 1;
+  }
 }
 
 /* Footer */
