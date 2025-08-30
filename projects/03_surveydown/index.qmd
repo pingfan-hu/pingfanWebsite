@@ -29,7 +29,7 @@ description: "An open-source survey platform using {{< var rnolink >}}, Quarto, 
 ::: {.card-body}
 **Journal Paper** - surveydown: An open-source, markdown-based platform for programmable and reproducible surveys
 
-PLOS One, August 2025 | DOI: [10.1371/journal.pone.0331002](https://doi.org/10.1371/journal.pone.0331002)
+PLOS One, *August 2025*
 
 ::: {.d-flex .justify-content-end}
 [<i class="bi bi-journal-bookmark-fill"></i> PLOS One Webpage](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0331002){.btn .btn-outline-primary .mx-1}
