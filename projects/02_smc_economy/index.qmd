@@ -1,5 +1,5 @@
 ---
-title: "SMC Cost-Effectiveness"
+title: "SMC Economy"
 author: "Pingfan Hu et al."
 date: "Feb, 2025"
 categories: [Smart Charging, Simulation]
