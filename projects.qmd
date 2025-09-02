@@ -8,5 +8,5 @@ listing:
   sort-ui: false
   filter-ui: false
   fields: [title, description, categories, image]
-page-layout: full
+  grid-columns: 2
 ---

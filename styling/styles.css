@@ -79,6 +79,11 @@ thead {
   height: auto !important;
 }
 
+.card {
+  --bs-card-spacer-y: 0.6rem;
+  --bs-card-spacer-x: 0.8rem;
+}
+
 /* Slide embedding */
 .golden-ratio-wrapper {
   position: relative;
