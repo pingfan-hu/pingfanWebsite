@@ -9,14 +9,14 @@ My name is **Pingfan Hu**, a research software engineer and PhD candidate in [EM
 
 I have 2 focuses in my field of study:
 
-1. **Researches on human behavior in transportation and sustainability using discrete choice models and data visualization.** My [smart charging adoption](projects/01_smart_charging_adoption) research is implemented with survey-based data analysis that studies BEV (Battery Electric Vehicle) owners' willingness to opt in smart charging programs. This is followed by the study of [smart charging cost-benefit](projects/02_smart_charging_cost_benefit) analysis. The ultimate goal is to provide insights for policymakers and utilities to design better smart charging programs that benefit both the grid and BEV owners.
+1. **Researches on human behavior in transportation and sustainability using discrete choice models and data visualization.** My [smart charging adoption](projects/01_sc_adoption) research is implemented with survey-based data analysis that studies BEV (Battery Electric Vehicle) owners' willingness to opt in smart charging programs. This is followed by the [SMC economy](projects/02_smc_economy) analysis. The ultimate goal is to provide insights for policymakers and utilities to design better smart charging programs that benefit both the grid and BEV owners.
 2. **Development of open-source software for survey construction and data analysis.** The [surveydown](https://surveydown.org) {{< var rnolink >}} package is a flexible, open-source platform for making surveys with {{< var rnolink >}}, Quarto, Shiny, and PostgreSQL. It is designed to address the problems of version control, collaboration, and reproducibility in survey construction. The [sdstudio](https://sdstudio.surveydown.org) {{< var rnolink >}} package is a companion of surveydown, providing a GUI for survey building, preview, and data management.
 
-My research projects are proudly funded by the {{< var sloan >}}. For more information about my projects, please proceed to the [Projects](/projects) page.
+My research projects are proudly funded by the {{< var sloan >}}. For more information about my projects, please proceed to the [Projects](projects.qmd) page.
 
-I write blogs on this site, mainly for the purpose of encapsulating my thoughts and ideas in the process of my research. I also write tutorials and guides for the tools and packages I use. You can find them in the [Blogs](/blogs) page.
+I write blogs on this site, mainly for the purpose of encapsulating my thoughts and ideas in the process of my research. I also write tutorials and guides for the tools and packages I use. You can find them in the [Blog](blog.qmd) page.
 
-The [Talks](https://talks.pingfanhu.com) page contains my academic presentations in forms of conference posters and presentations.
+The [Talks](talks.qmd) page contains my academic presentations in forms of conference posters and presentations.
 
 For a one-page summary of my academic and professional experience, please check out my resume:
 
