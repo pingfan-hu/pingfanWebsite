@@ -1,14 +1,14 @@
 ---
-title: "Smart Charging Cost-Benefit"
+title: "SMC Cost-Effectiveness"
 author: "Pingfan Hu et al."
 date: "Feb, 2025"
-categories: [Smart Charging]
-description: "Cost-benefit analysis of BEV smart charging programs."
+categories: [Smart Charging, Simulation]
+description: "Cost-effectiveness of Supplier-managed Charging programs."
 ---
 
 ## Background
 
-Grid integration of light-duty battery electric vehicles (BEVs) presents significant opportunities for peak load management through demand response and managed charging strategies. Previous research has extensively documented the technical potential of smart charging (SMC) and vehicle-to-grid (V2G) capabilities, but has largely overlooked the practical barriers of enrollment costs and participation rates, creating potentially unrealistic expectations of grid benefits.
+Grid integration of light-duty battery electric vehicles (BEVs) presents significant opportunities for peak load management through demand response and managed charging strategies. Previous research has extensively documented the technical potential of supplier-managed charging (SMC) capabilities, but has largely overlooked the practical barriers of enrollment costs and participation rates, creating potentially unrealistic expectations of grid benefits.
 
 ## Motivation
 
