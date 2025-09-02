@@ -1,12 +1,15 @@
 ---
 title: "Projects"
+toc: false
 listing:
   contents: projects
   sort: "date"
   type: grid
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
   fields: [title, description, categories, image]
   grid-columns: 2
+grid: 
+  body-width: 700px
 ---
