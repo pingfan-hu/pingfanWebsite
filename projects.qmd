@@ -10,6 +10,7 @@ listing:
   filter-ui: false
   fields: [title, description, categories, image]
   grid-columns: 2
+  image-height: auto
 grid: 
   body-width: 700px
 ---

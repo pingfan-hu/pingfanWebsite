@@ -74,16 +74,6 @@ thead {
 
 /* ---- Images ---- */
 
-/* Grid image fix */
-.thumbnail-image.card-img {
-  height: auto !important;
-}
-
-.card {
-  --bs-card-spacer-y: 0.6rem;
-  --bs-card-spacer-x: 0.8rem;
-}
-
 /* Slide embedding */
 .golden-ratio-wrapper {
   position: relative;
@@ -102,6 +92,11 @@ thead {
 }
 
 /* ---- Cards ---- */
+
+.card {
+  --bs-card-spacer-y: 0.6rem;
+  --bs-card-spacer-x: 0.8rem;
+}
 
 /* Publication cards */
 .custom-card {
