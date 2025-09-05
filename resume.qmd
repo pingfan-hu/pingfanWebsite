@@ -1,0 +1,160 @@
+---
+title: ""
+format:
+  modern2-cv-pdf:
+    keep-tex: false
+colorlinks: true
+author: Pingfan Hu
+cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
+cvcolor: 
+  main: B83B5E
+  accent: 668D9B
+jobtitle: PhD Candidate @ George Washington University
+sidebar:
+  image: images/portrait.png
+  bullets:
+    - "{{< var rnolink >}}, Quarto, Shiny"
+    - "Data Analysis & Data Viz"
+    - "Webapp Development"
+  sections: 
+    - name: Contact
+      items:
+        - icon: map-marker
+          text: Washington, DC
+        - icon: envelope
+          text: pingfan.hu@gwu.edu
+          href: mailto:pingfan.hu@gwu.edu
+        - icon: home
+          text: pingfanhu.com
+          href: https://pingfanhu.com
+        - icon: github
+          text: pingfan-hu
+          href: https://github.com/pingfan-hu
+        - icon: linkedin
+          text: "in/pingfan"
+          href: "https://www.linkedin.com/in/pingfan/"   
+    - name: Skills
+      items:
+        - text: R
+          exp: 
+            num: 1
+        - text: Quarto
+          exp: 
+            num: 0.9
+        - text: Shiny
+          exp: 
+            num: 0.9
+        - text: Software Development
+          exp: 
+            num: 0.8
+        - text: Webapp Development
+          exp: 
+            num: 0.8
+        - text: Data Analysis
+          exp: 
+            num: 0.8
+        - text: SQL
+          exp: 
+            num: 0.5
+        - text: Python
+          exp: 
+            num: 0.5
+        - text: Shell
+          exp: 
+            num: 0.4
+
+    - name: Tools
+      items:
+        - "IDEs: Positron, RStudio, VS Code"
+        - "Platforms: GitHub, Supabase, Netlify"
+        - "LLMs: ChatGPT, Claude"
+    - name: Education
+      items:
+        - text: "Ph.D. Computer Science"
+          inst: "University of Konstanz"
+          time: "09/2012 - 11/2015"
+          details: "Thesis: Positional Approach for Network Centrality"
+        - text: "Businessmathematics (Dipl.)"
+          inst: "Karlsruhe Institute of Technology"
+          time: "10/2006 - 07/2012"
+          details: "Thesis: Modularity Maximization"
+ 
+execute: 
+  echo: false
+---
+
+```{r}
+#| label: cvevents
+cvevents <- function(tbl, when, what, where, descr) {
+
+    command_start <- "\\cvevent"
+    tbl[[where]] <- gsub("\n", " \\\\newline ", tbl[[where]])
+    res <- paste0(
+        command_start, "{", tbl[[when]], "}", 
+        "{", tbl[[what]], "}",
+        "{", tbl[[where]], "}",
+        "{", tbl[[descr]], "}"
+        )
+
+    cat(res, sep = "\n\n\n")
+}
+
+cvproj <- function(tbl,what,role,items){
+    command_start <- "\\cvproj"
+    res <- paste0(
+        command_start, "{", tbl[[what]], "}",
+        "{", tbl[[role]], "}",
+        "{", sapply(tbl[[items]], function(x)paste0(x,collapse = ", ")), "}"
+    )
+
+    cat(res, sep = "\n\n\n")
+}
+```
+
+# Summary
+
+I am a research software engineer and PhD candidate in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I do {{< var rlink >}} development and data analysis in human behavior using choice models. I develop websites and webapps using {{< var quarto >}} and {{< var shiny >}}.
+
+# Experience
+
+```{r}
+#| label: experience
+#| output: asis
+tibble::tribble(
+    ~role, ~institution, ~dates, ~details,
+    "Team Lead for Transparent Social Analytics", "Department of Computational Social Science\nGESIS - Leibniz Institute for the Social Sciences", "03/2022 - Present", "I am coordinating a project to build an Open Science platform with reusable code and tutorials to analyze digital behaviour data. I am also doing research on Open Science practices and I implement tools to enhance reproducibility and make methods accessible in R",
+    "Presidential Fellow", "Sociology Department\nUniversity of Manchester", "09/2018 - 02/2022",
+    "I did research on Disinformation on Social Media which involved the analysis of large scale and unstructured data sets with R and Bash",
+    "Post Doctoral Researcher", "Chair of Social Networks\nETH Zurich", "11/2017 - 08/2018", "I developed new methods to analyze social networks and I gathered and analyzed large datsets from Social Media APIs",
+    "Post Doctoral Researcher", "Department of Computer \\& Information Science\nUniversity of Konstanz", "10/2015 - 10/2017", "I developed new methods to analyze social networks and scraped, harmonized, and analyzed a large corpus of football data",
+    "Ph.D. Candidate", "Department of Computer \\& Information Science\nUniversity of Konstanz", "11/2012 - 09/2015", "I developed new methods to analyze social networks and implemented these methods in R packages using R and C++"
+) |>
+    cvevents(when = "dates", what = "role", where = "institution", descr = "details")
+```
+
+# Projects
+
+See my [github profile](https://github.com/schochastics) for a comprehensive list of open source projects.
+
+```{r}
+#| label: proj
+#| output: asis
+tibble::tribble(
+    ~what, ~role, ~items,
+    "R packages", "Creator and Maintainer", c("edgebundle", "graphlayouts", "levelnet", "netrankr", "netUtils", "networkdata", "PSAWR", "roughnet", "roughsf", "rtoot", "Rtumblr", "signnet", "snahelper", "webbotparseR", "webtrackR"),
+    "R packages", "Contributor", c("backbone", "ggraph", "multigraphr", "netropy", "rang", "rgraph6"),
+    "Quarto extensions", "Creator and Maintainer",
+    c("Academicons (shortcodes)", "Blackboard (revealjs theme)", "sketchy (html theme)", "share buttons (filter)", "nutshell (filter)", "quartocities (website template)", "quartocv (cv templates)"),
+    "soccerverse.com (football analytics website)", "Creator and Maintainer",
+    c(
+        "Manual and automated gathering of football results around the world",
+        "Harmonizing data (e.g. club names and managers)",
+        "Implementation of ranking algorithms",
+        "Predicting of league tables and matchforecasting",
+        "Uses R, JavaScript, HTML, and CSS",
+        "around 1000 visitors/month"
+    )
+) |>
+    cvproj(what = "what", role = "role", items = "items")
+
+```
