@@ -525,12 +525,12 @@ $endif$
 		\cvskill{$sidebar.sections.items.text$}{$sidebar.sections.items.exp.text$}{$sidebar.sections.items.exp.num$} \\[5pt]
 		$elseif(sidebar.sections.items.inst)$
 		\cvmetaevent{$sidebar.sections.items.time$}{$sidebar.sections.items.text$}{$sidebar.sections.items.inst$}{$sidebar.sections.items.details$}
-		$elseif(sidebar.sections.items.href)$
-		\iconhref{$sidebar.sections.items.icon$}{16}{\fontsize{11.5}{10}\selectfont $sidebar.sections.items.text$}{$sidebar.sections.items.href$}\\[4pt]
-		$elseif(sidebar.sections.items.icon)$
-		\icontext{$sidebar.sections.items.icon$}{16}{\fontsize{11.5}{10}\selectfont $sidebar.sections.items.text$}\\[4pt]
 		$else$
-		\icontext{caret-right}{12}{\fontsize{11.5}{10}\selectfont $it$}\\[4pt]
+		$if(sidebar.sections.items.href)$
+		\iconhref{$sidebar.sections.items.icon$}{16}{\fontsize{11.5}{10}\selectfont $sidebar.sections.items.text$}{$sidebar.sections.items.href$}\\[3pt]
+		$else$
+		\icontext{$if(sidebar.sections.items.icon)$$sidebar.sections.items.icon$$else$caret-right$endif$}{$if(sidebar.sections.items.icon)$16$else$12$endif$}{\fontsize{11.5}{10}\selectfont $if(sidebar.sections.items.text)$$sidebar.sections.items.text$$else$$it$$endif$}\\[3pt]
+		$endif$
 		$endif$
 		$endfor$
 		$endfor$
