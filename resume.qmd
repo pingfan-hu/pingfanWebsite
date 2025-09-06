@@ -1,7 +1,7 @@
 ---
 title: ""
 format:
-  modern2-cv-pdf:
+  resume-pdf:
     keep-tex: false
 colorlinks: true
 author: Pingfan Hu
@@ -9,17 +9,17 @@ cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
 cvcolor: 
   main: B83B5E
   accent: 668D9B
-jobtitle: PhD Candidate @ George Washington University
+jobtitle: PhD Candidate in Systems Engineering
 sidebar:
   image: images/portrait.png
   bullets:
     - "{{< var rnolink >}}, Quarto, Shiny"
     - "Data Analysis & Data Viz"
-    - "Webapp Development"
+    - "Web Development"
   sections: 
     - name: Contact
       items:
-        - icon: map-marker
+        - icon: map-marker-alt
           text: Washington, DC
         - icon: envelope
           text: pingfan.hu@gwu.edu
@@ -47,7 +47,7 @@ sidebar:
         - text: Software Development
           exp: 
             num: 0.8
-        - text: Webapp Development
+        - text: Web Development
           exp: 
             num: 0.8
         - text: Data Analysis
@@ -68,25 +68,26 @@ sidebar:
         - "IDEs: Positron, RStudio, VS Code"
         - "Platforms: GitHub, Supabase, Netlify"
         - "LLMs: ChatGPT, Claude"
-    - name: Education
-      items:
-        - text: "Ph.D. Computer Science"
-          inst: "University of Konstanz"
-          time: "09/2012 - 11/2015"
-          details: "Thesis: Positional Approach for Network Centrality"
-        - text: "Businessmathematics (Dipl.)"
-          inst: "Karlsruhe Institute of Technology"
-          time: "10/2006 - 07/2012"
-          details: "Thesis: Modularity Maximization"
  
 execute: 
   echo: false
 ---
 
 ```{r}
-#| label: cvevents
-cvevents <- function(tbl, when, what, where, descr) {
+#| label: functions
 
+cveducation <- function(tbl, when, what, where) {
+    command_start <- "\\cveducation"
+    tbl[[where]] <- gsub("\n", " \\\\newline ", tbl[[where]])
+    res <- paste0(
+        command_start, "{", tbl[[when]], "}", 
+        "{", tbl[[what]], "}",
+        "{", tbl[[where]], "}"
+        )
+    cat(res, sep = "\n\n\n")
+}
+
+cvevents <- function(tbl, when, what, where, descr) {
     command_start <- "\\cvevent"
     tbl[[where]] <- gsub("\n", " \\\\newline ", tbl[[where]])
     res <- paste0(
@@ -95,18 +96,16 @@ cvevents <- function(tbl, when, what, where, descr) {
         "{", tbl[[where]], "}",
         "{", tbl[[descr]], "}"
         )
-
     cat(res, sep = "\n\n\n")
 }
 
-cvproj <- function(tbl,what,role,items){
+cvproj <- function(tbl, what, role, items){
     command_start <- "\\cvproj"
     res <- paste0(
         command_start, "{", tbl[[what]], "}",
         "{", tbl[[role]], "}",
         "{", sapply(tbl[[items]], function(x)paste0(x,collapse = ", ")), "}"
     )
-
     cat(res, sep = "\n\n\n")
 }
 ```
@@ -115,6 +114,49 @@ cvproj <- function(tbl,what,role,items){
 
 I am a research software engineer and PhD candidate in [EMSE](https://emse.engineering.gwu.edu/) at [George Washington University](https://www.gwu.edu/), supervised by professor [John Helveston](https://www.jhelvy.com). I do {{< var rlink >}} development and data analysis in human behavior using choice models. I develop websites and webapps using {{< var quarto >}} and {{< var shiny >}}.
 
+# Education
+
+```{r}
+#| label: education
+#| output: asis
+tibble::tribble(
+    ~role, ~institution, ~dates,
+    
+    "PhD in Systems Engineering",
+    "\\href{https://emse.engineering.gwu.edu}{\\textbf{George Washington University}} \\hfill \\faIcon{map-marker-alt} Washington, DC, USA",
+    "2023 - Present",
+
+    "MS in Mechanical Engineering",
+    "\\href{https://www.sydney.edu.au/engineering/schools/school-aerospace-mechanical-mechatronic-engineering.html}{\\textbf{University of Sydney}} \\hfill \\faIcon{map-marker-alt} Sydney, NSW, Australia",
+    "2016 - 2018",
+
+    "BS in Industrial Engineering, with Minor in Six Sigma",
+    "\\href{https://www.ime.psu.edu/index.aspx}{\\textbf{Pennsylvania State University}} \\hfill \\faIcon{map-marker-alt} State College, PA, USA",
+    "2011 - 2015"    
+) |>
+    cveducation(when = "dates", what = "role", where = "institution")
+```
+
+# Projects
+
+```{r}
+#| label: proj
+#| output: asis
+tibble::tribble(
+    ~what, ~role, ~items,
+    "surveydown \\& sdstudio",
+    "Creator, Maintainer, First Author of Journal Paper",
+    "\\href{https://pingfanhu.com/projects/03_surveydown/}{\\textbf{surveydown}} is an \\faIcon{r-project} package and an open-source platform for programmable, markdown-based surveys, invented under supervision of professor \\href{https://www.jhelvy.com}{John Helveston}. \\\\
+    \\href{https://pingfanhu.com/projects/04_sdstudio/}{\\textbf{sdstudio}} is a companion \\faIcon{r-project} package as GUI support for surveydown.",
+
+    "BEV Smart Charging Researches",
+    "Major Contributor, First Author of 2 Journal Papers",
+    "\\href{https://pingfanhu.com/projects/01_sc_adoption/}{User adoption research} on BEV smart charging by discrete choice models using survey results, followed by an \\href{https://pingfanhu.com/projects/02_smc_economy/}{economic analysis} on grid simulations of peak shaving cost-effectiveness. These researches provide insights to help policymakers and utilities design better systems that benefit both the grid and EV owners."
+) |>
+    cvproj(what = "what", role = "role", items = "items")
+
+```
+
 # Experience
 
 ```{r}
@@ -122,7 +164,8 @@ I am a research software engineer and PhD candidate in [EMSE](https://emse.engin
 #| output: asis
 tibble::tribble(
     ~role, ~institution, ~dates, ~details,
-    "Team Lead for Transparent Social Analytics", "Department of Computational Social Science\nGESIS - Leibniz Institute for the Social Sciences", "03/2022 - Present", "I am coordinating a project to build an Open Science platform with reusable code and tutorials to analyze digital behaviour data. I am also doing research on Open Science practices and I implement tools to enhance reproducibility and make methods accessible in R",
+    "Graduate Research Assistant",
+    "Department of Computational Social Science\nGESIS - Leibniz Institute for the Social Sciences", "03/2022 - Present", "I am coordinating a project to build an Open Science platform with reusable code and tutorials to analyze digital behaviour data. I am also doing research on Open Science practices and I implement tools to enhance reproducibility and make methods accessible in R",
     "Presidential Fellow", "Sociology Department\nUniversity of Manchester", "09/2018 - 02/2022",
     "I did research on Disinformation on Social Media which involved the analysis of large scale and unstructured data sets with R and Bash",
     "Post Doctoral Researcher", "Chair of Social Networks\nETH Zurich", "11/2017 - 08/2018", "I developed new methods to analyze social networks and I gathered and analyzed large datsets from Social Media APIs",
@@ -130,31 +173,4 @@ tibble::tribble(
     "Ph.D. Candidate", "Department of Computer \\& Information Science\nUniversity of Konstanz", "11/2012 - 09/2015", "I developed new methods to analyze social networks and implemented these methods in R packages using R and C++"
 ) |>
     cvevents(when = "dates", what = "role", where = "institution", descr = "details")
-```
-
-# Projects
-
-See my [github profile](https://github.com/schochastics) for a comprehensive list of open source projects.
-
-```{r}
-#| label: proj
-#| output: asis
-tibble::tribble(
-    ~what, ~role, ~items,
-    "R packages", "Creator and Maintainer", c("edgebundle", "graphlayouts", "levelnet", "netrankr", "netUtils", "networkdata", "PSAWR", "roughnet", "roughsf", "rtoot", "Rtumblr", "signnet", "snahelper", "webbotparseR", "webtrackR"),
-    "R packages", "Contributor", c("backbone", "ggraph", "multigraphr", "netropy", "rang", "rgraph6"),
-    "Quarto extensions", "Creator and Maintainer",
-    c("Academicons (shortcodes)", "Blackboard (revealjs theme)", "sketchy (html theme)", "share buttons (filter)", "nutshell (filter)", "quartocities (website template)", "quartocv (cv templates)"),
-    "soccerverse.com (football analytics website)", "Creator and Maintainer",
-    c(
-        "Manual and automated gathering of football results around the world",
-        "Harmonizing data (e.g. club names and managers)",
-        "Implementation of ranking algorithms",
-        "Predicting of league tables and matchforecasting",
-        "Uses R, JavaScript, HTML, and CSS",
-        "around 1000 visitors/month"
-    )
-) |>
-    cvproj(what = "what", role = "role", items = "items")
-
 ```

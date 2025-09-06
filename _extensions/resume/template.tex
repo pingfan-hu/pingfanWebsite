@@ -29,7 +29,7 @@
 %
 %============================================================================%
 
-\documentclass[10pt,A4,english]{article}	
+\documentclass[10pt,letterpaper,english]{article}	
 
 
 %----------------------------------------------------------------------------------------
@@ -122,7 +122,7 @@
 \usepackage{lipsum}
 \usepackage{atbegshi}
 % define page styles using geometry
-\usepackage[a4paper]{geometry}
+\usepackage[letterpaper]{geometry}
 
 % remove all possible margins
 \geometry{top=1cm, bottom=1cm, left=1cm, right=1cm}
@@ -357,20 +357,25 @@ $endif$
 % param 6: technologies include (optional)
 % param 7: achievements (optional)
 \newcommand{\cvevent}[4] {
-	
-	% we wrap this part in a parbox, so title and description are not separated on a pagebreak
-	% if you need more control on page breaks, remove the parbox
 	\parbox{\mpwidth}{
 		\begin{tabular*}{1\mpwidth}{p{0.66\mpwidth}  r}
 	 		\textcolor{black}{\textbf{#2}} & \colorbox{accentcol}{\makebox[0.32\mpwidth]{\textcolor{white}{\textbf{#1}}}} \\
 			\textcolor{maincol}{#3} & \\
 		\end{tabular*}\\[8pt]
-	
 		\ifthenelse{\isempty{#4}}{}{
 			\cvtext{#4}\\
 		}
 	}
 	\vspace{14pt}
+}
+
+\newcommand{\cveducation}[3] {
+	\parbox{\mpwidth}{
+		\begin{tabular*}{1\mpwidth}{p{0.75\mpwidth}  r}
+	 		\textcolor{black}{\textbf{#2}} & \colorbox{accentcol}{\makebox[0.22\mpwidth]{\textcolor{white}{\textbf{#1}}}} \\
+			\textcolor{maincol}{#3} & \\
+		\end{tabular*}\\[8pt]
+	}
 }
 
 \newcommand{\cvproj}[3] {
@@ -379,7 +384,6 @@ $endif$
 	 		\textcolor{black}{\textbf{#1}} & \\
 			\textcolor{maincol}{#2} & \\
 		\end{tabular*}\\[4pt]
-	
 		\ifthenelse{\isempty{#3}}{}{
 			\cvtext{#3}\\
 		}
