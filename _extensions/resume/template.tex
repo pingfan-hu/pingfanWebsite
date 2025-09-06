@@ -98,7 +98,7 @@
 
 % icon with website url
 \newcommand{\iconhref}[4]{ 						
-    \vcenteredhbox{\icon{#1}{#2}}  \hspace{2pt} \href{#4}{\textcolor{black}{#3}}
+    \vcenteredhbox{\icon{#1}{#2}}  \hspace{2pt} \href{#4}{#3}
 }
 
 % icon with email link
@@ -494,8 +494,9 @@ $endif$
         \includegraphics[width=\linewidth]{$sidebar.image$}
         $endif$
 		\fcolorbox{white}{white}{\begin{minipage}[c][1.5cm][c]{1\mpwidth}
+				\centering
 				\LARGE{\textbf{\textcolor{maincol}{$author$}}} \\[2pt]
-				\fontsize{9.5}{13}\selectfont{ \textcolor{maincol} {$jobtitle$} }
+				\fontsize{9.5}{13}\selectfont{ \centering \textcolor{maincol} {$jobtitle$} }
 			\end{minipage}}
 
 		%---------------------------------------------------------------------------------------
