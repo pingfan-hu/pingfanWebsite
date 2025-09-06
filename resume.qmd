@@ -87,7 +87,7 @@ cveducation <- function(tbl, when, what, where) {
     cat(res, sep = "\n\n\n")
 }
 
-cvevents <- function(tbl, when, what, where, descr) {
+cvevent <- function(tbl, when, what, where, descr) {
     command_start <- "\\cvevent"
     tbl[[where]] <- gsub("\n", " \\\\newline ", tbl[[where]])
     res <- paste0(
@@ -164,13 +164,26 @@ tibble::tribble(
 #| output: asis
 tibble::tribble(
     ~role, ~institution, ~dates, ~details,
+
     "Graduate Research Assistant",
-    "Department of Computational Social Science\nGESIS - Leibniz Institute for the Social Sciences", "03/2022 - Present", "I am coordinating a project to build an Open Science platform with reusable code and tutorials to analyze digital behaviour data. I am also doing research on Open Science practices and I implement tools to enhance reproducibility and make methods accessible in R",
-    "Presidential Fellow", "Sociology Department\nUniversity of Manchester", "09/2018 - 02/2022",
-    "I did research on Disinformation on Social Media which involved the analysis of large scale and unstructured data sets with R and Bash",
-    "Post Doctoral Researcher", "Chair of Social Networks\nETH Zurich", "11/2017 - 08/2018", "I developed new methods to analyze social networks and I gathered and analyzed large datsets from Social Media APIs",
-    "Post Doctoral Researcher", "Department of Computer \\& Information Science\nUniversity of Konstanz", "10/2015 - 10/2017", "I developed new methods to analyze social networks and scraped, harmonized, and analyzed a large corpus of football data",
-    "Ph.D. Candidate", "Department of Computer \\& Information Science\nUniversity of Konstanz", "11/2012 - 09/2015", "I developed new methods to analyze social networks and implemented these methods in R packages using R and C++"
+    "\\href{https://emse.engineering.gwu.edu}{\\textbf{George Washington University}} \\hfill \\faIcon{map-marker-alt} Washington, DC, USA",
+    "2023 - Present",
+    "PhD research proposal, design, and implementation in sustainable transportation and survey software invention using data analysis tools. Teaching assistant for systems engineering classes.",
+
+    "Project Engineer",
+    "\\href{https://www.harscorail.com}{\\textbf{Harsco Rail}} \\hfill \\faIcon{map-marker-alt} SC, USA \\& Beijing, CN",
+    "2021 - 2022",
+    "Managed and delivered software for Undercutter and Grinder projects, demonstrating expertise in programming and project management skills.",
+
+    "Project Engineer",
+    "\\href{https://www.haier.com/global/haier_geappliances/}{\\textbf{GE Appliances}} \\hfill \\faIcon{map-marker-alt} Qingdao, CN",
+    "2019 - 2020",
+    "Participated in GE's Edison Engineering Development Program with various appliance projects, showing expertise in PLM management and designs.",
+
+    "Assistant Process Engineer (Intern)",
+    "\\href{https://www.kurtzersa.com}{\\textbf{Kurtz Ersa GmbH}} \\hfill \\faIcon{map-marker-alt} Wertheim, DE",
+    "2017",
+    "Executed a DoE for new soldering technology, and featured as lead actor in Ersa's first \\href{https://www.youtube.com/watch?v=eUE0a_2C6XI}{Asian market promotion video on YouTube}."
 ) |>
-    cvevents(when = "dates", what = "role", where = "institution", descr = "details")
+    cvevent(when = "dates", what = "role", where = "institution", descr = "details")
 ```
