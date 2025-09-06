@@ -8,7 +8,7 @@ author: Pingfan Hu
 cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
 cvcolor: 
   main: B22122
-  accent: 22B2AA
+  accent: 5E9EA0
 jobtitle: "PhD Candidate in Systems Engineering\n{{< fa map-marker-alt >}} Washington, DC"
 sidebar:
   image: images/portrait.png

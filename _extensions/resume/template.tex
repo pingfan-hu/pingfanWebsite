@@ -314,6 +314,16 @@ $endif$
 	}
 }
 
+\newcommand{\cvsidebarsection}[1] {
+	\vspace{6pt}
+	\settowidth{\barw}{\textbf{\LARGE #1}}
+	\cvtext{
+		\textbf{\LARGE{\textcolor{darkcol}{#1}}}\\[-4pt]
+		\textcolor{accentcol}{ \rule{\barw}{1.5pt} } \\
+	}
+	\vspace{-8pt}
+}
+
 \newcommand{\cvsubheadline}[1] {
 	\vspace{16pt}
 	\cvtext{
@@ -508,7 +518,7 @@ $endif$
 
 		$for(sidebar.sections)$
 
-		\cvsection{$sidebar.sections.name$}
+		\cvsidebarsection{$sidebar.sections.name$}
 
 		$for(sidebar.sections.items)$
 		$if(sidebar.sections.items.exp)$
@@ -516,11 +526,11 @@ $endif$
 		$elseif(sidebar.sections.items.inst)$
 		\cvmetaevent{$sidebar.sections.items.time$}{$sidebar.sections.items.text$}{$sidebar.sections.items.inst$}{$sidebar.sections.items.details$}
 		$elseif(sidebar.sections.items.href)$
-		\iconhref{$sidebar.sections.items.icon$}{16}{$sidebar.sections.items.text$}{$sidebar.sections.items.href$}\\[4pt]
+		\iconhref{$sidebar.sections.items.icon$}{16}{\fontsize{11.5}{10}\selectfont $sidebar.sections.items.text$}{$sidebar.sections.items.href$}\\[4pt]
 		$elseif(sidebar.sections.items.icon)$
-		\icontext{$sidebar.sections.items.icon$}{16}{$sidebar.sections.items.text$}\\[4pt]
+		\icontext{$sidebar.sections.items.icon$}{16}{\fontsize{11.5}{10}\selectfont $sidebar.sections.items.text$}\\[4pt]
 		$else$
-		\icontext{caret-right}{12}{$it$}\\[4pt]
+		\icontext{caret-right}{12}{\fontsize{11.5}{10}\selectfont $it$}\\[4pt]
 		$endif$
 		$endfor$
 		$endfor$
