@@ -9,7 +9,7 @@ cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
 cvcolor: 
   main: B83B5E
   accent: 668D9B
-jobtitle: PhD Candidate in Systems Engineering
+jobtitle: "PhD Candidate in Systems Engineering \n{{< fa map-marker-alt >}} Washington, DC"
 sidebar:
   image: images/portrait.png
   bullets:
@@ -19,8 +19,6 @@ sidebar:
   sections: 
     - name: Contact
       items:
-        - icon: map-marker-alt
-          text: Washington, DC
         - icon: envelope
           text: pingfan.hu@gwu.edu
           href: mailto:pingfan.hu@gwu.edu
@@ -38,10 +36,7 @@ sidebar:
         - text: R
           exp: 
             num: 1
-        - text: Quarto
-          exp: 
-            num: 0.9
-        - text: Shiny
+        - text: Quarto & Shiny
           exp: 
             num: 0.9
         - text: Software Development
@@ -63,11 +58,10 @@ sidebar:
           exp: 
             num: 0.4
 
-    - name: Tools
+    - name: Languages
       items:
-        - "IDEs: Positron, RStudio, VS Code"
-        - "Platforms: GitHub, Supabase, Netlify"
-        - "LLMs: ChatGPT, Claude"
+        - "English: Proficient"
+        - "Chinese: Native"
  
 execute: 
   echo: false
@@ -136,6 +130,7 @@ tibble::tribble(
 ) |>
     cveducation(when = "dates", what = "role", where = "institution")
 ```
+\vspace{-8pt}
 
 # Projects
 
@@ -156,6 +151,7 @@ tibble::tribble(
     cvproj(what = "what", role = "role", items = "items")
 
 ```
+\vspace{-8pt}
 
 # Experience
 

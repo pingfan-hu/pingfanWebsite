@@ -294,6 +294,7 @@ $endif$
 		\textbf{\LARGE{\textcolor{darkcol}{#1}}}\\[-4pt]
 		\textcolor{accentcol}{ \rule{\barw}{1.5pt} } \\
 	}
+	\vspace{-8pt}
 }
 
 \newcommand{\cvsubsection}[1] {
@@ -366,7 +367,7 @@ $endif$
 			\cvtext{#4}\\
 		}
 	}
-	\vspace{14pt}
+	\vspace{8pt}
 }
 
 \newcommand{\cveducation}[3] {
@@ -388,7 +389,7 @@ $endif$
 			\cvtext{#3}\\
 		}
 	}
-	\vspace{14pt}
+	\vspace{8pt}
 }
 
 %----------------------------------------------------------------------------------------
@@ -494,14 +495,14 @@ $endif$
         $endif$
 		\fcolorbox{white}{white}{\begin{minipage}[c][1.5cm][c]{1\mpwidth}
 				\LARGE{\textbf{\textcolor{maincol}{$author$}}} \\[2pt]
-				\normalsize{ \textcolor{maincol} {$jobtitle$} }
+				\fontsize{9.5}{13}\selectfont{ \textcolor{maincol} {$jobtitle$} }
 			\end{minipage}}
 
 		%---------------------------------------------------------------------------------------
 		%	META SKILLS
 		%----------------------------------------------------------------------------------------
 		$for(sidebar.bullets)$
-		\icontext{caret-right}{12}{$it$}\\[6pt]
+		\icontext{caret-right}{12}{$it$}\\[4pt]
 		$endfor$
 
 		$for(sidebar.sections)$
@@ -510,15 +511,15 @@ $endif$
 
 		$for(sidebar.sections.items)$
 		$if(sidebar.sections.items.exp)$
-		\cvskill{$sidebar.sections.items.text$}{$sidebar.sections.items.exp.text$}{$sidebar.sections.items.exp.num$} \\[10pt]
+		\cvskill{$sidebar.sections.items.text$}{$sidebar.sections.items.exp.text$}{$sidebar.sections.items.exp.num$} \\[5pt]
 		$elseif(sidebar.sections.items.inst)$
 		\cvmetaevent{$sidebar.sections.items.time$}{$sidebar.sections.items.text$}{$sidebar.sections.items.inst$}{$sidebar.sections.items.details$}
 		$elseif(sidebar.sections.items.href)$
-		\iconhref{$sidebar.sections.items.icon$}{16}{$sidebar.sections.items.text$}{$sidebar.sections.items.href$}\\[6pt]
+		\iconhref{$sidebar.sections.items.icon$}{16}{$sidebar.sections.items.text$}{$sidebar.sections.items.href$}\\[4pt]
 		$elseif(sidebar.sections.items.icon)$
-		\icontext{$sidebar.sections.items.icon$}{16}{$sidebar.sections.items.text$}\\[6pt]
+		\icontext{$sidebar.sections.items.icon$}{16}{$sidebar.sections.items.text$}\\[4pt]
 		$else$
-		\icontext{caret-right}{12}{$it$}\\[6pt]
+		\icontext{caret-right}{12}{$it$}\\[4pt]
 		$endif$
 		$endfor$
 		$endfor$
